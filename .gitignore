@@ -90,6 +90,13 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 
+# Large data files
+rag_min/data/chroma_db/
+**/chroma_db/
+*.bin
+*.dylib
+*.so
+
 # Logs
 logs/
 *.log
