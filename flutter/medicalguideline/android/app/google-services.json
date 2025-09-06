@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373547140871",
+    "project_id": "medical-guideline-bot",
+    "storage_bucket": "medical-guideline-bot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373547140871:android:00f928374271b808a4a7a2",
+        "android_client_info": {
+          "package_name": "com.kaitech.medicalguideline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpzM_7nJ0IVOaGw21yusD8k6So653qN2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

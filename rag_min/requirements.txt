@@ -1,0 +1,8 @@
+chromadb
+pypdf
+python-dotenv
+openai>=1.30.0
+tiktoken
+fastapi
+uvicorn[standard]
+pymupdf

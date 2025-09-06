@@ -1,0 +1,23 @@
+# Cursor AI Assistant Rules for Medical Guideline Project
+
+## Project Overview
+This is a medical guideline project with:
+- Flutter mobile app in `/flutter/medicalguideline/`
+- Python RAG backend in `/rag/`
+
+## Performance Optimization Rules
+- Ignore large build artifacts and cache directories
+- Focus on source code files only (.dart, .py, .yaml, .json)
+- Avoid processing binary files and large assets
+- Limit file watching to essential directories
+
+## File Processing Preferences
+- Primary focus: /flutter/medicalguideline/lib/ (Dart source)
+- Secondary focus: /rag/ (Python source, excluding venv)
+- Exclude: build/, .dart_tool/, venv/, *.png, *.jpg, *.pdf
+
+## Coding Standards
+- Flutter: Follow Dart/Flutter conventions
+- Python: Follow PEP 8 standards
+- Use meaningful variable names and comments
+- Maintain clean architecture patterns

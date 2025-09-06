@@ -1,0 +1,66 @@
+# Flutter プラットフォーム固有ディレクトリ（完全除外）
+flutter/medicalguideline/android/
+flutter/medicalguideline/ios/
+flutter/medicalguideline/web/
+flutter/medicalguideline/test/
+
+# Flutter ビルド成果物とキャッシュ
+flutter/medicalguideline/build/
+flutter/medicalguideline/.dart_tool/
+flutter/medicalguideline/.flutter-plugins-dependencies
+flutter/medicalguideline/.pub-cache/
+flutter/medicalguideline/.pub/
+flutter/medicalguideline/coverage/
+
+# Python virtual environment
+rag/venv/
+rag/__pycache__/
+rag/*.pyc
+rag/*.pyo
+rag/*.pyd
+rag/.Python
+
+# IDE and system files
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Large binary files and caches
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.ico
+**/*.icns
+**/*.pdf
+**/*.zip
+**/*.jar
+**/*.aar
+**/*.dSYM/
+**/*.so
+**/*.dylib
+**/*.a
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
+
+# Node modules if any
+node_modules/
+
+# Mac specific
+.Spotlight-V100
+.Trashes
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
