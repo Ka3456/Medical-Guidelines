@@ -158,11 +158,11 @@ class SettingScreen extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => PdfScreen(
-          docId: '心不全診療ガイドライン',
-          version: 'v1.0',
-          initialPage: 129,
-          initialChunk: 0,
+        builder: (_) => const PdfScreen(
+          pdfPath: 'assets/pdfs/HF.pdf',
+          initialPage: 129, // 任意（1始まり）
+          highRightText:
+              '遺伝学的検査および家族スクリーニング 2022年， 本症に対する遺伝子検査が保険収載されたため， 今後わが国でも肥大型心筋症における遺伝子検査を意識し た診療が重要である', // 任意          // ← 今は無視されます
         ),
       ),
     );

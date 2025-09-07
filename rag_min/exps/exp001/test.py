@@ -10,6 +10,7 @@ import os
 import json
 from pathlib import Path
 from typing import List, Dict, Any
+from datetime import datetime
 from dotenv import load_dotenv
 import chromadb
 from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
@@ -17,12 +18,19 @@ from openai import OpenAI
 
 # 環境設定
 load_dotenv("../../.env")
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# .envファイルが見つからない場合は、環境変数から直接取得
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    print("⚠️ OPENAI_API_KEYが設定されていません。環境変数または.envファイルを確認してください。")
+    print("   例: export OPENAI_API_KEY='your-api-key-here'")
+    exit(1)
+client = OpenAI(api_key=api_key)
 
 # 設定
 PERSIST_DIR = "data/chroma_db"
 COLLECTION = "guidelines"
 TOC_PATH = "toc/chapter.json"
+OUTPUT_DIR = "output"
 
 # Chapter選択用のルーターをインポート
 from route_chapter import ChapterRouter
@@ -45,9 +53,13 @@ class MedicalGuidelineQA:
         toc_json = json.loads(Path(TOC_PATH).read_text(encoding="utf-8"))
         self.chapter_router = ChapterRouter(toc_json["toc"])
         
+        # 出力ディレクトリを作成
+        Path(OUTPUT_DIR).mkdir(exist_ok=True)
+        
         print("✅ MedicalGuidelineQA initialized")
         print(f"   - ChromaDB collection: {COLLECTION}")
         print(f"   - TOC sections: {len(toc_json['toc'])}")
+        print(f"   - Output directory: {OUTPUT_DIR}")
     
     def select_chapters(self, question: str, topk: int = 3) -> List[Dict[str, Any]]:
         """質問に基づいて関連するChapterを選択"""
@@ -114,6 +126,80 @@ class MedicalGuidelineQA:
             print()
         
         return selected_chunks
+    
+    def save_log(self, result: Dict[str, Any]) -> str:
+        """ログを日時付きファイル名で保存"""
+        # 現在の日時を取得
+        now = datetime.now()
+        timestamp = now.strftime("%Y年%m月%d日%H時%M分")
+        filename = f"{timestamp}.txt"
+        filepath = Path(OUTPUT_DIR) / filename
+        
+        # ログ内容を構築
+        log_content = []
+        log_content.append("=" * 80)
+        log_content.append(f"Medical Guideline QA System - ログ")
+        log_content.append(f"実行日時: {timestamp}")
+        log_content.append("=" * 80)
+        log_content.append("")
+        
+        # 質問
+        log_content.append("【質問】")
+        log_content.append(result['question'])
+        log_content.append("")
+        
+        # 選択された章
+        log_content.append("【選択された章】")
+        for i, chapter in enumerate(result['selected_chapters'], 1):
+            log_content.append(f"{i}. {chapter['section_path']}")
+            log_content.append(f"   スコア: {chapter['score']:.3f}")
+            log_content.append(f"   レベル: {chapter['level']}")
+            log_content.append(f"   ページ範囲: {chapter['start_page']}-{chapter['end_page']}")
+            log_content.append("")
+        
+        # 選択されたチャンク（省略なし）
+        log_content.append("【選択されたチャンク（完全版）】")
+        for i, chunk in enumerate(result['selected_chunks'], 1):
+            log_content.append(f"--- チャンク {i} ---")
+            log_content.append(f"ページ: {chunk['page']}")
+            log_content.append(f"チャンクID: {chunk['chunk_id']}")
+            log_content.append(f"関連章: {chunk['matched_chapter']}")
+            log_content.append(f"関連度スコア: {chunk['relevance_score']:.3f}")
+            log_content.append("")
+            log_content.append("【チャンク内容】")
+            # 元のチャンクデータから完全な内容を取得
+            full_content = ""
+            for original_chunk in result.get('_original_chunks', []):
+                if (original_chunk['metadata']['page'] == chunk['page'] and 
+                    original_chunk['metadata']['chunk'] == chunk['chunk_id']):
+                    full_content = original_chunk['content']
+                    break
+            
+            if full_content:
+                log_content.append(full_content)
+            else:
+                log_content.append("（チャンク内容の取得に失敗しました）")
+            log_content.append("")
+            log_content.append("-" * 60)
+            log_content.append("")
+        
+        # GPT-4o回答
+        log_content.append("【GPT-4o回答】")
+        log_content.append(result['answer'])
+        log_content.append("")
+        log_content.append("=" * 80)
+        log_content.append("ログ終了")
+        log_content.append("=" * 80)
+        
+        # ファイルに保存
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(log_content))
+            print(f"✅ ログを保存しました: {filepath}")
+            return str(filepath)
+        except Exception as e:
+            print(f"❌ ログ保存エラー: {e}")
+            return ""
     
     def generate_answer(self, question: str, selected_chapters: List[Dict[str, Any]], selected_chunks: List[Dict[str, Any]]) -> str:
         """GPT-4oを使って回答を生成"""
@@ -205,8 +291,14 @@ class MedicalGuidelineQA:
                 }
                 for chunk in selected_chunks
             ],
-            'answer': answer
+            'answer': answer,
+            '_original_chunks': selected_chunks  # ログ保存用に元のチャンクデータを保持
         }
+        
+        # ログを保存
+        log_file = self.save_log(result)
+        if log_file:
+            result['log_file'] = log_file
         
         return result
 
@@ -247,6 +339,11 @@ def main():
     print("-" * 40)
     print(result['answer'])
     print("-" * 40)
+    
+    if 'log_file' in result:
+        print(f"\n📁 ログファイル: {result['log_file']}")
+    else:
+        print("\n⚠️ ログファイルの保存に失敗しました")
 
 if __name__ == "__main__":
     main()
