@@ -21,9 +21,9 @@ class MedicalGuidelineRAGService:
     
     def __init__(
         self,
-        persist_dir: str = "exps/exp001/data/chroma_db",
-        toc_path: str = "exps/exp001/toc/chapter.json",
-        output_dir: str = "exps/exp001/output",
+        persist_dir: str = "/tmp/chroma_db",   # ★ Cloud Run デフォルト
+        toc_path: str = "toc/chapter.json",    # ★ リポジトリ同梱デフォルト
+        output_dir: str = "/tmp/output",
         collection: str = "guidelines",
         openai_api_key: Optional[str] = None
     ) -> None:
