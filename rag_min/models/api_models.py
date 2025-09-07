@@ -58,3 +58,5 @@ class AskResponse(BaseModel):
     selected_chunks: List[Dict[str, Any]]
     answer: str
     log_file: str
+
+
