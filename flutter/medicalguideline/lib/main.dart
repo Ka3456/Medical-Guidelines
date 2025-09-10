@@ -44,25 +44,69 @@ class _MyAppState extends ConsumerState<MyApp> {
         builder: (context, ref, child) {
           final authStatus = ref.watch(authStatusProvider);
 
+          // 認証状態の変更をデバッグログで確認
+          authStatus.when(
+            data: (status) {
+              print('メイン画面: 認証状態 - ${status.state}');
+            },
+            loading: () {
+              print('メイン画面: 認証状態読み込み中');
+            },
+            error: (error, stack) {
+              print('メイン画面: 認証状態エラー - $error');
+            },
+          );
+
           return authStatus.when(
             data: (status) {
+
               switch (status.state) {
                 case AuthState.authenticated:
+
                   return const ChatScreen();
                 case AuthState.unauthenticated:
                 case AuthState.initial:
                 case AuthState.error:
+
                   return const LoginScreen();
                 case AuthState.loading:
+
                   return const Scaffold(
-                    body: Center(child: CircularProgressIndicator()),
+                    body: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          CircularProgressIndicator(),
+                          SizedBox(height: 16),
+                          Text(
+                            '認証状態を確認中...',
+                            style: TextStyle(fontSize: 16, color: Colors.grey),
+                          ),
+                        ],
+                      ),
+                    ),
                   );
               }
             },
             loading: () => const Scaffold(
-              body: Center(child: CircularProgressIndicator()),
+              body: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircularProgressIndicator(),
+                    SizedBox(height: 16),
+                    Text(
+                      '認証状態を確認中...',
+                      style: TextStyle(fontSize: 16, color: Colors.grey),
+                    ),
+                  ],
+                ),
+              ),
             ),
-            error: (error, stack) => const LoginScreen(),
+            error: (error, stack) {
+              // エラーが発生した場合はログイン画面を表示
+              return const LoginScreen();
+            },
           );
         },
       ),

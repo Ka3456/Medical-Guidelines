@@ -65,3 +65,4 @@ class AuthStatus {
     return 'AuthStatus(state: $state, user: $user, errorMessage: $errorMessage)';
   }
 }
+

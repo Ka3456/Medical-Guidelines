@@ -1,13 +1,30 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../utils/colors.dart';
+import '../../provider/auth_provider.dart';
+import '../../models/auth_result.dart' show AuthState;
 import '../pdfs/pdf_screen.dart';
 
-class SettingScreen extends StatelessWidget {
+class SettingScreen extends ConsumerWidget {
   const SettingScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    // 認証状態の変更を監視
+    ref.listen(authStatusProvider, (previous, next) {
+      next.when(
+        data: (status) {
+          if (status.state == AuthState.unauthenticated) {
+            // ログアウト成功時は自動的にUIが変わるので、ここでは何もしない
+            // メイン画面のConsumerが自動的に認証状態を検知して画面を切り替える
+          }
+        },
+        loading: () {},
+        error: (error, stack) {},
+      );
+    });
+
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(80),
@@ -138,7 +155,7 @@ class SettingScreen extends StatelessWidget {
                       icon: Icons.logout,
                       title: 'ログアウト',
                       subtitle: 'アプリからログアウトします',
-                      onTap: () => _showLogoutDialog(context),
+                      onTap: () => _showLogoutDialog(context, ref),
                     ),
                     const Divider(height: 1),
                     _buildSettingButton(
@@ -393,7 +410,7 @@ class SettingScreen extends StatelessWidget {
     );
   }
 
-  void _showLogoutDialog(BuildContext context) {
+  void _showLogoutDialog(BuildContext context, WidgetRef ref) {
     showDialog(
       context: context,
       builder: (context) => Dialog(
@@ -526,7 +543,7 @@ class SettingScreen extends StatelessWidget {
                               child: InkWell(
                                 onTap: () {
                                   Navigator.pop(context);
-                                  _performLogout(context);
+                                  _performLogout(context, ref);
                                 },
                                 borderRadius: BorderRadius.circular(12),
                                 child: const Padding(
@@ -583,14 +600,52 @@ class SettingScreen extends StatelessWidget {
     );
   }
 
-  void _performLogout(BuildContext context) {
-    // TODO: ログアウト処理を実装
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('ログアウトしました'),
-        backgroundColor: AppColors.successGreen,
-      ),
-    );
+  void _performLogout(BuildContext context, WidgetRef ref) async {
+    try {
+      // ローディング表示
+      showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (context) => const Center(child: CircularProgressIndicator()),
+      );
+
+      // ログアウト実行
+      await ref.read(authNotifierProvider.notifier).signOut();
+
+      // ローディングを閉じる
+      if (context.mounted) {
+        // 成功メッセージ表示
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: const Text('ログアウトしました'),
+            backgroundColor: AppColors.successGreen,
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+        );
+        Navigator.of(context).pop();
+        Navigator.of(context).pop();
+      }
+    } catch (error) {
+      // ローディングを閉じる
+      if (context.mounted) {
+        Navigator.of(context).pop();
+
+        // エラーメッセージ表示
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('ログアウトに失敗しました: $error'),
+            backgroundColor: Colors.red,
+            behavior: SnackBarBehavior.floating,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+        );
+      }
+    }
   }
 
   void _performEditAccount(BuildContext context) {

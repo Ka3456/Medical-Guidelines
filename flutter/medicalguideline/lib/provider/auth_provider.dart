@@ -70,7 +70,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthResult?>> {
   }
 
   /// Create account with email and password
-  Future<void> createUserWithEmailAndPassword({
+  Future<AuthResult?> createUserWithEmailAndPassword({
     required String email,
     required String password,
     String? displayName,
@@ -83,8 +83,10 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthResult?>> {
         displayName: displayName,
       );
       state = AsyncValue.data(result);
+      return result;
     } catch (error, stackTrace) {
       state = AsyncValue.error(error, stackTrace);
+      return null;
     }
   }
 
