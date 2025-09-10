@@ -1,95 +1,87 @@
-import 'dart:convert';
-import 'package:http/http.dart' as http;
+import 'package:cloud_functions/cloud_functions.dart';
+import 'package:flutter/foundation.dart';
 import '../models/chat_message.dart';
 
-class ChatService {
-  static const String baseUrl = 'http://localhost:8000';
+// カスタム例外クラス
+class ChatServiceException implements Exception {
+  final String message;
+  final dynamic originalError;
 
-  // FastAPI の /health に合わせる
+  ChatServiceException(this.message, this.originalError);
+
+  @override
+  String toString() => 'ChatServiceException: $message';
+}
+
+class ChatService {
+  // Functions（asia-northeast1）ハンドル
+  final FirebaseFunctions _fns = FirebaseFunctions.instanceFor(
+    region: 'asia-northeast1',
+  );
+
   Future<Map<String, dynamic>> getStatus() async {
     try {
-      final response = await http.get(
-        Uri.parse('$baseUrl/health'),
-        headers: {'Accept': 'application/json'},
-      );
-
-      if (response.statusCode == 200) {
-        return jsonDecode(response.body);
-      } else {
-        throw Exception('Failed to get status: ${response.statusCode}');
-      }
+      final callable = _fns.httpsCallable('ping');
+      final resp = await callable.call();
+      // 返り値は Map<String, dynamic> 想定
+      return Map<String, dynamic>.from(resp.data as Map);
     } catch (e) {
-      throw Exception('Network error: $e');
+      throw Exception('Functions ping failed: $e');
     }
   }
 
   Future<Map<String, dynamic>> askQuestion(String question, {int k = 5}) async {
     try {
-      final response = await http.post(
-        Uri.parse('$baseUrl/ask'),
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json',
-        },
-        body: jsonEncode({'question': question, 'k': k}),
-      );
+      final callable = _fns.httpsCallable('askRagCallable');
+      final resp = await callable.call(<String, dynamic>{
+        'question': question,
+        // Cloud Run の /ask は k を受け取らない想定なら無視されます
+        'k': k,
+      });
 
-      if (response.statusCode == 200) {
-        return jsonDecode(response.body);
+      // Map で返るので揃える
+      if (resp.data is Map) {
+        return Map<String, dynamic>.from(resp.data as Map);
+      } else if (resp.data is String) {
+        // サーバからプレーンテキストが返るケースを吸収
+        return {'text': resp.data};
       } else {
-        throw Exception('Failed to get answer: ${response.statusCode}');
+        return {'data': resp.data};
       }
     } catch (e) {
-      throw Exception('Network error: $e');
+      throw Exception('Functions ask failed: $e');
     }
   }
 
   Future<ChatMessage> sendMessage(String message) async {
     try {
-      // 新しい /chat エンドポイントを使用
-      final response = await http.post(
-        Uri.parse('$baseUrl/chat'),
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json',
-        },
-        body: jsonEncode({'message': message, 'k': 5, 'include_context': true}),
+      // まずは askRagCallable を使う（/chat が未実装でも動く）
+      final result = await askQuestion(message);
+
+      // Cloud Run の返却を想定して素直に取り出す
+      final answer =
+          result['answer'] ??
+          result['response'] ??
+          result['text'] ??
+          '回答が見つかりませんでした。';
+
+      return ChatMessage.assistant(
+        answer,
+        '', // 第2引数（使用されていないパラメータ）
+        // コスト情報などあれば付与
+        costInfo: result['cost_info'] != null
+            ? CostInfo.fromJson(Map<String, dynamic>.from(result['cost_info']))
+            : null,
       );
-
-      if (response.statusCode == 200) {
-        final result = jsonDecode(response.body);
-        final responseText = result['response'] ?? '回答を生成できませんでした。';
-        final costInfo = result['cost_info'] != null
-            ? CostInfo.fromJson(result['cost_info'])
-            : null;
-
-        return ChatMessage.assistant(responseText, costInfo: costInfo);
-      } else {
-        throw Exception('Failed to get chat response: ${response.statusCode}');
-      }
     } catch (e) {
-      // フォールバック: 従来の /ask エンドポイントを使用
-      try {
-        final result = await askQuestion(message);
-        if (result['hits'] != null && result['hits'].isNotEmpty) {
-          final responseText = result['hits'][0]['text'] ?? '回答が見つかりませんでした。';
-          return ChatMessage.assistant(responseText);
-        } else {
-          return ChatMessage.assistant('回答が見つかりませんでした。');
-        }
-      } catch (fallbackError) {
-        return ChatMessage.assistant(_getMockResponse(message));
-      }
-    }
-  }
+      // デバッグ用：エラー詳細を出力
+      debugPrint('=== ChatService エラー詳細 ===');
+      debugPrint('エラータイプ: ${e.runtimeType}');
+      debugPrint('エラーメッセージ: $e');
+      debugPrint('============================');
 
-  String _getMockResponse(String message) {
-    final responses = [
-      'こんにちは！医療ガイドラインについてお聞かせください。',
-      'その質問についてはガイドラインを確認する必要があります。',
-      '医療の重要な決定は必ず医師にご相談ください。',
-      'ガイドラインの推奨事項をお調べしました。',
-    ];
-    return responses[message.length % responses.length];
+      // エラーを再スローして、呼び出し元で適切にハンドリングできるようにする
+      throw ChatServiceException('通信に失敗しました。ネットワーク接続を確認してください。', e);
+    }
   }
 }

@@ -48,4 +48,16 @@ class AppColors {
   // シャドウカラー
   static const Color shadowColor = Color(0x1A000000); // 薄い黒のシャドウ
   static const Color shadowColorLight = Color(0x0D000000); // より薄いシャドウ
+
+  // チャット用カラー
+  static const Color chatBackground = Color(0xFFFFFFFF); // チャット背景（純白）
+  static const Color chatUserAvatar = Color(0xFF2E7D32); // ユーザーアバター（緑）
+  static const Color chatAiAvatar = Color(0xFF757575); // AIアバター（グレー）
+  static const Color chatTimestamp = Color(0xFF757575); // 時刻表示用グレー
+  static const Color chatCodeBackground = Color(0xFFF5F5F5); // コードブロック背景
+  static const Color chatCodeBorder = Color(0xFFE0E0E0); // コードブロックボーダー
+  static const Color chatQuoteBorder = Color(0xFFBDBDBD); // 引用ブロックボーダー
+  static const Color chatCostBackground = Color(0xFFE8F5E8); // 料金表示背景（薄緑）
+  static const Color chatCostBorder = Color(0xFFC8E6C9); // 料金表示ボーダー
+  static const Color chatCostText = Color(0xFF2E7D32); // 料金表示テキスト
 }

@@ -53,7 +53,11 @@ class ChatMessage {
     );
   }
 
-  factory ChatMessage.assistant(String content, {CostInfo? costInfo}) {
+  factory ChatMessage.assistant(
+    String content,
+    String s, {
+    CostInfo? costInfo,
+  }) {
     return ChatMessage(
       id: DateTime.now().millisecondsSinceEpoch.toString(),
       content: content,
