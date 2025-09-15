@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/auth_result.dart';
 import '../models/user_model.dart';
@@ -125,13 +126,27 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthResult?>> {
 
   /// Delete account
   Future<void> deleteAccount() async {
+    debugPrint('🔍 AuthNotifier.deleteAccount: 開始');
     state = const AsyncValue.loading();
+    debugPrint('🔍 AuthNotifier.deleteAccount: 状態をloadingに設定');
+
     try {
+      debugPrint(
+        '🔍 AuthNotifier.deleteAccount: AuthService.deleteAccount呼び出し開始',
+      );
       final result = await _authService.deleteAccount();
+      debugPrint(
+        '🔍 AuthNotifier.deleteAccount: AuthService.deleteAccount完了 = ${result.isSuccess}',
+      );
+
       state = AsyncValue.data(result);
+      debugPrint('🔍 AuthNotifier.deleteAccount: 状態をdataに設定');
     } catch (error, stackTrace) {
+      debugPrint('🔍 AuthNotifier.deleteAccount: エラー発生 = $error');
       state = AsyncValue.error(error, stackTrace);
+      debugPrint('🔍 AuthNotifier.deleteAccount: 状態をerrorに設定');
     }
+    debugPrint('🔍 AuthNotifier.deleteAccount: 完了');
   }
 
   /// Update profile

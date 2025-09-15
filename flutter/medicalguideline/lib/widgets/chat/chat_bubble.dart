@@ -1,13 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import '../models/chat_message.dart';
-import '../utils/colors.dart';
+import '../../models/chat_message.dart';
+import '../../utils/colors.dart';
+import '../../screens/pdfs/pdf_screen.dart';
+import 'message_rating_widget.dart';
 
 class ChatBubble extends StatelessWidget {
   final ChatMessage message;
+  final VoidCallback? onResend; // 引数なしのコールバックに変更
+  final Function(int? rating, String? comment)? onRatingSubmitted;
 
-  const ChatBubble({super.key, required this.message});
+  const ChatBubble({
+    super.key,
+    required this.message,
+    this.onResend,
+    this.onRatingSubmitted,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -102,6 +111,50 @@ class ChatBubble extends StatelessWidget {
                     ),
                   ),
           ),
+
+          // 再送ボタン（AIの回答の場合のみ表示、ただしウェルカムメッセージは除く）
+          if (!message.isUser &&
+              onResend != null &&
+              !_isWelcomeMessage(message.content))
+            Container(
+              margin: const EdgeInsets.only(top: 8),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  TextButton.icon(
+                    onPressed: () => onResend!(),
+                    icon: const Icon(
+                      Icons.refresh,
+                      size: 16,
+                      color: AppColors.infoBlue,
+                    ),
+                    label: const Text(
+                      '再送',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: AppColors.infoBlue,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    style: TextButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 4,
+                      ),
+                      minimumSize: Size.zero,
+                      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
+          // 評価ウィジェットを追加
+          if (onRatingSubmitted != null)
+            MessageRatingWidget(
+              message: message,
+              onRatingSubmitted: onRatingSubmitted!,
+            ),
         ],
       ),
     );
@@ -179,6 +232,14 @@ class ChatBubble extends StatelessWidget {
     //     ),
     //   ),
     // );
+  }
+
+  // ウェルカムメッセージかどうかを判定
+  bool _isWelcomeMessage(String content) {
+    // 初期挨拶メッセージの特徴的な文字列で判定
+    return content.contains('こんにちは！医療ガイドライン AI アシスタントです。') ||
+        content.contains('症状、治療法、薬剤、診療ガイドラインについて何でもお聞きください。') ||
+        content.contains('このアプリは情報提供のみを目的としており、医師の診断や治療の代替ではありません。');
   }
 
   Widget _buildAvatar(bool isUser) {
@@ -413,35 +474,62 @@ class ChatBubble extends StatelessWidget {
 
                   // ページ情報を下に配置
                   if (page.isNotEmpty) ...[
-                    Container(
-                      width: double.infinity,
-                      margin: const EdgeInsets.symmetric(horizontal: 20),
-                      padding: const EdgeInsets.symmetric(
-                        vertical: 8,
-                        horizontal: 12,
-                      ),
-                      decoration: BoxDecoration(
-                        color: AppColors.primaryRed.withOpacity(0.1),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          const Icon(
-                            Icons.description,
-                            size: 16,
-                            color: AppColors.primaryRed,
+                    GestureDetector(
+                      onTap: () {
+                        // ページ番号を抽出
+                        final pageNumber = int.tryParse(page);
+                        if (pageNumber != null) {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => PdfScreen(
+                                pdfPath: '心不全診療ガイドライン',
+                                initialPage: pageNumber,
+                              ),
+                            ),
+                          );
+                        }
+                      },
+                      child: Container(
+                        width: double.infinity,
+                        margin: const EdgeInsets.symmetric(horizontal: 20),
+                        padding: const EdgeInsets.symmetric(
+                          vertical: 8,
+                          horizontal: 12,
+                        ),
+                        decoration: BoxDecoration(
+                          color: AppColors.primaryRed.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(
+                            color: AppColors.primaryRed.withOpacity(0.3),
+                            width: 1,
                           ),
-                          const SizedBox(width: 6),
-                          Text(
-                            'ページ $page',
-                            style: const TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w500,
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            const Icon(
+                              Icons.description,
+                              size: 16,
                               color: AppColors.primaryRed,
                             ),
-                          ),
-                        ],
+                            const SizedBox(width: 6),
+                            Text(
+                              'ページ $page',
+                              style: const TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500,
+                                color: AppColors.primaryRed,
+                              ),
+                            ),
+                            const SizedBox(width: 6),
+                            const Icon(
+                              Icons.touch_app,
+                              size: 14,
+                              color: AppColors.primaryRed,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                     const SizedBox(height: 20),

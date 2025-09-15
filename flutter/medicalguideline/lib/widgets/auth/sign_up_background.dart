@@ -54,3 +54,4 @@ class SignUpBackground extends StatelessWidget {
     );
   }
 }
+

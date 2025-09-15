@@ -60,4 +60,19 @@ class AskResponse(BaseModel):
     log_file: str
 
 
+class RatingRequest(BaseModel):
+    """評価リクエストモデル"""
+    message_id: str = Field(..., description="メッセージID")
+    rating: Optional[int] = Field(None, ge=1, le=5, description="評価（1-5、削除時はnull）")
+    comment: Optional[str] = Field(None, max_length=500, description="コメント（削除時はnull）")
+
+
+class RatingResponse(BaseModel):
+    """評価レスポンスモデル"""
+    message_id: str
+    rating: Optional[int] = None
+    comment: Optional[str] = None
+    success: bool
+    message: str
+
 

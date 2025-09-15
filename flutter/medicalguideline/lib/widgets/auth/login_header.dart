@@ -32,7 +32,7 @@ class LoginHeader extends StatelessWidget {
         ),
         const SizedBox(height: 24),
         const Text(
-          'Medical Guide',
+          'Medical Guideline',
           style: TextStyle(
             fontSize: 28,
             fontWeight: FontWeight.bold,

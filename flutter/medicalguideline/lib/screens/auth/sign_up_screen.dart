@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:medicalguideline/screens/chat_screen.dart';
 import '../../provider/auth_provider.dart';
 import '../../widgets/auth/sign_up_card.dart';
-import '../../widgets/auth/sign_up_background.dart';
+import '../../widgets/common/liquid_background.dart';
 import '../../widgets/auth/sign_up_listeners.dart';
 import '../../widgets/auth/sign_up_animations.dart';
 
@@ -19,7 +19,6 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _confirmPasswordController = TextEditingController();
-  final _displayNameController = TextEditingController();
 
   bool _isPasswordVisible = false;
   bool _isConfirmPasswordVisible = false;
@@ -29,7 +28,6 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
     _emailController.dispose();
     _passwordController.dispose();
     _confirmPasswordController.dispose();
-    _displayNameController.dispose();
     super.dispose();
   }
 
@@ -41,9 +39,6 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
             .createUserWithEmailAndPassword(
               email: _emailController.text,
               password: _passwordController.text,
-              displayName: _displayNameController.text.isNotEmpty
-                  ? _displayNameController.text
-                  : null,
             );
         if (mounted) {
           Navigator.of(
@@ -65,7 +60,7 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SignUpBackground(
+      body: LiquidBackground(
         child: Stack(
           children: [
             const SignUpListeners(),
@@ -77,7 +72,6 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
                   child: SignUpAnimations(
                     child: SignUpCard(
                       formKey: _formKey,
-                      displayNameController: _displayNameController,
                       emailController: _emailController,
                       passwordController: _passwordController,
                       confirmPasswordController: _confirmPasswordController,

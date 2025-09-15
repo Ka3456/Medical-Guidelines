@@ -56,3 +56,4 @@ class _SignUpAnimationsState extends State<SignUpAnimations>
     );
   }
 }
+

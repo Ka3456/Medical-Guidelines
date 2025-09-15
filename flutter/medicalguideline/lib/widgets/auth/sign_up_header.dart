@@ -49,3 +49,4 @@ class SignUpHeader extends StatelessWidget {
     );
   }
 }
+

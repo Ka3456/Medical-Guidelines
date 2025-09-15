@@ -333,3 +333,68 @@ class MedicalGuidelineRAGService:
         log_file = self.save_log(result)
         result["log_file"] = log_file
         return result
+
+    def update_message_rating(
+        self, 
+        message_id: str, 
+        rating: Optional[int] = None, 
+        comment: Optional[str] = None
+    ) -> Dict[str, Any]:
+        """
+        メッセージの評価を更新または削除
+        
+        Args:
+            message_id: メッセージID
+            rating: 評価（1-5、削除時はNone）
+            comment: コメント（削除時はNone）
+            
+        Returns:
+            更新結果の辞書
+        """
+        try:
+            # 評価データの保存（実際の実装では、ここでデータベースやファイルに保存）
+            # 現在はメモリ上で管理（本番では適切なストレージを使用）
+            rating_data = {
+                "message_id": message_id,
+                "rating": rating,
+                "comment": comment,
+                "updated_at": datetime.now().isoformat()
+            }
+            
+            # 評価データをログファイルに保存（デモ用）
+            self._save_rating_log(rating_data)
+            
+            return {
+                "message_id": message_id,
+                "rating": rating,
+                "comment": comment,
+                "success": True,
+                "message": "評価を更新しました" if rating is not None else "評価を削除しました"
+            }
+            
+        except Exception as e:
+            return {
+                "message_id": message_id,
+                "rating": None,
+                "comment": None,
+                "success": False,
+                "message": f"評価の更新に失敗しました: {str(e)}"
+            }
+
+    def _save_rating_log(self, rating_data: Dict[str, Any]) -> None:
+        """評価データをログファイルに保存（デモ用）"""
+        try:
+            # 評価ログディレクトリを作成
+            rating_log_dir = Path(self.output_dir) / "ratings"
+            rating_log_dir.mkdir(parents=True, exist_ok=True)
+            
+            # ログファイル名（日付別）
+            log_filename = f"ratings_{datetime.now().strftime('%Y%m%d')}.jsonl"
+            log_filepath = rating_log_dir / log_filename
+            
+            # JSONL形式で追記
+            with open(log_filepath, "a", encoding="utf-8") as f:
+                f.write(json.dumps(rating_data, ensure_ascii=False) + "\n")
+                
+        except Exception as e:
+            print(f"評価ログの保存に失敗: {e}")

@@ -1,7 +1,10 @@
 import 'dart:async';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:flutter/foundation.dart';
 import '../models/user_model.dart';
 import '../models/auth_result.dart';
+import '../services/firestore_service.dart';
 
 /// Scalable authentication service using Firebase Auth
 /// Supports email/password authentication with extensibility for social logins
@@ -10,7 +13,8 @@ class AuthService {
   factory AuthService() => _instance;
   AuthService._internal();
 
-  final FirebaseAuth _auth = FirebaseAuth.instance;
+  final firebase_auth.FirebaseAuth _auth = firebase_auth.FirebaseAuth.instance;
+  final FirestoreService _firestore = FirestoreService();
   final StreamController<AuthStatus> _authStatusController =
       StreamController<AuthStatus>.broadcast();
 
@@ -33,7 +37,7 @@ class AuthService {
   }
 
   /// Handle authentication state changes from Firebase
-  void _onAuthStateChanged(User? firebaseUser) {
+  void _onAuthStateChanged(firebase_auth.User? firebaseUser) {
     if (firebaseUser != null) {
       final user = UserModel.fromFirebaseUser(firebaseUser);
       _updateAuthStatus(AuthStatus.authenticated(user));
@@ -70,7 +74,7 @@ class AuthService {
         _updateAuthStatus(AuthStatus.error(error.errorMessage!));
         return error;
       }
-    } on FirebaseAuthException catch (e) {
+    } on firebase_auth.FirebaseAuthException catch (e) {
       final errorMessage = _getAuthErrorMessage(e);
       final error = AuthResult.failure(errorMessage);
       _updateAuthStatus(AuthStatus.error(errorMessage));
@@ -107,15 +111,24 @@ class AuthService {
         // Send email verification
         await credential.user!.sendEmailVerification();
 
-        final user = UserModel.fromFirebaseUser(credential.user!);
-        _updateAuthStatus(AuthStatus.authenticated(user));
-        return AuthResult.success(user);
+        final userModel = UserModel.fromFirebaseUser(credential.user!);
+
+        // Cloud Firestoreにユーザーデータを保存
+        try {
+          await _firestore.createUser(userModel);
+        } catch (e) {
+          print('Firestoreへのユーザー保存に失敗: $e');
+          // Firestoreへの保存が失敗しても認証自体は成功とする
+        }
+
+        _updateAuthStatus(AuthStatus.authenticated(userModel));
+        return AuthResult.success(userModel);
       } else {
         final error = AuthResult.failure('アカウント作成に失敗しました');
         _updateAuthStatus(AuthStatus.error(error.errorMessage!));
         return error;
       }
-    } on FirebaseAuthException catch (e) {
+    } on firebase_auth.FirebaseAuthException catch (e) {
       final errorMessage = _getAuthErrorMessage(e);
       final error = AuthResult.failure(errorMessage);
       _updateAuthStatus(AuthStatus.error(errorMessage));
@@ -133,7 +146,7 @@ class AuthService {
     try {
       await _auth.sendPasswordResetEmail(email: email.trim());
       return const AuthResult(isSuccess: true);
-    } on FirebaseAuthException catch (e) {
+    } on firebase_auth.FirebaseAuthException catch (e) {
       final errorMessage = _getAuthErrorMessage(e);
       return AuthResult.failure(errorMessage);
     } catch (e) {
@@ -152,7 +165,7 @@ class AuthService {
       } else {
         return AuthResult.failure('メール認証を送信できませんでした');
       }
-    } on FirebaseAuthException catch (e) {
+    } on firebase_auth.FirebaseAuthException catch (e) {
       final errorMessage = _getAuthErrorMessage(e);
       return AuthResult.failure(errorMessage);
     } catch (e) {
@@ -173,22 +186,38 @@ class AuthService {
     }
   }
 
-  /// Delete current user account
+  /// Delete current user account (Auth only)
   Future<AuthResult> deleteAccount() async {
     try {
+      debugPrint('🔍 AuthService.deleteAccount: 開始');
       final user = _auth.currentUser;
+      debugPrint('🔍 AuthService.deleteAccount: 現在のユーザー = ${user?.uid}');
+
       if (user != null) {
+        debugPrint('🔍 AuthService.deleteAccount: ユーザー削除開始');
+
+        // Firebase Authからアカウントを削除（Firestoreデータは残す）
+        // 削除後、authStateChanges()が自動的に認証状態をunauthenticatedに変更する
         await user.delete();
-        _updateAuthStatus(AuthStatus.unauthenticated());
+        debugPrint('🔍 AuthService.deleteAccount: ユーザー削除完了');
+
+        debugPrint('🔍 AuthService.deleteAccount: 成功');
         return const AuthResult(isSuccess: true);
       } else {
+        debugPrint('🔍 AuthService.deleteAccount: ユーザーが見つからない');
         return AuthResult.failure('削除するアカウントが見つかりません');
       }
-    } on FirebaseAuthException catch (e) {
+    } on firebase_auth.FirebaseAuthException catch (e) {
+      debugPrint(
+        '🔍 AuthService.deleteAccount: FirebaseAuthException = ${e.code}: ${e.message}',
+      );
       final errorMessage = _getAuthErrorMessage(e);
+      // エラー時は現在の認証状態を維持
       return AuthResult.failure(errorMessage);
     } catch (e) {
+      debugPrint('🔍 AuthService.deleteAccount: 予期しないエラー = $e');
       final errorMessage = '予期しないエラーが発生しました: ${e.toString()}';
+      // エラー時は現在の認証状態を維持
       return AuthResult.failure(errorMessage);
     }
   }
@@ -215,7 +244,7 @@ class AuthService {
       } else {
         return AuthResult.failure('ユーザーが見つかりません');
       }
-    } on FirebaseAuthException catch (e) {
+    } on firebase_auth.FirebaseAuthException catch (e) {
       final errorMessage = _getAuthErrorMessage(e);
       return AuthResult.failure(errorMessage);
     } catch (e) {
@@ -233,7 +262,7 @@ class AuthService {
       final user = _auth.currentUser;
       if (user != null && user.email != null) {
         // Re-authenticate user
-        final credential = EmailAuthProvider.credential(
+        final credential = firebase_auth.EmailAuthProvider.credential(
           email: user.email!,
           password: currentPassword,
         );
@@ -245,7 +274,7 @@ class AuthService {
       } else {
         return AuthResult.failure('ユーザーが見つかりません');
       }
-    } on FirebaseAuthException catch (e) {
+    } on firebase_auth.FirebaseAuthException catch (e) {
       final errorMessage = _getAuthErrorMessage(e);
       return AuthResult.failure(errorMessage);
     } catch (e) {
@@ -255,7 +284,7 @@ class AuthService {
   }
 
   /// Get user-friendly error message from Firebase Auth exception
-  String _getAuthErrorMessage(FirebaseAuthException e) {
+  String _getAuthErrorMessage(firebase_auth.FirebaseAuthException e) {
     switch (e.code) {
       case 'user-not-found':
         return 'このメールアドレスに登録されたアカウントが見つかりません';
@@ -291,10 +320,63 @@ class AuthService {
 
   // Future social login methods (to be implemented)
 
-  /// Sign in with Google (to be implemented)
+  /// Sign in with Google
   Future<AuthResult> signInWithGoogle() async {
-    // TODO: Implement Google Sign-In
-    return AuthResult.failure('Google ログインはまだ実装されていません');
+    try {
+      _updateAuthStatus(AuthStatus.loading());
+
+      if (kIsWeb) {
+        final googleProvider = firebase_auth.GoogleAuthProvider();
+        final credential = await _auth.signInWithPopup(googleProvider);
+
+        if (credential.user != null) {
+          final user = UserModel.fromFirebaseUser(credential.user!);
+          _updateAuthStatus(AuthStatus.authenticated(user));
+          return AuthResult.success(user);
+        } else {
+          final error = AuthResult.failure('Google ログインに失敗しました');
+          _updateAuthStatus(AuthStatus.error(error.errorMessage!));
+          return error;
+        }
+      } else {
+        final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+        if (googleUser == null) {
+          final error = AuthResult.failure('Google サインインがキャンセルされました');
+          _updateAuthStatus(AuthStatus.error(error.errorMessage!));
+          return error;
+        }
+
+        final GoogleSignInAuthentication googleAuth =
+            await googleUser.authentication;
+
+        final credential = firebase_auth.GoogleAuthProvider.credential(
+          accessToken: googleAuth.accessToken,
+          idToken: googleAuth.idToken,
+        );
+
+        final userCredential = await _auth.signInWithCredential(credential);
+
+        if (userCredential.user != null) {
+          final user = UserModel.fromFirebaseUser(userCredential.user!);
+          _updateAuthStatus(AuthStatus.authenticated(user));
+          return AuthResult.success(user);
+        } else {
+          final error = AuthResult.failure('Google ログインに失敗しました');
+          _updateAuthStatus(AuthStatus.error(error.errorMessage!));
+          return error;
+        }
+      }
+    } on firebase_auth.FirebaseAuthException catch (e) {
+      final errorMessage = 'Google ログインに失敗しました: ${e.message}';
+      final error = AuthResult.failure(errorMessage);
+      _updateAuthStatus(AuthStatus.error(errorMessage));
+      return error;
+    } catch (e) {
+      final errorMessage = 'Google ログイン中にエラーが発生しました: $e';
+      final error = AuthResult.failure(errorMessage);
+      _updateAuthStatus(AuthStatus.error(errorMessage));
+      return error;
+    }
   }
 
   /// Sign in with Apple (to be implemented)

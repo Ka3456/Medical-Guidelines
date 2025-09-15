@@ -9,7 +9,8 @@ from starlette.concurrency import run_in_threadpool
 from services.rag_service import MedicalGuidelineRAGService
 from models.api_models import (
     Status, AskRequest, ChapterRequest, ChunkRequest,
-    ChapterResponse, ChunkResponse, AskResponse
+    ChapterResponse, ChunkResponse, AskResponse,
+    RatingRequest, RatingResponse
 )
 
 
@@ -93,6 +94,20 @@ class MedicalGuidelineAPIRouter:
                     chapters=chapters, 
                     chunks=chunks
                 )
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+
+        @self.router.post("/rating", response_model=RatingResponse)
+        async def update_rating(req: RatingRequest) -> RatingResponse:
+            """メッセージの評価を更新または削除"""
+            try:
+                result = await run_in_threadpool(
+                    self.rag_service.update_message_rating,
+                    req.message_id,
+                    req.rating,
+                    req.comment
+                )
+                return RatingResponse(**result)
             except Exception as e:
                 raise HTTPException(status_code=500, detail=str(e))
     

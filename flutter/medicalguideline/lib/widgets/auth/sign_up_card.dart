@@ -5,7 +5,6 @@ import 'sign_up_button.dart';
 
 class SignUpCard extends StatelessWidget {
   final GlobalKey<FormState> formKey;
-  final TextEditingController displayNameController;
   final TextEditingController emailController;
   final TextEditingController passwordController;
   final TextEditingController confirmPasswordController;
@@ -19,7 +18,6 @@ class SignUpCard extends StatelessWidget {
   const SignUpCard({
     super.key,
     required this.formKey,
-    required this.displayNameController,
     required this.emailController,
     required this.passwordController,
     required this.confirmPasswordController,
@@ -80,8 +78,6 @@ class SignUpCard extends StatelessWidget {
           children: [
             const SignUpHeader(),
             const SizedBox(height: 40),
-            _buildDisplayNameField(),
-            const SizedBox(height: 20),
             _buildEmailField(),
             const SizedBox(height: 20),
             _buildPasswordField(),
@@ -94,18 +90,6 @@ class SignUpCard extends StatelessWidget {
           ],
         ),
       ),
-    );
-  }
-
-  Widget _buildDisplayNameField() {
-    return GlassInputField(
-      controller: displayNameController,
-      label: '表示名（任意）',
-      icon: Icons.person_outline,
-      validator: (value) {
-        // Display name is optional
-        return null;
-      },
     );
   }
 

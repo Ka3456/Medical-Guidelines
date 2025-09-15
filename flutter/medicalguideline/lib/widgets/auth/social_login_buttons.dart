@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../../provider/auth_provider.dart';
 
-class SocialLoginButtons extends StatelessWidget {
+class SocialLoginButtons extends ConsumerWidget {
   const SocialLoginButtons({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Row(
       children: [
         Expanded(
           child: _buildSocialButton(
             icon: Icons.apple,
             label: 'Apple',
-            onTap: () {
+            onTap: () async {
               // Apple ID ログイン（後で実装）
+              await ref.read(authNotifierProvider.notifier).signInWithApple();
             },
           ),
         ),
@@ -21,8 +24,8 @@ class SocialLoginButtons extends StatelessWidget {
           child: _buildSocialButton(
             icon: Icons.g_mobiledata,
             label: 'Google',
-            onTap: () {
-              // Google ログイン（後で実装）
+            onTap: () async {
+              await ref.read(authNotifierProvider.notifier).signInWithGoogle();
             },
           ),
         ),

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../provider/auth_provider.dart';
 import '../../utils/colors.dart';
-import '../../widgets/auth/login_background.dart';
+import '../../widgets/common/liquid_background.dart';
 import '../../widgets/auth/animated_login_content.dart';
 import '../../widgets/auth/login_card.dart';
 
@@ -35,59 +35,63 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
             password: _passwordController.text,
           );
 
-      if (mounted) {
-        ref.listen(authNotifierProvider, (previous, next) {
-          next.when(
-            data: (result) {
-              if (result != null) {
-                if (result.isSuccess) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: const Text('ログインしました'),
-                      backgroundColor: AppColors.successGreen,
-                      behavior: SnackBarBehavior.floating,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
+      _handleAuthResult();
+    }
+  }
+
+  void _handleAuthResult() {
+    if (mounted) {
+      ref.listen(authNotifierProvider, (previous, next) {
+        next.when(
+          data: (result) {
+            if (result != null) {
+              if (result.isSuccess) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: const Text('ログインしました'),
+                    backgroundColor: AppColors.successGreen,
+                    behavior: SnackBarBehavior.floating,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
                     ),
-                  );
-                } else {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: Text(result.errorMessage ?? 'ログインに失敗しました'),
-                      backgroundColor: Colors.red,
-                      behavior: SnackBarBehavior.floating,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                    ),
-                  );
-                }
-              }
-            },
-            loading: () {},
-            error: (error, stack) {
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(
-                  content: Text('エラーが発生しました: $error'),
-                  backgroundColor: Colors.red,
-                  behavior: SnackBarBehavior.floating,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
                   ),
+                );
+              } else {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(result.errorMessage ?? 'ログインに失敗しました'),
+                    backgroundColor: Colors.red,
+                    behavior: SnackBarBehavior.floating,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                );
+              }
+            }
+          },
+          loading: () {},
+          error: (error, stack) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('エラーが発生しました: $error'),
+                backgroundColor: Colors.red,
+                behavior: SnackBarBehavior.floating,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
                 ),
-              );
-            },
-          );
-        });
-      }
+              ),
+            );
+          },
+        );
+      });
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: LoginBackground(
+      body: LiquidBackground(
         child: SafeArea(
           child: Center(
             child: SingleChildScrollView(

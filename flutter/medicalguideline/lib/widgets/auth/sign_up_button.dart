@@ -58,3 +58,4 @@ class SignUpButton extends ConsumerWidget {
     );
   }
 }
+
