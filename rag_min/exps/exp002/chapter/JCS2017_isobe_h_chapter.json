@@ -1,0 +1,1166 @@
+{
+  "pdf_filename": "JCS2017_isobe_h.pdf",
+  "created_at": "2025-11-01T11:23:39.626301",
+  "toc": [
+    {
+      "section_path": "I. 改訂にあたって",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "１. 血管炎の歴史とガイドライン作成の背景",
+      "start_page": 6,
+      "end_page": 7
+    },
+    {
+      "section_path": "２. 診療ガイドライン作成の方針",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2.1 対象疾患",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2.2 診療ガイドラインの一般的な作成手法",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2.3 本診療ガイドラインの作成方法",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "II. 高安動脈炎",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "１. 疾患概念・疫学・細分類",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.1 疾患概念",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.2 歴史的変遷",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1.3 疫学",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1.4 分類",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "２. 発症機序",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.1 遺伝的要因",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.2 環境要因",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.3 血管障害機序",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "5.1 検査所見",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "5.2 画像所見",
+      "start_page": 15,
+      "end_page": 16
+    },
+    {
+      "section_path": "5.3 眼科検査",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "6.1 診断基準",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "6.2 鑑別診断",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "7.1 ステロイド・免疫抑制薬",
+      "start_page": 20,
+      "end_page": 22
+    },
+    {
+      "section_path": "7.2 生物学的製剤・抗血小板薬など",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "7.3 観血的治療",
+      "start_page": 24,
+      "end_page": 25
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "9．小児の高安動脈炎",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "III．巨細胞性動脈炎",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1．疾患概念・疫学・細分類",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.1 疾患概念",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.2 疫学",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.3 細分類",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.1 罹患動脈",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.2 肉眼所見",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.3 組織所見",
+      "start_page": 29,
+      "end_page": 30
+    },
+    {
+      "section_path": "3.4 鑑別診断ならびに類似疾患",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "5.1 検査所見",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "5.2 画像所見",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "5.3 眼科検査",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "6.1 診断基準",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "6.2 診断にあたり注意すべき点",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "6.3 大動脈病変の評価",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "7.1 ステロイド・免疫抑制薬",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "7.2 生物学的製剤・抗血小板薬など",
+      "start_page": 37,
+      "end_page": 38
+    },
+    {
+      "section_path": "7.3 観血的治療",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "IV．バージャー病",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "1.1 疾患概念",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "1.2 疫学",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 41,
+      "end_page": 42
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "4.1 上下肢の虚血症状",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "4.2 内臓動脈の罹患",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "4.3 表在静脈炎",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "4.4 各症状の頻度",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "5.1 身体診察",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "5.2 検査法",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "5.3 血管画像所見",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "5.4 血液学的検査",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "6.1 診断",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "6.2 鑑別すべき疾患",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "7.1 保存的治療",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "7.2 外科治療",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "8.1 虚血肢の予後",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "8.2 増悪因子・改善に寄与する因子",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "8.3 非虚血肢の予後",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "8.4 併存疾患ならびに生命予後",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "V．結節性多発動脈炎",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "7.1 寛解導入療法",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "7.2 寛解維持療法",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "VI．顕微鏡的多発血管炎",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.1 概念",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.2 疫学",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2.1 遺伝因子",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2.2 環境因子",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "2.3 病態",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.1 診断",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.2 鑑別診断の手順",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "section_path": "7.1 寛解導入療法",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "CQ1： ANCA 関連血管炎の寛解導入治療では， どのようなレジメンが有用か",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "CQ2： 重症な腎障害を伴うANCA 関連血管炎の 寛解導入治療で血漿交換は有用か",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "7.2 寛解維持療法",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "CQ3： ANCA 関連血管炎の寛解維持治療では， どのようなレジメンが有用か",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "VII．多発血管炎性肉芽腫症",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1．疾患概念・定義・疫学",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "7.1 寛解導入療法",
+      "start_page": 62,
+      "end_page": 63
+    },
+    {
+      "section_path": "CQ1： ANCA 関連血管炎の寛解導入治療では， どのようなレジメンが有用か",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "CQ2： 重症な腎障害を伴うANCA 関連血管炎の 寛解導入治療で血漿交換は有用か",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "7.2 寛解維持療法",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "CQ3： ANCA 関連血管炎の寛解維持治療では， どのようなレジメンが有用か",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "VIII．好酸球性多発血管炎性肉芽腫症",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 68,
+      "end_page": 69
+    },
+    {
+      "section_path": "7.1 急性期",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "7.2 慢性期",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "7.3 寛解期",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "7.4 増悪期（再燃時）",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "IX．抗糸球体基底膜抗体病",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "5．検査所見",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "7.1 初期治療法",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "7.2 維持治療法",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "7.3 治療についての解説",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "X．蕁麻疹様血管炎",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "5.1 病理組織学的検査",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "5.2 血清免疫学的検査所見",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "XI．IgA 血管炎（Henoch-Schönlein紫斑病）",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "4.1 皮膚症状",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "4.2 関節症状",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "4.3 消化器症状",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "4.4 腎症状",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "4.5 その他の症状",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "6.1 腎生検病理組織所見",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "6.2 腎組織分類",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "7.1 腎外症状に対する治療",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "7.2 腎炎を合併した場合",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "XII. クリオグロブリン血症性血管炎",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "XIII. ベーチェット病",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1.1 疾患概念",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1.2 疫学",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.1 遺伝素因",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.2 環境因子",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4.1 深部静脈血栓症",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4.2 動脈瘤・動脈閉塞",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "4.3 肺動脈病変による症状",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "4.4 血管外症状",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "5.1 検査所見",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "5.2 画像所見",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "6.1 診断",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "6.2 鑑別診断",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "7.1 薬物療法",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "7.2 外科手術と血管内治療",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "XIV. 悪性関節リウマチ",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "1．疾患概念・疫学",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "2．発症機序",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "3．病理所見",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "4．症状",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "5．検査・画像所見",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "6．診断・診断基準",
+      "start_page": 92,
+      "end_page": 93
+    },
+    {
+      "section_path": "7．治療方針",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7.1 DMARDs",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7.2 ステロイド",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7.3 免疫抑制薬",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7.4 bDMARDs",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7.5 その他の治療",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "8．予後",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "付表",
+      "start_page": 96,
+      "end_page": 97
+    },
+    {
+      "section_path": "文献",
+      "start_page": 98,
+      "end_page": 2014
+    },
+    {
+      "section_path": "全身症状  発熱，全身倦怠感，易疲労感 （Watanabe Y, et al.",
+      "start_page": 2015,
+      "end_page": 2015
+    }
+  ]
+}

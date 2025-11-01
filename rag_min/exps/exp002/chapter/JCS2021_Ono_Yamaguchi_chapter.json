@@ -1,0 +1,576 @@
+{
+  "pdf_filename": "JCS2021_Ono_Yamaguchi.pdf",
+  "created_at": "2025-11-01T11:23:42.301650",
+  "toc": [
+    {
+      "section_path": "1. ガイドライン改訂の背景",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "2. ガイドライン改訂の目的",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "3. ガイドライン作成の基本方針",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1. 体外設置型補助人工心臓（Paracorporeal VAD, Extracorporeal VAD）",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2. 植込型補助人工心臓（Implantable LVAD） ‥ 10 3. 経皮的補助人工心臓",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "4. （完）全置換型人工心臓（TAH）",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1. 適応基準",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2. 植込型LVAD の施設・医師認定制度",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.1 認定体制",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.2 認定要項",
+      "start_page": 11,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.3 認定作業",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "3. 植込型LVAD レジストリ",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "3.1 INTERMACS",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "3.2 J-MACS",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "4. VAD の工学的事項",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "1. 補助人工心臓の適応にあたって",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.1 院内適応決定システム，心臓移植・ 植込型LVAD 適応検討委員会",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.2 Bridge to transplantation（BTT）",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.3 Bridge to candidacy（BTC）",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.4 Bridge to decision（BTD）",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.5 Bridge to bridge（BTB）",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.6 Bridge to recovery（BTR）",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.7 IMPELLA によるブリッジ",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2. BTT の適応",
+      "start_page": 16,
+      "end_page": 17
+    },
+    {
+      "section_path": "3. DT の適応",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "4. 小児における補助人工心臓の適応",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "4.1 患者の選択",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "4.2 機種の選択",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "5. 補助人工心臓の適応疾患",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "5.1 後天性心疾患",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "5.2 先天性心疾患",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "5.3 植込型LVAD の適応基準， 適応除外基準",
+      "start_page": 22,
+      "end_page": 25
+    },
+    {
+      "section_path": "6. RVAD，BiVAD の適応",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1. 術前管理",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.1 心不全，不整脈",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.2 呼吸機能障害，肺高血圧症",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.3 腎機能障害",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.4 肝機能障害",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.5 電解質異常",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.6 菌血症，敗血症",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.7 消化管合併症",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.8 末梢動脈疾患（PAD）",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.9 糖尿病，肥満，栄養障害",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "1.10 精神神経機能",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "1.11 アドバンス・ケア・プランニング （ACP）",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "1.12 術前の治療最適化",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "重症心不全に対する植込型補助人工心臓治療ガイドライン 2. 植込手術のタイミング",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.1 初回植込手術",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.2 体外設置型VAD から植込型VAD への ブリッジ",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "3. 植込手術",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "3.1 手術の概要",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "3.2 EVAHEART",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "3.3 HM-II",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "3.4 HM-",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "3.5 Jarvik",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "3.6 HeartWare Ventricular Assist Device （HVAD）",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "3.7 BTB（体外設置型VAD から植込型 LVAD への植替え）",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.8 合併術式（AS，AI，人工弁，MS，MR， TR，PR）",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "4. 植込型VAD の手術管理",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.1 LVAD の麻酔管理",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.2 LVAD 術中のTEE",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.3 体外循環",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "4.4 RVAD，BiVAD",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5. ICU 管理，周術期合併症とその対策",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5.1 装置の不具合",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5.2 主要な感染（菌血症・敗血症・ 縦隔炎）",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.3 神経機能障害（脳梗塞，脳出血等の 脳血管障害）",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.4 大量出血",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.5 心不全",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.6 心筋梗塞",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.7 不整脈",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.8 心嚢液貯留",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.9 高血圧",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.10 非中枢神経系の動脈血栓塞栓 （ASO 含む）",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.11 静脈血栓塞栓",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.12 溶血",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.13 腎機能障害",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.14 肝機能障害",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.15 呼吸不全",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.16 精神障害",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.17 創傷離開",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.18 消化管合併症",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.19 栄養障害，糖尿病",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "1. 遠隔期管理と合併症対策",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "1.1 脳合併症（梗塞，出血）",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "1.2 感染症（ドライブライン感染・菌血症， ポケット感染）",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "1.3 右心不全",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1.4 消化管出血",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1.5 大動脈弁閉鎖不全症（AI）",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1.6 不整脈",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.7 植込型LVAD ポンプ機能不全 （ポンプ交換手術含む）",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.8 血圧管理",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "1.9 Shared care",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "2. 在宅治療訓練",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.1 リハビリテーション",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.2 患者教育，ケアギバー教育",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "2.3 精神管理，リエゾンナース， 多職種連携",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3. 在宅管理",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.1 在宅機器管理",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.2 在宅療養環境の整備と確認",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.3 在宅モニタリング",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "3.4 抗血栓療法",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "3.5 ドライブラインの管理・創部管理",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "3.6 就労環境・職場・教育環境",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "3.7 そのほかの日常生活と通院",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "4. 遠隔期手術",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.1 植込型LVAD ブリッジ症例の 心臓移植",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.2 植込型LVAD 離脱",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.3 オフテスト",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "5. 終末期管理",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "5.1 植込型LVAD における終末期",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "5.2 終末期における植込型LVAD 補助の 継続について",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "付表　2021 年改訂版重症心不全に対する植込型補助人工心臓治療ガイドライン：班構成員の利益相反（COI）に関する 開示",
+      "start_page": 55,
+      "end_page": 58
+    },
+    {
+      "section_path": "文献",
+      "start_page": 59,
+      "end_page": 59
+    }
+  ]
+}

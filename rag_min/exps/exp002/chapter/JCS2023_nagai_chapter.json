@@ -1,0 +1,1051 @@
+{
+  "pdf_filename": "JCS2023_nagai.pdf",
+  "created_at": "2025-11-01T11:23:41.013991",
+  "toc": [
+    {
+      "section_path": "1. 作成プロセスについて",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "診療ガイドラインの目的，利用者，対象者 ‥ 11 1.1.1 目的",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "1.1.2 想定される利用者",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "1.1.3 想定される利用施設",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "1.1.4 対象者",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "1.2 ガイドライン使用の注意事項",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.3 ガイドライン本文の作成プロセス",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.3.1 ガイドライン本文の作成プロセス",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.3.2 外部評価，最終化",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.4 CQ の作成プロセス",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.4.1 作成プロセスのステップ",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.4.2 作成プロセスの各ステップ",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.5 公表",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "1.6 利益相反（COI）",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "1．定義と分類",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.1 概念",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.2 分類",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.2.1 臨床病型分類",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "目次 1.2.2 病因分類",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.2.3 組織分類",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.3 定義",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.3.1 急性心筋炎",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.3.2 慢性活動性心筋炎",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.3.3 慢性心筋炎",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1.3.4 慢性炎症性心筋症",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.3.5 炎症性拡張型心筋症",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.4 心筋炎定義の限界",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.1 疫学",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.1.1 新型コロナウイルスに関連する 心筋炎",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3. 病態生理",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.1 病因",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.2 病態",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "1. 症状・徴候",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.1 急性心筋炎",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.1.1 症状",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.1.2 徴候",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "1.3 病歴と原因疾患",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "1.4 予後",
+      "start_page": 22,
+      "end_page": 23
+    },
+    {
+      "section_path": "2. 心電図",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "2.1 急性心筋炎の心電図所見",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "2.2 急性冠症候群との鑑別",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "慢性活動性心筋炎，慢性炎症性心筋症の 心電図所見",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "2.4 心電図所見と原因疾患",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "2.5 心電図所見と予後",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "3. 血液検査",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.1 心筋炎の血液検査",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.1.1 炎症マーカー",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.1.2 心筋傷害マーカー",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.1.3 心不全マーカー",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.2 病因に関連する血液検査",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.2.1 感染症検査 （ウイルス，非ウイルス）",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "心筋炎の診断・治療に関するガイドライン 3.2.2 好酸球数",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.2.3 自己抗体",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.3 血液検査所見と予後",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.4 実用化が期待される血液検査",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.4.1 抗心自己抗体",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.4.2 マイクロRNA",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4. 心エコー図",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "4.1 急性心筋炎",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "5. 心臓MRI",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "心臓MRI を用いた心筋炎の 画像診断基準",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "心筋組織性状評価のための 心臓MRI 撮影法",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "5.2.1 LGE による心筋傷害評価",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "5.2.2 T1 マッピング",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "5.2.3 T2 マッピング/T2 強調像",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "5.2.4 ECV（細胞外液分画）",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "心臓MRI による 病態のモニタリング，予後評価",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "6. 心臓核医学検査",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "期待される18F-fluorodeoxyglucose positron emission tomography",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "6.2 心筋炎におけるFDG の集積",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "6.3 FDG-PET の注意点",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "7. 心内膜心筋生検，心臓カテーテル検査",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "7.1 方法",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "7.2 適応",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "CQ1 急性心筋炎の患者に対する心筋生検の 施行は推奨されるか？",
+      "start_page": 36,
+      "end_page": 37
+    },
+    {
+      "section_path": "7.3 合併症",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "7.4 代表的組織像",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "目次 7.4.1 好酸球性心筋炎",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "7.4.2 巨細胞性心筋炎",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "7.5 膠原病性心筋炎",
+      "start_page": 39,
+      "end_page": 40
+    },
+    {
+      "section_path": "7.5.1 強皮症",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "7.5.2 全身性エリテマトーデス",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "7.5.3 多発筋炎・皮膚筋炎",
+      "start_page": 41,
+      "end_page": 44
+    },
+    {
+      "section_path": "1. 急性心筋炎",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2. 慢性活動性心筋炎・慢性炎症性心筋症",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "1. 基本治療",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "血行動態不安定例（劇症型心筋炎） への対応",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.1.1 薬物治療",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.1.2 経皮的補助循環",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.1.3 開胸を要する補助循環",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "1.1.4 植込型LVAD と心臓移植",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.1.5 VA-ECMO の運用",
+      "start_page": 50,
+      "end_page": 52
+    },
+    {
+      "section_path": "1.2 血行動態安定例への対応",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "1.3 致死性不整脈への対応",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.3.1 疫学と病態",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.3.2 徐脈性不整脈",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.3.3 致死性心室不整脈",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "1.3.4 突然死予防",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "2. 免疫抑制療法",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2.1 急性リンパ球性心筋炎",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "ステロイドパルス療法は 推奨されるか？",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.2 慢性活動性リンパ球性心筋炎",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.3 急性好酸球性心筋炎",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.4 巨細胞性心筋炎",
+      "start_page": 58,
+      "end_page": 59
+    },
+    {
+      "section_path": "3. 免疫調節・抗ウイルス療法",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "3.1 静注免疫グロブリン",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "大量免疫グロブリン療法は 推奨されるか？",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "3.2 抗ウイルス療法",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "3.2.1 抗インフルエンザウイルス薬",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "3.2.2 インターフェロン",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "3.2.3 グアニル酸類似体",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "1. 急性心筋炎の予後",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2. 慢性活動性心筋炎/ 慢性炎症性心筋症の 予後",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "1. 好酸球性心筋炎",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "1.1 疫学",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "1.2 病態生理",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "1.3 診断",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "1.3.1 症状",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "1.3.2 原因薬剤・背景疾患の検査",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "1.3.3 血液生化学検査",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "1.3.4 心電図",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "1.3.5 心エコー図",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "1.3.6 心臓MRI",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "1.3.7 心内膜心筋生検， 心臓カテーテル検査",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "1.4 治療",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "1.5 予後",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "2. 巨細胞性心筋炎",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "2.1 疫学",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "2.2 病態生理",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "2.3 診断",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "2.3.1 症状",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "2.3.2 血液生化学検査",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.3.3 心電図",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.3.4 画像診断",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.3.5 心内膜心筋生検， 心臓カテーテル検査",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.4 治療",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.4.1 免疫抑制療法",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "2.4.2 抗不整脈治療",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "2.4.3 心臓移植",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "2.5 予後",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "3. 膠原病性心筋炎",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "3.1 背景",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "3.2 症状",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3.3 診断",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3.4 治療",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3.5 各論",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3.5.1 全身性エリテマトーデス",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3.5.2 特発性炎症性筋疾患",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "3.5.3 関節リウマチ",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "3.5.4 好酸球性多発血管炎性肉芽腫症",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "4. 薬剤性心筋炎",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "4.1 背景",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "4.2 分類",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "4.3 原因薬剤",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "4.4 病理",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "4.5 臨床経過",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "4.6 診断",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "4.7 治療",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "4.8 各論",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "4.8.1 免疫チェックポイント 阻害薬関連心筋炎",
+      "start_page": 74,
+      "end_page": 76
+    },
+    {
+      "section_path": "5. 新生児期心筋炎",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.1 背景と病因",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.1.1 疫学",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.1.2 原因病原体",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.2 診断",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.2.1 臨床症状",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.2.2 検査所見",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.3 治療",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "5.4 予後",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "6. 小児期心筋炎",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "6.1 背景と病因",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "6.1.1 疫学",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "6.1.2 原因病原体",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "6.2 診断",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "6.2.1 臨床症状",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "6.2.2 血液生化学検査",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "6.2.3 胸部X 線",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "6.2.4 心電図",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "6.2.5 心エコー図",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "心筋炎の診断・治療に関するガイドライン 6.2.6 心臓MRI",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "6.2.7 その他の検査",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "6.3 治療",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "6.3.1 静注免疫グロブリン",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "6.3.2 免疫抑制剤",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "6.3.3 抗ウイルス薬",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "6.3.4 体外補助循環",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "6.4 予後",
+      "start_page": 81,
+      "end_page": 86
+    },
+    {
+      "section_path": "付表  1 CQ1 作成過程：データベース検索結果",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "付図  1 CQ1 作成過程：文献検索フローチャート",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "付表  2 CQ1 作成過程：二次スクリーニング後の一覧表",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "付表  3 CQ1 作成過程：引用文献",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "付表  4 CQ1 作成過程：評価シート（観察研究）",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "付表  5 CQ1 作成過程：評価シート（エビデンス総体）",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "付表  6 CQ1 作成過程：定性的システマティック・レビュー",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "付表  7 CQ1 作成過程：メタ解析",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "付表  8 CQ2 作成過程：データベース検索結果（2021 年8 月，PubMed）",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "付表  9 CQ2 作成過程：データベース検索結果（2021 年8 月，CENTRAL）",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "付表10 CQ2 作成過程：データベース検索結果（医中誌）",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "付図  2 CQ2 作成過程：文献検索フローチャートA",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "付表11 CQ2 作成過程：データベース検索結果（2021 年9 月，PubMed）",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "付表12 CQ2 作成過程：データベース検索結果（2021 年9 月，CENTRAL）",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "付図  3 CQ2 作成過程：文献検索フローチャートB",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "付表13 CQ3 作成過程：データベース検索結果（PubMed）",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "付表14 CQ3 作成過程：データベース検索結果（CENTRAL）",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "付表15 CQ3 作成過程：データベース検索結果（医中誌）",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "付図  4 CQ3 作成過程：文献検索フローチャート",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "付表16　班構成員の利益相反（COI）に関する開示",
+      "start_page": 98,
+      "end_page": 100
+    },
+    {
+      "section_path": "文献",
+      "start_page": 101,
+      "end_page": 101
+    }
+  ]
+}

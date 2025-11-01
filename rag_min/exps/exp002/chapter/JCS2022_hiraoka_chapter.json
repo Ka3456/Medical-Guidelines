@@ -1,0 +1,1111 @@
+{
+  "pdf_filename": "JCS2022_hiraoka.pdf",
+  "created_at": "2025-11-01T11:23:39.399473",
+  "toc": [
+    {
+      "section_path": "1. 作成プロセスについて",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.1 診療ガイドラインの目的，利用者，対象者 ‥ 13 1.2 ガイドライン使用の注意事項",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.3 Part 1 の作成プロセス",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.4 Part 2 の作成プロセス",
+      "start_page": 14,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.5 出版",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.6 利益相反（COI）",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1. 疫学",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2. 術前マネージメント",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.1 術前評価",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.2 術前最適化",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3. 循環器関連リスク軽減のための包括的 マネージメント",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "4. 患者との協働意思決定と周術期リスクに関する 術前のコミュニケーション",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "5. 非心臓手術前の心疾患に対する 侵襲的な介入の是非を考える際の注意点",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "6. 周術期緩和ケアの重要性",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "1. 麻酔科的視点",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.1 リスク評価：ASA-PS 分類",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.2 麻酔法と血行動態",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.3 術中心停止リスク",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "2. 手術別の周術期心血管イベントリスク",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "2.1 手術分野とリスク",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "2.2 術式とリスク",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "2.3 手術アプローチとリスク",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "2.4 手術緊急度とリスク：手術の緊急度による 分類",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3. 自己申告に基づく運動耐容能",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.1 患者自己申告による運動耐容能評価の 有用性",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "3.2 Duke Activity Status Index（DASI）",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "4. 12 誘導心電図",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "術前ECG の異常所見による リスクの層別化",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "術前ECG 施行による マネージメントへの影響",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "5. 安静時経胸壁心エコー図検査",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "5.1 術前TTE と周術期アウトカム",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "術前TTE 異常所見と 周術期心血管イベントリスク層別化",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "5.3 Revised Cardiac Risk Index（RCRI）と 術前TTE",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "5.4 術前TTE の適応と注意点",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "6. 周術期リスクスコア",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "特殊な状況におけるスコアリング システム",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "6.6 リスクスコアの使用に関する推奨",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "6.7 低リスク定義のカットオフポイント",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "低リスク群にさらなる循環器関連検査を することの是非",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "7. BNP，NT-pro BNP の役割",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "術前のBNP，NT-pro BNP 値と 周術期心血管合併症",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "術前BNP，NT-pro BNP の カットオフ値",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "臨床的リスク層別化に加えBNP， NT-pro BNP による再層別化",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "8. 心臓負荷試験",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "8.1 術前心臓負荷試験の目的",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "8.2 各検査の周術期リスク予測精度",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "9. 冠動脈CT",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "10.　冠動脈造影",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "11.　術前検査のアルゴリズム",
+      "start_page": 33,
+      "end_page": 34
+    },
+    {
+      "section_path": "1. 抗凝固療法以外",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.1 β遮断薬",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.2 スタチン",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.3 ACE 阻害薬，ARB",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "1.4 α2 アゴニスト",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "1.5 カルシウム拮抗薬",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "1.6 アスピリン",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "1.7 SGLT2 阻害薬",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "2. 抗凝固療法",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "2.1 抗凝固療法の周術期における考え方",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "2.2 出血リスク",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "2.3 血栓リスク",
+      "start_page": 38,
+      "end_page": 39
+    },
+    {
+      "section_path": "2.5 抗凝固療法の休薬方法",
+      "start_page": 40,
+      "end_page": 42
+    },
+    {
+      "section_path": "3.1 脊髄くも膜下麻酔と硬膜外麻酔時の 注意点",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "3.2 カテーテル留置を伴う硬膜外麻酔と 抗血栓薬",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "目次 3.3 ハーブ類の注意点",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "3.4　末梢神経ブロック",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1. 急性冠症候群",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.1 急性冠症候群（ACS）後患者における 非心臓手術の疫学",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.2 ACS 後の待機的非心臓手術の施行時期 （タイミング）と周術期心血管合併症",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.3 ACS 後の患者に対する血行再建と 非心臓手術の周術期合併症",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2. 非心臓手術前の冠動脈血行再建",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.1 周術期急性心筋梗塞の機序",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.2 周術期急性心筋梗塞の特徴",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.3 虚血性心疾患の周術期リスク",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.4 術前血行再建",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.5 他の診療ガイドライン",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "2.6 術前血行再建の意思決定",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3. 経皮的冠動脈インターベンション（PCI） 歴のある患者の非心臓手術のタイミング",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.1 PCI 歴のある患者の非心臓手術時の リスク",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.2 デバイスの種類と周術期リスク",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.3 PCI 実施後の手術のタイミング",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.4 PCI を実施した適応（ACS vs 非ACS） と周術期リスク",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4. 冠動脈疾患患者の抗血小板薬の取り扱い",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.1 PCI 施行歴のない冠動脈疾患患者",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.2 PCI 施行歴のある患者の抗血小板薬の 休薬の是非",
+      "start_page": 51,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.3 CABG 施行歴のある患者",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "5. 慢性心不全",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "5.1 非心臓手術患者における心不全に関する 疫学",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "5.2 術前に心不全を診断する重要性",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "非心臓手術における合併心疾患の評価と管理に関するガイドライン 5.3 心不全患者の周術期のリスク",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "5.4 左室駆出率と周術期リスク",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "5.5 心不全患者の術前マネージメント",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "5.6　術後急性心不全の原因",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "section_path": "6. 肥大型心筋症",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.1 疫学",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.2 術前心エコー図検査の有用性",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.3 周術期脳心血管合併症のリスク",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.4 非心臓手術における術前準備と 周術期管理",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7. 肺高血圧症",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7.1 合併症とリスク因子",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7.2 術前の注意点",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "7.3 術中管理",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "7.4 術後管理",
+      "start_page": 59,
+      "end_page": 60
+    },
+    {
+      "section_path": "8. 弁膜症",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.1 疫学",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.2 術前の病歴，身体所見の重要性",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.3 周術期管理の注意点",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.4 術前の弁膜症治療についての考え方",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.5 各弁膜症",
+      "start_page": 61,
+      "end_page": 62
+    },
+    {
+      "section_path": "9. 高血圧症",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "9.1 高血圧の周術期リスク",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "9.2 術前評価",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "9.3 周術期管理",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "10.　肺動脈カテーテル",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "11.　不整脈",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "11.1 心房細動患者の周術期リスク",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "11.2 周術期に新たに発症した 心房細動（POAF）",
+      "start_page": 65,
+      "end_page": 66
+    },
+    {
+      "section_path": "11.3 心室性不整脈",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "11.4 徐脈性不整脈",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "11.5 周術期における抗不整脈薬使用の注意点 ‥ 67 12.　植込み型心臓電気デバイスの取り扱い",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "12.1 電磁干渉（EMI）",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "12.2 術前の準備",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "12.3 術中の対応",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "12.4 術後の対応",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "1. 非心臓手術後心筋傷害",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.1 診断基準",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.2 臨床的特徴",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.3 MINS の予後",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.4 MINS のマネージメント",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "1.5 術後の心筋トロポニンモニター",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "疾患患者において，術前の冠血行再建は 推奨されるか？",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "A 背景，この問題の優先度",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "B エビデンスの要約",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "C 益と害のバランス",
+      "start_page": 73,
+      "end_page": 74
+    },
+    {
+      "section_path": "D エビデンス総体の確実性",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "E 患者の価値観",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "F コスト",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "G 容認性",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "H 実行可能性",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "I 推奨のグレーディング",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "J 関連する他の診療ガイドラインの記載",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "K 治療のモニタリング",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "L 監視と評価",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "M 今後の研究の可能性",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "後1～1.5 ヵ月以降にすることは 推奨されるか？",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "非心臓手術における合併心疾患の評価と管理に関するガイドライン A 背景，この問題の優先度",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "B エビデンスの要約",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "C 益と害のバランス",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "D エビデンス総体の確実性",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "E 患者の価値観",
+      "start_page": 78,
+      "end_page": 79
+    },
+    {
+      "section_path": "F コスト",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "G 容認性",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "H 実行可能性",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "I 推奨のグレーディング",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "J 関連する他の診療ガイドラインの記載",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "K 治療のモニタリング",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "L 監視と評価",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "M 今後の研究の可能性",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "施行する際に，アスピリン継続下で 手術を行うことは推奨されるか？",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "A 背景，この問題の優先度",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "B エビデンスの要約",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "C 益と害のバランス",
+      "start_page": 81,
+      "end_page": 83
+    },
+    {
+      "section_path": "D エビデンス総体の確実性",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "E 患者の価値観",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "F コスト",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "G 容認性",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "目次 H 実行可能性",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "I 推奨のグレーディング",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "J 関連する他の診療ガイドラインの記載",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "K 治療のモニタリング",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "L 監視と評価",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "M 今後の研究の可能性",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "経カテーテル大動脈弁留置術（TAVI））を 施行することは推奨されるか？",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "A 背景，この問題の優先度",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "B エビデンスの要約",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "C 益と害のバランス",
+      "start_page": 85,
+      "end_page": 87
+    },
+    {
+      "section_path": "D エビデンス総体の確実性",
+      "start_page": 88,
+      "end_page": 89
+    },
+    {
+      "section_path": "E 患者の価値観",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "F コスト",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "G 容認性",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "H 実行可能性",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "I 推奨のグレーディング",
+      "start_page": 90,
+      "end_page": 92
+    },
+    {
+      "section_path": "J 関連する他の診療ガイドラインの記載",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "K 治療のモニタリング",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "L 監視と評価",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "M 今後の研究の可能性",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "テル大動脈弁留置術（TAVI））を施行する ことを推奨するか？",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "A 背景，本CQ の優先度",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "B エビデンスの要約",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "C 益と害のバランス",
+      "start_page": 97,
+      "end_page": 99
+    },
+    {
+      "section_path": "D エビデンス総体の質",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "E 患者の価値観",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "F コスト",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "G 容認性",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "H 実行可能性",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "I 推奨のグレーディング",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "J 関連する他の診療ガイドラインの記載 ‥ 101 K 治療のモニタリング",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "L 監視と評価",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "M 今後の研究の可能性",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "大腿骨近位部骨折の手術タイミングは いつがよいか？",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "A 高齢者大腿骨骨折に関する一般事項",
+      "start_page": 101,
+      "end_page": 103
+    },
+    {
+      "section_path": "C わが国と各国の診療ガイドライン",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "D 大腿骨近位部骨折に対する手術の タイミング",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "非心臓手術を受ける場合，術前に ヘパリン置換は推奨されるか？",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "A 背景，この問題の優先度",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "B エビデンスの要約",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "C 益と害のバランス",
+      "start_page": 106,
+      "end_page": 109
+    },
+    {
+      "section_path": "D エビデンス総体の確実性",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "E 患者の価値観",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "F コスト",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "G 容認性",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "H 実行可能性",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "I 推奨のグレーディング",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "J 関連する他の診療ガイドラインの記載 ‥ 111 K 治療のモニタリング",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "L 監視と評価",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "M 今後の研究の可能性",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "Supplementary profile 1　Revised Cardiac Risk Index（RCRI）による非血管手術の周術期の心血管イベント予測",
+      "start_page": 112,
+      "end_page": 113
+    },
+    {
+      "section_path": "Supplementary profile 2　Revised Cardiac Risk Index（RCRI）による血管手術の周術期の心血管イベント予測",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "Supplementary profile 3　肥大型心筋症の周術期リスク",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 116,
+      "end_page": 118
+    },
+    {
+      "section_path": "文献",
+      "start_page": 119,
+      "end_page": 119
+    }
+  ]
+}

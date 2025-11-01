@@ -1,0 +1,1251 @@
+{
+  "pdf_filename": "JCS2025_Tamura.pdf",
+  "created_at": "2025-11-01T11:23:45.096056",
+  "toc": [
+    {
+      "section_path": "略語一覧",
+      "start_page": 11,
+      "end_page": 13
+    },
+    {
+      "section_path": "改訂にあたって",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "ガイドライン公表と利益相反の取り扱い",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "推奨クラスとエビデンスレベル",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "市民・患者への情報提供",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1. 病態と疾患の定義",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.1 PTE",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.2 DVT",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3. VTE の危険因子",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "4. COVID-19 との関連",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "4.1 COVID-19 と血栓症，VTE",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "4.2 わが国における報告",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "4.3 抗凝固療法と血栓症の一次予防",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "5. 予後",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "5.1 PTE の予後",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "5.2 DVT の予後",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "5.3 VTE の再発予後",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "6. 慢性疾患への移行（PTS とCTEPD）",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "6.1 PTS（血栓後症候群）",
+      "start_page": 22,
+      "end_page": 23
+    },
+    {
+      "section_path": "6.2 CTEPD（慢性血栓塞栓性肺疾患）",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "1. 症状と臨床所見",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.1 急性PTE",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.2 DVT",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "2. 検査と臨床的確率",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "2.1 検査前臨床的確率の評価",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2.2 検査と画像",
+      "start_page": 28,
+      "end_page": 30
+    },
+    {
+      "section_path": "3. 血栓性素因",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4. フローチャートと重症度",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4.1 PTE の診断フローチャート",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4.2 PTE の重症度判定",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4.3 臨床的パラメータによる重症度判定 ‥ 31 4.4 画像所見",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "4.5 バイオマーカー",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "4.6 重症度分類",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "4.7 DVT の診断フローチャート",
+      "start_page": 33,
+      "end_page": 34
+    },
+    {
+      "section_path": "1. PTE の重症度別治療戦略",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.1 海外ガイドラインと国内データ",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.2 急性PTE の治療の考え方",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.3 急性PTE の重症度別治療戦略",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.4 急性PTE の外来治療の可能性",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "2. 高リスクPTE の呼吸循環管理",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "2.1 呼吸管理",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "2.2 循環管理",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "3. PTE の血栓溶解療法",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4. PTE の抗凝固療法",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "4.1 急性PTE における役割",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "4.2 わが国における歴史的変遷",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "4.3 各抗凝固薬の詳細",
+      "start_page": 41,
+      "end_page": 42
+    },
+    {
+      "section_path": "4.6 国際ガイドラインでの継続期間に関する 考え方",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "4.7 代替療法としてのアスピリン",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "4.8 VTE 再発のリスク推定",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "4.10 再発リスクからみたPTE に対する 継続期間",
+      "start_page": 44,
+      "end_page": 45
+    },
+    {
+      "section_path": "4.11 抗凝固療法に伴う出血リスク",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "4.12 再発と出血リスクにもとづく継続期間の 検討方法",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "4.13 周産期の抗凝固療法",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "4.14 妊娠中の抗凝固療法",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "4.15 授乳中の抗凝固療法",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "5. DVT の抗凝固療法",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "5.1 概論",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "5.2 中枢型DVT",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "5.3 末梢型DVT",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "6. がん関連VTE の評価と薬物療法",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "6.1 現在までの疫学とスクリーニング",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "6.2 治療薬のエビデンス",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "7. カテーテル治療",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "7.1 急性PTE のカテーテル治療",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "7.2 DVT のカテーテル治療",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "8. 外科的治療",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "8.1 急性PTE の外科的治療",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "8.2 DVT の外科的治療",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "9. IVC フィルター",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "10. DVT の理学療法",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "10.1 安静度，運動",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "10.2 圧迫療法（急性期）",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "10.3 圧迫療法（慢性期）",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "1. リスク評価",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "1.1 VTE の予防",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "1.2 VTE 予防のリスクレベルの評価法",
+      "start_page": 59,
+      "end_page": 60
+    },
+    {
+      "section_path": "2. VTE 予防方法",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.1 早期歩行および積極的な運動",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.2 弾性ストッキング",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.3 間欠的空気圧迫法",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.4 低用量未分画ヘパリン",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.5 用量調節未分画ヘパリン",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.6 用量調節ワルファリン",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.7 低分子ヘパリンおよびXa 阻害薬",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "3. 各診療科での予防法",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.1 予防法の選択",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.2 一般外科",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.3 泌尿器科",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.4 産婦人科",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "section_path": "3.5 整形外科",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "3.6 脳神経外科",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "4. 内科系（非手術）入院患者",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "1. 定義",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "1.1 PH の定義",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "1.2 運動負荷に伴うPH",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "2. 臨床分類",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "2.1 第1 群：PAH",
+      "start_page": 69,
+      "end_page": 70
+    },
+    {
+      "section_path": "2.2 第2 群：左心疾患に伴うPH",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "2.3 第3 群：慢性肺疾患および/ または低酸 素症に伴うPH",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "2.4 第4 群：肺動脈の閉塞に伴うPH",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "2.5 第5 群：詳細不明および/ または多因子 のメカニズムに伴うPH",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3. 症状と身体所見",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3.1 自覚症状",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "3.2 身体所見",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "4. 診断，検査",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "4.1 血液検査・バイオマーカー",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "4.2 心電図",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "4.3 胸部X 線検査",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "4.4 心エコー図検査",
+      "start_page": 73,
+      "end_page": 74
+    },
+    {
+      "section_path": "4.5 呼吸機能検査",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "4.6 動脈血ガス分析",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "4.7 肺換気血流シンチグラム",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "4.8 MDCT",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "4.9 MRI",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "4.10 腹部エコー",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "4.11 心臓カテーテル検査・負荷試験",
+      "start_page": 76,
+      "end_page": 77
+    },
+    {
+      "section_path": "4.12 肺動脈造影",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "4.13 肺生検",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "4.14 診断手順",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "5. 遺伝学的検査",
+      "start_page": 79,
+      "end_page": 81
+    },
+    {
+      "section_path": "6. リスクアセスメント",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "6.1 WHO PH 機能分類",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "6.2 リスク層別化指標",
+      "start_page": 82,
+      "end_page": 83
+    },
+    {
+      "section_path": "1. I/HPAH",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "1.1 疫学",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "1.2 成因",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "1.3 診断",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "1.4 予後",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "1.5 治療",
+      "start_page": 85,
+      "end_page": 86
+    },
+    {
+      "section_path": "2. SSc-PAH",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.1 疫学，成因，予後",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.2 診断，スクリーニング",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.3 治療",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "3. 心肺疾患合併のPAH",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "3.1 背景",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "3.2 心肺疾患合併のPAH の特徴",
+      "start_page": 88,
+      "end_page": 89
+    },
+    {
+      "section_path": "3.3 心肺疾患合併PAH の治療",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "4. IPAH/HPAH/DPAH/SSc-PAH の治療アルゴ リズム",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "4.1 アルゴリズムの適用",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "4.2 心肺疾患合併の場合",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "4.3 初期治療のアルゴリズム",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "4.4 フォローアップの間隔と治療強化",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "4.5 アクチビンシグナル阻害薬",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "5. SSc 以外の膠原病に伴うPAH（non-SSc CTD-PAH）",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "5.1 疫学，成因，予後",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "5.2 診断",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "5.3 治療",
+      "start_page": 96,
+      "end_page": 97
+    },
+    {
+      "section_path": "6. 門脈圧亢進症に伴うPoPH",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "6.1 疫学，成因",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "6.2 診断",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "6.3 予後",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "6.4 治療",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "7. 成人先天性心疾患に伴うPAH",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "7.1 診断とリスク評価",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "7.2 治療",
+      "start_page": 100,
+      "end_page": 101
+    },
+    {
+      "section_path": "8. 薬物・毒物誘発性のPAH",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "9.1 疫学，成因",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "9.2 診断",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "9.3 治療方針",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "10. PVOD/PCH の特徴をもつPAH",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "10.1 疫学，成因，予後",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "10.2 病理",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "10.3 臨床診断",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "10.4 治療",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "11. 肺移植",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "11.1 一般的な適応",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "11.2 PAH に対する適応",
+      "start_page": 106,
+      "end_page": 108
+    },
+    {
+      "section_path": "1. 定義",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "2. 機序",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "3. 疫学",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "5. 治療",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "5.1 原因病態の治療",
+      "start_page": 110,
+      "end_page": 111
+    },
+    {
+      "section_path": "1. 概要",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "2. ILD に伴うPH",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "2.1 疫学",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "2.2 病態",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "2.3 診断",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "2.4 治療",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "3. COPD と肺気腫に伴うPH",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "3.1 病態",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "3.2 診断",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "3.3 治療",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "3.4 長期酸素療法",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "3.5 肺血管拡張薬",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "4. AHS",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "4.1 病態",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "4.2 症状",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "4.3 診断",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "4.4 治療",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "症候群および高地",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "section_path": "5.1 睡眠時無呼吸症候群のPH",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "section_path": "5.2 高地住人におけるPH",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "section_path": "1. 疫学，成因，症状",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "1.1 疫学",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "1.2 成因",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "1.3 症状，臨床所見",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "1.4 病理",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "section_path": "2.1 診断アルゴリズム",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "section_path": "2.2 治療アルゴリズム",
+      "start_page": 121,
+      "end_page": 122
+    },
+    {
+      "section_path": "3. BPA",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "3.1 適応",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "3.2 画像診断",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "3.3 手技",
+      "start_page": 125,
+      "end_page": 126
+    },
+    {
+      "section_path": "3.4 術前・術後管理",
+      "start_page": 127,
+      "end_page": 127
+    },
+    {
+      "section_path": "3.5 治療成績",
+      "start_page": 128,
+      "end_page": 128
+    },
+    {
+      "section_path": "4. 外科的治療",
+      "start_page": 129,
+      "end_page": 129
+    },
+    {
+      "section_path": "4.1 PEA",
+      "start_page": 129,
+      "end_page": 129
+    },
+    {
+      "section_path": "4.2 適応",
+      "start_page": 129,
+      "end_page": 129
+    },
+    {
+      "section_path": "4.3 肺動脈病変の局在（形態）",
+      "start_page": 130,
+      "end_page": 130
+    },
+    {
+      "section_path": "4.4 成績",
+      "start_page": 130,
+      "end_page": 130
+    },
+    {
+      "section_path": "5. 内科的治療",
+      "start_page": 131,
+      "end_page": 131
+    },
+    {
+      "section_path": "5.1 肺血管拡張薬",
+      "start_page": 131,
+      "end_page": 131
+    },
+    {
+      "section_path": "5.2 抗凝固療法",
+      "start_page": 132,
+      "end_page": 132
+    },
+    {
+      "section_path": "",
+      "start_page": 132,
+      "end_page": 132
+    },
+    {
+      "section_path": "6.1 肺動脈肉腫",
+      "start_page": 132,
+      "end_page": 132
+    },
+    {
+      "section_path": "6.2 PPS",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "6.3 血管炎に伴う肺高血圧",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "1. 血液疾患",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "2. 全身性疾患",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "3. 代謝性疾患",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "4. 慢性腎不全",
+      "start_page": 135,
+      "end_page": 135
+    },
+    {
+      "section_path": "5. PTTM",
+      "start_page": 135,
+      "end_page": 135
+    },
+    {
+      "section_path": "6. 線維性縦隔炎",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "1. 小児のIPAH/HPAH",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "1.1 小児における肺高血圧",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "1.2 小児肺高血圧の疫学",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "1.3 小児のI/HPAH の疫学",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "1.4 小児におけるHPAH",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "1.5 診断とリスク評価",
+      "start_page": 137,
+      "end_page": 137
+    },
+    {
+      "section_path": "1.6 治療指針",
+      "start_page": 138,
+      "end_page": 138
+    },
+    {
+      "section_path": "1.7 管理",
+      "start_page": 139,
+      "end_page": 139
+    },
+    {
+      "section_path": "2. CHD に伴うPH",
+      "start_page": 139,
+      "end_page": 141
+    },
+    {
+      "section_path": "2.1 病態",
+      "start_page": 142,
+      "end_page": 142
+    },
+    {
+      "section_path": "2.2 診断",
+      "start_page": 142,
+      "end_page": 142
+    },
+    {
+      "section_path": "2.3 重症度と治療指針",
+      "start_page": 143,
+      "end_page": 143
+    },
+    {
+      "section_path": "3. 新生児期のPH",
+      "start_page": 143,
+      "end_page": 143
+    },
+    {
+      "section_path": "3.1 PPHN",
+      "start_page": 143,
+      "end_page": 144
+    },
+    {
+      "section_path": "3.2 BPD，nCLD に伴うPH",
+      "start_page": 145,
+      "end_page": 145
+    },
+    {
+      "section_path": "1. リハビリテーションと患者指導",
+      "start_page": 146,
+      "end_page": 146
+    },
+    {
+      "section_path": "1.1 運動療法",
+      "start_page": 146,
+      "end_page": 146
+    },
+    {
+      "section_path": "1.2 一般的対応",
+      "start_page": 147,
+      "end_page": 147
+    },
+    {
+      "section_path": "1.3 妊娠出産管理",
+      "start_page": 147,
+      "end_page": 149
+    },
+    {
+      "section_path": "1. 静脈血栓塞栓症",
+      "start_page": 150,
+      "end_page": 150
+    },
+    {
+      "section_path": "2. 肺高血圧症",
+      "start_page": 151,
+      "end_page": 152
+    },
+    {
+      "section_path": "付表",
+      "start_page": 153,
+      "end_page": 156
+    },
+    {
+      "section_path": "文献",
+      "start_page": 157,
+      "end_page": 157
+    }
+  ]
+}

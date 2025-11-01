@@ -1,0 +1,376 @@
+{
+  "pdf_filename": "JCS2023_kasai.pdf",
+  "created_at": "2025-11-01T11:23:51.701461",
+  "toc": [
+    {
+      "section_path": "1. 正常睡眠と睡眠障害",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.1 正常睡眠",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.2 睡眠の評価",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.3 睡眠段階の特徴と判定",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1.4 睡眠障害と循環器疾患との関連",
+      "start_page": 10,
+      "end_page": 11
+    },
+    {
+      "section_path": "2. 診断",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.1 診断基準",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.2 検査機器",
+      "start_page": 12,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.3 スコアリングルール",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "section_path": "3. 疫学",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3.1 OSA の疫学",
+      "start_page": 21,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.2 CSA の疫学",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4. 病態",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "4.1 OSA の病態",
+      "start_page": 24,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.2 CSA の病態",
+      "start_page": 30,
+      "end_page": 33
+    },
+    {
+      "section_path": "5. 治療",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "5.1 循環器疾患に合併するSDB の治療",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "5.2 OSA の治療",
+      "start_page": 34,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.3 CSA の治療",
+      "start_page": 42,
+      "end_page": 47
+    },
+    {
+      "section_path": "5.4 その他のSDB 治療",
+      "start_page": 48,
+      "end_page": 49
+    },
+    {
+      "section_path": "1. 高血圧",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "1.1 高血圧リスクとOSA",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "循環器領域における睡眠呼吸障害の診断・治療に関するガイドライン 1.2 OSA の自由行動下血圧の特徴",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "1.3 治療抵抗性高血圧",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "1.4 高血圧と臓器障害の発症機序",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "1.5 OSA を考慮した高血圧診療プロセス",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "1.6 OSA に合併した高血圧の治療",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "section_path": "2. 糖尿病",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "section_path": "3. CKD/ESRD",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.1 SDB の頻度と特徴",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.2 SDB がCKD の発症と進行に与える 影響",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.3 CKD 患者におけるSDB 合併が予後に 与える影響",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.4 CKD 患者に合併するSDB に対する 治療",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "4. 高尿酸血症",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5. 心不全（HFrEF）",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5.1 SDB の特徴",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5.2 関連のメカニズム",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5.3 HFrEF の予後に対するSDB の影響",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "5.4 HFrEF に合併するSDB の検査",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "5.5 HFrEF に合併するSDB の治療",
+      "start_page": 60,
+      "end_page": 62
+    },
+    {
+      "section_path": "6. 心不全（HFpEF）",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "7. 徐脈性不整脈",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "7.1 正常睡眠における徐脈性不整脈",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "7.2 SDB に関連した徐脈性不整脈",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "ペースメーカ植込み患者に合併したSDB ‥ 65 8. 頻脈性不整脈（上室）",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "8.1 SDB における頻脈性不整脈発生機序",
+      "start_page": 65,
+      "end_page": 66
+    },
+    {
+      "section_path": "8.2 心房細動",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "9. 頻脈性不整脈（心室・突然死）",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "9.1 心室性不整脈・突然死とSDB",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "9.2 致死性心室性不整脈の予防と治療",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "10. 虚血性心疾患",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "10.1 冠動脈疾患のSDB",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "10.2 SDB と冠動脈硬化の進展",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "10.3 SDB がACS に与える影響",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "10.4 ACS 発症時間とSDB",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "10.5 慢性冠疾患，冠攣縮性狭心症とSDB ‥ 70 10.6 SDB から虚血性心疾患への進展",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "10.7 SDB を有する虚血性心疾患患者の予後 ‥ 71 11. 脳卒中",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "11.1 関連のメカニズム",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "11.2 脳卒中一次予防",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "11.3 脳卒中二次予防",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "11.4 脳卒中患者のSDB 治療",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "12. 大動脈疾患/ 末梢動脈疾患",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "12.1 大動脈解離",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "12.2 大動脈瘤",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "12.3 末梢動脈疾患",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "13. 肺高血圧（PH）",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "13.1 PH におけるSDB の概念",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "13.2 関連のメカニズム",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "13.3 PH 合併OSA の診断",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "13.4 PH 合併OSA の治療効果",
+      "start_page": 76,
+      "end_page": 78
+    },
+    {
+      "section_path": "付表①　心不全症例におけるASV 適正使用に関するステートメント第2 報（2016 年10 月19 日）",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "付表②　班構成員の利益相反（COI）に関する開示",
+      "start_page": 80,
+      "end_page": 82
+    },
+    {
+      "section_path": "文献",
+      "start_page": 83,
+      "end_page": 27307400
+    },
+    {
+      "section_path": "Intervention. J Am Heart Assoc 2016; 5: e 003270 PMID:",
+      "start_page": 27307401,
+      "end_page": 27307401
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "pdf_filename": "JCS2020_Fukazawa_Kobayashi.pdf",
+  "created_at": "2025-11-01T11:23:37.791704",
+  "toc": [
+    {
+      "section_path": "1． 最新の疫学",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "1.1 第24 回川崎病全国調査と国際比較",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "1.2 診断",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.3 治療",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.4 合併症・後遺症",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2．遺伝的背景",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2.1 遺伝の関与を示唆する疫学知見",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2.2 罹患感受性遺伝子",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2.3 重症化関連遺伝子",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2.4 遺伝学的研究の成果からの病態および 臨床研究への展開",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "3． 重症度分類",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "3.1 急性期の病状",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3.2 CAL（急性期）",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3.3 CAL（長期的変化）",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "4．不全型の診断と治療",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "4.1 診断の手引き",
+      "start_page": 14,
+      "end_page": 15
+    },
+    {
+      "section_path": "4.2 不全型の実態",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1. 病理",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.1 冠動脈障害",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.2 冠動脈以外の血管障害",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1.3 心筋障害",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2. 心臓血管後遺症の冠循環動態",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.1 冠動脈瘤における血行動態",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.2 狭窄性病変の評価",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3. 長期的予後",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3.1 川崎病CAL",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.2 心臓血管後遺症を認めなかった 症例について",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.  血液検査・バイオマーカー・ 動脈硬化の診断",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "1.1 血液検査",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "1.2 動脈硬化の診断",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "section_path": "2． 心電図",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "2.1 安静時心電図",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "2.2 Holter 心電図",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "2.3 運動負荷心電図",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "2.4 その他の心電図検査",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "3． 画像診断",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "3.1 胸部X 線写真",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "3.2 心エコー法",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "3.3 核医学検査",
+      "start_page": 26,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.4 冠動脈CT 造影",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.5 MRI",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.6 PET",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4． 心カテーテル検査",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4.1 CAG",
+      "start_page": 28,
+      "end_page": 30
+    },
+    {
+      "section_path": "4.2 左室造影による心機能検査",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "5． 検査・診断のまとめ",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "1． 薬物療法",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.1 心筋虚血に対する薬物療法",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.2 障害血管に対する薬物療法",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.3 抗血小板薬・抗凝固薬",
+      "start_page": 33,
+      "end_page": 34
+    },
+    {
+      "section_path": "1.4 冠血管拡張薬・抗狭心症薬",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.5 血栓溶解療法・再灌流療法",
+      "start_page": 36,
+      "end_page": 37
+    },
+    {
+      "section_path": "1.6 急性心筋梗塞に対する内科的初期治療",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "2． 非薬物療法（冠動脈血行再建術）",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "2.1 カテーテル治療",
+      "start_page": 39,
+      "end_page": 41
+    },
+    {
+      "section_path": "2.2 外科治療",
+      "start_page": 42,
+      "end_page": 44
+    },
+    {
+      "section_path": "川崎病心臓血管後遺症の診断と治療に関するガイドライン 3．治療法のまとめ",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "1． 学校における管理",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "1.1 急性期にCAL がないと 診断されている児",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.2 退縮群（Regression 群）",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.3 冠動脈拡張・瘤の残存群",
+      "start_page": 47,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.4 冠動脈狭窄病変群",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "1.5 冠動脈以外の病変について",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "1.6 循環器内科への引き継ぎ",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "2. AYA 世代の管理（移行医療）",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.1 AYA 世代の定義と人口背景",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.2 小児慢性疾患を抱えるAYA 世代と 移行医療",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.3 川崎病心臓血管後遺症と移行医療",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "3． 成人期の管理",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "3.1 治療",
+      "start_page": 53,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.2 生活指導・運動指導",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "section_path": "3.3 妊娠・分娩・出産",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "3.4 成人患者の診療体制",
+      "start_page": 60,
+      "end_page": 61
+    },
+    {
+      "section_path": "1．粥状動脈硬化への進展（病理）",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "1.1 後炎症性動脈硬化症と粥状動脈硬化症",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "1.2 病理組織学的所見",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2． 粥状動脈硬化への進展（臨床）",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "2.1 川崎病遠隔期の動脈硬化と 一般的な動脈硬化との違い",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "2.2 川崎病遠隔期における血管障害の評価",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "2.3 遠隔期症例における動脈硬化",
+      "start_page": 64,
+      "end_page": 65
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "文献",
+      "start_page": 68,
+      "end_page": 68
+    }
+  ]
+}

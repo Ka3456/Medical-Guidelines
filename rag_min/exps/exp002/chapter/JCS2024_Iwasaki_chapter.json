@@ -1,0 +1,466 @@
+{
+  "pdf_filename": "JCS2024_Iwasaki.pdf",
+  "created_at": "2025-11-01T11:23:45.847557",
+  "toc": [
+    {
+      "section_path": "1. 植込み型除細動器（ICD）の一次予防適応",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.1 高齢者",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.2 致死性不整脈の危険因子とICD 適応",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1.3 虚血性心筋症",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1.4 非虚血性心筋症",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2. 心臓サルコイドーシスに対するICD",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.1　心臓サルコイドーシスの臨床像",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.2　VT/VF の発生に関連する因子",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.3　心臓サルコイドーシスに対する ICD の有用性",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3. リードレスペースメーカ",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "3.1　適応年齢",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "3.2　安全性",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "3.3　新たなリードレスペースメーカ",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3.4　VDD モード",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3.5　合併症のリスク評価",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3.6　デバイス抜去後の代替としての リードレスペースメーカ",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "PQ 1  リードレスペースメーカと経静脈ペース メーカをどう使い分けるか？",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "略語一覧",
+      "start_page": 6,
+      "end_page": 16
+    },
+    {
+      "section_path": "目次 4. 反射性失神に対するペースメーカ治療",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "5. 植込み型除細動器の今後の進歩",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "6. 刺激伝導系ペーシング（CSP）",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "6.1 定義",
+      "start_page": 18,
+      "end_page": 19
+    },
+    {
+      "section_path": "6.2 HBP とLBBAP の特徴と相違点",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "6.3 CSP に用いるシステム",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "6.4 徐脈性不整脈に対するCSP の適応",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "6.4.1 心機能正常の徐脈性不整脈",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "6.4.2 心機能軽度低下の徐脈性不整脈",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "6.5 刺激伝導系障害と心不全を有する （CRT 適応）症例",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "6.6 房室ブロック作製術を必要とする症例 ‥ 22 7. Mid-range QRS に対するCRT",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "7.1 CRT の適応に関するQRS 幅の下限",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "7.2 適応",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "7.2.1 120 ms ≦QRS 幅＜150 ms かつ LBBB に対する適応",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "7.2.2 120 ms ≦QRS 幅＜150 ms かつ 非LBBB に対する適応",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1. 肺静脈隔離術以外の心房細動 カテーテルアブレーション手技",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.1 追加焼灼の実施についての議論",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.2　左房後壁隔離",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1.3　低電位領域アブレーション",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.4　マーシャル静脈エタノール注入 化学的アブレーション",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.5　その他の追加通電",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2. 心房細動カテーテルアブレーションの 適応拡大",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2.1　第一選択治療としての 心房細動カテーテルアブレーション",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2.2 無症候性心房細動に対する カテーテルアブレーションの適応",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "2.2.1 早期リズムコントロールの影響",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "2.2.2 症候性と無症候性の比較",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "2.2.3 カテーテルアブレーションによる 心房細動の進行の抑制",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "2.2.4 カテーテルアブレーションによる 患者予後の改善",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "2.2.5 まとめ",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.3　心不全をともなう心房細動に対する カテーテルアブレーション",
+      "start_page": 30,
+      "end_page": 32
+    },
+    {
+      "section_path": "心房細動カテーテルアブレーションを 行うべきか？",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2.4　心房細動カテーテルアブレーション後の 肺静脈狭窄に対する血管形成術",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.  新しい心房細動カテーテル治療： パルスフィールドアブレーション（PFA）",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.1 原理と特性",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.2 臨床データ",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "3.3 安全性",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "3.4 展望",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "4.  心室期外収縮（PVC）/VT カテーテル アブレーションの進歩",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "4.1  PVC/VT 患者における不整脈基質の評価 · 37 4.2  適応とタイミング",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "4.2.1 器質的心疾患にともなうVT に対する カテーテルアブレーション",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "4.2.2 特発性PVC/VT",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "4.2.3 ブルガダ症候群に対する 心外膜アブレーション",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "CQ 2  症状がなく心機能低下を認めない 特発性PVC に対する治療選択は？",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4.3  新たなアブレーション手法",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "4.3.1 新たな不整脈基質のマッピング",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "4.3.2 特殊なアブレーション法",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "1. 本邦独自の脳梗塞リスク評価ツール： HELT-E2S2 スコア",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "1.1  HELT-E2S2 スコア開発の背景",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "1.2 HELT-E2S2 スコア",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "1.3.1  高血圧",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "2 未満， 持続性/ 永続性心房細動",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.3.3 糖尿病，心不全",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "PQ 2  抗凝固療法の対象から外れる 症例とは？",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "2. 抗凝固療法高リスクの高齢患者への対応",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "2.1 腎機能障害",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "2.2 低体重",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "2.3 フレイル",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.4 認知症",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.5 ポリファーマシー",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.6  抗血小板薬使用",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "2.7 超高齢高出血リスク",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "3.  第Xa 因子（FXa）阻害薬に対する 特異的中和薬",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "section_path": "4. ジギタリス製剤と心房細動",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "section_path": "5. 心房細動と生活習慣管理・包括管理",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "5.1　心房細動と生活習慣管理",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "5.1.1 アルコールとカフェイン",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "5.1.2 身体活動",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "5.2　心房細動患者の包括管理： 4 段階の治療ステップ",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "5.2.1 第1 段階：急性期の管理",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5.2.2 第2 段階：増悪因子の管理",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5.2.3 第3 段階：脳梗塞の予防",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5.2.4 第4 段階：症状の改善",
+      "start_page": 59,
+      "end_page": 64
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 65,
+      "end_page": 68
+    },
+    {
+      "section_path": "文献",
+      "start_page": 69,
+      "end_page": 69
+    }
+  ]
+}

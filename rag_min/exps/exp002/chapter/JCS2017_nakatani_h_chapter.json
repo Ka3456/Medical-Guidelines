@@ -1,0 +1,646 @@
+{
+  "pdf_filename": "JCS2017_nakatani_h.pdf",
+  "created_at": "2025-11-01T11:23:46.202444",
+  "toc": [
+    {
+      "section_path": "I．はじめに",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "1．改訂にあたって",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "2．推奨について",
+      "start_page": 6,
+      "end_page": 7
+    },
+    {
+      "section_path": "II．総論",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1．感染性心内膜炎（IE）とは",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2．チーム医療の必要性",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "3．専門病院に紹介すべきタイミング",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "III．診断",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1．IE の診断基準",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2．症状・身体所見",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2.1　症状/ 臨床経過",
+      "start_page": 10,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.2　身体所見",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3．微生物学的検査",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "3.1　血液培養",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "3.2　その他の検査法",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "4．心エコー図検査",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "a．陽性基準",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "b．疣腫の意義",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "c．診断精度",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "d．TTE，TEE の適応",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "e．フォローアップエコーのタイミング",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "f．治療終了時のエコー図",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "g．3D エコー図の役割",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "5．その他の画像診断",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "a．CT",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "b．MRI",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "c．ガリウムシンチグラフィ/CT",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "d． 18F-FDG PET/CT",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "e．標識白血球シンチグラム",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "6．入院時のリスク評価",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "IV．内科的治療",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1．治療方針・原則",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "a．PK/PD を考慮した投与の原則",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "b．抗菌薬の選択における薬剤感受性の判定",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "c．投与期間",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "d．抗菌薬の推奨される使用量とわが国で 承認された使用量の関係",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "e．新しい抗菌薬について （ダプトマイシン，リネゾリドなど）",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "f．侵入門戸となった感染巣や遠隔巣の治療",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2．エンピリック治療",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "a．最近の原因菌の傾向",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "b．自己弁の場合",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "c．人工弁/ 心内デバイスありの場合",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "d．培養陰性の場合",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3．原因菌が判明した場合",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.1　レンサ球菌",
+      "start_page": 22,
+      "end_page": 26
+    },
+    {
+      "section_path": "3.2　腸球菌",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.3　ブドウ球菌",
+      "start_page": 28,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.4　グラム陰性菌（HACEK を含む）",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "3.5　真菌",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "4．効果判定，治療期間",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "V．合併症の評価と管理",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1．心不全",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "a．原因と病態",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "b．診断",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "c．治療方針",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2．治療抵抗性感染，弁周囲感染",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "a．治療抵抗性感染と抗菌薬使用の目安",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "b．膿瘍，瘻孔",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3．塞栓症",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.1　塞栓症のリスク",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.2　中枢神経合併症",
+      "start_page": 36,
+      "end_page": 38
+    },
+    {
+      "section_path": "IE の疑われる患者に脳MRI は有効か？   37 3.3　中枢神経系以外",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4．腎障害",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "a．IE における腎不全の合併率",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "b．慢性腎不全に伴うIE の発症率",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5．播種性血管内凝固症候群",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "VI．外科的治療",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "1．手術リスクの評価と術前検査",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "a．手術リスクの評価",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "b．術前検査：脳血管，冠動脈，および 他の臓器の塞栓と膿瘍の評価",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "2．外科的治療の適応と手術時期",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "a．外科的治療の適応総論",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "b．うっ血性心不全",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "c．抵抗性感染",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "d．感染性塞栓症",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "大きな疣腫のある場合には 早期手術を行うべきか？",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "中枢神経合併症が生じたときに IE 手術は早期に行うべきか？",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "e．人工弁感染の場合",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "3．外科的治療と術後管理",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "a．僧帽弁IE",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "b．大動脈弁IE",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "c．術後管理",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "VII．外来でのフォローアップ",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "a．フォローアップの必要性と要点",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "b．再発（再燃および再感染）の頻度と 危険因子",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "c．慢性期弁手術の適応",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "d．患者教育",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "VIII．予防",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "1．IE 予防についての総論",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "2．どのような心疾患患者がIE になりやすいか",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "a．人工弁置換患者とIE の既往を有する患者",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "b．成人先天性心疾患",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "c．大動脈弁弁膜症",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "d．僧帽弁弁膜症/ 僧帽弁逸脱症",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "e．右心系弁膜症",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "f．肥大型心筋症",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "g．デバイス植込み後",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "h．その他",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "3．IE のリスクとなる手技・処置・背景と予防",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "3.1　はじめに",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "3.2　歯科疾患",
+      "start_page": 51,
+      "end_page": 54
+    },
+    {
+      "section_path": "歯科処置に際して抗菌薬投与は 予防のために必要か？",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "3.3　皮膚疾患",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.4　ステロイド薬投与",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "3.5　肺炎などの感染症",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "3.6　中心静脈カテーテル留置",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "3.8　呼吸器，食道，泌尿生殖器， 消化管の手技・処置に対する予防",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "3.9　心臓手術を実施する患者",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "3.10　高リスク患者におけるIE の教育と 発熱時における対応の教育",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "IX．特殊な場合",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1．先天性心疾患，小児領域のIE",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1.1　先天性心疾患，小児領域のIE 総論",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1.2　基礎心疾患別リスク",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1.3　診断",
+      "start_page": 60,
+      "end_page": 62
+    },
+    {
+      "section_path": "1.4　治療",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "section_path": "1.5　予防",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "歯科処置に際して抗菌薬投与は IE 予防のために必要か？",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "2．デバイス感染の場合",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "a．定義",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "b．病態",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "c．診断",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "d．治療方針",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "e．デバイス再植込み術の時期",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "3．右心系のIE について",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "4．妊娠中のIE について",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "5．非細菌性血栓性心内膜炎（NBTE）について  ‥ 70 6．高齢者のIE について",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "付表",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "文献",
+      "start_page": 73,
+      "end_page": 73
+    }
+  ]
+}

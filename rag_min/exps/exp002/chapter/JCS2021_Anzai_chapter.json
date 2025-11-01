@@ -1,0 +1,421 @@
+{
+  "pdf_filename": "JCS2021_Anzai.pdf",
+  "created_at": "2025-11-01T11:23:47.389527",
+  "toc": [
+    {
+      "section_path": "1. 全人的苦痛の評価と緩和ケアの重要性",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.1 緩和ケアの定義",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.2 緩和ケアを提供する時期",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.3 包括的評価",
+      "start_page": 10,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.4 緩和ケアにおける意思決定",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "section_path": "1.5 循環器領域における緩和ケアの課題",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.6 おわりに",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2. アドバンス・ケア・プランニング（ACP）と 事前指示のあり方",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.1 ACP をめぐる概念の整理",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.2 緩和ケアにおけるACP の目的と 必要な要素",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "2.3 ACP の効用と害",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.4 ACP の実践方法",
+      "start_page": 18,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.5 緩和ケアにおける臨床倫理",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3.  予後予測モデル",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3.1 急性冠症候群（ACS）の予後予測モデル ‥ 22 3.2 心不全の予後予測モデル",
+      "start_page": 22,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.3 予後予測モデルの適用タイミングと 注意点",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "4. コミュニケーション",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.1 患者・家族とのコミュニケーション",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.2 基本的なコミュニケーションスキル",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.3 悪い知らせの伝え方",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "4.4 対応がむずかしい場合の コミュニケーション",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "4.5 医療従事者間における コミュニケーション",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "目次 5.  集中治療における意思決定支援",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "5.1 循環器疾患における終末期の特徴",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "5.2 循環器集中治療における末期状態と 終末期",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "5.3 終末期と判断した後の対応",
+      "start_page": 29,
+      "end_page": 30
+    },
+    {
+      "section_path": "患者・家族意思の有無による終末期における対応 30 5.4 医療チームの役割",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "6. 診療の質",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "6.1 診療の質とは",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "6.3 がん緩和ケアのquality indicator",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "6.4 循環器緩和ケアに特有の quality indicator",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "6.5 心不全緩和ケアのquality indicator",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "6.6 循環器緩和ケアの診療の質",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "7. 身体症状の評価とケア",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "7.1 末期心不全の症状緩和",
+      "start_page": 34,
+      "end_page": 35
+    },
+    {
+      "section_path": "7.2 治療抵抗性の苦痛への対処",
+      "start_page": 36,
+      "end_page": 38
+    },
+    {
+      "section_path": "図12 治療抵抗性の耐えがたい苦痛に対する鎮痛薬の投与 39 8. 精神症状の評価とケア",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "8.1 心不全における精神症状",
+      "start_page": 39,
+      "end_page": 41
+    },
+    {
+      "section_path": "8.2 精神症状が循環器疾患の 予後・意思決定に及ぼす影響",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "8.3 循環器疾患に合併する精神症状の マネジメント",
+      "start_page": 43,
+      "end_page": 46
+    },
+    {
+      "section_path": "9. 多職種チームビルディング",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "9.1 多職種チーム構成",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "9.2 各職種の役割",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "section_path": "9.3 多職種チーム医療の実践",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "9.4 多職種チームの現状と課題",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "10. 在宅医療における緩和ケアのあり方",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "10.1 在宅医療と地域社会資源の活用",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "10.2 病診連携",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "10.3 社会的苦痛",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "10.4 身体的苦痛",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "1. 心不全",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "1.1 心不全における緩和ケアについて",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "section_path": "1.2 Stage D の診断，治療について",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.3 Stage D の患者に対する積極的治療と 緩和ケアの両立について",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.4 Stage D の患者に対する植込み型 左室補助人工心臓",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "section_path": "2. 不整脈",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2.1 ICD 患者における精神的問題と 緩和ケア",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2.2 終末期患者におけるCIED 治療と ICD 作動状況",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.3 CIED 植え込み例での終末期状態への 対応",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "section_path": "3. 虚血性心疾患・末梢血管疾患",
+      "start_page": 59,
+      "end_page": 60
+    },
+    {
+      "section_path": "3.1 急性冠症候群（ACS）における緩和ケア 59 3.2 下肢閉塞性動脈硬化症（ASO）",
+      "start_page": 61,
+      "end_page": 62
+    },
+    {
+      "section_path": "4. 弁膜症",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "® の医学的治療の 有益性・無益性の検討",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "section_path": "4.2 Shared decision making の重要性",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "4.3 臨床倫理の重要性",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "4.4 積極的な治療と並行した緩和ケア",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "5. 高血圧・大動脈疾患",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "5.1 高血圧",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "5.2 大動脈疾患",
+      "start_page": 67,
+      "end_page": 68
+    },
+    {
+      "section_path": "6.  肺高血圧症・成人先天性心疾患",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "6.1 肺高血圧症",
+      "start_page": 69,
+      "end_page": 70
+    },
+    {
+      "section_path": "6.2 成人先天性心疾患",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "7. 脳卒中",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "7.1 脳卒中領域におけるケア",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "7.2 脳卒中による全脳の不可逆的な 機能不全",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "7.3 脳卒中による身体的・精神的問題， 社会的困難に対する緩和ケア",
+      "start_page": 72,
+      "end_page": 73
+    },
+    {
+      "section_path": "8. 薬物治療のポイント",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "8.1 緩和ケアで用いる薬",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "8.2 心不全時の薬物動態と注意点",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "目次 8.3 終末期患者におけるオピオイド",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "8.4 ポリファーマシーと減薬",
+      "start_page": 75,
+      "end_page": 76
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 77,
+      "end_page": 81
+    },
+    {
+      "section_path": "文献",
+      "start_page": 82,
+      "end_page": 82
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "pdf_filename": "JCS2021_Ohte.pdf",
+  "created_at": "2025-11-01T11:23:43.133522",
+  "toc": [
+    {
+      "section_path": "1. 推奨クラスとエビデンスレベル",
+      "start_page": 10,
+      "end_page": 11
+    },
+    {
+      "section_path": "1. 経胸壁3D 心エコードプラ法",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.1 画像収集と表示",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.2 評価",
+      "start_page": 12,
+      "end_page": 14
+    },
+    {
+      "section_path": "2. 経食道心エコードプラ法",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.1 概要",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.2 検査手技",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.3 適応と禁忌",
+      "start_page": 16,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.4 3D 経食道心エコー法",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.5 術中経食道心エコー法",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "な場合に，経食道心エコー法（TEE）を施行し なくてもよいのか？",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3. 負荷心エコー法",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3.1 適応",
+      "start_page": 21,
+      "end_page": 23
+    },
+    {
+      "section_path": "3.2 判読",
+      "start_page": 24,
+      "end_page": 25
+    },
+    {
+      "section_path": "4. 経胸壁冠動脈ドプラ法",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.1 冠血流速波形の計測項目",
+      "start_page": 26,
+      "end_page": 27
+    },
+    {
+      "section_path": "4.2 左内胸動脈グラフト血流とその計測項目",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "5. コントラスト心エコー法（心腔）",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "5.1 心腔造影",
+      "start_page": 28,
+      "end_page": 29
+    },
+    {
+      "section_path": "1. 症状から",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.1 息切れ",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.2 胸痛",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.3 めまい，失神",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.4 動悸",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.5 浮腫",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.6 ショック",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2. 症候から",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.1 心拡大（胸部単純X 線写真における 心陰影の異常）",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.2 心電図異常",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2.3 血液検査値異常",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1. 心機能評価",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2. 左室収縮機能の評価",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2.1 適応",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2.2 判読",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "2.3 左室壁運動スコア指数（WMSI）",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "収縮期僧帽弁輪移動距離［MAPSE］） ‥ 35 2.5 左室圧増加率（dP/dt）",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "循環器超音波検査の適応と判読ガイドライン 3. 左室拡張機能の評価",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.1 適応",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.2 判読",
+      "start_page": 35,
+      "end_page": 36
+    },
+    {
+      "section_path": "を認めない症例における左室拡張機能の 評価",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "存在が明らかな症例における左室充満圧の 推定と拡張機能分類",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "3.5  E/A やE/e' が適用できない病態",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "3.6 左室拡張機能指標による予後予測",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "4. 肺高血圧症の評価",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4.1 概要",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4.2 適応",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "表19 肺高血圧症を疑う場合の経胸壁心エコー法（TTE）39 4.3 判読",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5. 右心系の機能評価",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.1 概要",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5.2 適応と判読",
+      "start_page": 40,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.3 中心静脈圧の推定",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "1. 大動脈弁狭窄症（AS）",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1.1 概要",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1.2 重症度評価",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1.3 形態評価",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "1.4 心機能",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.5 負荷心エコー法",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.6 カテーテル治療に必要な情報",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.7 フォローアップ検査",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2. 大動脈弁閉鎖不全症/ 大動脈弁逆流症（AR） 45 2.1 概要",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.2 重症度評価",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.3 形態評価",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "2.4 心機能/ 心負荷評価",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "2.5 負荷心エコー法",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "2.6 フォローアップ検査",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "1. 僧帽弁狭窄症（MS）",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.1 適応",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.2 判読",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.3 負荷心エコー法",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.4 治療選択のための判読",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "2. 僧帽弁閉鎖不全症/ 僧帽弁逆流症（MR） ‥ 50 2.1 適応",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "2.2 判読",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "2.3 負荷心エコー法",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.4 治療選択のための判読",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "1. 概要と適応",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2. 判読",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2.1 重症度評価",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2.2 形態評価",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2.3 心機能/ 心負荷評価",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "2.4 負荷心エコー法",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "1. 概要",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2. 経胸壁心エコー法の適応",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2.1 生体弁（外科的置換術）",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.2 生体弁（経カテーテル留置術）",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.3 機械弁",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "表38 人工弁置換術例における経胸壁心エコー法（TTE）58 3. 経食道心エコー法の適応",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "表39 人工弁置換術例における経食道心エコー法（TEE）58 4. 判読",
+      "start_page": 58,
+      "end_page": 59
+    },
+    {
+      "section_path": "1. 適応",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "2. 判読",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1. 概要",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "1.1 診断",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2. 経胸壁心エコー法の適応と判読",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.1 心形態評価",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.2 心機能・血行動態・合併症評価",
+      "start_page": 61,
+      "end_page": 63
+    },
+    {
+      "section_path": "3. 経食道心エコー法の適応と判読",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "1. 適応",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2. 判読",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2.1 拡張型心筋症と鑑別すべき二次性心筋症",
+      "start_page": 65,
+      "end_page": 66
+    },
+    {
+      "section_path": "1. 心サルコイドーシス",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "1.1 適応",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "1.2 判読",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "2. 心アミロイドーシス",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.1 病態",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.2 適応と判読",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "3. 心ファブリー（Fabry）病",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "3.1 病態",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "3.2 適応",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "3.3 判読",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "4. 特発性拘束型心筋症",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "4.1 適応",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "4.2 判読",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "1. 概要",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "2. 適応",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "表52 たこつぼ症候群における経胸壁心エコー法（TTE）72 3. 判読",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "1. 適応",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "2. 判読",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "1. 適応",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "2. 判読",
+      "start_page": 75,
+      "end_page": 76
+    },
+    {
+      "section_path": "1. 急性冠症候群（ACS）",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "1.1 適応",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "1.2 判読",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "1.3 急性心筋梗塞発症後の評価",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "2. 慢性冠動脈疾患（慢性虚血性心疾患）",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "2.1 適応",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "2.2 判読",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "1. 概要",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "2. 適応",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "3. 判読",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "4. 診断に有用な他のモダリティー",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "4.1 CT",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "4.2 18F-FDG PET/CT",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "5. フォローアップ心エコー法の適応",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "1. 概要",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "2. 適応",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "表62 心臓腫瘍を疑ったときの経食道心エコー法（TEE）83 3. 判読",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "4. 診断に有用な他のモダリティー",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "4.1 CT",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "4.2 心臓MRI",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "4.3 18F-FDG PET",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "1. 概要",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "2. 適応",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "3. 判読",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "3.1 左室収縮機能",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "3.2 左室拡張機能",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1. 先天性心疾患の心エコー法診断の基本",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1.1 心エコー法施行前の準備",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1.2 心エコー法の実際",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "1.4 先天性心疾患における心エコー法所見の 正常値",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "2. 短絡（シャント）疾患の評価方法",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "2.1 適応",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "2.2 判読",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "3.1 修正大血管転位（corrected transposition of the great arteries）",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "3.2 エプスタイン病",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "3.3 動脈管開存（PDA）",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "3.4 心房中隔欠損",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "4. 二心室循環術後の評価のポイント",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "4.1 ファロー四徴症心内修復術後",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "4.2 完全大血管転位",
+      "start_page": 91,
+      "end_page": 93
+    },
+    {
+      "section_path": "4.3 総肺静脈還流異常術後",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "5. 単心室循環における評価のポイント",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "5.1 概要",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "5.2 適応",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "5.3 判読",
+      "start_page": 95,
+      "end_page": 96
+    },
+    {
+      "section_path": "5.4 未手術/ 肺動脈絞扼術後症例",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "5.5 BT シャント術後症例",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "5.6 両方向性グレン術後症例",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "5.7 フォンタン術後症例",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1. 大動脈病変",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "1.1 大動脈壁のアテローム",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "1.2 大動脈瘤",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "1.3 急性大動脈解離",
+      "start_page": 99,
+      "end_page": 104
+    },
+    {
+      "section_path": "1. 適応",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "付表　班構成員の利益相反(COI) に関する開示",
+      "start_page": 106,
+      "end_page": 109
+    },
+    {
+      "section_path": "文献",
+      "start_page": 110,
+      "end_page": 110
+    }
+  ]
+}

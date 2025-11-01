@@ -1,0 +1,796 @@
+{
+  "pdf_filename": "JCS2022_Ohuchi_Kawada.pdf",
+  "created_at": "2025-11-01T11:23:38.686870",
+  "toc": [
+    {
+      "section_path": "改訂の背景",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "対象疾患とその特殊性",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "改訂の基本方針と主な改訂事項",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "推奨クラスとエビデンスレベル",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1. 経過観察の必要性―内科的",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "1.3 術後経過観察",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2. 経過観察の必要性―外科的",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "2.1 人工材料の耐久性",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "2.2 術式の進歩",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "3. 遠隔期の管理と治療に必要な評価手段",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3.1 心電図",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3.2 心エコー法",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "3.3 CT，MRI",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.4 心臓カテーテル検査",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "3.5 バイオマーカー",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "section_path": "1. 心不全",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.1 病態",
+      "start_page": 21,
+      "end_page": 22
+    },
+    {
+      "section_path": "1.2 薬物治療",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "section_path": "1.3 非薬物治療",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.4 非同期および心臓再同期療法",
+      "start_page": 26,
+      "end_page": 27
+    },
+    {
+      "section_path": "表13 先天性心疾患患者に対する心臓再同期療法（CRT）26 1.5 先天性心疾患術後の特殊性",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2. 肺高血圧症",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2.1 病態，分類",
+      "start_page": 28,
+      "end_page": 29
+    },
+    {
+      "section_path": "2.2 薬物治療",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.3 先天性心疾患術後の特殊性",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "3. 不整脈，突然死",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "3.1 病態",
+      "start_page": 32,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.2 先天性疾患の特殊性",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.3 薬物治療",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.4 非薬物治療",
+      "start_page": 36,
+      "end_page": 39
+    },
+    {
+      "section_path": "4. 生活習慣病",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "4.1 病態と管理",
+      "start_page": 40,
+      "end_page": 43
+    },
+    {
+      "section_path": "4.2 先天性心疾患の特殊性",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "5. aortopathy",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "5.1 病態と管理",
+      "start_page": 44,
+      "end_page": 46
+    },
+    {
+      "section_path": "1. 感染性心内膜炎",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.1 発症率と予後による分類",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "section_path": "1.3 口腔内衛生と生活指導",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.4 診断",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "先天性心疾患術後遠隔期の管理・侵襲的治療に関するガイドライン 1.5 治療",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2. 運動",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.1 運動能力の評価法",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "2.2 先天性心疾患患者の運動能力",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "2.3 運動と不整脈",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "2.4 運動心肺指標とその臨床的意義",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "section_path": "2.5 心臓リハビリテーションを含む治療として の運動",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "3. 妊娠，出産",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4. 移行医療",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.1 移行医療とは",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.2 国内外の動向",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "4.3 移行医療の考え方",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "4.4 移行の現状と課題",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "4.5 移行時期",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "5. 診療体制",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "5.1 診療体制の必要性と現状",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "5.2 診療体制の活用",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "6. 移植",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.2 疾患別の治療戦略",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7. 緩和医療，終末期医療",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "7.1 緩和ケアの展開：がんから心不全，そして 成人先天性心疾患へ",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "7.2 先天性心疾患の緩和ケア",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "7.3 アドバンス・ケア・プランニング",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "7.4 成人先天性心疾患の特殊性",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "7.5 まとめ：チーム医療によるサポート体制",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8. 看護",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.1 疾患理解とセルフケアの促し",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.2 意思決定支援",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.3 家族支援",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "8.4 相談，調整",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "8.5 看護相談，看護外来",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "1. 心房中隔欠損，心室中隔欠損，動脈管開存 ‥ 63 1.1 心房中隔欠損",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "1.2 心室中隔欠損",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "1.3 動脈管開存",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "2. 房室中隔欠損",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2.1 解剖学的特徴",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2.2 心内修復術",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2.3 術後の管理",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2.4 術後の再侵襲的治療",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "3. 総肺静脈還流異常",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "3.1 修復術の種類",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "3.2 術後合併症とその管理，治療",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "4. 肺動脈狭窄，右室流出路狭窄",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "4.1 肺動脈弁性狭窄",
+      "start_page": 69,
+      "end_page": 70
+    },
+    {
+      "section_path": "4.2 単独肺動脈弁性狭窄術後の肺動脈弁逆流",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "4.3 肺動脈弁上狭窄，分枝肺動脈狭窄",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "4.4 右室流出路狭窄，右室二腔",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5. Ebstein 病",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5.1 解剖学的特徴",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5.2 修復手術",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "5.3 術後の遠隔期予後",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "5.4 内科的管理",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "5.5 遠隔期の侵襲的治療",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "6. Fallot 四徴",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "6.1 心内修復術",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "6.2 術後の管理",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "6.3 術後の合併症への対応",
+      "start_page": 74,
+      "end_page": 75
+    },
+    {
+      "section_path": "7. 両大血管右室起始",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "7.1 解剖学的特徴",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "7.2 二心室修復",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "7.3 術後の遠隔期予後",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "7.4 術後の侵襲的治療",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "8. 完全大血管転位",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "8.1 心房内血流転換術",
+      "start_page": 79,
+      "end_page": 81
+    },
+    {
+      "section_path": "8.2 大動脈スイッチ手術後遠隔期の合併症 ‥ 80 9. 修正大血管転位",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "9.1 解剖学的特徴",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "9.2 非手術例の予後",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "9.3 手術治療",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "9.4 術後遠隔期の予後",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "先天性心疾患術後遠隔期の管理・侵襲的治療に関するガイドライン 9.5 術後遠隔期の管理",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "9.6 経過観察での検査方法",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "9.7 遠隔期の再侵襲的治療",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "10. 大動脈縮窄，大動脈弓離断",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "10.1 解剖学的特徴",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "10.2 初回修復術",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "10.3 術後の管理",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "10.4 術後の再侵襲的治療",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "11. 総動脈幹",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "11.1 解剖と分類",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "11.2 臨床経過",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "11.3 手術治療",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "11.4 術後の経過観察と治療",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "12. 心外導管を用いた手術",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "12.1 心外導管の材質",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "12.2 術後経過",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "12.3 遠隔期管理",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "12.4 心外導管機能不全と病態生理",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "12.5 心外導管機能不全への対応",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "12.6 予後",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "12.7 古典的二心室修復術後の心外導管機能不全",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "12.8 Ross 手術後の右室- 肺動脈心外導管機能 不全",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "13. Fontan 手術",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "13.1 解剖と術式",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "13.2 病態生理",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "13.3 術後合併症の管理と治療",
+      "start_page": 92,
+      "end_page": 95
+    },
+    {
+      "section_path": "13.4 生活習慣の管理，運動",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "14. 左心低形成症候群",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "14.1 解剖学的特徴",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "14.2 心内修復術",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "14.3 術後遠隔期の合併症の治療",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "15. 未修復，チアノーゼ",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "15.1 赤血球増加症",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "15.2 出血，凝固異常",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "15.3 腎合併症",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "15.4 冠動脈異常，心筋障害",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "15.5 骨の異常",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "15.6 脳膿瘍",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "閉鎖不全",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "16.1 術式と術後遠隔期の管理",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "16.2 遠隔期の検査",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "16.3 遠隔期の内科治療",
+      "start_page": 101,
+      "end_page": 102
+    },
+    {
+      "section_path": "17. 僧帽弁狭窄，僧帽弁閉鎖不全",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "17.1 術式と術後遠隔期の管理",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "17.2 遠隔期の検査",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "17.3 遠隔期の内科治療",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "18. 冠動脈異常",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "18.1 冠動脈起始異常",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "18.2 冠動脈瘻",
+      "start_page": 106,
+      "end_page": 107
+    },
+    {
+      "section_path": "付表　先天性心疾患術後遠隔期の管理・侵襲的治療に関するガイドライン：班構成員の利益相反（COI）に関する開示 ‥ 107 文献",
+      "start_page": 108,
+      "end_page": 108
+    }
+  ]
+}

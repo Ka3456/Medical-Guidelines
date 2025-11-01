@@ -1,0 +1,276 @@
+{
+  "pdf_filename": "JCS2024_Imai.pdf",
+  "created_at": "2025-11-01T11:23:39.851302",
+  "toc": [
+    {
+      "section_path": "1．遺伝学的検査と遺伝カウンセリング",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2．本ガイドラインの適用範囲",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "3．推奨クラスとエビデンスレベル",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1．遺伝学的検査の留意点",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "遺伝子医療研究センター 略語一覧",
+      "start_page": 6,
+      "end_page": 9
+    },
+    {
+      "section_path": "目次 2．遺伝学的検査の伝え方",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "3．個人情報の保護",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "4．遺伝情報を扱う研究において 留意すべき指針など",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "1．遺伝学的検査の目的",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2．遺伝学的検査の有用性・留意点",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3．循環器診療部門と遺伝子医療部門の 協働による遺伝学的検査の実施",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "4．遺伝学的検査の実施状況に応じた区分",
+      "start_page": 14,
+      "end_page": 15
+    },
+    {
+      "section_path": "1．遺伝学的検査の方法",
+      "start_page": 16,
+      "end_page": 20
+    },
+    {
+      "section_path": "2．遺伝学的検査の実施体制",
+      "start_page": 21,
+      "end_page": 23
+    },
+    {
+      "section_path": "1．循環器専門医による遺伝学的検査の提出",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "2．遺伝カウンセリング",
+      "start_page": 25,
+      "end_page": 29
+    },
+    {
+      "section_path": "1．心臓血管疾患をもつ女性における 妊娠前遺伝カウンセリングの概要",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2．プレコンセプションケア",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "3．プレコンセプションケアの目的",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4．心臓血管疾患をもつ女性の 妊娠前遺伝カウンセリング",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "5．心臓血管疾患をもつ女性における妊娠前 遺伝カウンセリングの一般的注意事項",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "6．各疾患群の妊娠前遺伝カウンセリングの 注意点",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "7．出生前検査および診断の種類",
+      "start_page": 34,
+      "end_page": 35
+    },
+    {
+      "section_path": "1．染色体異常",
+      "start_page": 36,
+      "end_page": 47
+    },
+    {
+      "section_path": "2．遺伝子の病的バリアントによる 先天性心疾患",
+      "start_page": 48,
+      "end_page": 50
+    },
+    {
+      "section_path": "3．非症候群性先天性心疾患",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "1．肥大型心筋症（HCM）",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "section_path": "2．拡張型心筋症（DCM）",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "section_path": "3．不整脈原性右室心筋症（ARVC）",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "4．その他の心筋症",
+      "start_page": 57,
+      "end_page": 59
+    },
+    {
+      "section_path": "1．QT 延長症候群（LQTS）",
+      "start_page": 60,
+      "end_page": 61
+    },
+    {
+      "section_path": "2．その他の不整脈",
+      "start_page": 62,
+      "end_page": 64
+    },
+    {
+      "section_path": "1．症候群性遺伝性大動脈疾患",
+      "start_page": 65,
+      "end_page": 70
+    },
+    {
+      "section_path": "2．非症候群性大動脈瘤・解離（家族性胸部 大動脈瘤・解離［FTAAD］）",
+      "start_page": 71,
+      "end_page": 72
+    },
+    {
+      "section_path": "3．血管炎，末梢動脈疾患",
+      "start_page": 73,
+      "end_page": 74
+    },
+    {
+      "section_path": "1．器質的冠動脈疾患（冠動脈硬化性心疾患）",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "2．機能的冠動脈疾患",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "3．虚血性心疾患における 多遺伝子リスクスコア（PRS）",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "1．診断分類と遺伝学的検査",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "2．PAH 関連遺伝子",
+      "start_page": 78,
+      "end_page": 80
+    },
+    {
+      "section_path": "3．肺高血圧症専門施設と診療体制",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "1．疾患概念",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "2．遺伝性血栓性素因のスクリーニング検査",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "3．遺伝学的検査",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "4．遺伝子診断上の留意点",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "5．患者および家族への説明",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "1．家族性高コレステロール血症（FH）",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "2．FH の原因遺伝子",
+      "start_page": 84,
+      "end_page": 85
+    },
+    {
+      "section_path": "3．FH の診断",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "4．FH における遺伝カウンセリング",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "5．FH の治療",
+      "start_page": 87,
+      "end_page": 88
+    },
+    {
+      "section_path": "付表1　循環器遺伝医療の実践",
+      "start_page": 89,
+      "end_page": 90
+    },
+    {
+      "section_path": "付表2　班構成員の利益相反（COI）に関する開示",
+      "start_page": 91,
+      "end_page": 94
+    },
+    {
+      "section_path": "文献",
+      "start_page": 95,
+      "end_page": 95
+    }
+  ]
+}

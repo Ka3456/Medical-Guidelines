@@ -1,0 +1,706 @@
+{
+  "pdf_filename": "JCS2020_Ono.pdf",
+  "created_at": "2025-11-01T11:23:48.513730",
+  "toc": [
+    {
+      "section_path": "1． ガイドライン作成の背景（わが国における 薬物治療の現状）",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2． ガイドライン作成の基本方針",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "3. 推奨とエビデンスレベル",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "1. 不整脈の発生機序（異常自動能，撃発活動， リエントリー）",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.1 異常自動能",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1.2 撃発活動（triggered activity）",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.3 リエントリー",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "（Vaughan Williams 分類，Sicilian Gambit の考え方）",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.1 Vaughan Williams 分類",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "目次 2.2 Sicilian Gambit の考え方",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.3 抗不整脈薬の作用機序",
+      "start_page": 15,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.4 最近の考え方",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3. 薬物動態と薬力学 （吸収・分布・代謝・排泄）",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.1 薬物動態とは",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.2 吸収",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "3.3 分布",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "3.4 代謝",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3.5 排泄",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3.6 特殊病態",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.7 薬物血中濃度モニタリング",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "4． 薬物の副作用とその対策 （薬剤性QT 延長症候群を除く）",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "4.1 陰性変力作用による心不全発現",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "4.2 催不整脈作用",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "4.3 心外性副作用",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "1. 病態・臨床的意義",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "2. 治療の基本的な考え方",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3. 薬物治療の実際",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.1 アトロピン",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.2 交感神経作動薬",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.3 テオフィリン",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.4 シロスタゾール",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1. 上室期外収縮",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1.1 病態・臨床的意義",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1.2 薬物治療の実際",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "2． 心室期外収縮",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2.1 心室期外収縮患者のリスク評価",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2.2 特発性心室期外収縮",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2.3 器質的心疾患に伴う心室期外収縮",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1. narrow QRS tachycardia の薬物による 鑑別診断",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "不整脈薬物治療ガイドライン 2. 発作の停止",
+      "start_page": 29,
+      "end_page": 30
+    },
+    {
+      "section_path": "3. 発作の予防",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4. 特殊な上室頻拍",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "4.1 マハイム束による房室回帰頻拍",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "4.2 接合部頻拍（非リエントリー性）",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1. 心房細動の疫学・病態生理・ 電気生理学的機序",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "1.1 心房細動の疫学",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "1.2 心房細動の病態生理",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "1.3 心房細動の電気生理学的機序",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "2. 診断および治療の基本方針",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "2.1 心房細動の分類",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "2.2 心房細動の自覚症状，潜因性脳梗塞， 塞栓源不明脳塞栓症",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "2.3 心房細動の検出",
+      "start_page": 38,
+      "end_page": 39
+    },
+    {
+      "section_path": "2.4 心房細動の包括的管理",
+      "start_page": 40,
+      "end_page": 41
+    },
+    {
+      "section_path": "2.5 併存疾患の管理",
+      "start_page": 42,
+      "end_page": 43
+    },
+    {
+      "section_path": "3. 抗凝固療法",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "3.1 リスク評価（塞栓症リスク・ 出血リスク）",
+      "start_page": 44,
+      "end_page": 50
+    },
+    {
+      "section_path": "3.2 DOAC とワルファリン",
+      "start_page": 51,
+      "end_page": 54
+    },
+    {
+      "section_path": "3.3 除細動時の抗凝固療法",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "3.4 周術期（抜歯，消化管内視鏡， 外科手術など）の抗凝固療法",
+      "start_page": 56,
+      "end_page": 59
+    },
+    {
+      "section_path": "3.5 虚血性心疾患合併心房細動の 抗血栓療法",
+      "start_page": 60,
+      "end_page": 62
+    },
+    {
+      "section_path": "3.6 出血時の対応（止血・中和薬など）",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "section_path": "4. 心拍数調節療法",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "4.1 急性期",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "4.2 慢性期の経口薬",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "4.3 心拍数調節における目標心拍数",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "5. 洞調律維持療法",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "5.1 心房細動の停止（除細動）",
+      "start_page": 68,
+      "end_page": 71
+    },
+    {
+      "section_path": "5.2 心房細動の再発予防",
+      "start_page": 72,
+      "end_page": 74
+    },
+    {
+      "section_path": "6. アップストリーム治療",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "6.1 ACE 阻害薬とARB",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "6.2 アルドステロン拮抗薬",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "6.3 スタチン",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "6.4 β遮断薬",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "6.5 まとめ",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "7． 非薬物治療の適応とタイミング",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "7.1 症候性心房細動に対する カテーテルアブレーション",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "7.2 心不全（左室機能低下）を伴う心房細動に 対するカテーテルアブレーション",
+      "start_page": 77,
+      "end_page": 78
+    },
+    {
+      "section_path": "7.3 徐脈頻脈症候群に対する カテーテルアブレーション",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "7.4 高齢者の心房細動に対する カテーテルアブレーション",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "7.5 無症候性心房細動に対する カテーテルアブレーション",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "7.6 心拍数コントロール困難な心房細動に 対する房室ブロック作成術",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "7.7 徐脈性心房細動に対する ペースメーカ植込み",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "1. 心房頻拍",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "1.1 病態",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "1.2 治療",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "2. 心房粗動",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "2.1 病態",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "2.2 治療",
+      "start_page": 82,
+      "end_page": 85
+    },
+    {
+      "section_path": "1. 疫学・病態生理・電気生理学的機序",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1.1 疫学",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "1.2 病態生理・電気生理学的機序",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2. 特発性心室頻拍",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "表56 特発性心疾患に合併した心室頻拍に対する治療薬 89 2.1 発作の停止と予防",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.2 根治を見据えた治療法",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "3. 器質的心疾患に合併する心室頻拍",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "3.1 発作の停止",
+      "start_page": 88,
+      "end_page": 90
+    },
+    {
+      "section_path": "3.2 発作の予防",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "4. QT 延長を伴わない多形性心室頻拍",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "4.1 多形性心室頻拍の停止",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "4.2 short coupled TdP の再発予防",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "1. 先天性QT 延長症候群",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "1.1 TdP 発生時の急性期治療",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "1.2 TdP 予防的治療",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "1.3 TdP 急性期治療",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "2. 二次性QT 延長症候群",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "1. ブルガダ症候群・早期再分極症候群",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.1 ブルガダ症候群",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.2 早期再分極症候群",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "2. カテコラミン誘発多形性心室頻拍",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "2.1 治療",
+      "start_page": 99,
+      "end_page": 100
+    },
+    {
+      "section_path": "3. その他の遺伝性不整脈 （QT 短縮症候群など）",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "3.1 QT 短縮症候群",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "3.2 薬物治療",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "1. 治療",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "2. 抗不整脈治療",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "2.1 アミオダロン注射薬",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "2.2 ニフェカラント",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "2.3 リドカイン",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "2.4 β遮断薬",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "3. 心拍再開後の抗不整脈薬治療",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "1. narrow QRS 頻拍",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "1.1 不整脈の機序と診断",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "不整脈薬物治療ガイドライン 1.2 治療",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "1.3 発作性上室頻拍の各論",
+      "start_page": 107,
+      "end_page": 110
+    },
+    {
+      "section_path": "2. wide QRS 頻拍",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "2.1 血行動態が不安定な場合",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "2.2 血行動態が安定している場合",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "2.3 心室頻拍の疾患各論",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "3. 先天性心疾患患者における不整脈",
+      "start_page": 112,
+      "end_page": 113
+    },
+    {
+      "section_path": "3.1 心房性不整脈",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "3.2 心室性不整脈",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "3.3 単心室およびフォンタン術後",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "1. 上室期外収縮，心室期外収縮",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "2. 上室頻拍",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "3. 心房細動，心房粗動",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "4. 心室頻拍",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "5. 遺伝性不整脈疾患",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "6. 徐脈性不整脈",
+      "start_page": 116,
+      "end_page": 125
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 126,
+      "end_page": 130
+    },
+    {
+      "section_path": "文献",
+      "start_page": 131,
+      "end_page": 131
+    }
+  ]
+}

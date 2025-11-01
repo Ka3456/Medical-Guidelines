@@ -1,0 +1,1136 @@
+{
+  "pdf_filename": "JCS2025_Yamagishi.pdf",
+  "created_at": "2025-11-01T11:23:44.596543",
+  "toc": [
+    {
+      "section_path": "改訂の基本方針と主な改訂事項",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "推奨クラスとエビデンスレベル",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1. 先天性心疾患の発生頻度",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "2. 先天性心疾患の死亡率",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "略語一覧",
+      "start_page": 11,
+      "end_page": 13
+    },
+    {
+      "section_path": "目次 3. 成人先天性心疾患の発生頻度",
+      "start_page": 14,
+      "end_page": 15
+    },
+    {
+      "section_path": "1. 不整脈",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.1 不整脈の検出方法",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.2 徐脈性不整脈",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.3 頻脈性不整脈",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.4 心室不整脈と突然死",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2. 心不全",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.1 心不全の定義",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.2 分類と評価",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.3 症状",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.4 成人先天性心疾患に特有の心不全",
+      "start_page": 20,
+      "end_page": 21
+    },
+    {
+      "section_path": "3. 感染性心内膜炎",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.1 基礎心疾患別リスク",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.2 症状",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.3 診断",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.4 治療",
+      "start_page": 22,
+      "end_page": 23
+    },
+    {
+      "section_path": "3.5 予防と生活指導",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "4. チアノーゼ型先天性心疾患にみられる 全身系統的異常",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "4.1 血液学的異常",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "4.2 中枢神経系合併症",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "4.3 出血性合併症",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.4 血栓性合併症",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.5 腎機能異常",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.6 冠動脈を含む末梢血管の血管拡張・増生 26 4.7 感染",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.8 高尿酸血症，痛風性関節炎",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "4.9 四肢，長管骨の異常（ばち指， 肥厚性骨関節症）",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "4.10  ビリルビン代謝異常（胆石症，胆嚢炎） 27 4.11  褐色細胞腫，パラガングリオーマ",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "4.12  その他，合併症リスク軽減対策",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "5.1 遺残症",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "5.2 続発症",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "成人先天性心疾患診療ガイドライン 5.3 合併症",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "1. 病歴，診察，身体所見",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "1.1 病歴",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "1.2 身体所見",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "2. 心エコー検査",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.1 TTE",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.2 TEE",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2.3 コントラストエコー",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2.4 三次元心エコー/ スペックルトラッキング心エコー",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "3. CPET",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "3.1 CPET による運動能力の評価法",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.2 CPET と成人先天性心疾患患者の 予後との関連",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.3 心臓リハビリテーションを含む 治療としての運動",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4. MRI，CT，RI",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.1 心臓MRI",
+      "start_page": 35,
+      "end_page": 36
+    },
+    {
+      "section_path": "4.2 心血管CT",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "4.3 RI",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5. 心臓カテーテル検査，EPS",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.1 心臓カテーテル検査",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.2 EPS",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.3 カテーテル検査，EPS において 注意すべき合併症",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "1. 心不全治療（薬物）",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "1.1 HFrEF（体心室右室機能低下を含む）の 薬物治療",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "1.2 HFpEF の薬物治療",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "1.3 その他の薬物治療",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "2. 不整脈治療",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "2.1 薬物治療",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "2.2 CA",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "目次 2.3 CIEDs",
+      "start_page": 44,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.4 外科治療",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3. PH，Eisenmenger 症候群",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.1 疫学",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.2 成人先天性心疾患に伴うPH の分類",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.3 診断",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "成人先天性心疾患– 肺高血圧診断のフローチャート 49 3.4 治療",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.5 遺伝子異常",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "4. カテーテル治療",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "4.1 ASD",
+      "start_page": 48,
+      "end_page": 49
+    },
+    {
+      "section_path": "4.2 PR",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "section_path": "4.3 PDA",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.4 房室弁逆流（僧帽弁およびTR）",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2. 母体循環変化と心血管合併症",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "3. 避妊",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1. 月経困難症",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "2. 不妊症",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "1. 発生頻度",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2. 遺伝的要因",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2.1 染色体異常",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.2 単一遺伝子病・症候群",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.3 環境的要因",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "成人先天性心疾患診療ガイドライン 2.4 多因子遺伝",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "3. 同胞発生の頻度",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "4. 親子間の発生頻度",
+      "start_page": 58,
+      "end_page": 59
+    },
+    {
+      "section_path": "5. 遺伝カウンセリングの実際",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "5.1 多因子遺伝の先天性心疾患の再発率",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "5.2 染色体異常・先天異常症候群を 原因とする先天性心疾患の再発率",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "先天性心疾患の再発率",
+      "start_page": 60,
+      "end_page": 61
+    },
+    {
+      "section_path": "1. 社会的自立",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2. 生命保険",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "3. 医療費助成と社会保障制度",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.1 社会福祉制度",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.2 医療保険・医療保障制度",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.3 所得保障制度",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "4. 就業（就職支援，就労継続支援）",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "4.1 就職支援",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "4.2 障害者雇用",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "4.3 就労継続",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "5. 恋愛，結婚，妊娠，出産， プレコンセプションケア，育児",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "1. 成人期初回手術（主なもの）",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "1.1 非チアノーゼ型心疾患",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "1.2 チアノーゼ型心疾患",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2. 再手術",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.1 再手術適応と術式（主なもの）",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "2.2 不整脈，術中アブレーション",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "3. 術後予後",
+      "start_page": 68,
+      "end_page": 69
+    },
+    {
+      "section_path": "1. 二心室形態を有する先天性心疾患の 心臓移植適応",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "2. 特殊な病態（Eisenmenger 症候群）",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "目次 3. Fontan 循環不全",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "4. 機械的循環補助",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5. 多臓器移植",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "1. リスク評価",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "1.1 基礎心疾患",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "2. IE の予防",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "3. 高リスク症例",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "3.1 複雑型先天性心疾患の自然歴または残存 病変によりチアノーゼを有する場合",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "3.2 PH を有する患者",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "3.3 Fontan 術後の患者",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "3.4 人工弁置換術後，抗凝固療法・ 抗血小板療法中の患者",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "1. 周術期合併症に影響をおよぼす因子",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "2. 麻酔",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "2.1 術前（麻酔前）評価",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "2.2 術中麻酔管理",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "2.3 術後管理",
+      "start_page": 74,
+      "end_page": 78
+    },
+    {
+      "section_path": "1. 成人移行支援の概念",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "2. 成人移行支援の内容",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "3. 成人移行支援の提供体制",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "1. VSD",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "1.1 概要",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "1.2 診断",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "1.3 治療，予後",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "2. ASD",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "2.1 背景",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "成人先天性心疾患診療ガイドライン 2.2 臨床所見",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "2.3 検査所見",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "2.4 自然予後",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "2.5 治療，管理",
+      "start_page": 84,
+      "end_page": 85
+    },
+    {
+      "section_path": "3. PFO と医原性ASD",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "3.1 PFO",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "3.2 医原性ASD",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4. AVSD",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4.1 解剖学的特徴と病態生理",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4.2 臨床所見",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4.3 検査所見",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4.4 予後",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "4.5 治療，管理",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "5. PDA",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "5.1 PDA の特徴",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "5.2 検査所見",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "5.3 治療，管理",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "右室二腔症，弁狭窄，弁下狭窄，弁上狭窄 ‥ 89 6.1 概要",
+      "start_page": 89,
+      "end_page": 90
+    },
+    {
+      "section_path": "6.2 診断",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "6.3 治療，予後",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "7. 左室流出路狭窄性疾患： BAV，弁下狭窄，弁上狭窄，CoA",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "7.1 弁性大動脈弁狭窄・大動脈二尖弁",
+      "start_page": 92,
+      "end_page": 93
+    },
+    {
+      "section_path": "7.2 大動脈弁下狭窄",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7.3 大動脈弁上狭窄",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7.4 単純型CoA",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "8. 先天性MS・MR",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "8.1 概要",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "8.2 診断",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "8.3 治療，予後",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "9. Ebstein 病",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "9.1 概要",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "9.2 診断",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "9.3 治療，予後",
+      "start_page": 97,
+      "end_page": 98
+    },
+    {
+      "section_path": "10. ccTGA",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "10.1 概要",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "10.2 診断",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "10.3 治療，予後",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "11. 先天性冠動脈異常",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "11.1 左冠動脈肺動脈起始",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "11.2 右冠動脈肺動脈起始",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "11.3 冠動脈対側大動脈洞起始",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "11.4 冠動脈瘻",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "12. 大動脈拡張性疾患",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "12.1 症候群性・非症候群性家族性大動脈瘤・ 解離",
+      "start_page": 102,
+      "end_page": 104
+    },
+    {
+      "section_path": "1. TOF",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "1.1 概要",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "1.2 診断",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "1.3 治療，予後",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "2. CoA（複合），IAA 術後",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "2.1 概要",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "2.2 診断",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "section_path": "2.3 治療，予後",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "section_path": "3. TGA，大動脈スイッチ術後",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "3.1 AR の管理",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "3.2 大動脈基部拡大の管理",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "3.3 右室流出路狭窄の管理",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "3.4 心筋虚血の管理",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "4. TGA，心房位変換術後",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "4.1 解剖学的特徴と病態生理",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "4.2 臨床所見",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "4.3 予後",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "4.4 管理",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "5. 心外導管手術術後: PAVSD，PTA，DORV",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "5.1 概要",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "5.2 診断",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "5.3 治療，予後",
+      "start_page": 114,
+      "end_page": 115
+    },
+    {
+      "section_path": "6.  Fontan 手術後（単心室，純型肺動脈弁閉鎖， TA，左室低形成）",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "成人先天性心疾患診療ガイドライン 6.1 概要",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "6.2 診断",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "6.3 治療，予後",
+      "start_page": 117,
+      "end_page": 118
+    },
+    {
+      "section_path": "7. Fontan 関連肝疾患",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "7.1 Fontan 関連肝疾患の定義と 組織学的特徴",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "7.2 FALD の頻度，リスク因子，予後",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "section_path": "7.4 肝細胞癌のサーベイランス",
+      "start_page": 121,
+      "end_page": 121
+    },
+    {
+      "section_path": "1. TOF",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "section_path": "2. PAVSD，MAPCA",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "section_path": "2.1 概要",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "section_path": "2.2 診断",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "2.3 予後",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "3.  単心室血行動態，肺動脈閉鎖・狭窄",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "3.1 概要",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "3.2 診断",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "3.3 治療，予後",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "4. 無脾・多脾症候群",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "5. TA",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "6. TAPVC",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "7. VSD，PS を伴うccTGA",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 125,
+      "end_page": 126
+    },
+    {
+      "section_path": "文献",
+      "start_page": 127,
+      "end_page": 127
+    }
+  ]
+}

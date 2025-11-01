@@ -1,0 +1,231 @@
+{
+  "pdf_filename": "JCS2014_shimokawa_h.pdf",
+  "created_at": "2025-11-01T11:23:49.686748",
+  "toc": [
+    {
+      "section_path": "I．序文",
+      "start_page": 5,
+      "end_page": 5
+    },
+    {
+      "section_path": "1．ガイドライン作成の背景および目的",
+      "start_page": 5,
+      "end_page": 5
+    },
+    {
+      "section_path": "2．ガイドライン作成の基本方針",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "II．総論",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "1．災害と循環器疾患",
+      "start_page": 7,
+      "end_page": 8
+    },
+    {
+      "section_path": "2．災害とストレス",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2.1 急性期・亜急性期",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2.2 慢性期",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "3．災害と環境因子",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "3.1 避難所の環境",
+      "start_page": 11,
+      "end_page": 13
+    },
+    {
+      "section_path": "3.2 食生活の変化",
+      "start_page": 14,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.3 睡眠障害",
+      "start_page": 18,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.4 薬剤の不足・内服薬の情報",
+      "start_page": 21,
+      "end_page": 26
+    },
+    {
+      "section_path": "付録 災害時の健康被害調査",
+      "start_page": 27,
+      "end_page": 29
+    },
+    {
+      "section_path": "III．災害時循環器疾患の管理",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1．被災者への対応",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.1 心血管リスク評価",
+      "start_page": 30,
+      "end_page": 34
+    },
+    {
+      "section_path": "1.2 災害時診療",
+      "start_page": 35,
+      "end_page": 39
+    },
+    {
+      "section_path": "2．災害と心血管病 （発災急性期の予防および多発時の管理）",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "2.1 心不全",
+      "start_page": 40,
+      "end_page": 41
+    },
+    {
+      "section_path": "2.2 急性冠症候群",
+      "start_page": 42,
+      "end_page": 44
+    },
+    {
+      "section_path": "2.3 突然死",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.4 たこつぼ型心筋症",
+      "start_page": 47,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.5 不整脈",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "section_path": "2.6 クラッシュ症候群",
+      "start_page": 52,
+      "end_page": 55
+    },
+    {
+      "section_path": "3．災害と血管病 （発災時の予防および多発時の管理）",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.1 脳卒中",
+      "start_page": 56,
+      "end_page": 57
+    },
+    {
+      "section_path": "3.2 高血圧",
+      "start_page": 58,
+      "end_page": 59
+    },
+    {
+      "section_path": "3.3 下肢深部静脈血栓症・肺塞栓症",
+      "start_page": 60,
+      "end_page": 65
+    },
+    {
+      "section_path": "4．災害と感染症",
+      "start_page": 66,
+      "end_page": 68
+    },
+    {
+      "section_path": "5．災害と精神疾患",
+      "start_page": 69,
+      "end_page": 71
+    },
+    {
+      "section_path": "IV．災害時循環器疾患の予防",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "1．災害に伴うストレスに対する介入",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "1.1 急性期・亜急性期",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "1.2 慢性期",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "2．医療従事者・医療機関の確保",
+      "start_page": 73,
+      "end_page": 76
+    },
+    {
+      "section_path": "3．薬剤データの保存・薬剤の備蓄",
+      "start_page": 77,
+      "end_page": 79
+    },
+    {
+      "section_path": "4．在宅医療を受けている患者への対応",
+      "start_page": 80,
+      "end_page": 81
+    },
+    {
+      "section_path": "5．災害発生時の栄養管理",
+      "start_page": 82,
+      "end_page": 84
+    },
+    {
+      "section_path": "6．感染対策",
+      "start_page": 85,
+      "end_page": 86
+    },
+    {
+      "section_path": "7．メンタルヘルスと心血管病予防",
+      "start_page": 87,
+      "end_page": 89
+    },
+    {
+      "section_path": "8．災害に強い医療システムの構築に向けて",
+      "start_page": 90,
+      "end_page": 94
+    },
+    {
+      "section_path": "付表",
+      "start_page": 95,
+      "end_page": 97
+    },
+    {
+      "section_path": "文献",
+      "start_page": 98,
+      "end_page": 2002
+    },
+    {
+      "section_path": "43. LE Vasilion. Preparing for the Unexpected: Fire, Flood, Tornado in: Dietary Manager. Dietary Managers Association;",
+      "start_page": 2003,
+      "end_page": 2003
+    }
+  ]
+}

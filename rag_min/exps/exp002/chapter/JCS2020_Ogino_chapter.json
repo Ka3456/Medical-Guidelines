@@ -1,0 +1,816 @@
+{
+  "pdf_filename": "JCS2020_Ogino.pdf",
+  "created_at": "2025-11-01T11:23:38.388390",
+  "toc": [
+    {
+      "section_path": "1. 大動脈瘤の定義，病態，分類",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.1 定義",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.2 病態",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "1.3 分類",
+      "start_page": 14,
+      "end_page": 15
+    },
+    {
+      "section_path": "2. 大動脈解離の定義，病態，分類",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.1 定義",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.2 病態",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "2.3 分類",
+      "start_page": 17,
+      "end_page": 18
+    },
+    {
+      "section_path": "3. 疫学",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3.1 年間発症率",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3.2 年齢による発症数の変化",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3.3 季節，時間，曜日による発症数の変化 ‥ 19 3.4 突然死例にみる大動脈解離",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "4. 用語",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "4.1 大動脈瘤",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "4.2 大動脈解離",
+      "start_page": 21,
+      "end_page": 23
+    },
+    {
+      "section_path": "1. 大動脈の正常と加齢変化，動脈硬化",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "2. 大動脈病変",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3. 大動脈瘤とは",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "4. 大動脈硬化症",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "5. 粥状硬化症による大動脈解離",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6. 遺伝性結合織疾患による大動脈解離",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1. 症状",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1.1 大動脈瘤の症状",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1.2 急性大動脈解離の臨床症状",
+      "start_page": 26,
+      "end_page": 27
+    },
+    {
+      "section_path": "2. 血液検査",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2.1 大動脈瘤",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "大動脈瘤・大動脈解離診療ガイドライン 2.2 大動脈解離",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "PQ 2： 大動脈疾患に合併した播種性血管内凝固 症候群（DIC）の治療法は",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3. 画像診断",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "3.1 単純X 線写真",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "3.2 CT 検査",
+      "start_page": 31,
+      "end_page": 35
+    },
+    {
+      "section_path": "PQ 3： 大動脈瘤の大きさはどのようにして 計測するか",
+      "start_page": 36,
+      "end_page": 39
+    },
+    {
+      "section_path": "3.3 MRI 検査",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "3.4 Adamkiewicz 動脈の同定",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "3.5 血管造影検査",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "3.6 エコー検査",
+      "start_page": 43,
+      "end_page": 46
+    },
+    {
+      "section_path": "1．内科治療",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.1 内科治療の目標",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.2 腹部大動脈瘤",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.3 胸部大動脈瘤",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "section_path": "1.4 急性大動脈解離",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.5 慢性大動脈解離",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.6 併存疾患に対する内科治療",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "PQ 4： 大動脈瘤症例と慢性大動脈解離症例の 血圧管理目標値は",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "PQ 5： 大動脈疾患症例の脂質管理目標値は",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "section_path": "2. 血管内治療",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "2.1 TEVAR",
+      "start_page": 54,
+      "end_page": 56
+    },
+    {
+      "section_path": "2.2 EVAR",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.3 その他の血管内治療",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "PQ 6： 腎機能低下・腎不全患者に対する TEVAR/EVAR は妥当か",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "3. 外科手術",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "3.1 人工血管置換術",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "3.2 体外循環と臓器保護",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "3.3 院内死亡率",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1. 胸部大動脈瘤",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1.1 内科治療と侵襲的治療の適応",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "PQ 7： 胸部大動脈瘤は瘤径何mm 以上で 侵襲的治療の適応となるか",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "1.2 非破裂性胸部大動脈瘤",
+      "start_page": 62,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.3 胸部大動脈瘤破裂",
+      "start_page": 71,
+      "end_page": 74
+    },
+    {
+      "section_path": "1.4 広範圍胸部大動脈瘤",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "2. 腹部大動脈瘤",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "2.1 内科治療と侵襲的治療の適応",
+      "start_page": 76,
+      "end_page": 77
+    },
+    {
+      "section_path": "PQ 8： 腹部大動脈瘤は瘤径何mm 以上で侵 襲的治療の適応となるか",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "2.2 非破裂性腹部大動脈瘤",
+      "start_page": 79,
+      "end_page": 85
+    },
+    {
+      "section_path": "2.3 腹部大動脈瘤破裂",
+      "start_page": 86,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.4 大動脈腸管瘻",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "2.5 炎症性大動脈瘤",
+      "start_page": 89,
+      "end_page": 90
+    },
+    {
+      "section_path": "2.6 感染性大動脈瘤",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "2.7 外傷性大動脈瘤",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "1. 総論",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "1.1 定義と分類",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "PQ 9： ULP 型大動脈解離をどのように扱うか",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "1.2 intramural hematoma（IMH）",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "1.3 penetrating atherosclerotic ulcer （PAU）",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "1.4 外傷性大動脈損傷",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "1.5 医原性大動脈解離",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "2. Stanford A 型大動脈解離",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "2.1 治療適応",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "2.2 急性",
+      "start_page": 97,
+      "end_page": 98
+    },
+    {
+      "section_path": "上行置換（hemiarch を含む）か， 全弓部置換か",
+      "start_page": 99,
+      "end_page": 103
+    },
+    {
+      "section_path": "2.3 慢性",
+      "start_page": 104,
+      "end_page": 105
+    },
+    {
+      "section_path": "2.4 再手術",
+      "start_page": 106,
+      "end_page": 107
+    },
+    {
+      "section_path": "2.5 血管内治療",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "section_path": "3. Stanford B 型大動脈解離",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "3.1 急性および亜急性",
+      "start_page": 109,
+      "end_page": 118
+    },
+    {
+      "section_path": "3.2 慢性",
+      "start_page": 119,
+      "end_page": 122
+    },
+    {
+      "section_path": "3.3 術後フォローアップと再治療",
+      "start_page": 123,
+      "end_page": 124
+    },
+    {
+      "section_path": "3.4 広範囲大動脈解離",
+      "start_page": 125,
+      "end_page": 125
+    },
+    {
+      "section_path": "1. 脳保護",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "section_path": "2. 脊髄保護",
+      "start_page": 127,
+      "end_page": 127
+    },
+    {
+      "section_path": "2.1 脊髄動脈支配の解剖学的特徴",
+      "start_page": 127,
+      "end_page": 127
+    },
+    {
+      "section_path": "2.2 虚血性脊髄障害の病態",
+      "start_page": 128,
+      "end_page": 129
+    },
+    {
+      "section_path": "2.3 脊髄保護法",
+      "start_page": 130,
+      "end_page": 131
+    },
+    {
+      "section_path": "3. 再手術",
+      "start_page": 132,
+      "end_page": 132
+    },
+    {
+      "section_path": "3.1 外科手術後",
+      "start_page": 132,
+      "end_page": 133
+    },
+    {
+      "section_path": "3.2 血管内治療後",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "1. 遺伝性大動脈疾患",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "1.1 定義",
+      "start_page": 135,
+      "end_page": 135
+    },
+    {
+      "section_path": "1.2 症候群性遺伝性大動脈疾患",
+      "start_page": 135,
+      "end_page": 137
+    },
+    {
+      "section_path": "1.3 非症候群性遺伝性大動脈疾患",
+      "start_page": 138,
+      "end_page": 138
+    },
+    {
+      "section_path": "1.4 遺伝子診断",
+      "start_page": 138,
+      "end_page": 140
+    },
+    {
+      "section_path": "1.5 外科手術",
+      "start_page": 141,
+      "end_page": 142
+    },
+    {
+      "section_path": "1.6 内科治療",
+      "start_page": 143,
+      "end_page": 143
+    },
+    {
+      "section_path": "1.7 血管内治療",
+      "start_page": 144,
+      "end_page": 144
+    },
+    {
+      "section_path": "2. 大動脈二尖弁に伴うaortopathy",
+      "start_page": 145,
+      "end_page": 145
+    },
+    {
+      "section_path": "2.1 病態",
+      "start_page": 145,
+      "end_page": 145
+    },
+    {
+      "section_path": "2.2 手術適応",
+      "start_page": 145,
+      "end_page": 146
+    },
+    {
+      "section_path": "3. 動脈硬化性大動脈疾患",
+      "start_page": 147,
+      "end_page": 147
+    },
+    {
+      "section_path": "3.1 血栓塞栓性大動脈疾患",
+      "start_page": 147,
+      "end_page": 147
+    },
+    {
+      "section_path": "3.2 大動脈内血栓",
+      "start_page": 148,
+      "end_page": 148
+    },
+    {
+      "section_path": "3.3 動脈硬化性大動脈閉塞",
+      "start_page": 148,
+      "end_page": 148
+    },
+    {
+      "section_path": "3.4 大動脈石灰化",
+      "start_page": 148,
+      "end_page": 148
+    },
+    {
+      "section_path": "3.5 Leriche 症候群",
+      "start_page": 149,
+      "end_page": 149
+    },
+    {
+      "section_path": "3.6 shaggy aorta",
+      "start_page": 149,
+      "end_page": 149
+    },
+    {
+      "section_path": "4. 大動脈炎",
+      "start_page": 150,
+      "end_page": 150
+    },
+    {
+      "section_path": "4.1 定義，分類",
+      "start_page": 150,
+      "end_page": 153
+    },
+    {
+      "section_path": "4.2 画像診断",
+      "start_page": 154,
+      "end_page": 155
+    },
+    {
+      "section_path": "4.3 侵襲的治療",
+      "start_page": 156,
+      "end_page": 156
+    },
+    {
+      "section_path": "4.4 内科治療",
+      "start_page": 156,
+      "end_page": 157
+    },
+    {
+      "section_path": "5. 大動脈腫瘍",
+      "start_page": 158,
+      "end_page": 158
+    },
+    {
+      "section_path": "5.1 病理",
+      "start_page": 158,
+      "end_page": 158
+    },
+    {
+      "section_path": "5.2 画像診断",
+      "start_page": 159,
+      "end_page": 159
+    },
+    {
+      "section_path": "5.3 侵襲的治療",
+      "start_page": 159,
+      "end_page": 159
+    },
+    {
+      "section_path": "6. 外傷性大動脈損傷",
+      "start_page": 160,
+      "end_page": 160
+    },
+    {
+      "section_path": "6.1 病理",
+      "start_page": 160,
+      "end_page": 160
+    },
+    {
+      "section_path": "6.2 画像診断",
+      "start_page": 161,
+      "end_page": 161
+    },
+    {
+      "section_path": "6.3 侵襲的治療",
+      "start_page": 161,
+      "end_page": 161
+    },
+    {
+      "section_path": "7. 先天性大動脈疾患",
+      "start_page": 161,
+      "end_page": 161
+    },
+    {
+      "section_path": "7.1 Kommerell 憩室",
+      "start_page": 161,
+      "end_page": 161
+    },
+    {
+      "section_path": "7.2 大動脈縮窄症",
+      "start_page": 162,
+      "end_page": 162
+    },
+    {
+      "section_path": "7.3 頚部大動脈弓",
+      "start_page": 163,
+      "end_page": 163
+    },
+    {
+      "section_path": "8. 大動脈食道・気管支瘻",
+      "start_page": 163,
+      "end_page": 163
+    },
+    {
+      "section_path": "8.1 大動脈食道瘻",
+      "start_page": 164,
+      "end_page": 165
+    },
+    {
+      "section_path": "8.2 大動脈気管支瘻",
+      "start_page": 166,
+      "end_page": 166
+    },
+    {
+      "section_path": "脈瘻",
+      "start_page": 166,
+      "end_page": 166
+    },
+    {
+      "section_path": "は有効か",
+      "start_page": 167,
+      "end_page": 167
+    },
+    {
+      "section_path": "1. 大動脈解離のリハビリテーション",
+      "start_page": 168,
+      "end_page": 168
+    },
+    {
+      "section_path": "1.1 急性期から回復期まで",
+      "start_page": 168,
+      "end_page": 168
+    },
+    {
+      "section_path": "1.2 回復期から日常生活復帰へ",
+      "start_page": 169,
+      "end_page": 169
+    },
+    {
+      "section_path": "2. 大血管周術期リハビリテーション",
+      "start_page": 170,
+      "end_page": 170
+    },
+    {
+      "section_path": "2.1 術前リハビリテーション",
+      "start_page": 170,
+      "end_page": 170
+    },
+    {
+      "section_path": "2.2 術後リハビリテーション",
+      "start_page": 170,
+      "end_page": 170
+    },
+    {
+      "section_path": "2.3 病態・治療法別の対応",
+      "start_page": 170,
+      "end_page": 172
+    },
+    {
+      "section_path": "1. 疾患予防",
+      "start_page": 173,
+      "end_page": 173
+    },
+    {
+      "section_path": "1.1 治療成績と救命率の現状",
+      "start_page": 173,
+      "end_page": 173
+    },
+    {
+      "section_path": "1.2 大動脈解離の危険因子",
+      "start_page": 173,
+      "end_page": 173
+    },
+    {
+      "section_path": "1.3 大動脈解離の予防",
+      "start_page": 174,
+      "end_page": 174
+    },
+    {
+      "section_path": "2. サーベイランス",
+      "start_page": 174,
+      "end_page": 174
+    },
+    {
+      "section_path": "2.1 病期と病態の分類",
+      "start_page": 175,
+      "end_page": 175
+    },
+    {
+      "section_path": "2.2 臨床的病相",
+      "start_page": 175,
+      "end_page": 175
+    },
+    {
+      "section_path": "2.3 診断",
+      "start_page": 175,
+      "end_page": 175
+    },
+    {
+      "section_path": "2.4 術前サーベイランス",
+      "start_page": 175,
+      "end_page": 175
+    },
+    {
+      "section_path": "CT 検査の頻度は",
+      "start_page": 176,
+      "end_page": 176
+    },
+    {
+      "section_path": "2.5 侵襲的治療後のフォローアップ",
+      "start_page": 176,
+      "end_page": 176
+    },
+    {
+      "section_path": "を行うべきか",
+      "start_page": 177,
+      "end_page": 177
+    },
+    {
+      "section_path": "3. 画像診断での留意点",
+      "start_page": 177,
+      "end_page": 177
+    },
+    {
+      "section_path": "3.1 CT 検査による放射線被曝",
+      "start_page": 177,
+      "end_page": 177
+    },
+    {
+      "section_path": "CT 検査を行ってもよいか",
+      "start_page": 178,
+      "end_page": 178
+    },
+    {
+      "section_path": "3.3 ガドリニウム造影MRA 検査",
+      "start_page": 178,
+      "end_page": 178
+    },
+    {
+      "section_path": "3.4 医療デバイスのMRI 検査適合性",
+      "start_page": 178,
+      "end_page": 178
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 179,
+      "end_page": 181
+    },
+    {
+      "section_path": "文献",
+      "start_page": 182,
+      "end_page": 182
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "pdf_filename": "JCS2017_aonuma_h.pdf",
+  "created_at": "2025-11-01T11:23:40.777727",
+  "toc": [
+    {
+      "section_path": "改訂にあたって",
+      "start_page": 4,
+      "end_page": 5
+    },
+    {
+      "section_path": "I. 総論",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "1. 定義・疫学・機序",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "2. 診断",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "3. 治療",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "II. 先天性QT 延長症候群（先天性LQTS）",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2.1 有病率",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2.2 年齢",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2.3 性差",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2.4 家族歴",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2.5 予後",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "3. 遺伝的背景",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "3.1 LQT",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "3.2 LQT",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "3.3 LQT",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "3.4 LQT",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3.5 LQT",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "3.6 LQT",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "4.1 臨床症状",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "4.2 心電図診断",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "4.3 負荷試験",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "4.4 鑑別診断",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "4.5 診断基準",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "5. リスク評価",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "5.1 QT 間隔",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "5.2 年齢，性別",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "5.3 家族歴",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "5.4 心イベントの既往とその初発年齢",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "5.5 その他の心電図所見",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "5.6 遺伝子変異",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "6. 治療（成人）",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "6.1 TdP 発生時の急性期治療",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "6.2 予防的治療",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "7. 治療（小児）",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "7.1 生活指導",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "7.2 薬物治療",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "7.3 非薬物治療",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "III. 二次性 QT 延長症候群（二次性LQTS）",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.1 発生率",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.2 年齢",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "2.3 性差",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "2.4 家族歴",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "2.5 予後",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3. 遺伝的背景",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.1 薬剤性LQTS",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.2 徐脈に伴うQT 延長",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.3 電解質異常に伴うQT 延長",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.4 心疾患に伴うQT 延長",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.5 心疾患以外の基礎疾患に伴うQT 延長",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "5. リスク評価",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "5.1 薬剤性LQTS",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "5.2 徐脈に伴うQT 延長",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "5.3 電解質異常に伴うQT 延長",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6. 治療",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.1 薬剤性LQTS",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.2 徐脈に伴うQT 延長",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.3 他の要因によるQT 延長",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.4 ICD",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "IV. QT 短縮症候群（SQTS）",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "3. 遺伝的背景",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.1 SQT1：KCNH2 遺伝子異常による Kv11.1 チャネル機能亢進",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.2 SQT2：KCNQ1 遺伝子異常による Kv7.1 チャネル機能亢進",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.3 SQT3：KCNJ2 遺伝子異常による Kir2.1 チャネル機能亢進",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.4 SQT4 ～6：Ca チャネル遺伝子異常による Ca チャネル機能低下",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4.1 臨床症状",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4.2 心電図診断",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4.3 負荷試験",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.4 鑑別診断",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.5 診断基準",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "5. リスク評価と治療",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "5.1 ICD 治療",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "5.2 薬物治療",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "V. Brugada 症候群（BrS）",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.1 有病率",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.2 年齢，性差，人種差・地域性",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2.3 家族歴",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2.4 予後",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "3. 遺伝的背景",
+      "start_page": 33,
+      "end_page": 34
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.1 臨床症状",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.2 心電図診断",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.3 負荷試験",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.4 鑑別診断",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "4.5 診断基準",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "5. リスク評価",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5.1 体表面心電図",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5.2 失神",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5.3 年齢，性別",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.4 突然死の家族歴",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.5 遺伝子変異",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.6 電気生理学的検査（EPS）",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.7 特殊解析心電図指標",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.8 リスク層別化",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "6. 治療",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "6.1 日常生活の注意点",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "6.2 薬物治療",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "6.3 非薬物治療",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "VI. 早期再分極症候群（ERS）",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.1 有病率",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.2 性差",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.3 年齢",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.4 家族歴",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "2.5 予後",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "3. 遺伝的背景",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.1 KATP チャネル関連遺伝子",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.2 Na チャネルおよびCa チャネル関連遺伝子 ‥ 47 3.3 一過性外向きK チャネル関連遺伝子",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.4 ゲノムワイド関連解析（GWAS）",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.5 遺伝的背景のまとめ",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "4.1 臨床症状",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "4.2 診断基準",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "4.3 鑑別診断",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.4 負荷試験",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "5. リスク評価",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "5.1 電気生理学的検査（EPS）",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "5.2 非侵襲的検査",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "5.3 失神の既往，突然死の家族歴",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "6. 治療",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "6.1 薬物治療",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "6.2 非薬物治療",
+      "start_page": 51,
+      "end_page": 52
+    },
+    {
+      "section_path": "VII. カテコラミン誘発多形性心室頻拍（CPVT）",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "3. 遺伝的背景",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "4.1 臨床症状",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "4.2 心電図診断",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "4.3 負荷試験",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "4.4 鑑別診断",
+      "start_page": 55,
+      "end_page": 57
+    },
+    {
+      "section_path": "診療指針を示したものである．作成にあたって，「QT延長 4.5 診断基準",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "5. リスク評価",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "6. 治療",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "6.1 薬物治療",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "6.2 非薬物治療",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "VIII. 進行性心臓伝導障害（PCCD）",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "2. 疫学",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.1 一般人における心臓伝導障害の有病率",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.2 小児における心臓伝導障害",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.3 Brugada 症候群におけるPCCD",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.4 神経筋疾患と関連するPCCD",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "3. 遺伝的背景",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "3.1 器質的心疾患や骨格筋ミオパチーを 伴わない狭義のPCCD",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "3.2 器質的心疾患を伴うPCCD",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.3 骨格筋ミオパチーを伴うPCCD",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "3.4 その他の心臓伝導障害遺伝子",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "4. 診断",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "4.1 心臓伝導障害による症状・徴候",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "4.2 心臓伝導障害以外の臨床症状・徴候",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "4.3 診断基準の提唱",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "4.4 鑑別診断",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "5. リスク評価",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "6. 治療",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "付表",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "文献",
+      "start_page": 68,
+      "end_page": 68
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "pdf_filename": "JCS2018_kimura.pdf",
+  "created_at": "2025-11-01T11:23:49.396493",
+  "toc": [
+    {
+      "section_path": "1.  概念，定義",
+      "start_page": 11,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.  疫学",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "2.1  冠危険因子",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "2.2 疫学",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "2.3  予後",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "1.  患者による救急車要請",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.  初期医療現場における医師の対応",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3.  救急隊による対応",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "4.  救急医療体制",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.  初期診断",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.1  トリアージ",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.2  病歴",
+      "start_page": 17,
+      "end_page": 18
+    },
+    {
+      "section_path": "1.3  身体所見",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.4  鑑別すべき疾患",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "1.5  心電図",
+      "start_page": 21,
+      "end_page": 22
+    },
+    {
+      "section_path": "1.6  バイオマーカー",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "1.7  画像診断",
+      "start_page": 24,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.8  初期診断時に行うリスク評価",
+      "start_page": 26,
+      "end_page": 29
+    },
+    {
+      "section_path": "2.  初期治療",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.1  酸素",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "急性冠症候群ガイドライン 2.2  硝酸薬",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.3  鎮痛薬",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.4  抗血小板薬",
+      "start_page": 31,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.  primary PCI",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "1.1  適応",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "1.2  緊急心臓外科手術体制が整っていない 場合",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "1.3  心原性ショック",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "1.4  心停止自己心拍再開後",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.5  血栓吸引療法",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.6  アクセスルート",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.7  抗血栓療法",
+      "start_page": 36,
+      "end_page": 37
+    },
+    {
+      "section_path": "1.8  残存病変に対する冠血行再建",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "2.  血栓溶解療法",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "2.1 適応",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "2.2 禁忌",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "2.3 血栓溶解療法後のPCI",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "3.  緊急冠動脈バイパス術",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "4. 再灌流の評価",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.  再灌流補助",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.1  カルペリチド",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.2  ニコランジル",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "5.3  Remote ischemic conditioning",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "5.4  その他",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "1.  リスクの層別化",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "2.  初期保存的治療戦略と侵襲的治療戦略",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "2.1  NSTE-ACS に対する治療戦略",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "2.2  侵襲的治療戦略の時期",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.3  保存的治療戦略",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.  冠動脈血行再建",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.1  冠動脈血行再建法の選択",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "3.2  血栓溶解療法",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.3  PCI",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.4  CABG",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.  冠動脈疾患集中治療室（CCU）の役割",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "1.1  CCU 入院時および入室後の評価",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "1.2  CCU の重要性",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "1.3  CCU の規格",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "2.  早期の一般的治療",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "2.1  酸素吸入",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.2  安静度",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.3  食事および血糖管理",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.4  排尿，排便",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.5  鎮静，睡眠，精神療法",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.6  家族面会と患者教育",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.7  CCU の滞在日数",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "3.  薬物治療",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "3.1  抗血栓薬",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "3.2  β遮断薬",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "3.3  レニン・アンジオテンシン・ アルドステロン系阻害薬",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "3.4  硝酸薬，ニコランジル",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "3.5  Ca 拮抗薬",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.6  脂質代謝異常改善薬",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "4. 補助循環",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "4.1  IABP",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "4.2  IMPELLA",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "4.3  VA-ECMO（PCPS）",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "4.4  LVAD",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "5. 不整脈の評価と治療",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "5.1  心室不整脈",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "5.2  上室不整脈",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "5.3  徐脈性不整脈",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "6.  心不全の評価と治療",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "6.1  血行動態の評価",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "6.2  肺うっ血，急性肺水腫",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "6.3  低心拍出量状態",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "6.4  心原性ショック",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "7.  右室梗塞",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "8.  機械的合併症の評価と治療",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "section_path": "8.1  LVFWR",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "8.2  VSR",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "8.3  PMR",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "9.  急性腎障害",
+      "start_page": 70,
+      "end_page": 71
+    },
+    {
+      "section_path": "10.  出血性合併症",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "11.  その他の合併症",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "11.1  再梗塞，梗塞後狭心症",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "11.2  急性心膜炎",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "11.3  脳卒中",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "11.4  深部静脈血栓症，肺血栓塞栓症",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "12.  梗塞サイズの評価",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "12.1  心筋バイオマーカ－",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "12.2  心臓核医学検査",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "12.3  心血管磁気共鳴検査",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "12.4  心電図",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "13.  心臓リハビリテーション",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "13.1  入院心臓リハビリテーション",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "13.2  超急性期心臓リハビリテーション",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "13.3  急性期心臓リハビリテーション プログラム",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "13.4 リスク管理",
+      "start_page": 78,
+      "end_page": 79
+    },
+    {
+      "section_path": "13.5  運動負荷試験の実施・意義",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "13.6  心臓リハビリテーションの導入率",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "1. 高齢者",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "2. 女性",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "3. 冠攣縮性狭心症",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "4.  その他",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "4.1  急性大動脈解離",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "4.2  特発性冠動脈解離",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "4.3  冠動脈塞栓",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "1.  一般療法",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "1.1 禁煙への取り組み",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "目次 1.2  肥満，体重管理",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "2.  薬物治療",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.1  抗血栓薬",
+      "start_page": 87,
+      "end_page": 88
+    },
+    {
+      "section_path": "2.2  β遮断薬",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "2.3  レニン・アンジオテンシン・ アルドステロン系阻害薬",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "2.4  硝酸薬，ニコランジル",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "2.5  Ca 拮抗薬",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "2.6  脂質代謝異常改善薬",
+      "start_page": 91,
+      "end_page": 93
+    },
+    {
+      "section_path": "2.7  糖尿病治療",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "2.8  ワクチン",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "3.  心臓リハビリテーション",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "3.1  外来心臓リハビリテーションの役割と 現状",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "3.2  外来心臓リハビリテーションの エビデンス",
+      "start_page": 96,
+      "end_page": 98
+    },
+    {
+      "section_path": "4.  地域連携",
+      "start_page": 99,
+      "end_page": 103
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 104,
+      "end_page": 111
+    },
+    {
+      "section_path": "文献",
+      "start_page": 112,
+      "end_page": 112
+    }
+  ]
+}

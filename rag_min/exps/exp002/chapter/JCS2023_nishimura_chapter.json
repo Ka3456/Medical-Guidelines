@@ -1,0 +1,361 @@
+{
+  "pdf_filename": "JCS2023_nishimura.pdf",
+  "created_at": "2025-11-01T11:23:41.490656",
+  "toc": [
+    {
+      "section_path": "1.　適応疾患と病態",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "1.1　急性心筋梗塞（AMI）による 心原性ショック",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "1.2　劇症型心筋炎",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.3　慢性重症心不全の急性増悪",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.4　開心術後心原性ショック",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.5　難治性不整脈",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "1.6　急性広範型肺血栓塞栓症",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "（薬物中毒，偶発性低体温症，敗血症） ‥ 10 2.　血行動態評価",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "3.　左心機能評価",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "4.　右心機能評価",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "5.　冠動脈評価",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "6.　全身状態評価",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "6.1　腎機能障害",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "6.2　肝機能障害",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "略語一覧",
+      "start_page": 5,
+      "end_page": 12
+    },
+    {
+      "section_path": "目次 6.3　呼吸機能障害",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "6.4　脳機能障害",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "6.5　凝固能異常",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "6.6　血管評価",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "7.　社会的評価（ACP も含めて）",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "8.　治療デバイスの選択",
+      "start_page": 14,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.　IABP（intra-aortic balloon pumping） ‥ 18 1.1　バルーンの選択と留置",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1.2　駆動方法",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1.3　離脱方法",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.　V-A ECMO",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.1　V-A ECMO の装着",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.2　下肢虚血に対する下肢送血",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.3　V-A ECMO の管理",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.4　V-A ECMO による全身臓器灌流の確立 ‥ 19 2.5　V-A ECMO の流量不足",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.6　左室後負荷増加によるうっ血の進行",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.7　North-south syndrome",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.8　自己心機能の評価",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.9　ECMO 離脱",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.　central ECMO",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.1　手術手技",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3.2　central ECMO の管理",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3.3　central ECMO の位置づけ",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "4.　IMPELLA",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "4.1　駆動原理",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "4.2　挿入手技",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.3　穿刺による挿入",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.4　外科的アプローチによる挿入",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.5　管理上の注意",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.6　離脱",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "5.　ECPELLA",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "5.1　管理と合併症",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "6.　体外設置型VAD（遠心ポンプ）",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.1　臨床的位置づけ",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.2　適応とその際の注意点",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.3　体外設置型VAD 遠心ポンプと バイオフロート",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "6.4　駆動中の留意点",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "6.5　離脱の可否の判断",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.　不整脈管理",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.1　不整脈の停止および予防",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.2　MCS 回路による薬物動態の変化",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2.　併用する心不全治療薬",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2.2　右心不全の合併時の薬物治療",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2.3　MCS 離脱時の薬物治療",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.　栄養・鎮静・感染症　等",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.1　栄養",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.2　鎮静",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.3　感染症",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "3.4　脳卒中，消化管出血への対応",
+      "start_page": 30,
+      "end_page": 31
+    },
+    {
+      "section_path": "3.5　MCS 管理中のリハビリテーション",
+      "start_page": 32,
+      "end_page": 33
+    },
+    {
+      "section_path": "3.6　MCS 管理中の心エコー図検査",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.7　緩和ケア・終末期医療",
+      "start_page": 34,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.　補助循環",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "1.1　体外設置型膜型人工肺（ECMO）",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "1.2　小児用体外型VAD（EXCOR Pediatric） 36 1.3　植込型VAD",
+      "start_page": 37,
+      "end_page": 38
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 39,
+      "end_page": 41
+    },
+    {
+      "section_path": "文献",
+      "start_page": 42,
+      "end_page": 42
+    }
+  ]
+}

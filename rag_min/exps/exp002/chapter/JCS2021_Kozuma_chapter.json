@@ -1,0 +1,401 @@
+{
+  "pdf_filename": "JCS2021_Kozuma.pdf",
+  "created_at": "2025-11-01T11:23:46.700509",
+  "toc": [
+    {
+      "section_path": "1. 医療現場での放射線被ばくへの警鐘",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "2. 放射線防護の基本",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2.1 医療現場における放射線防護の認識 ‥ 10 2.2 医療被ばくと職業被ばく",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "2.3 放射線防護の目的と3 原則",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.4 行為の正当化",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.5 防護の最適化",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.6 最適化のための診断参考レベル",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "2.7 線量限度",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.8 被ばく状況の3 タイプ",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1. 放射線の人体への影響",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.1 人体への影響の種類と区分",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.2 確定的影響（組織反応）と確率的影響",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.3 放射線量とその単位",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "2. 検査室における線量管理",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.1 患者の医療被ばく",
+      "start_page": 15,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.2 医療従事者の職業被ばく",
+      "start_page": 21,
+      "end_page": 23
+    },
+    {
+      "section_path": "3. 医療従事者における線量限度",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.1 等価線量限度",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.2 水晶体",
+      "start_page": 25,
+      "end_page": 26
+    },
+    {
+      "section_path": "3.3 皮膚",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.4 甲状腺",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.5 女性に関する事項",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.6 頭部",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.7 手技内容の共有",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4. 女性医療従事者の胎児の被ばく",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4.1 胎児被ばくの危険性",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "4.2 胎児の被ばく線量",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.3 線量限度としきい線量",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.4 放射線防護",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.5 放射線安全管理",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "1. 胸腹部単純X 線検査",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "1.1 被ばく線量低減のための工夫",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "循環器診療における放射線被ばくに関するガイドライン 1.2 患者への説明",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.3 Q&A",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "Q1 経過観察のため毎日行う検査",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2. CT 検査",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2.1 CT の進歩，普及による被ばく線量増加 ‥ 33 2.2 被ばく線量低減のための工夫",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2.3 被ばくの危険性",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "2.4 患者への説明",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "2.5 Q&A",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "Q2 妊婦に対するCT 検査",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "Q3 小児に対するCT 検査",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "Q4 逐次近似再構成処理での注意点",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "Q6 実効線量による発癌リスク評価",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "繰り返す頻回のCT 検査での注意点 ‥ 36 3. 核医学検査",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "3.1 SPECT 検査",
+      "start_page": 36,
+      "end_page": 38
+    },
+    {
+      "section_path": "3.2 PET 検査",
+      "start_page": 39,
+      "end_page": 41
+    },
+    {
+      "section_path": "3.3 Q&A",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "心筋血流シンチグラフィと同日または 翌日の心臓カテーテル検査",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "4. 心臓と胸腹部・頚部血管のインターベンション",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "4.1 被ばく線量低減のための工夫",
+      "start_page": 43,
+      "end_page": 45
+    },
+    {
+      "section_path": "4.2 被ばくの危険性と患者への説明",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "4.3 新しいインターベンション治療における 問題点",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "4.4 小児に対する配慮",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "4.5 Q&A",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "Q9 医療従事者の線量限度",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "Q10 防護衣の種類による防護効果の違い ‥ 48 Q11 PCI を受ける患者の被ばく線量",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "Q14 しきい線量に近づいたときの判断 ‥ 50 Q15 放射線安全管理者の任務",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "Q16 寛解した急性皮膚炎への治療の必要性 ‥ 50 5. 四肢・末梢の血管内治療",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "5.1 被ばく線量低減のための工夫",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "5.2 Q&A",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "Q18 エコーガイド下での手技による被ばくリスク",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "6. 電気生理学的検査とカテーテルアブレーション",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "6.1 電気生理学的検査・治療と被ばく",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "6.2 被ばく線量",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "6.3 3 次元マッピングシステム",
+      "start_page": 53,
+      "end_page": 54
+    },
+    {
+      "section_path": "6.4 カテーテルナビゲーションシステム ‥ 54 6.5 特に注意を要する病態・疾患",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "6.6 被ばく線量低減のための工夫",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "6.7 患者への説明",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.8 小児に対するカテーテルアブレーション 57 6.9 Q&A",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "Q19 カテーテルアブレーションでの被ばくの 特徴",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7. デバイス植込み",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7.1 被ばく線量低減のための工夫",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7.2 患者への説明",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7.3 被ばく線量増加の主な要因",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "7.4 手術室でのC アーム使用",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "7.5 Q&A",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "Q20 デバイス植込みでの被ばくの特徴 ‥ 58 付表　循環器診療における放射線被ばくに関するガイドライン：班構成員の利益相反（COI）に関する開示",
+      "start_page": 59,
+      "end_page": 61
+    },
+    {
+      "section_path": "文献",
+      "start_page": 62,
+      "end_page": 62
+    }
+  ]
+}

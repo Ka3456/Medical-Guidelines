@@ -1,0 +1,301 @@
+{
+  "pdf_filename": "JCS2021_Sakamoto_Kawamura.pdf",
+  "created_at": "2025-11-01T11:23:50.702912",
+  "toc": [
+    {
+      "section_path": "1. 概念, 定義",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2. ガイドラインの必要性と目的",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "3. ガイドラインの基本方針",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "3.1 本ガイドラインがカバーする範囲",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "4. わが国で使用できる医療機器と承認機器の オフラベル使用",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "5. 施設，設備と医師の要件",
+      "start_page": 9,
+      "end_page": 10
+    },
+    {
+      "section_path": "1. 小児におけるリスク・合併症",
+      "start_page": 11,
+      "end_page": 14
+    },
+    {
+      "section_path": "2. 成人におけるリスク・合併症",
+      "start_page": 15,
+      "end_page": 16
+    },
+    {
+      "section_path": "1. 画像診断法の適応",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.1 経胸壁心エコー法",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.2 経食道心エコー法",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.3 心腔内エコー法",
+      "start_page": 17,
+      "end_page": 18
+    },
+    {
+      "section_path": "1.4 CT",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.5 MR",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2. 心エコー医要件",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3. 心エコー装置要件",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "section_path": "1. 先天性心疾患",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.1 心房中隔欠損症",
+      "start_page": 21,
+      "end_page": 26
+    },
+    {
+      "section_path": "1.2 開窓Fontan 術後",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.3 心室中隔欠損症",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.4 動脈管開存症",
+      "start_page": 28,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.5 心房中隔裂開術",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "1.6 心房間交通作成",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "1.7 先天性大動脈弁狭窄",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "1.8 小児の先天性僧帽弁狭窄",
+      "start_page": 36,
+      "end_page": 42
+    },
+    {
+      "section_path": "1.10 右室肺動脈導管狭窄",
+      "start_page": 43,
+      "end_page": 44
+    },
+    {
+      "section_path": "1.11 肺動脈主幹部‒ 末梢狭窄",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "1.13 肺静脈狭窄",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.14 大動脈縮窄",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "1.15 体肺短絡術後狭窄",
+      "start_page": 49,
+      "end_page": 50
+    },
+    {
+      "section_path": "1.16 小児の動脈管拡大",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "1.17 ハイブリッド治療",
+      "start_page": 52,
+      "end_page": 54
+    },
+    {
+      "section_path": "2. 異常血管",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "2.1 コイルについて",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "2.2 AVP について",
+      "start_page": 56,
+      "end_page": 57
+    },
+    {
+      "section_path": "2.3 体肺側副動脈",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "2.4 静脈‒ 静脈短絡",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "2.5 体肺短絡術後血管",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "2.6 冠動静脈瘻",
+      "start_page": 60,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.7 肺動静脈瘻",
+      "start_page": 62,
+      "end_page": 63
+    },
+    {
+      "section_path": "3. 脳梗塞の予防",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "3.1 卵円孔開存",
+      "start_page": 64,
+      "end_page": 67
+    },
+    {
+      "section_path": "3.2 左心耳閉鎖",
+      "start_page": 68,
+      "end_page": 70
+    },
+    {
+      "section_path": "4. 後天性心疾患",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "4.1 成人の大動脈弁狭窄症",
+      "start_page": 71,
+      "end_page": 84
+    },
+    {
+      "section_path": "4.2 僧帽弁狭窄症",
+      "start_page": 85,
+      "end_page": 88
+    },
+    {
+      "section_path": "4.3 僧帽弁閉鎖不全",
+      "start_page": 89,
+      "end_page": 93
+    },
+    {
+      "section_path": "4.4 心筋梗塞後心室中隔穿孔",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "4.5 弁留置後弁周囲逆流",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "4.6 三尖弁閉鎖不全",
+      "start_page": 96,
+      "end_page": 97
+    },
+    {
+      "section_path": "5. 後天性大血管疾患",
+      "start_page": 98,
+      "end_page": 107
+    },
+    {
+      "section_path": "5.2 急性肺血栓塞栓症",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "section_path": "5.3 CTEPH",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "6. 心筋症",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "6.1 経皮的中隔心筋焼灼術",
+      "start_page": 110,
+      "end_page": 114
+    },
+    {
+      "section_path": "7. 特殊診断治療手技",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "7.1 成人の心房中隔穿刺術",
+      "start_page": 115,
+      "end_page": 118
+    },
+    {
+      "section_path": "7.2 小児の心房中隔穿刺術",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "7.3 経皮的バルーン心膜開窓術",
+      "start_page": 120,
+      "end_page": 120
+    }
+  ]
+}

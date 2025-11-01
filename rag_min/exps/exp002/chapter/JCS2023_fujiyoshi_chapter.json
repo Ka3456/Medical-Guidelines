@@ -1,0 +1,496 @@
+{
+  "pdf_filename": "JCS2023_fujiyoshi.pdf",
+  "created_at": "2025-11-01T11:23:47.197422",
+  "toc": [
+    {
+      "section_path": "1. わが国の冠動脈疾患の特徴",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "1.2 わが国の冠動脈疾患の死亡率および罹患率 の時代的推移",
+      "start_page": 10,
+      "end_page": 11
+    },
+    {
+      "section_path": "2. 危険因子の保有率と管理状況",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.1 高血圧領域での疫学報告",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "2.2 糖尿病領域での疫学報告",
+      "start_page": 12,
+      "end_page": 13
+    },
+    {
+      "section_path": "2.3 脂質異常症領域での疫学報告",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "2.4 肥満に関する疫学報告",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "2.5 喫煙に関する疫学報告",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1. 包括的リスク管理とリスク予測モデル",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.1 包括的リスク管理",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.2 リスク予測モデル",
+      "start_page": 15,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.3 包括的リスク管理の実践",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "モデルを使用した包括的リスク管理の実 践は，死亡率減少に有用か？",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2. 高血圧",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.1 冠動脈疾患の危険因子としての高血圧症",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.2 血圧の評価",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.3 降圧目標",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.4 高血圧管理における脳心血管リスク評価",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.5. 高血圧に対する薬物療法",
+      "start_page": 20,
+      "end_page": 22
+    },
+    {
+      "section_path": "3. 脂質異常",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "3.1 冠動脈疾患危険因子としての脂質異常の リスク状態とスクリーニング",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.2 冠動脈疾患危険因子としての脂質異常の 治療",
+      "start_page": 25,
+      "end_page": 28
+    },
+    {
+      "section_path": "4. 糖尿病・肥満",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.1 冠危険因子としての糖尿病，耐糖能異常",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.2 糖尿病，耐糖能異常に対する治療介入の ポイント",
+      "start_page": 30,
+      "end_page": 32
+    },
+    {
+      "section_path": "4.3 冠動脈危険因子としての肥満，メタボ リックシンドローム",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "4.4 肥満，メタボリックシンドロームへの 治療介入",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "5. 栄養・食事療法",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "5.1 総エネルギー摂取量と脂肪エネルギー 比率",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "5.2 食塩",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "5.3 脂肪酸",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "5.4 コレステロール",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5.5 食物繊維",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "5.6 果糖を含む加工食品",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.7 大豆および大豆製品",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "冠動脈疾患の一次予防に関する診療ガイドライン 5.8 ナッツ類",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.9 ビタミン",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "5.10 アルコール",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "6. 運動・身体活動",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "6.1 運動・身体活動の有効性",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "6.2 身体的不活動の疫学",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "6.3 身体的不活動のリスク",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "6.4 身体活動の動脈硬化性疾患，冠動脈疾患 への効果",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "6.5 運動の潜在的効果",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "6.6 運動の種類",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "6.7 有酸素運動",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "6.8 レジスタンス運動",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "6.9 座位時間の減少",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "6.10 運動の実際",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "6.11 運動療法のリスクと開始前の医学的評価",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "対処に関する患者教育・市民啓発，高尿酸血 症とCAD",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "7.1 環境要因とCAD",
+      "start_page": 44,
+      "end_page": 45
+    },
+    {
+      "section_path": "7.2 CAD 発症時対処に関する患者教育・ 市民啓発",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "7.3 高尿酸血症とCAD",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "1. 高齢者",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.1 冠動脈疾患の一次予防における高齢者の 考え方",
+      "start_page": 47,
+      "end_page": 49
+    },
+    {
+      "section_path": "1.2 冠動脈疾患の一次予防において高齢者で 特に注意を要する病態",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "section_path": "2. 女性",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.2 女性における動脈硬化危険因子と 冠動脈疾患との関連",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "2.3 冠動脈疾患の一次予防",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "2.4 ホルモン補充療法（HRT）",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "3. 家族性高コレステロール血症",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "3.1 概念",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "3.2 FH の原因遺伝子",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "3.3 FH の診断",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "3.4 FH ヘテロ接合体（成人：15 歳以上）の 治療",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "3.5 FH ホモ接合体の治療",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "3.6 小児（15 歳未満）の治療",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "3.7 妊娠可能女性の治療",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "4. 慢性腎臓病（CKD）",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "4.1 CKD の定義",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "4.2 CKD と心血管疾患（CVD）リスク： 心腎連関",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "4.3 CKD の重症度分類",
+      "start_page": 59,
+      "end_page": 60
+    },
+    {
+      "section_path": "4.4 CKD の重症度分類に応じた治療",
+      "start_page": 61,
+      "end_page": 63
+    },
+    {
+      "section_path": "5. 小児",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "5.1 高血圧",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "5.2 脂質異常症",
+      "start_page": 64,
+      "end_page": 65
+    },
+    {
+      "section_path": "5.4 糖代謝異常・糖尿病",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "5.6 喫煙",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "5.7 その他の生活習慣（食事・運動・睡眠）",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "1. 潜在性動脈硬化指標に古典的危険因子を超える 上乗せ予測能はあるか？",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "1.1 頸動脈内膜中膜厚（IMT）",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.2 冠動脈石灰化",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.3 足関節上腕血圧比（ABI）",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "1.4 脈波伝播速度",
+      "start_page": 70,
+      "end_page": 71
+    },
+    {
+      "section_path": "1.1 冠動脈疾患（心筋梗塞，狭心症）の症状",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "冠動脈疾患の一次予防に関する診療ガイドライン 1.2 予防の重要さ",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "Q2 冠動脈疾患は，どのような人がなりやすい のですか？",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "2.1 遺伝と冠動脈疾患",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "2.2 「危険因子」の管理が予防につながります",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "Q3 冠動脈疾患の予防は，いつから始めれば よいでしょうか？",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "3.1 子供でも予防が必要ですか？",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "3.2 高齢者でも予防が必要ですか？",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "Q4 冠動脈疾患の予防のため，栄養・食事で 気をつけることを教えてください",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "Q5 家族性高コレステロール血症について 詳しく教えてください",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "Q6 心筋梗塞と思われる症状にどう対処したら よいでしょうか？",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "付表　班構成員の利益相反（COI）に関する開示",
+      "start_page": 78,
+      "end_page": 80
+    },
+    {
+      "section_path": "文献",
+      "start_page": 81,
+      "end_page": 81
+    }
+  ]
+}

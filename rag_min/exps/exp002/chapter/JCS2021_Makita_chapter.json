@@ -1,0 +1,1001 @@
+{
+  "pdf_filename": "JCS2021_Makita.pdf",
+  "created_at": "2025-11-01T11:23:50.061041",
+  "toc": [
+    {
+      "section_path": "はじめに",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "本ガイドラインの変遷",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "推奨クラスとエビデンスレベル",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "主な改訂点",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "section_path": "1. 定義",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2. 構成要素",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3. 時期的区分",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "3.1 急性期（第I 相：phase I）",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.2 回復期（第II 相：phase II ー前期回復期， 後期回復期）",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.3 維持期（第III 相：phase III）",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1. 定義",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2. 評価法，指標",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.1 身体活動に基づく分類",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.2 筋力・筋量",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.3 包括的下肢機能",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "2.4 歩行速度",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "2.5 バランス能力",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "2.6 運動耐容能",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3. 心肺運動負荷試験",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.1 目的と意義",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "3.2 実施の方法と時期",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "3.3 運動処方の決定法",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "3.4 ランプ負荷中の主な指標の意義",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "心血管疾患におけるリハビリテーションに関するガイドライン 3.5 運動耐容能の評価",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "3.6 予後予測",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "4. サルコペニア，フレイル，カヘキシア",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "4.1 サルコペニア",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "4.2 フレイル",
+      "start_page": 25,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.3 カヘキシア",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1. 運動処方",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.1 定義と目的",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.2 構成内容",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.3 有酸素運動",
+      "start_page": 28,
+      "end_page": 30
+    },
+    {
+      "section_path": "1.4 レジスタンストレーニング",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "1.5 リスクの層別化",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2. 対象疾患，適応と禁忌",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2.1 対象疾患と保険適用",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2.2 運動負荷試験と運動療法",
+      "start_page": 32,
+      "end_page": 34
+    },
+    {
+      "section_path": "3. 運動中止基準，運動療法のリスクと事故防止",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.1 運動療法中の中止基準",
+      "start_page": 35,
+      "end_page": 36
+    },
+    {
+      "section_path": "3.2 運動療法のリスク",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "3.3 事故防止",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "1. 急性心筋梗塞，急性冠症候群",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "1.1 目的",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "1.2 時期的分類",
+      "start_page": 39,
+      "end_page": 41
+    },
+    {
+      "section_path": "1.3 レジスタンストレーニング",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "1.4 現状と課題",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "2. 安定狭心症，PCI 後",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "2.1 病態と適応",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "2.2 心血管イベント・予後に対する効果 ‥ 43 2.3 狭心症状に対する効果",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "2.4 PCI 後の適応",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "2.5 運動療法の実際",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "2.6 注意点",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "3. 急性・慢性心不全",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "3.1 急性心不全（急性期～前期回復期）",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "3.2 慢性心不全（後期回復期～維持期）",
+      "start_page": 46,
+      "end_page": 49
+    },
+    {
+      "section_path": "4. 心臓手術後",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.1 有効性",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.2 リハビリテーションの実際",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "section_path": "4.3 術式別の特徴と注意点",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "5. 経カテーテル大動脈弁留置術（TAVI）後",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "section_path": "6. 不整脈，デバイス植込み後",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "6.1 不整脈",
+      "start_page": 54,
+      "end_page": 56
+    },
+    {
+      "section_path": "6.2 デバイス植込み後",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "section_path": "7. 肺高血圧症",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "8. 大動脈瘤，大動脈解離",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "8.1 待機侵襲的治療前",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "8.2 侵襲的治療後",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "8.3 急性大動脈解離",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "9. 末梢動脈疾患",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "9.1 運動療法を基盤とした包括的心臓リハビリ テーションプログラム",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "9.2 適応と禁忌",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "9.3 準備",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "9.4 プロトコル",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "1. 高齢心疾患患者",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "高齢心疾患患者の特徴と運動療法時の注意点",
+      "start_page": 68,
+      "end_page": 69
+    },
+    {
+      "section_path": "1.2 現場でのフローチャート",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "2. 小児心疾患患者",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "2.1 先天性心疾患",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "2.2 不整脈",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "2.3 心臓移植後",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "3. 静注強心薬投与中の心不全患者",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "3.1 エビデンス",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "3.2 目的",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "3.3 適応",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "3.4 心臓リハビリテーションの実際",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "3.5 リスクと中止基準",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "3.6 点滴ラインに関する注意点",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "4. 補助人工心臓装着後，心臓移植後",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "4.1 補助人工心臓装着後",
+      "start_page": 75,
+      "end_page": 76
+    },
+    {
+      "section_path": "4.2 心臓移植後",
+      "start_page": 77,
+      "end_page": 78
+    },
+    {
+      "section_path": "5. 心疾患合併がん患者",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "5.1 がん医療の進歩と腫瘍循環器学",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "5.2 腫瘍循環器リハビリテーション",
+      "start_page": 79,
+      "end_page": 80
+    },
+    {
+      "section_path": "5.4 わが国の現状と課題",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "1. 運動・トレーニングの種類",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "1.1 有酸素運動",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "1.2 レジスタンストレーニング",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "1.3 高強度インターバルトレーニング",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "1.4 呼吸筋トレーニング",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "1.5 神経筋電気刺激療法",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "2. ベッドサイド",
+      "start_page": 84,
+      "end_page": 85
+    },
+    {
+      "section_path": "2.2 診療報酬制度",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "3. 後期回復期",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "3.1 外来心臓リハビリテーションの重要性 ‥ 86 3.2 運動療法の実際",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "3.3 疾病管理プログラムとして",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "3.4 外来通院リハビリテーションの実施率 ‥ 88 3.5 維持期における継続",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "3.6 在宅（非監視下）単独の運動療法",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "1. 栄養評価法",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "1.1 身体計測・測定",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "1.2 血液検査データ",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "1.3 栄養評価ツール",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "1.4 食事摂取量調査",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "1.5 栄養評価の活用",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "2. 心血管疾患に対する一般的食事療法",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "2.1 目的",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "2.2 目標体重とエネルギー設定",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "2.3 たんぱく質と食事パターン （The Japan Diet）",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "2.4 脂質",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "2.5 炭水化物",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "2.6 アルコール",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "2.7 食塩",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "3. 心不全患者への介入・指導",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "3.1 栄養状態と予後",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "3.2 必要エネルギー量",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "3.3 食欲低下",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "3.4 たんぱく質摂取",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "3.5 体重管理",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "3.6 塩分摂取",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "3.7 心不全末期",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1. QOL の評価法と指標",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.1 健康を中心にみたQOL",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.2 評価尺度（評価方法）",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.3 改善効果の評価",
+      "start_page": 97,
+      "end_page": 98
+    },
+    {
+      "section_path": "2. 精神心理学的評価",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "2.1 心血管疾患と抑うつ・不安症状",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "2.2 精神・心理面での特徴",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "2.3 質問紙によるスクリーニング",
+      "start_page": 99,
+      "end_page": 101
+    },
+    {
+      "section_path": "3. 心理学的介入・指導",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "3.1 患者とのコミュニケーション",
+      "start_page": 102,
+      "end_page": 103
+    },
+    {
+      "section_path": "1.1 方法",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "1.2 有効性の評価",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "2. 冠危険因子の管理，禁煙指導",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "2.1 エビデンス",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "2.2 高血圧と血圧管理",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "2.3 脂質異常症と脂質管理",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "2.4 糖尿病と血糖管理",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "2.6 慢性腎臓病",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "2.7 身体不活動",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "2.8 喫煙と禁煙指導",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "3. 心不全の自己管理と生活指導",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "section_path": "",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "4.1 疾病管理の意義と課題",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "4.2 疾病管理の実際",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "1. 普及率と継続率",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "1.1 実施率，参加率",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "1.2 継続率とアドヒアランス",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "2. 地域連携",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "2.1 目的と成果",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "2.2 ネットワーク化",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "2.3 ジャパンハートクラブ",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "section_path": "3. 職種間連携",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "3.1 チーム医療を構成する職種",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "3.2 多職種カンファレンス",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "3.3 患者教育と医療連携",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "1. 回復期病棟",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "患者像",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "ションの役割",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "1.3 問題点と今後の展望",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "2. 在宅医療",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "2.1 目的と適応",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "2.2 訪問リハビリテーション",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "2.3 心不全でのエビデンス",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "2.5 地域での展望",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "3. 緩和ケア",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "section_path": "3.1 心不全の緩和ケア",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "section_path": "4. 地域包括ケアシステム",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "4.2 地域リハビリテーションの発展",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "広がり",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "5. 遠隔医療",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "section_path": "5.1 定義",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "section_path": "5.2 必要性",
+      "start_page": 121,
+      "end_page": 121
+    },
+    {
+      "section_path": "5.3 エビデンス",
+      "start_page": 121,
+      "end_page": 121
+    },
+    {
+      "section_path": "5.4 課題と展望",
+      "start_page": 121,
+      "end_page": 121
+    },
+    {
+      "section_path": "6. 医療経済的評価",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "section_path": "6.1 医療費への影響",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "section_path": "6.2 費用対効果による評価",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "7. 診療報酬制度",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "制度の変遷",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "7.2 施設基準",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "者数",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "7.4 算定の手順",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "7.7 改定での疑問点とその解釈",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "7.8 検討すべき事項と目標",
+      "start_page": 125,
+      "end_page": 126
+    },
+    {
+      "section_path": "付表　心血管疾患におけるリハビリテーションに関するガイドライン：班構成員の利益相反（COI）に関する開示",
+      "start_page": 127,
+      "end_page": 131
+    },
+    {
+      "section_path": "文献",
+      "start_page": 132,
+      "end_page": 132
+    }
+  ]
+}

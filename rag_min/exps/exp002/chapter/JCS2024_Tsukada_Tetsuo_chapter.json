@@ -1,0 +1,511 @@
+{
+  "pdf_filename": "JCS2024_Tsukada_Tetsuo.pdf",
+  "created_at": "2025-11-01T11:23:50.365453",
+  "toc": [
+    {
+      "section_path": "略語一覧",
+      "start_page": 6,
+      "end_page": 8
+    },
+    {
+      "section_path": "臨床試験/ レジストリー一覧",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "CQ と推奨文",
+      "start_page": 10,
+      "end_page": 20
+    },
+    {
+      "section_path": "多様性に配慮した健康に関する意思決定支 援とは何か？",
+      "start_page": 21,
+      "end_page": 22
+    },
+    {
+      "section_path": "性ホルモンの動態はどのようなものか？ 心血管系に影響するか？",
+      "start_page": 23,
+      "end_page": 26
+    },
+    {
+      "section_path": "心血管系や代謝系において，性による 特徴・経年変化の差はあるか？",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "心血管疾患の発症に，性差および年齢差は あるか？",
+      "start_page": 28,
+      "end_page": 30
+    },
+    {
+      "section_path": "1. 虚血性心疾患",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "急性心筋梗塞において，女性で注意すべき 合併症は何か？",
+      "start_page": 31,
+      "end_page": 32
+    },
+    {
+      "section_path": "PCI 後の抗血小板療法において性差を考慮 すべきか？",
+      "start_page": 33,
+      "end_page": 34
+    },
+    {
+      "section_path": "うに性差を考慮すべきか？ 　予後に差はあ るか？",
+      "start_page": 35,
+      "end_page": 36
+    },
+    {
+      "section_path": "入カットオフ値に性差を考慮すべきか？",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "coronary arteries) の発症率，予後に性差は あるか？",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "多様性に配慮した循環器診療ガイドライン 2. 心不全",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "心不全の臨床的特徴・病態・予後に性差は あるか？",
+      "start_page": 39,
+      "end_page": 40
+    },
+    {
+      "section_path": "BQ10 心不全の非薬物療法において性差を考慮す べきか？",
+      "start_page": 41,
+      "end_page": 43
+    },
+    {
+      "section_path": "おいて，性差を考慮すべき点は何か？",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "診療において，どのように性差を考慮す べきか？",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "BQ13 弁膜症の病因と有病率に性差はあるか?",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "TAVI）において，性差を考慮すべきか？",
+      "start_page": 48,
+      "end_page": 49
+    },
+    {
+      "section_path": "の適応において，性差を考慮すべきか？",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "BQ14 肺高血圧症の原因疾患に性差はあるか？",
+      "start_page": 51,
+      "end_page": 52
+    },
+    {
+      "section_path": "FRQ4 特発性/ 遺伝性肺動脈性肺高血圧症の治療 において，性差を考慮すべきか？",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "全・心血管疾患の発症に性差はどのように 関連するか？",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "section_path": "BQ16 心房細動患者において，認知機能障害の発 症に性差はあるか？",
+      "start_page": 56,
+      "end_page": 57
+    },
+    {
+      "section_path": "FRQ5 心房細動の治療において，性差を考慮すべ きか？",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "BQ17 Brugada 症候群の突然死リスクに性差は あるか？",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "3. 脈管疾患",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "PAD に対する血行再建の適応において， 性差を考慮すべきか？",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "DVT 患者の診断において，D-dimer のカッ トオフ値に性差を考慮すべきか？",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "大動脈病変に対するEVAR の推奨度に性差 はあるか？",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "section_path": "4. 脳卒中",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "BQ18 脳卒中において，性差を考慮すべきか？",
+      "start_page": 65,
+      "end_page": 67
+    },
+    {
+      "section_path": "BQ19 降圧目標達成率に性差・年齢差はあるか？",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "5. トランスジェンダー",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "BQ20 解剖学的男性に対して，外因性女性ホルモ ンはどのように作用するか？",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "BQ21 トランスジェンダー女性の循環器病は，疫学 的にどのように報告されているか？",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "BQ22 解剖学的女性に対して，外因性男性ホルモ ンはどのように作用するか？",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "BQ23 トランスジェンダー男性の循環器病は，疫学 的にどのように報告されているか？",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "診療上どのような配慮が必要か？",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "1. 若年・ライフステージ全般",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "BQ25 若年心筋梗塞の一次予防のために介入すべ きリスク因子は何か？",
+      "start_page": 73,
+      "end_page": 74
+    },
+    {
+      "section_path": "BQ26 無症候性心房細動の予後に年齢差はあるか？",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "ション治療は，積極的に推奨されるか？",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "BQ27 Brugada 症候群の突然死リスクに年齢差は あるか？",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "BQ28 女性のライフステージにおける高血圧の管 理で考慮する点は何か？",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "2. 妊娠",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "娠前の降圧目標値はどの程度にすべきか？",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "BQ29 挙児希望のある女性や，妊娠中の高血圧患 者が使用できる降圧薬は何か？",
+      "start_page": 80,
+      "end_page": 81
+    },
+    {
+      "section_path": "BQ30 虚血性心疾患のある妊婦への二次予防は， どのようにするか？",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "BQ31 妊娠・分娩に伴う脳卒中とはどのようなも のか？",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "病など）を発症した女性に対して，継続し た循環器診療を行うべきか？",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "3. 加齢",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "BQ32/GPS 高齢者の循環器診療において配慮すべ き生理学的要因は何か？",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "肺動脈性肺高血圧症の治療において，年齢 を考慮すべきか？",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "るべき身体的フレイルの評価指標は何か？",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "るべき精神・心理的フレイルの評価指標は 何か？",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "の適応や術式決定において，年齢を考慮す べきか？",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "し，ACP はどのように行うべきか？",
+      "start_page": 90,
+      "end_page": 91
+    },
+    {
+      "section_path": "BQ35 循環器系検査の基準値に人種差はあるか？",
+      "start_page": 92,
+      "end_page": 93
+    },
+    {
+      "section_path": "1. はじめに",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "2. 健康の社会的決定要因の定義",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "3. WHO フレームワークと概念的理解",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "4. アセスメント・介入の考え方の実際",
+      "start_page": 97,
+      "end_page": 98
+    },
+    {
+      "section_path": "BQ37 循環器病のリスクについて，職業による差 はあるか？",
+      "start_page": 99,
+      "end_page": 101
+    },
+    {
+      "section_path": "る差はあるか？",
+      "start_page": 102,
+      "end_page": 106
+    },
+    {
+      "section_path": "る差はあるか？",
+      "start_page": 107,
+      "end_page": 108
+    },
+    {
+      "section_path": "ポートによる差はあるか？",
+      "start_page": 109,
+      "end_page": 111
+    },
+    {
+      "section_path": "",
+      "start_page": 112,
+      "end_page": 115
+    },
+    {
+      "section_path": "",
+      "start_page": 116,
+      "end_page": 118
+    },
+    {
+      "section_path": "違いがあるか？",
+      "start_page": 119,
+      "end_page": 122
+    },
+    {
+      "section_path": "1. 医療者側の多様性から",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "るか？",
+      "start_page": 123,
+      "end_page": 123
+    },
+    {
+      "section_path": "2. 多職種医療",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "section_path": "の予後を改善させるか？",
+      "start_page": 124,
+      "end_page": 125
+    },
+    {
+      "section_path": "",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "section_path": "与すべきか？",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "section_path": "のようにあるべきか？",
+      "start_page": 127,
+      "end_page": 129
+    },
+    {
+      "section_path": "支援をどう進めるべきか？",
+      "start_page": 130,
+      "end_page": 131
+    },
+    {
+      "section_path": "メイキング: SDM）」とは何ですか？",
+      "start_page": 132,
+      "end_page": 132
+    },
+    {
+      "section_path": "うに考慮されますか？",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "心不全",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "心臓弁膜症",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "肺動脈性高血圧症",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "不整脈",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "血管疾患",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "脳卒中",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "高血圧",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "10. トランスジェンダー",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "11. 薬物治療",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "考慮されますか？",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "うに考慮されますか？",
+      "start_page": 135,
+      "end_page": 135
+    },
+    {
+      "section_path": "",
+      "start_page": 135,
+      "end_page": 135
+    },
+    {
+      "section_path": "",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "",
+      "start_page": 136,
+      "end_page": 136
+    },
+    {
+      "section_path": "付表1　薬物治療における性差",
+      "start_page": 137,
+      "end_page": 138
+    },
+    {
+      "section_path": "付表2　用語集　（第5 章　健康の社会的決定要因における多様性）",
+      "start_page": 139,
+      "end_page": 140
+    },
+    {
+      "section_path": "付表3　用語集　（第6 章　医療者の多様性）",
+      "start_page": 141,
+      "end_page": 141
+    },
+    {
+      "section_path": "付表4　班構成員の利益相反（COI）に関する開示",
+      "start_page": 142,
+      "end_page": 142
+    }
+  ]
+}

@@ -1,0 +1,996 @@
+{
+  "pdf_filename": "JCS2025_Saiki.pdf",
+  "created_at": "2025-11-01T11:23:42.108015",
+  "toc": [
+    {
+      "section_path": "心臓移植に関するガイドライン作成の背景",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "ガイドライン作成の基本方針",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "本ガイドラインの策定方法： 推奨・エビデンスレベルの記載法",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "1. 心臓移植の歴史と現状",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.1 世界の心臓移植の歴史と現状",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.2 日本の心臓移植の歴史と現状",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "section_path": "2. 倫理的側面",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "2.1 生体移植と死体移植",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "略語一覧",
+      "start_page": 9,
+      "end_page": 15
+    },
+    {
+      "section_path": "目次 2.2 臓器移植法における死の考え方",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.3 心臓移植の位置づけ",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.4 臓器提供の意思表示",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "2.5 わが国における臓器移植法",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "3. 心臓移植に関わる法律",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "3.1 「臓器の移植に関する法律」の 施行と改正",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "3.2 基本的理念および医師の責務",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.3 脳死判定の要件",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.4 臓器提供の意思表示",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.5 親族への優先提供",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.6 遺族および家族の範囲",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3.7 児童からの臓器提供",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1. レシピエント登録手順",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1.1 心臓移植希望者の適応評価",
+      "start_page": 18,
+      "end_page": 19
+    },
+    {
+      "section_path": "自施設内適応判定施設における心臓移植適応評価 19 1.2 JOT への登録",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2. JOT",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.1　移植医療における機能",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.2　ドナー早期化連絡・レシピエント 意思確認",
+      "start_page": 20,
+      "end_page": 21
+    },
+    {
+      "section_path": "2.3　移植後の情報収集における 日本循環器学会との共同事業",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.　メディカルスタッフとコーディネーター",
+      "start_page": 22,
+      "end_page": 24
+    },
+    {
+      "section_path": "1. 心臓移植の適応",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.1　適応疾患",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "1.2　絶対的除外条件",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "1.3 相対的除外条件",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2. 適応判定に必要な臨床検査",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "2.1　免疫学的適合性",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2.2　心機能・身体機能評価，心不全の 原因検索",
+      "start_page": 28,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.3　除外基準の検討のために必要な諸検査 ‥ 31 3. レシピエントの選択",
+      "start_page": 32,
+      "end_page": 34
+    },
+    {
+      "section_path": "4. 待機中の薬物治療",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4.1　VAD 装着前の薬物治療",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "心臓移植に関するガイドライン 4.2　VAD 装着後の薬物治療",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "5. 待機中の非薬物治療（ICD，CRT）",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "5.1　ICD",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "5.2　CRT",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "5.3　VAD",
+      "start_page": 37,
+      "end_page": 38
+    },
+    {
+      "section_path": "1. 脳死からの臓器提供",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "1.1　法的脳死判定",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "1.2　脳死状態における循環生理",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "1.3　メディカルコンサルタントの役割",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "1.4　ドナー管理の要点",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "1.5　3 次評価の実際",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "1.6　ドナー心の選択基準",
+      "start_page": 42,
+      "end_page": 43
+    },
+    {
+      "section_path": "2. 脳死ドナーから移植心の摘出・保存",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "2.1　摘出手技",
+      "start_page": 44,
+      "end_page": 46
+    },
+    {
+      "section_path": "2.2　ドナー心筋保護",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "2.3　周術期管理",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "3.　移植心の搬送",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.1　虚血時間と臓器搬送時間",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.2　心臓搬送手段の調整",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "4. 心臓移植手術の実際",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.1　はじめに",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.2　術前準備から手術開始",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.3　体外循環の確立",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4.4　心臓摘出",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "4.5　ドナー心の準備",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.6　体外循環からの離脱",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "4.7　各手術法のpros/cons",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "1. 移植直後からの全身管理",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.1 術前因子の考慮",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.2　モニタリング",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "1.3　循環管理",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "section_path": "1.4　感染管理",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "目次 2. 免疫抑制療法",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "2.1　CNI",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "section_path": "2.2　代謝拮抗薬",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "2.3　ステロイド薬",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "2.4　抗CD25 抗体（抗IL-2 受容体抗体）",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "2.5　mTOR 阻害薬",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.6　薬物血中濃度への影響因子",
+      "start_page": 62,
+      "end_page": 63
+    },
+    {
+      "section_path": "3. 拒絶反応",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "3.1　細胞性拒絶反応",
+      "start_page": 64,
+      "end_page": 65
+    },
+    {
+      "section_path": "3.2　AMR の病態と診断",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "3.3　血漿交換療法",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "3.4　ガンマグロブリン",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "3.5　リツキシマブ",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "4. 拒絶反応同定のための検査法",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "4.1　心筋生検",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "4.2　その他の検査法",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "5. 感染症の予防",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5.1　移植前の感染症対策",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5.2　CMV",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "5.3　EBV",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "5.4　ヒトヘルペスウイルス",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "5.5　カンジダ",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "5.6　ニューモシスチス・イロベチイ",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "5.7　肝炎ウイルス",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "5.8　HTLV-",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "5.9　その他",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "6. 免疫抑制治療に続発する病態",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "6.1　腎機能障害",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "section_path": "6.2　骨粗鬆症",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "6.3　高血圧",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "6.4　糖尿病",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "6.5　脂質異常症",
+      "start_page": 77,
+      "end_page": 78
+    },
+    {
+      "section_path": "1. 移植後初期における在宅治療",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "1.1　一般的留意点",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "1.2　個別化される留意点",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "2. CAV",
+      "start_page": 81,
+      "end_page": 81
+    },
+    {
+      "section_path": "2.1　診断",
+      "start_page": 82,
+      "end_page": 84
+    },
+    {
+      "section_path": "2.2　治療",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "2.3　予防",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "3. 悪性腫瘍",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "3.1　診断と治療",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "section_path": "3.2　PTLD",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4. 運動療法（リハビリテーション）",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "4.1　心臓移植後の特徴",
+      "start_page": 87,
+      "end_page": 88
+    },
+    {
+      "section_path": "4.2　運動療法の有効性",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "4.3　急性期リハビリテーション",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "4.4　慢性期リハビリテーション",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "5. 生活面・精神面の管理",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "5.1　治療に対するアドヒアランス",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "5.2　精神的側面",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "5.3　社会的側面",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "6. 妊娠出産",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "6.1　妊娠・分娩・出産",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "6.2　妊娠前カウンセリング",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "6.3　妊娠のタイミングと禁忌",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "6.4　妊娠中の免疫抑制薬を含む薬剤管理",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "6.5　母体管理",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "7. 終末期医療",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "1.　小児心臓移植の特殊性",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "1.1　心臓移植適応と待機中管理",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "1.2　わが国の脳死臓器提供",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "1.3　ドナー・レシピエントミスマッチ",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "1.4　ドナー心摘出・心臓移植手技",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.5　免疫抑制療法",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "目次 1.6　感染症",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.7　合併症",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.8　精神的・身体的成長の問題",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "1.9　その他",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "2.　心臓移植の適応",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "2.2　適応となる疾患",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "2.3　再移植の適応",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "2.4　疾患ごとの心臓移植基準",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "section_path": "2.5　適応除外条件",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "2.6　適応を判断するうえで慎重を要する条件 100 3. 機械的循環補助",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "3.1　EXCOR Ⓡ Pediatric",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "Ⓡ Pediatric 補助下での 心臓移植待機の問題点",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "section_path": "3.3　両心室補助人工心臓（BiVAD）",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "3.4　単心室補助",
+      "start_page": 102,
+      "end_page": 102
+    },
+    {
+      "section_path": "4. 心臓移植手術",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "4.1　手術の特徴",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "4.2　手術手技",
+      "start_page": 103,
+      "end_page": 103
+    },
+    {
+      "section_path": "5. 周術期管理",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "5.1　巨大心を移植した場合の管理",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "5.3　免疫抑制剤の使用法と 拒絶診断における工夫",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "6. 慢性期管理",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "1. 歴史的側面",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "2.　日本における適応基準",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "2.1　適応条件と除外条件",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "2.2　ドナーの選定",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "3. 手術手技",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "4. 移植後管理",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "5. 臨床成績と日本の現状",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "section_path": "1. 移植医療の普及啓発",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "1.1　移植医療の特殊性",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "section_path": "1.2　改正臓器移植法施行後の普及啓発",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "2. 患者の社会への受け入れ",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "心臓移植に関するガイドライン 2.1　社会復帰",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "section_path": "2.2　身体活動",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "2.3　日常生活",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "section_path": "1.　DCD の可能性",
+      "start_page": 112,
+      "end_page": 113
+    },
+    {
+      "section_path": "2. 移植内科医の必要性",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "2.1　移植登録前の管理",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "2.2　移植適応判定",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "2.3　移植待機中の管理",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "2.4　移植後の管理",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "3. 心臓再移植",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "4. 渡航移植",
+      "start_page": 115,
+      "end_page": 118
+    },
+    {
+      "section_path": "付表1　免疫抑制治療プロトコール",
+      "start_page": 119,
+      "end_page": 122
+    },
+    {
+      "section_path": "付表2　班構成員の利益相反（COI）に関する開示",
+      "start_page": 123,
+      "end_page": 124
+    },
+    {
+      "section_path": "文献",
+      "start_page": 125,
+      "end_page": 438
+    },
+    {
+      "section_path": "サーボードによる評価が必要である． 拡張型心筋症",
+      "start_page": 439,
+      "end_page": 439
+    },
+    {
+      "section_path": "拡張相肥大型心筋症",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "肥大型心筋症",
+      "start_page": 1,
+      "end_page": 14
+    },
+    {
+      "section_path": "拘束型心筋症",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "DCM/RCM",
+      "start_page": 3,
+      "end_page": 68
+    },
+    {
+      "section_path": "虚血性心筋症",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "弁膜症",
+      "start_page": 3,
+      "end_page": 9
+    },
+    {
+      "section_path": "ARVC",
+      "start_page": 10,
+      "end_page": 12
+    },
+    {
+      "section_path": "サルコイドーシス",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "周産期心筋症",
+      "start_page": 4,
+      "end_page": 30
+    },
+    {
+      "section_path": "心筋炎後心筋症",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "薬剤性心筋症",
+      "start_page": 12,
+      "end_page": 18
+    },
+    {
+      "section_path": "Becker",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "Duchenne 保因",
+      "start_page": 1,
+      "end_page": 8
+    },
+    {
+      "section_path": "先天性心疾患",
+      "start_page": 9,
+      "end_page": 9
+    },
+    {
+      "section_path": "Marfan",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "section_path": "川崎病",
+      "start_page": 1,
+      "end_page": 1
+    }
+  ]
+}

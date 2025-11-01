@@ -1,0 +1,421 @@
+{
+  "pdf_filename": "JCS2018_kurita_nogami.pdf",
+  "created_at": "2025-11-01T11:23:45.583669",
+  "toc": [
+    {
+      "section_path": "1. わが国の非薬物治療の現状",
+      "start_page": 9,
+      "end_page": 10
+    },
+    {
+      "section_path": "2. ガイドラインの必要性と目的",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "3. 推奨度とエビデンスのグレード",
+      "start_page": 11,
+      "end_page": 12
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.1 歴史と推移",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.2 必要な知識・施設基準・実施医基準 ‥ 13 1.3 インフォームド・コンセント",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "section_path": "目次 1.4 合併症および対策",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.5 術後管理",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.6 CIED 外来および遠隔モニタリング",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.7 条件付きMRI 対応CIED",
+      "start_page": 16,
+      "end_page": 17
+    },
+    {
+      "section_path": "2. 心臓電気生理検査",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.1 徐脈性不整脈",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "2.2 頻脈性不整脈",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "3.  心臓ペースメーカ",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "3.1 房室ブロック",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.2 2 枝および3 枝ブロック",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.3 洞不全症候群",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "3.4 徐脈性心房細動（AF）",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "3.6 閉塞性肥大型心筋症（HOCM）",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.7 リードレスペースメーカ",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "3.8 ヒス束ペーシング",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.  植込み型除細動器（ICD）",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "4.1 基礎心疾患がある患者に対する 二次予防",
+      "start_page": 24,
+      "end_page": 26
+    },
+    {
+      "section_path": "4.2 基礎心疾患がある患者に対する 一次予防",
+      "start_page": 27,
+      "end_page": 28
+    },
+    {
+      "section_path": "4.3 原因不明の失神",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "4.4 特殊心疾患",
+      "start_page": 30,
+      "end_page": 41
+    },
+    {
+      "section_path": "4.5  皮下植込み型除細動器（S-ICD）",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "5. 心臓再同期療法（CRT）・CRT-D",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "section_path": "5.1 CRT",
+      "start_page": 43,
+      "end_page": 45
+    },
+    {
+      "section_path": "5.2 CRT-D",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "5.3 心外膜電極を用いたCRT/CRT-D",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "section_path": "6. 経皮的リード抜去術",
+      "start_page": 49,
+      "end_page": 50
+    },
+    {
+      "section_path": "7.  小児および先天性心疾患患者における CIED",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "7.1  小児および先天性心疾患患者における ペースメーカ",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "7.2 小児および先天性心疾患患者における ICD",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "7.3 小児および先天性心疾患患者における CRT，CRT-D",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "section_path": "8. 植込み型心臓モニター（ICM）",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "9. 着用型心臓除細動器（WCD）",
+      "start_page": 55,
+      "end_page": 56
+    },
+    {
+      "section_path": "1. 概論",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "1.1 カテーテルアブレーションの歴史と 推移",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "section_path": "1.3 インフォームド・コンセント",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1.4 術中管理，鎮静・鎮痛",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1.5 X 線被曝",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "1.6 合併症および対策",
+      "start_page": 62,
+      "end_page": 64
+    },
+    {
+      "section_path": "2. 心臓電気生理検査",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2.1 カテーテルアブレーション時の 心臓電気生理検査",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "2.2 三次元マッピングシステム",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "2.3 ナビゲーションシステム",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "3. 上室頻拍",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "3.1 WPW 症候群および 他の心室早期興奮症候群",
+      "start_page": 69,
+      "end_page": 70
+    },
+    {
+      "section_path": "3.2 房室結節リエントリー性頻拍 （AVNRT）",
+      "start_page": 71,
+      "end_page": 72
+    },
+    {
+      "section_path": "3.3 通常型AFL （三尖弁輪・下大静脈間峡部関与）",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "3.4 心房頻拍",
+      "start_page": 74,
+      "end_page": 75
+    },
+    {
+      "section_path": "3.5 房室ブロック作成術",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "4.  心房細動（AF）",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "4.1  分類，機序および治療適応",
+      "start_page": 77,
+      "end_page": 80
+    },
+    {
+      "section_path": "4.2 アブレーション手技",
+      "start_page": 81,
+      "end_page": 89
+    },
+    {
+      "section_path": "4.3  AF アブレーション周術期の 抗凝固療法",
+      "start_page": 90,
+      "end_page": 91
+    },
+    {
+      "section_path": "5. 心臓手術後心房頻拍・先天性心疾患における 頻拍",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "5.1 心臓手術後心房頻拍",
+      "start_page": 92,
+      "end_page": 93
+    },
+    {
+      "section_path": "不整脈非薬物治療ガイドライン 5.2 成人先天性心疾患",
+      "start_page": 94,
+      "end_page": 96
+    },
+    {
+      "section_path": "6. 心室不整脈",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "6.1 持続性VT",
+      "start_page": 97,
+      "end_page": 101
+    },
+    {
+      "section_path": "6.2  多形性VT・心室細動（VF）",
+      "start_page": 102,
+      "end_page": 103
+    },
+    {
+      "section_path": "6.3 心室期外収縮（PVC）・ 非持続性VT（NSVT）",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "section_path": "7.  小児に対するカテーテル アブレーション",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "section_path": "7.1 カテーテルアブレーション手技",
+      "start_page": 106,
+      "end_page": 106
+    },
+    {
+      "section_path": "7.2 体重15 kg 未満の カテーテルアブレーション",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "7.3 器質的心疾患をともなわない小児の カテーテルアブレーション適応",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "section_path": "7.4 先天性心疾患をともなう小児の カテーテルアブレーション",
+      "start_page": 108,
+      "end_page": 112
+    },
+    {
+      "section_path": "1.  心房細動（AF）",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "1.1 AF を合併した器質的心疾患に対する AF 手術",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "1.2 孤立性AF に対するAF 手術",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "section_path": "1.3  AF 手術への付加処置",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "2.  心室頻拍（VT）",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "1.  植込み型心臓デバイス（CIED）",
+      "start_page": 116,
+      "end_page": 116
+    },
+    {
+      "section_path": "1.1  CIED 植込み後の就学",
+      "start_page": 116,
+      "end_page": 118
+    },
+    {
+      "section_path": "1.2 CIED 植込み後の就労および 自動車運転",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "2. カテーテルアブレーション",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "section_path": "2.1 カテーテルアブレーション後の 就学",
+      "start_page": 120,
+      "end_page": 120
+    },
+    {
+      "section_path": "2.2 カテーテルアブレーション後の 就労",
+      "start_page": 120,
+      "end_page": 121
+    },
+    {
+      "section_path": "付表　不整脈非薬物治療ガイドライン：班構成員の利益相反（COI）に関する開示",
+      "start_page": 122,
+      "end_page": 128
+    },
+    {
+      "section_path": "文献",
+      "start_page": 129,
+      "end_page": 129
+    }
+  ]
+}

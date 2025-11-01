@@ -1,0 +1,861 @@
+{
+  "pdf_filename": "JCS2018_nakamura_yaku.pdf",
+  "created_at": "2025-11-01T11:23:52.071832",
+  "toc": [
+    {
+      "section_path": "1. 症候，身体所見",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "section_path": "2. 非侵襲的虚血評価",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "3. 侵襲的虚血評価",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "4. 心筋バイアビリティの評価",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1. チーム医療の必要性",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "2. ハートチームの役割",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3. ハートチームの要件",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "4. ハートチームで検討すべき事項",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "5. 地域におけるハートチーム",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1. 一般療法",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.1 禁煙",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.2 体重管理",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.3 身体活動および運動療法",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2. 薬物治療",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.1 目的",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "2.2 抗狭心症薬",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "2.3 冠危険因子に対する薬物治療",
+      "start_page": 20,
+      "end_page": 21
+    },
+    {
+      "section_path": "1. 血行再建の意義",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "1.1 血行再建の原則",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "1.2 血行再建の根拠",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "2. リスク評価指標",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "2.1 PCI におけるリスク評価指標",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "section_path": "安定冠動脈疾患の血行再建ガイドライン 2.2 CABG におけるリスク評価指標",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "3. 病変部位，罹患枝数と治療方針",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "3.1 治療方針決定の要因",
+      "start_page": 26,
+      "end_page": 27
+    },
+    {
+      "section_path": "3.2 1 枝病変",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.3 多枝病変",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.4 左冠動脈主幹部病変",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.5 完全血行再建",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "4. 血行再建のタイミングとad hoc PCI",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4.1 ad hoc PCI",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "4.2 staged PCI",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "section_path": "1. 心不全例，低心機能例",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.1 慢性心不全例でのエビデンス",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "1.2 PCI",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "1.3 CABG",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "1.4 左室形成術",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "2. 糖尿病合併例",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "2.1 糖尿病と冠動脈疾患",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "2.2 PCI",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "2.3 CABG",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "3. 慢性腎臓病合併例",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "3.1 腎機能障害の程度の評価",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "3.2 腎機能低下の程度と血行再建の予後 ‥ 37 3.3 透析症例",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "3.4 PCI",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "section_path": "3.5 CABG",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4. 弁疾患合併例",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4.1 治療方針",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4.2 PCI",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "section_path": "4.3 CABG",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "section_path": "5. 末梢動脈疾患合併例",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.1 頚動脈病変",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "section_path": "5.2 その他の末梢動脈疾患",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "6. 再血行再建",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "6.1 PCI 後の再狭窄",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "6.2 ステント血栓症",
+      "start_page": 43,
+      "end_page": 44
+    },
+    {
+      "section_path": "6.3 CABG 後のグラフト不全",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "7. 心房細動合併例",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "7.1 PCI",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "section_path": "7.2 CABG",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "7.3 外科的アブレーション",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "7.4 左心耳閉鎖術",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "section_path": "1. 薬物治療およびPCI との比較",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "1.1 治療効果とその大きさ",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "2. 術前のマネジメント",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "2.1 全身状態の評価",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "2.2 糖尿病",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.3 術前の抗凝固療法，抗血栓療法",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.4 緊急/ 準緊急CABG への対応",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "2.5 心不全",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3. 血液マネジメント",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.1 血液セービング戦略",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "3.2 薬理学的戦略",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "3.3 輸血",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "4. グラフト採取",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "4.1 左内胸動脈",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "4.2 右内胸動脈",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.3 胃大網動脈",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "4.4 橈骨動脈",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "section_path": "4.5 大伏在静脈",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "section_path": "5. び漫性狭窄病変",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "5.1 血行再建の意義とon-lay patch grafting 55 5.2 on-lay patch grafting の適応",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "5.3 on-lay patch grafting の術式",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "5.4 on-lay patch grafting の成績",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "6. グラフト大動脈中枢吻合",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "6.1 大動脈操作に伴う脳卒中の回避",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "6.2 適応と方法",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "6.3 グラフト種と予後，遠隔期開存性",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "7. グラフトの使用法",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "7.1 材料の選択",
+      "start_page": 59,
+      "end_page": 62
+    },
+    {
+      "section_path": "7.2 グラフト形態の最適化",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "8. オンポンプ手術とオフポンプ手術",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "8.1 RCT での手術成績",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "8.2 OPCAB のvolume-outcome relationship",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "8.3 OPCAB の優位性",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "8.4 脳梗塞の発症",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "9. 術中グラフト評価",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "9.1 術中蛍光イメージング",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "安定冠動脈疾患の血行再建ガイドライン 9.2 トランジットタイム血流計",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "section_path": "10. 手術成績の登録",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "section_path": "1. 予後改善のための治療戦略",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "section_path": "2. アクセス部位",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "3. 経皮的古典的バルーン血管形成術",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "section_path": "4. ベアメタルステント",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5. 薬剤溶出性ステント",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5.1 第1 世代",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "5.2 第2 世代，第3 世代",
+      "start_page": 71,
+      "end_page": 71
+    },
+    {
+      "section_path": "6. 特殊バルーン",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "6.1 薬剤塗布バルーン",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "section_path": "6.2 カッティングバルーン",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "6.3 スコアリングバルーン",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "6.4 パーフュージョン型バルーンカテー テル",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "7. アテレクトミーカテーテル",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "7.1 ロータブレーター，オービタルアテ レクトミーカテーテル",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "section_path": "7.2 方向性冠動脈粥腫切除術",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "7.3 エキシマレーザー冠動脈形成術",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "8. 生体吸収性スキャフォールド",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "8.1 現状",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "section_path": "8.2 BRS（BVS）のエビデンス",
+      "start_page": 74,
+      "end_page": 75
+    },
+    {
+      "section_path": "8.3 デバイス血栓症予防のための留置法 ‥ 75 9. 補助診断装置",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "9.1 血管内エコー法",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "section_path": "9.3 血管内視鏡",
+      "start_page": 77,
+      "end_page": 77
+    },
+    {
+      "section_path": "10. 分岐部病変",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "10.1 病変の評価",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "10.2 手技",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "section_path": "10.3 成績",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "11. 入口部病変",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "11.1 病変の評価",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "11.2 手技",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "11.3 成績",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "12. 慢性完全閉塞病変",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "12.1 病変の評価",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "12.2 手技",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "section_path": "12.3 成績",
+      "start_page": 80,
+      "end_page": 81
+    },
+    {
+      "section_path": "1. 診断",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "2. リスク評価",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "3. 予防法",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "4. 発症後の治療",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "section_path": "1. PCI",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "1.1 薬物併用療法",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "section_path": "1.2 抗血小板薬2 剤併用療法",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "section_path": "1.3 抗凝固薬服用例",
+      "start_page": 85,
+      "end_page": 86
+    },
+    {
+      "section_path": "2. CABG",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.1 抗凝固薬",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.2 抗血小板薬",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "section_path": "2.3 脂質コントロール薬",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "section_path": "2.4 β遮断薬など，その他の薬物",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "1. PCI",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "section_path": "2. CABG",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "section_path": "1. 費用対効果の概念と指標",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "2. PCI 対 薬物治療",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "section_path": "3. ベアメタルステント 対 薬剤溶出性ステント 91 4. PCI 対CABG（対 薬物治療）",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "section_path": "1. 適切性基準",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "section_path": "2. Standardized PCI",
+      "start_page": 93,
+      "end_page": 94
+    },
+    {
+      "section_path": "1. ロボットPCI",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "1.1 システムの概要と操作法",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "安定冠動脈疾患の血行再建ガイドライン 1.2 適応，利点と課題",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "2. ハイブリッド冠動脈血行再建",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "2.1 現状",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "2.2 適応",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "2.3 施行順序",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "2.4 治療成績と課題",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "3. 低侵襲CABG",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "3.1 定義と利点",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "section_path": "3.2 完全内視鏡下冠動脈バイパス術，覚醒 下OPCAB",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "4. 心筋再生",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "4.1 自己筋芽細胞シートの概要",
+      "start_page": 98,
+      "end_page": 98
+    },
+    {
+      "section_path": "4.2 筋芽細胞シートの有効性",
+      "start_page": 98,
+      "end_page": 99
+    },
+    {
+      "section_path": "付表1　PCI に関する本邦の施設基準",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "section_path": "付表2　安定冠動脈疾患の血行再建ガイドライン：班構成員の利益相反（COI）に関する開示",
+      "start_page": 101,
+      "end_page": 107
+    },
+    {
+      "section_path": "文献",
+      "start_page": 108,
+      "end_page": 108
+    }
+  ]
+}
