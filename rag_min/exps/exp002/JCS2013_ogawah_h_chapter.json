@@ -1,7 +1,37 @@
 {
   "pdf_filename": "JCS2013_ogawah_h.pdf",
-  "created_at": "2025-11-01T09:58:40.043781",
+  "created_at": "2025-11-01T11:18:22.633201",
   "toc": [
+    {
+      "section_path": "序",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "section_path": "1.  はじめに",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "section_path": "2.  ガイドラインの改訂にあたって",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "section_path": "I.  総論",
+      "start_page": 4,
+      "end_page": 4
+    },
+    {
+      "section_path": "1.  概念および病態",
+      "start_page": 4,
+      "end_page": 6
+    },
+    {
+      "section_path": "2.  成因，疫学",
+      "start_page": 7,
+      "end_page": 10
+    },
     {
       "section_path": "3.  病態生理",
       "start_page": 11,

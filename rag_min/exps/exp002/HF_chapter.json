@@ -1,12 +1,1256 @@
 {
   "pdf_filename": "HF.pdf",
-  "created_at": "2025-11-01T09:53:19.801377",
+  "created_at": "2025-11-01T11:16:54.413407",
   "toc": [
     {
       "section_path": "略語一覧",
       "start_page": 12,
-      "end_page": 12
+      "end_page": 16
+    },
+    {
+      "section_path": "2. クリニカルクエスチョン（CQ）の作成プロセス",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "3. 主要な改訂点",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "1. 心不全の定義・ステージ分類",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.1 心不全の定義",
+      "start_page": 19,
+      "end_page": 21
+    },
+    {
+      "section_path": "1.3 心不全増悪WHF と非代償状態 decompensation についての定義",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "2. 左室駆出率（LVEF）による分類",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "2.1 LVEF の低下した心不全（HFrEF）",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "2.2 LVEF の軽度低下した心不全（HFmrEF） 23 2.3 LVEF の保たれた心不全（HFpEF）",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "2.4 LVEF の経時的変化とLVEF の改善した 心不全（HFimpEF）",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3. 原因疾患による分類・右心不全",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.1 心不全の原因疾患",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "3.2 右心不全",
+      "start_page": 25,
+      "end_page": 26
+    },
+    {
+      "section_path": "1. わが国における心不全の疫学",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.1 心不全患者数",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "1.2 心不全患者の背景",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "2. 心不全の予後",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "3. 心不全の医療費",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "1. 診断アルゴリズム",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "2. 症状・身体所見・心電図・胸部単純X 線写真",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "section_path": "2.1 症状（病歴聴取）",
+      "start_page": 30,
+      "end_page": 31
+    },
+    {
+      "section_path": "2.2 身体所見",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "2.3 心電図",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "2.4 胸部単純X 線",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "3. バイオマーカー",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.1 ナトリウム利尿ペプチド",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.2 その他のバイオマーカー",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "4. 心エコー",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "4.1 心機能・形態・血行動態評価",
+      "start_page": 36,
+      "end_page": 37
+    },
+    {
+      "section_path": "4.2 負荷心エコー検査",
+      "start_page": 38,
+      "end_page": 39
+    },
+    {
+      "section_path": "4.3 その他のエコー指標",
+      "start_page": 40,
+      "end_page": 41
+    },
+    {
+      "section_path": "心不全診療ガイドライン 5. その他の画像診断",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "section_path": "5.1 CT",
+      "start_page": 42,
+      "end_page": 43
+    },
+    {
+      "section_path": "5.2 MRI",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "section_path": "5.3 核医学検査・PET",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "6. 侵襲的検査",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "6.1 右心カテーテル検査",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "section_path": "6.2 冠動脈造影・左室造影",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "section_path": "6.3 心内膜心筋生検",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "7. NYHA 心機能分類・運動耐容能・身体機能の 評価",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "7.1 NYHA 心機能分類",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "7.2 運動耐容能の評価",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "section_path": "7.3 身体機能の評価",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "section_path": "8. 遺伝学的検査",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "8.1 遺伝学的検査の意義",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "section_path": "8.2 心不全患者に対する遺伝学的検査の実施",
+      "start_page": 53,
+      "end_page": 54
+    },
+    {
+      "section_path": "9. ADL・QOL 評価",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "9.1 心不全におけるADL/QOL 評価の重要性",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "section_path": "9.2 患者報告アウトカム（PRO）",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "9.3 PRO を評価する臨床的意義",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "section_path": "10. リスクスコア",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "10.1 心不全領域におけるリスクスコアの意義",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "10.2 急性非代償性心不全",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "10.3 慢性心不全",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "section_path": "1. 発症予防 （ステージ A：心不全リスク）",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "1.1 生活習慣の管理",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "section_path": "1.2 高血圧治療",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1.3 ACE 阻害薬",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1.4 SGLT2 阻害薬",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "section_path": "1.5 GLP-1 受容体作動薬",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1.6 フィネレノン",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "1.7 BNP/NT-pro BNP を用いた心不全 スクリーニング",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "section_path": "2. 進展予防 （ステージ B：前心不全）",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.1 ACE 阻害薬",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.2 ARB",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.3 β遮断薬",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "section_path": "2.4 MRA",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.5 ARNI",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.6 SGLT2 阻害薬",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.7 スタチン",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "2.8 現状と今後の展望",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "section_path": "1.1 心不全治療の治療目標",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "1.2 心不全治療のアルゴリズム",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "section_path": "1.3 うっ血管理における利尿薬",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "section_path": "治療やGDMT の調整のガイドとしての BNP/NT-proBNP の測定",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "section_path": "2. 薬物治療",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "section_path": "2.1 LVEF の低下した心不全（HFrEF）",
+      "start_page": 66,
+      "end_page": 73
+    },
+    {
+      "section_path": "2.2 LVEF の保たれた心不全（HFpEF）",
+      "start_page": 74,
+      "end_page": 76
+    },
+    {
+      "section_path": "2.3 LVEF の軽度低下した心不全（HFmrEF）",
+      "start_page": 77,
+      "end_page": 78
+    },
+    {
+      "section_path": "3. 非薬物治療",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "3.1 運動療法",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "section_path": "3.2 植込み型心臓電気デバイス治療",
+      "start_page": 79,
+      "end_page": 84
+    },
+    {
+      "section_path": "3.3 虚血性心疾患に対する介入",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "section_path": "3.4 弁膜症に対する介入",
+      "start_page": 86,
+      "end_page": 89
+    },
+    {
+      "section_path": "3.5 心房細動に対する介入",
+      "start_page": 90,
+      "end_page": 93
+    },
+    {
+      "section_path": "3.6 その他の外科治療・再生医療",
+      "start_page": 94,
+      "end_page": 94
+    },
+    {
+      "section_path": "1. 定義",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "1.1 定義",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "1.2 ADHF におけるうっ血と組織低灌流の評価",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "section_path": "1.4 他の観点からの分類",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "2. 疫学・予後",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "3. 治療",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "section_path": "3.1 初期対応の方針",
+      "start_page": 96,
+      "end_page": 97
+    },
+    {
+      "section_path": "3.2 急性非代償性心不全の病態と治療",
+      "start_page": 98,
+      "end_page": 100
+    },
+    {
+      "section_path": "3.3 急性期の管理・モニタリング",
+      "start_page": 101,
+      "end_page": 104
+    },
+    {
+      "section_path": "3.4 薬物治療",
+      "start_page": 105,
+      "end_page": 109
+    },
+    {
+      "section_path": "3.5 非薬物治療",
+      "start_page": 110,
+      "end_page": 112
+    },
+    {
+      "section_path": "4. 非代償期から代償期への移行期管理",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "section_path": "管理",
+      "start_page": 113,
+      "end_page": 114
+    },
+    {
+      "section_path": "4.4 退院前・退院後早期の観察",
+      "start_page": 115,
+      "end_page": 115
+    },
+    {
+      "section_path": "重要性",
+      "start_page": 115,
+      "end_page": 116
+    },
+    {
+      "section_path": "2. 治療目標の設定",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "2.1 ステージD の治療目標",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "section_path": "注意点",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "section_path": "3. 強心薬・カテコラミン",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "3.1 適応となる患者",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "section_path": "4.1 機械的補助循環と補助人工心臓",
+      "start_page": 120,
+      "end_page": 125
+    },
+    {
+      "section_path": "4.2 心臓移植",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "section_path": "5. 症状緩和",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "section_path": "5.1 症状緩和の重要性",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "section_path": "5.2 症状の評価と介入",
+      "start_page": 126,
+      "end_page": 126
+    },
+    {
+      "section_path": "1. 肥大型心筋症",
+      "start_page": 127,
+      "end_page": 127
+    },
+    {
+      "section_path": "1.1 定義",
+      "start_page": 127,
+      "end_page": 127
+    },
+    {
+      "section_path": "1.2 分類",
+      "start_page": 128,
+      "end_page": 128
+    },
+    {
+      "section_path": "1.3 診断と検査",
+      "start_page": 128,
+      "end_page": 128
+    },
+    {
+      "section_path": "1.4 治療",
+      "start_page": 129,
+      "end_page": 129
+    },
+    {
+      "section_path": "2. 心アミロイドーシス",
+      "start_page": 130,
+      "end_page": 130
+    },
+    {
+      "section_path": "2.2 心アミロイドーシスの診断",
+      "start_page": 131,
+      "end_page": 131
+    },
+    {
+      "section_path": "2.3 心アミロイドーシスの治療",
+      "start_page": 131,
+      "end_page": 132
+    },
+    {
+      "section_path": "3. 心臓サルコイドーシス",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "3.1 病態・疫学・予後",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "3.2 診断",
+      "start_page": 133,
+      "end_page": 133
+    },
+    {
+      "section_path": "3.3 リスク層別",
+      "start_page": 134,
+      "end_page": 134
+    },
+    {
+      "section_path": "3.4 治療",
+      "start_page": 135,
+      "end_page": 137
+    },
+    {
+      "section_path": "",
+      "start_page": 138,
+      "end_page": 138
+    },
+    {
+      "section_path": "4.1 特徴，疫学",
+      "start_page": 138,
+      "end_page": 138
+    },
+    {
+      "section_path": "4.2 診断・評価",
+      "start_page": 139,
+      "end_page": 139
+    },
+    {
+      "section_path": "4.3 予防・管理",
+      "start_page": 140,
+      "end_page": 140
+    },
+    {
+      "section_path": "5. 肺高血圧症",
+      "start_page": 141,
+      "end_page": 141
+    },
+    {
+      "section_path": "の病態・定義・疫学",
+      "start_page": 141,
+      "end_page": 141
+    },
+    {
+      "section_path": "5.2 PH-LHD の診断",
+      "start_page": 141,
+      "end_page": 141
+    },
+    {
+      "section_path": "5.3 PH-LHD の治療",
+      "start_page": 142,
+      "end_page": 142
+    },
+    {
+      "section_path": "6. 心房心筋症",
+      "start_page": 142,
+      "end_page": 142
+    },
+    {
+      "section_path": "6.1 定義・分類",
+      "start_page": 142,
+      "end_page": 142
+    },
+    {
+      "section_path": "6.2 評価・原因",
+      "start_page": 143,
+      "end_page": 143
+    },
+    {
+      "section_path": "6.3 治療",
+      "start_page": 143,
+      "end_page": 143
+    },
+    {
+      "section_path": "7. 妊娠・周産期・周産期心筋症",
+      "start_page": 144,
+      "end_page": 144
+    },
+    {
+      "section_path": "7.1 心不全患者の妊娠",
+      "start_page": 144,
+      "end_page": 144
+    },
+    {
+      "section_path": "7.2 周産期心筋症",
+      "start_page": 144,
+      "end_page": 144
+    },
+    {
+      "section_path": "8. 中性脂肪蓄積心筋血管症",
+      "start_page": 145,
+      "end_page": 145
+    },
+    {
+      "section_path": "8.1 病態",
+      "start_page": 145,
+      "end_page": 145
+    },
+    {
+      "section_path": "8.2 診断",
+      "start_page": 145,
+      "end_page": 145
+    },
+    {
+      "section_path": "8.3 治療",
+      "start_page": 146,
+      "end_page": 146
+    },
+    {
+      "section_path": "9. 腫瘍循環器",
+      "start_page": 146,
+      "end_page": 146
+    },
+    {
+      "section_path": "治療に関する基本的考え方",
+      "start_page": 146,
+      "end_page": 146
+    },
+    {
+      "section_path": "と治療",
+      "start_page": 147,
+      "end_page": 148
+    },
+    {
+      "section_path": "1. 心血管系併存症",
+      "start_page": 149,
+      "end_page": 149
+    },
+    {
+      "section_path": "1.1 冠動脈疾患",
+      "start_page": 149,
+      "end_page": 149
+    },
+    {
+      "section_path": "1.2 弁膜症",
+      "start_page": 149,
+      "end_page": 150
+    },
+    {
+      "section_path": "1.3 不整脈・伝導障害",
+      "start_page": 151,
+      "end_page": 151
+    },
+    {
+      "section_path": "1.4 高血圧",
+      "start_page": 152,
+      "end_page": 153
+    },
+    {
+      "section_path": "2. 非心血管系併存症",
+      "start_page": 154,
+      "end_page": 154
+    },
+    {
+      "section_path": "2.1 慢性腎臓病・心腎症候群",
+      "start_page": 154,
+      "end_page": 155
+    },
+    {
+      "section_path": "2.2 貧血・鉄代謝",
+      "start_page": 156,
+      "end_page": 158
+    },
+    {
+      "section_path": "2.3 電解質異常",
+      "start_page": 159,
+      "end_page": 160
+    },
+    {
+      "section_path": "2.4 糖尿病",
+      "start_page": 161,
+      "end_page": 161
+    },
+    {
+      "section_path": "2.5 肥満",
+      "start_page": 162,
+      "end_page": 163
+    },
+    {
+      "section_path": "2.6 脂質異常症",
+      "start_page": 164,
+      "end_page": 164
+    },
+    {
+      "section_path": "2.7 高尿酸血症・痛風",
+      "start_page": 164,
+      "end_page": 164
+    },
+    {
+      "section_path": "2.8 慢性閉塞性肺疾患・喘息",
+      "start_page": 165,
+      "end_page": 165
+    },
+    {
+      "section_path": "2.9 睡眠呼吸障害",
+      "start_page": 166,
+      "end_page": 166
+    },
+    {
+      "section_path": "",
+      "start_page": 167,
+      "end_page": 168
+    },
+    {
+      "section_path": "1. 多職種介入・患者教育・セルフケア",
+      "start_page": 169,
+      "end_page": 169
+    },
+    {
+      "section_path": "1.1 多職種チームによる心不全管理",
+      "start_page": 169,
+      "end_page": 169
+    },
+    {
+      "section_path": "1.2 患者教育・セルフケア",
+      "start_page": 170,
+      "end_page": 173
+    },
+    {
+      "section_path": "2. 栄養管理",
+      "start_page": 174,
+      "end_page": 174
+    },
+    {
+      "section_path": "2.1 心不全患者に必要な栄養管理",
+      "start_page": 174,
+      "end_page": 174
+    },
+    {
+      "section_path": "2.2 栄養評価法",
+      "start_page": 174,
+      "end_page": 175
+    },
+    {
+      "section_path": "2.3 低栄養の管理",
+      "start_page": 176,
+      "end_page": 176
+    },
+    {
+      "section_path": "2.4 栄養療法",
+      "start_page": 176,
+      "end_page": 176
+    },
+    {
+      "section_path": "3. 遠隔モニタリング・デジタルヘルス",
+      "start_page": 177,
+      "end_page": 177
+    },
+    {
+      "section_path": "予防・管理・治療",
+      "start_page": 177,
+      "end_page": 178
+    },
+    {
+      "section_path": "",
+      "start_page": 179,
+      "end_page": 179
+    },
+    {
+      "section_path": "3.4 実用における注意と課題",
+      "start_page": 179,
+      "end_page": 179
+    },
+    {
+      "section_path": "",
+      "start_page": 180,
+      "end_page": 180
+    },
+    {
+      "section_path": "構成要素",
+      "start_page": 180,
+      "end_page": 180
+    },
+    {
+      "section_path": "",
+      "start_page": 180,
+      "end_page": 180
+    },
+    {
+      "section_path": "の現状",
+      "start_page": 180,
+      "end_page": 180
+    },
+    {
+      "section_path": "4.4 運動療法",
+      "start_page": 180,
+      "end_page": 183
+    },
+    {
+      "section_path": "5. 社会復帰と就労支援",
+      "start_page": 184,
+      "end_page": 184
+    },
+    {
+      "section_path": "",
+      "start_page": 184,
+      "end_page": 184
+    },
+    {
+      "section_path": "",
+      "start_page": 184,
+      "end_page": 184
+    },
+    {
+      "section_path": "6. 心不全療養指導士の役割",
+      "start_page": 185,
+      "end_page": 185
+    },
+    {
+      "section_path": "6.1 資格設立の目的",
+      "start_page": 185,
+      "end_page": 185
+    },
+    {
+      "section_path": "6.2 求められる役割",
+      "start_page": 185,
+      "end_page": 185
+    },
+    {
+      "section_path": "1. 緩和ケアの定義と対象",
+      "start_page": 186,
+      "end_page": 186
+    },
+    {
+      "section_path": "1.1 緩和ケアの定義",
+      "start_page": 186,
+      "end_page": 186
+    },
+    {
+      "section_path": "1.2 心不全の緩和ケアの特徴",
+      "start_page": 186,
+      "end_page": 186
+    },
+    {
+      "section_path": "意思決定支援",
+      "start_page": 187,
+      "end_page": 187
+    },
+    {
+      "section_path": "2.1 ACP に関連する概念の整理",
+      "start_page": 187,
+      "end_page": 187
+    },
+    {
+      "section_path": "2.2 ACP の効用と害",
+      "start_page": 188,
+      "end_page": 188
+    },
+    {
+      "section_path": "2.3 ACP の対象の選定と開始",
+      "start_page": 188,
+      "end_page": 188
+    },
+    {
+      "section_path": "2.4 ACP とプロセスガイドライン",
+      "start_page": 189,
+      "end_page": 189
+    },
+    {
+      "section_path": "3. 心不全における症状と対処法",
+      "start_page": 189,
+      "end_page": 191
+    },
+    {
+      "section_path": "3.5 緩和ケアにおける強心薬使用",
+      "start_page": 192,
+      "end_page": 192
+    },
+    {
+      "section_path": "4. 臨床倫理：治療の中止と差し控え",
+      "start_page": 192,
+      "end_page": 192
+    },
+    {
+      "section_path": "4.1 臨床倫理とは",
+      "start_page": 192,
+      "end_page": 192
+    },
+    {
+      "section_path": "めぐる議論",
+      "start_page": 193,
+      "end_page": 193
+    },
+    {
+      "section_path": "5. 多職種介入による全人的ケア",
+      "start_page": 194,
+      "end_page": 194
+    },
+    {
+      "section_path": "1. 地域連携・地域包括ケアの重要性",
+      "start_page": 195,
+      "end_page": 195
+    },
+    {
+      "section_path": "2. 地域連携・地域包括ケアの実際",
+      "start_page": 195,
+      "end_page": 195
+    },
+    {
+      "section_path": "2.1 かかりつけ医との連携",
+      "start_page": 195,
+      "end_page": 195
+    },
+    {
+      "section_path": "2.2 福祉・介護との連携",
+      "start_page": 196,
+      "end_page": 196
+    },
+    {
+      "section_path": "2.3 標準化された情報共有の重要性",
+      "start_page": 196,
+      "end_page": 196
+    },
+    {
+      "section_path": "2.4 今後の課題",
+      "start_page": 197,
+      "end_page": 197
+    },
+    {
+      "section_path": "",
+      "start_page": 198,
+      "end_page": 198
+    },
+    {
+      "section_path": "",
+      "start_page": 199,
+      "end_page": 199
+    },
+    {
+      "section_path": "1.1 新しいデバイス",
+      "start_page": 199,
+      "end_page": 199
+    },
+    {
+      "section_path": "治療",
+      "start_page": 199,
+      "end_page": 199
+    },
+    {
+      "section_path": "への応用",
+      "start_page": 200,
+      "end_page": 200
+    },
+    {
+      "section_path": "今後の研究の方向性",
+      "start_page": 200,
+      "end_page": 200
+    },
+    {
+      "section_path": "おける適切な塩分摂取量",
+      "start_page": 200,
+      "end_page": 200
+    },
+    {
+      "section_path": "2.2 SGLT2 阻害薬投与と高齢心不全",
+      "start_page": 200,
+      "end_page": 202
+    },
+    {
+      "section_path": "1. 心不全ってどんな病気ですか？",
+      "start_page": 203,
+      "end_page": 203
+    },
+    {
+      "section_path": "しょうか？",
+      "start_page": 203,
+      "end_page": 203
+    },
+    {
+      "section_path": "",
+      "start_page": 204,
+      "end_page": 204
+    },
+    {
+      "section_path": "か？",
+      "start_page": 205,
+      "end_page": 205
+    },
+    {
+      "section_path": "合いましょう",
+      "start_page": 205,
+      "end_page": 206
+    },
+    {
+      "section_path": "推奨されるか?",
+      "start_page": 207,
+      "end_page": 207
+    },
+    {
+      "section_path": "薬の投与開始は推奨されるか？",
+      "start_page": 208,
+      "end_page": 208
+    },
+    {
+      "section_path": "推奨すべきか？",
+      "start_page": 209,
+      "end_page": 210
+    },
+    {
+      "section_path": "付表1 CQ1 作成過程：データベース検索式と検索結果",
+      "start_page": 211,
+      "end_page": 211
+    },
+    {
+      "section_path": "付表2 CQ1 作成過程：二次スクリーニング後の一覧表",
+      "start_page": 212,
+      "end_page": 212
+    },
+    {
+      "section_path": "付表3 CQ1 作成過程：評価シート（介入研究）心血管死",
+      "start_page": 213,
+      "end_page": 213
+    },
+    {
+      "section_path": "付表4 CQ1 作成過程：評価シート（介入研究）心不全入院",
+      "start_page": 214,
+      "end_page": 214
+    },
+    {
+      "section_path": "付表5 CQ1 作成過程：評価シート（介入研究）心不全増悪",
+      "start_page": 215,
+      "end_page": 215
+    },
+    {
+      "section_path": "付表6 CQ1 作成過程：評価シート（介入研究）心不全入院または心血管死",
+      "start_page": 216,
+      "end_page": 217
+    },
+    {
+      "section_path": "付表7 CQ1 作成過程：評価シート（介入研究）心不全増悪または心血管死",
+      "start_page": 218,
+      "end_page": 218
+    },
+    {
+      "section_path": "付表8 CQ1 作成過程：評価シート（介入研究）KCCQ-CSS の変化量",
+      "start_page": 219,
+      "end_page": 219
+    },
+    {
+      "section_path": "付表9 CQ1 作成過程：評価シート（介入研究）腎複合イベント",
+      "start_page": 220,
+      "end_page": 220
+    },
+    {
+      "section_path": "付表10 CQ1 作成過程：評価シート（介入研究）eGFR の変化量",
+      "start_page": 221,
+      "end_page": 221
+    },
+    {
+      "section_path": "付表11 CQ1 作成過程：評価シート（介入研究）介入中止に至った有害事象の発生",
+      "start_page": 222,
+      "end_page": 222
+    },
+    {
+      "section_path": "付表12 CQ1 作成過程：評価シート（介入研究）エビデンス総体",
+      "start_page": 223,
+      "end_page": 223
+    },
+    {
+      "section_path": "付図1 CQ1 作成過程：データベース検索結果",
+      "start_page": 224,
+      "end_page": 224
+    },
+    {
+      "section_path": "付表13 CQ2 作成過程：データベース検索式と検索結果",
+      "start_page": 225,
+      "end_page": 225
+    },
+    {
+      "section_path": "付表14 CQ2 作成過程：二次スクリーニング後の一覧表",
+      "start_page": 225,
+      "end_page": 225
+    },
+    {
+      "section_path": "付表15 CQ2 作成過程：評価シート（介入研究）心血管死",
+      "start_page": 226,
+      "end_page": 226
+    },
+    {
+      "section_path": "付表16 CQ2 作成過程：評価シート（介入研究）心不全入院",
+      "start_page": 227,
+      "end_page": 227
+    },
+    {
+      "section_path": "付表17 CQ2 作成過程：評価シート（介入研究）心不全増悪または心血管死",
+      "start_page": 228,
+      "end_page": 228
+    },
+    {
+      "section_path": "付表18 CQ2 作成過程：評価シート（介入研究）KCCQ-CSS の変化量",
+      "start_page": 229,
+      "end_page": 229
+    },
+    {
+      "section_path": "付表19 CQ2 作成過程：評価シート（介入研究）エビデンス総体",
+      "start_page": 230,
+      "end_page": 230
+    },
+    {
+      "section_path": "付図2 CQ2 作成過程：データベース検索結果",
+      "start_page": 230,
+      "end_page": 230
+    },
+    {
+      "section_path": "付表20 CQ3　RC-1　推奨文草案（Individual perspective）",
+      "start_page": 231,
+      "end_page": 231
+    },
+    {
+      "section_path": "付表21 CQ3　RC-5　推奨作成の経過",
+      "start_page": 232,
+      "end_page": 233
+    },
+    {
+      "section_path": "付表22 CQ3　Stein らによるメタ解析に関するAMSTAR2 による評価",
+      "start_page": 234,
+      "end_page": 234
+    },
+    {
+      "section_path": "付表23 CQ3　RC-7　EtD フレームワーク（Clinical recommendation: Individual perspective）",
+      "start_page": 235,
+      "end_page": 237
+    },
+    {
+      "section_path": "付表24 臨床研究名一覧",
+      "start_page": 238,
+      "end_page": 241
+    },
+    {
+      "section_path": "付表25 班構成員の利益相反（COI）に関する開示",
+      "start_page": 242,
+      "end_page": 245
+    },
+    {
+      "section_path": "文献",
+      "start_page": 246,
+      "end_page": 246
     }
-    
   ]
 }
