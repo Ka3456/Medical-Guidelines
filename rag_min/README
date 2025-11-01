@@ -1,0 +1,119 @@
+# Medical Guideline RAG API - 起動方法
+
+## Docker を使用した起動
+
+### 1. Docker イメージのビルド
+
+```bash
+cd /home/kaitech/KaiTech/Medical-Guidelines/rag_min
+sudo docker build -t rag-min:latest .
+```
+
+### 2. コンテナの起動
+
+#### 基本起動（ポート8888を使用）
+
+```bash
+sudo docker run -d --rm -p 8888:8080 --name rag-min rag-min:latest
+```
+
+**注意**: ポート8080や8000が使用中の場合は、別のポート（例：8888）を使用してください。
+
+#### 環境変数を設定した起動（GCS を使用する場合）
+
+```bash
+sudo docker run -d --rm -p 8888:8080 --name rag-min \
+  -e GCS_BUCKET="your-bucket-name" \
+  -e GCS_PREFIX="chroma_db" \
+  -e PERSIST_DIR="/tmp/chroma_db" \
+  -e TOC_PATH="toc/chapter.json" \
+  -e COLLECTION="guidelines" \
+  -v /path/to/key.json:/key.json:ro \
+  -e GOOGLE_APPLICATION_CREDENTIALS="/key.json" \
+  rag-min:latest
+```
+
+### 3. 動作確認
+
+```bash
+# コンテナの状態確認
+sudo docker ps
+
+# ログ確認
+sudo docker logs rag-min
+
+# APIステータス確認
+curl http://localhost:8888/status
+```
+
+### 4. コンテナの停止
+
+```bash
+sudo docker stop rag-min
+```
+
+### 5. Docker イメージの更新
+
+コードやDockerfileを変更した場合、イメージを再ビルドしてコンテナを再起動します。
+
+```bash
+# 実行中のコンテナを停止
+sudo docker stop rag-min
+
+# 古いイメージを削除（オプション）
+sudo docker rmi rag-min:latest
+
+# 新しいイメージをビルド
+cd /home/kaitech/KaiTech/Medical-Guidelines/rag_min
+sudo docker build -t rag-min:latest .
+
+# コンテナを再起動（基本起動の場合）
+sudo docker run -d --rm -p 8888:8080 --name rag-min rag-min:latest
+
+# または、環境変数を設定した起動の場合
+sudo docker run -d --rm -p 8888:8080 --name rag-min \
+  -e GCS_BUCKET="your-bucket-name" \
+  -e GCS_PREFIX="chroma_db" \
+  -e PERSIST_DIR="/tmp/chroma_db" \
+  -e TOC_PATH="toc/chapter.json" \
+  -e COLLECTION="guidelines" \
+  -v /path/to/key.json:/key.json:ro \
+  -e GOOGLE_APPLICATION_CREDENTIALS="/key.json" \
+  rag-min:latest
+```
+
+### 6. よくある問題と対処法
+
+#### ポートが使用中の場合
+
+```bash
+# 使用中のポートを確認
+sudo lsof -i :8080
+sudo netstat -tlnp | grep 8080
+
+# 別のポートを使用して起動（例：8888）
+sudo docker run -d --rm -p 8888:8080 --name rag-min rag-min:latest
+```
+
+#### 既存のコンテナがある場合
+
+```bash
+# 既存のコンテナを停止・削除
+sudo docker stop rag-min 2>/dev/null
+sudo docker rm rag-min 2>/dev/null
+
+# 新しく起動
+sudo docker run -d --rm -p 8888:8080 --name rag-min rag-min:latest
+```
+
+## API エンドポイント
+
+- `GET /status` - サーバーの状態確認
+- その他のエンドポイントは `main.py` および `routes/api_routes.py` を参照
+
+## 注意事項
+
+- 環境変数 `GCS_BUCKET` が設定されていない場合、RAGサービスは初期化されませんが、APIサーバー自体は起動します
+- ポート8080はデフォルトで使用される場合があります（Apache Tomcatなど）
+- Docker の権限設定が必要な場合は、ユーザーを `docker` グループに追加してください
+
