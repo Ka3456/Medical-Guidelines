@@ -1,0 +1,22 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16   # pgvector入りの公式イメージ
+    container_name: pgvector-local
+    environment:
+      POSTGRES_USER: pguser
+      POSTGRES_PASSWORD: pgpass
+      POSTGRES_DB: ragdb
+    ports:
+      - "5433:5432"  # 既存PostgreSQLと競合しないように5433に変更
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d  # 初期SQLを自動実行
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pguser -d ragdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
+

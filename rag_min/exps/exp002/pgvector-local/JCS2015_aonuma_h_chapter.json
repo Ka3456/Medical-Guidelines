@@ -1,0 +1,391 @@
+{
+  "pdf_filename": "JCS2015_aonuma_h.pdf",
+  "created_at": "2025-11-01T11:23:49.511994",
+  "toc": [
+    {
+      "section_path": "CQ & HTU 一覧",
+      "start_page": 4,
+      "end_page": 5
+    },
+    {
+      "section_path": "I.   ガイドラインの概要",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "1.  ガイドラインの目的",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "section_path": "2.  本ガイドラインの使用上の注意",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "3.  Clinical Question の選定と推奨グレード",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "4.  外部評価",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "5.  今後の予定",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "section_path": "6.  利益相反",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "II.  薬物血中濃度モニタリング",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "1.  薬物血中濃度モニタリングの歴史",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "section_path": "2.  薬物血中濃度モニタリングに必要な薬物動態学",
+      "start_page": 8,
+      "end_page": 9
+    },
+    {
+      "section_path": "3.  血中濃度測定法",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "section_path": "4.  薬物動態解析の方法",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "section_path": "5.  保険収載",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "section_path": "III. 各論",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "section_path": "1.  抗不整脈薬",
+      "start_page": 13,
+      "end_page": 15
+    },
+    {
+      "section_path": "1.1  I 群抗不整脈薬",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "1.2 II 群抗不整脈薬",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "1.3 III 群抗不整脈薬",
+      "start_page": 18,
+      "end_page": 19
+    },
+    {
+      "section_path": "1.4 IV 群抗不整脈薬（ベプリジル）",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "1.5 強心薬（ジゴキシン）",
+      "start_page": 21,
+      "end_page": 26
+    },
+    {
+      "section_path": "2.  感染性心内膜炎時の抗菌薬",
+      "start_page": 27,
+      "end_page": 28
+    },
+    {
+      "section_path": "3.  特殊病態での変化",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "3.1 腎障害患者・血液透析患者",
+      "start_page": 29,
+      "end_page": 32
+    },
+    {
+      "section_path": "3.2 肝硬変",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "3.3 甲状腺機能障害",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "3.4 高齢者",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "3.5 小児",
+      "start_page": 36,
+      "end_page": 39
+    },
+    {
+      "section_path": "3.6 妊婦・授乳婦",
+      "start_page": 40,
+      "end_page": 41
+    },
+    {
+      "section_path": "4.  各薬の薬物動態一覧",
+      "start_page": 42,
+      "end_page": 44
+    },
+    {
+      "section_path": "5. 各薬の薬物相互作用一覧",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "section_path": "付表",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "section_path": "文献",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "section_path": "中濃度モニタリングを行うことは治療に有効ですか？",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "section_path": "中濃度モニタリングを行うことにより副作用は減少します か？",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "中濃度モニタリングを行うことにより至適な用量・用法が 得られるまでの時間は短縮しますか？",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "section_path": "採血のタイミングはどのようにすればよいでしょうか？",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "HTU2　服薬後の経過時間と血中濃度値からピーク値とト ラフ値の予測は可能でしょうか？",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "HTU3　どのようなときに血中濃度を測定すればよいので しょうか？",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "HTU4　I 群抗不整脈薬の中毒（副作用）域を教えてくだ さい．",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "section_path": "HTU5　抗不整脈薬の血中濃度依存性の副作用にはどのよ うなものがありますか？",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "HTU6　活性代謝物はどのように考えたらよいのでしょう か？",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "CQ4　b 遮断薬を使用している不整脈患者に対し，血中濃 度モニタリングを行うことは治療に有効ですか？",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "section_path": "血中濃度モニタリングを行うことは治療に有効です か？",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "section_path": "血中濃度モニタリングを行うことにより心外性副作用は減 少しますか？",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "に，採血のタイミングはどのようにすればよいでしょう か？",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "HTU8　アミオダロン持続静注時に血中濃度モニタリング は必要でしょうか？",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "HTU9　デスエチルアミオダロン濃度は効果や安全性の指 標になるのでしょうか？",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "section_path": "CQ7　ソタロールを使用している不整脈患者に対し，血 中濃度モニタリングを行うことは治療に有効ですか？",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "採血のタイミングはどのようにすればよいでしょうか？",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "中濃度モニタリングを行うことは治療に有効ですか？",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "section_path": "採血のタイミングはどのようにすればよいでしょうか？",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "中濃度モニタリングを行うことは治療に有効ですか？",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "section_path": "中濃度モニタリングを行うことは治療に有効ですか？",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "section_path": "採血のタイミングはどのようにすればよいでしょうか？",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "section_path": "を行う際には，どのくらいの間隔で採血をすればよいで しょうか？",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "HTU14　血中ジゴキシン濃度の治療域はどのように設定 すべきでしょうか？",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "section_path": "HTU15　メチルジゴキシンの血中濃度モニタリングはジ ゴキシン濃度でよいのでしょうか？",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "section_path": "シン様の化学構造を有する薬物に注意する必要はあるので しょうか？",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "HTU17　ジギタリス中毒は血中ジゴキシン濃度に依存す るのでしょうか？",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "section_path": "者に対し，血中濃度モニタリングを行うことは治療に有効 ですか？",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "心内膜炎患者に対し，血中濃度モニタリングを行うことは 治療に有効ですか？",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "section_path": "際に，採血のタイミングはどのようにすればよいでしょ うか？",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "ングを行う際に，採血のタイミングはどのようにすればよ いでしょうか？",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "section_path": "際に，採血のタイミングはどのようにすればよいでしょ うか？",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "する際には，血中濃度モニタリングはどのようにすればよ いでしょうか？",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "section_path": "する際には，血中濃度モニタリングはどのようにすればよ いでしょうか？",
+      "start_page": 30,
+      "end_page": 31
+    },
+    {
+      "section_path": "析患者にバンコマイシンを使用する際には，血中濃度モニ タリングはどのようにすればよいでしょうか？",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "section_path": "中濃度モニタリングはどのようにすればよいでしょう か？",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "section_path": "には，血中濃度モニタリングはどのようにすればよいで しょうか？",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "section_path": "度モニタリングはどのようにすればよいでしょうか？",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "中濃度モニタリングはどのようにすればよいでしょう か？",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "section_path": "度モニタリングはどのようにすればよいでしょうか？",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "HTU29　抗不整脈薬を小児に使用する場合，血中濃度治 療域は成人と同じでしょうか？",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "section_path": "HTU30　ジゴキシンを小児に使用する場合，血中濃度治 療域は成人と同じでしょうか？",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "section_path": "あるいはアミノグリコシド系抗菌薬を使用する場合，血中 濃度治療域は成人と同じでしょうか？",
+      "start_page": 38,
+      "end_page": 39
+    },
+    {
+      "section_path": "CQ13　抗不整脈薬の妊婦および授乳婦への適応と注意 点について教えてください．",
+      "start_page": 40,
+      "end_page": 40
+    }
+  ]
+}

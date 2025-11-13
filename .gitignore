@@ -90,6 +90,12 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 
+# Docker volumes and local pgvector data
+rag_min/exps/exp002/pgvector-local/pgdata/
+**/pgdata/
+**/pgvector-local/pgdata/
+docker-compose.override.yml
+
 # Large data files
 rag_min/data/chroma_db/
 **/chroma_db/
