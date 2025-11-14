@@ -45,6 +45,17 @@ class FirestoreService {
     }
   }
 
+  Future<void> updateUserTrackingPermission(String uid, bool enabled) async {
+    try {
+      await _firestore.collection('users').doc(uid).update({
+        'trackingEnabled': enabled,
+        'trackingPermissionUpdatedAt': FieldValue.serverTimestamp(),
+      });
+    } catch (e) {
+      throw Exception('トラッキング設定更新失敗: $e');
+    }
+  }
+
   Future<void> deleteUser(String uid) async {
     try {
       // ユーザーの基本情報を削除

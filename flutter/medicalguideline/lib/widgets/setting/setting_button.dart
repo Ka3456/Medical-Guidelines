@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'dart:ui';
-import '../../utils/colors.dart';
 
 class SettingButton extends StatelessWidget {
   final IconData icon;
@@ -8,6 +8,7 @@ class SettingButton extends StatelessWidget {
   final String subtitle;
   final VoidCallback onTap;
   final Color? textColor;
+  final Widget? trailing;
 
   const SettingButton({
     super.key,
@@ -16,148 +17,78 @@ class SettingButton extends StatelessWidget {
     required this.subtitle,
     required this.onTap,
     this.textColor,
+    this.trailing,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 2),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [
-            Colors.white.withValues(alpha: 0.4),
-            Colors.white.withValues(alpha: 0.2),
-          ],
-        ),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: Colors.white.withValues(alpha: 0.5),
-          width: 1.5,
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.1),
-            blurRadius: 15,
-            offset: const Offset(0, 6),
-            spreadRadius: 1,
-          ),
-          BoxShadow(
-            color: Colors.white.withValues(alpha: 0.7),
-            blurRadius: 15,
-            offset: const Offset(0, -6),
-            spreadRadius: 1,
-          ),
-        ],
+        color: CupertinoColors.systemBackground,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: CupertinoColors.separator, width: 0.5),
       ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(16),
-        child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-          child: Material(
-            color: Colors.transparent,
-            child: InkWell(
-              onTap: onTap,
-              borderRadius: BorderRadius.circular(16),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 20.0,
-                  vertical: 16.0,
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(12),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16.0,
+              vertical: 12.0,
+            ),
+            child: Row(
+              children: [
+                Container(
+                  width: 29,
+                  height: 29,
+                  decoration: BoxDecoration(
+                    color: (textColor ?? CupertinoColors.systemRed).withOpacity(
+                      0.1,
+                    ),
+                    borderRadius: BorderRadius.circular(6),
+                  ),
+                  child: Icon(
+                    icon,
+                    color: textColor ?? CupertinoColors.systemRed,
+                    size: 16,
+                  ),
                 ),
-                child: Row(
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            (textColor ?? AppColors.primaryRed).withValues(
-                              alpha: 0.2,
-                            ),
-                            (textColor ?? AppColors.primaryRed).withValues(
-                              alpha: 0.1,
-                            ),
-                          ],
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        title,
+                        style: const TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w400,
+                          color: CupertinoColors.label,
                         ),
-                        borderRadius: BorderRadius.circular(12),
-                        border: Border.all(
-                          color: (textColor ?? AppColors.primaryRed).withValues(
-                            alpha: 0.5,
-                          ),
-                          width: 1.5,
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        subtitle,
+                        style: const TextStyle(
+                          fontSize: 13,
+                          color: CupertinoColors.secondaryLabel,
                         ),
-                        boxShadow: [
-                          BoxShadow(
-                            color: (textColor ?? AppColors.primaryRed)
-                                .withValues(alpha: 0.2),
-                            blurRadius: 8,
-                            offset: const Offset(0, 3),
-                          ),
-                        ],
                       ),
-                      child: Icon(
-                        icon,
-                        color: textColor ?? AppColors.primaryRed,
-                        size: 24,
-                      ),
-                    ),
-                    const SizedBox(width: 16),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            title,
-                            style: Theme.of(context).textTheme.titleSmall
-                                ?.copyWith(
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.black87,
-                                  fontSize: 16,
-                                ),
-                          ),
-                          const SizedBox(height: 4),
-                          Text(
-                            subtitle,
-                            style: Theme.of(context).textTheme.bodySmall
-                                ?.copyWith(color: Colors.black54, fontSize: 14),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [
-                            Colors.white.withValues(alpha: 0.5),
-                            Colors.white.withValues(alpha: 0.3),
-                          ],
-                        ),
-                        borderRadius: BorderRadius.circular(8),
-                        border: Border.all(
-                          color: Colors.white.withValues(alpha: 0.4),
-                          width: 1,
-                        ),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withValues(alpha: 0.1),
-                            blurRadius: 6,
-                            offset: const Offset(0, 2),
-                          ),
-                        ],
-                      ),
-                      child: const Icon(
-                        Icons.arrow_forward_ios_rounded,
-                        size: 16,
-                        color: Colors.black54,
-                      ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
+                if (trailing != null)
+                  trailing!
+                else
+                  const Icon(
+                    CupertinoIcons.chevron_right,
+                    size: 16,
+                    color: CupertinoColors.tertiaryLabel,
+                  ),
+              ],
             ),
           ),
         ),

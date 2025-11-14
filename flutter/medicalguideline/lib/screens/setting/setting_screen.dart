@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../provider/auth_provider.dart';
 import '../../models/auth_result.dart' show AuthState;
@@ -11,6 +12,7 @@ import '../../widgets/setting/setting_button.dart';
 import '../../widgets/setting/logout_dialog.dart';
 import '../../widgets/setting/delete_account_dialog.dart';
 import 'technical_issue_screen.dart';
+import '../../widgets/common/tracking_permission_dialog.dart';
 
 class SettingScreen extends ConsumerWidget {
   const SettingScreen({super.key});
@@ -91,6 +93,45 @@ class SettingScreen extends ConsumerWidget {
                             title: '技術的問題を報告',
                             subtitle: 'バグや問題を報告します',
                             onTap: () => _openTechnicalIssueScreen(context),
+                          ),
+                          const Divider(height: 1),
+                          // トラッキング設定をサポートセクションに移動
+                          Consumer(
+                            builder: (context, ref, child) {
+                              final currentUser = ref.watch(
+                                currentUserProvider,
+                              );
+                              final trackingEnabled =
+                                  currentUser?.trackingEnabled ?? false;
+
+                              return SettingButton(
+                                icon: Icons.analytics_outlined,
+                                title: 'トラッキング',
+                                subtitle: trackingEnabled
+                                    ? 'アプリの改善にご協力いただいています'
+                                    : 'アプリの改善にご協力ください',
+                                trailing: CupertinoSwitch(
+                                  value: trackingEnabled,
+                                  onChanged: (value) async {
+                                    await ref
+                                        .read(authNotifierProvider.notifier)
+                                        .updateTrackingPermission(value);
+                                  },
+                                ),
+                                onTap: () async {
+                                  // ダイアログで詳細説明を表示
+                                  final result =
+                                      await TrackingPermissionDialog.show(
+                                        context,
+                                      );
+                                  if (result != null) {
+                                    await ref
+                                        .read(authNotifierProvider.notifier)
+                                        .updateTrackingPermission(result);
+                                  }
+                                },
+                              );
+                            },
                           ),
                         ],
                       ),

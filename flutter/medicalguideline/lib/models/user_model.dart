@@ -10,6 +10,7 @@ class UserModel {
   final DateTime? createdAt;
   final DateTime? lastSignInAt;
   final List<String>? specialties;
+  final bool? trackingEnabled;
 
   const UserModel({
     required this.uid,
@@ -20,10 +21,15 @@ class UserModel {
     this.createdAt,
     this.lastSignInAt,
     this.specialties,
+    this.trackingEnabled,
   });
 
   /// Create UserModel from Firebase User
-  factory UserModel.fromFirebaseUser(User user, {List<String>? specialties}) {
+  factory UserModel.fromFirebaseUser(
+    User user, {
+    List<String>? specialties,
+    bool? trackingEnabled,
+  }) {
     return UserModel(
       uid: user.uid,
       email: user.email ?? '',
@@ -33,6 +39,7 @@ class UserModel {
       createdAt: user.metadata.creationTime,
       lastSignInAt: user.metadata.lastSignInTime,
       specialties: specialties,
+      trackingEnabled: trackingEnabled,
     );
   }
 
@@ -46,6 +53,7 @@ class UserModel {
     DateTime? createdAt,
     DateTime? lastSignInAt,
     List<String>? specialties,
+    bool? trackingEnabled,
   }) {
     return UserModel(
       uid: uid ?? this.uid,
@@ -56,12 +64,13 @@ class UserModel {
       createdAt: createdAt ?? this.createdAt,
       lastSignInAt: lastSignInAt ?? this.lastSignInAt,
       specialties: specialties ?? this.specialties,
+      trackingEnabled: trackingEnabled ?? this.trackingEnabled,
     );
   }
 
   @override
   String toString() {
-    return 'UserModel(uid: $uid, email: $email, displayName: $displayName, isEmailVerified: $isEmailVerified, specialties: $specialties)';
+    return 'UserModel(uid: $uid, email: $email, displayName: $displayName, isEmailVerified: $isEmailVerified, specialties: $specialties, trackingEnabled: $trackingEnabled)';
   }
 
   @override
@@ -73,6 +82,7 @@ class UserModel {
         other.displayName == displayName &&
         other.photoURL == photoURL &&
         other.isEmailVerified == isEmailVerified &&
+        other.trackingEnabled == trackingEnabled &&
         _listEquals(other.specialties, specialties);
   }
 
@@ -83,6 +93,7 @@ class UserModel {
         displayName.hashCode ^
         photoURL.hashCode ^
         isEmailVerified.hashCode ^
+        trackingEnabled.hashCode ^
         specialties.hashCode;
   }
 
@@ -103,6 +114,7 @@ class UserModel {
       specialties: data['specialties'] != null
           ? List<String>.from(data['specialties'] as List)
           : null,
+      trackingEnabled: data['trackingEnabled'] as bool?,
     );
   }
 
@@ -117,6 +129,7 @@ class UserModel {
       'createdAt': createdAt?.millisecondsSinceEpoch,
       'lastSignInAt': lastSignInAt?.millisecondsSinceEpoch,
       'specialties': specialties,
+      'trackingEnabled': trackingEnabled,
     };
   }
 

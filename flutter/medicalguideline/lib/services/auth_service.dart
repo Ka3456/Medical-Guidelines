@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import 'package:flutter/foundation.dart';
 import '../models/user_model.dart';
 import '../models/auth_result.dart';
@@ -37,10 +38,23 @@ class AuthService {
   }
 
   /// Handle authentication state changes from Firebase
-  void _onAuthStateChanged(firebase_auth.User? firebaseUser) {
+  void _onAuthStateChanged(firebase_auth.User? firebaseUser) async {
     if (firebaseUser != null) {
-      final user = UserModel.fromFirebaseUser(firebaseUser);
-      _updateAuthStatus(AuthStatus.authenticated(user));
+      // Firestoreから最新のユーザー情報を取得（trackingEnabledを含む）
+      try {
+        final userFromFirestore = await _firestore.getUser(firebaseUser.uid);
+        if (userFromFirestore != null) {
+          _updateAuthStatus(AuthStatus.authenticated(userFromFirestore));
+        } else {
+          // Firestoreにユーザー情報がない場合は、Firebase Authの情報のみで作成
+          final user = UserModel.fromFirebaseUser(firebaseUser);
+          _updateAuthStatus(AuthStatus.authenticated(user));
+        }
+      } catch (e) {
+        // Firestore取得に失敗した場合は、Firebase Authの情報のみで作成
+        final user = UserModel.fromFirebaseUser(firebaseUser);
+        _updateAuthStatus(AuthStatus.authenticated(user));
+      }
     } else {
       _updateAuthStatus(AuthStatus.unauthenticated());
     }
@@ -253,6 +267,30 @@ class AuthService {
     }
   }
 
+  /// Update tracking permission
+  Future<AuthResult> updateTrackingPermission(bool enabled) async {
+    try {
+      final user = _auth.currentUser;
+      if (user != null) {
+        // Firestoreにトラッキング設定を保存
+        await _firestore.updateUserTrackingPermission(user.uid, enabled);
+
+        // 現在のユーザー情報を更新
+        final updatedUser = UserModel.fromFirebaseUser(
+          user,
+          trackingEnabled: enabled,
+        );
+        _updateAuthStatus(AuthStatus.authenticated(updatedUser));
+        return AuthResult.success(updatedUser);
+      } else {
+        return AuthResult.failure('ユーザーが見つかりません');
+      }
+    } catch (e) {
+      final errorMessage = '予期しないエラーが発生しました: ${e.toString()}';
+      return AuthResult.failure(errorMessage);
+    }
+  }
+
   /// Change user password
   Future<AuthResult> changePassword({
     required String currentPassword,
@@ -380,8 +418,64 @@ class AuthService {
   }
 
   /// Sign in with Apple (to be implemented)
+  /// Sign in with Apple
   Future<AuthResult> signInWithApple() async {
-    // TODO: Implement Apple Sign-In
-    return AuthResult.failure('Apple ログインはまだ実装されていません');
+    try {
+      _updateAuthStatus(AuthStatus.loading());
+
+      if (kIsWeb) {
+        // Web では直接 OAuthProvider('apple.com') を利用
+        final appleProvider = firebase_auth.OAuthProvider("apple.com");
+        final userCredential = await _auth.signInWithPopup(appleProvider);
+
+        if (userCredential.user != null) {
+          final user = UserModel.fromFirebaseUser(userCredential.user!);
+          _updateAuthStatus(AuthStatus.authenticated(user));
+          return AuthResult.success(user);
+        } else {
+          final error = AuthResult.failure('Apple ログインに失敗しました');
+          _updateAuthStatus(AuthStatus.error(error.errorMessage!));
+          return error;
+        }
+      } else {
+        // iOS / macOS / Android 用
+        final appleCredential = await SignInWithApple.getAppleIDCredential(
+          scopes: [
+            AppleIDAuthorizationScopes.email,
+            AppleIDAuthorizationScopes.fullName,
+          ],
+        );
+
+        final oauthCredential = firebase_auth.OAuthProvider("apple.com")
+            .credential(
+              idToken: appleCredential.identityToken,
+              accessToken: appleCredential.authorizationCode,
+            );
+
+        final userCredential = await _auth.signInWithCredential(
+          oauthCredential,
+        );
+
+        if (userCredential.user != null) {
+          final user = UserModel.fromFirebaseUser(userCredential.user!);
+          _updateAuthStatus(AuthStatus.authenticated(user));
+          return AuthResult.success(user);
+        } else {
+          final error = AuthResult.failure('Apple ログインに失敗しました');
+          _updateAuthStatus(AuthStatus.error(error.errorMessage!));
+          return error;
+        }
+      }
+    } on firebase_auth.FirebaseAuthException catch (e) {
+      final errorMessage = 'Apple ログインに失敗しました: ${e.message}';
+      final error = AuthResult.failure(errorMessage);
+      _updateAuthStatus(AuthStatus.error(errorMessage));
+      return error;
+    } catch (e) {
+      final errorMessage = 'Apple ログイン中にエラーが発生しました: $e';
+      final error = AuthResult.failure(errorMessage);
+      _updateAuthStatus(AuthStatus.error(errorMessage));
+      return error;
+    }
   }
 }

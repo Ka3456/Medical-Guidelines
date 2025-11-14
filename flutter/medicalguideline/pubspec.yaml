@@ -51,6 +51,7 @@ dependencies:
   flutter_native_splash: ^2.4.6
   cloud_firestore: ^6.0.1
   flutter_launcher_icons: ^0.14.4
+  sign_in_with_apple: ^7.0.1
 
 dev_dependencies:
   flutter_test:

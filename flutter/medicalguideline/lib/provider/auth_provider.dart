@@ -202,6 +202,17 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthResult?>> {
     }
   }
 
+  /// Update tracking permission
+  Future<void> updateTrackingPermission(bool enabled) async {
+    state = const AsyncValue.loading();
+    try {
+      final result = await _authService.updateTrackingPermission(enabled);
+      state = AsyncValue.data(result);
+    } catch (error, stackTrace) {
+      state = AsyncValue.error(error, stackTrace);
+    }
+  }
+
   /// Clear the current operation result
   void clearResult() {
     state = const AsyncValue.data(null);
