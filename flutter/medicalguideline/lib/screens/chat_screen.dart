@@ -7,6 +7,7 @@ import '../widgets/chat/chat_screen_ui.dart';
 import '../widgets/chat/chat_screen_manager.dart';
 import '../provider/auth_provider.dart';
 import '../screens/auth/login_screen.dart';
+import '../widgets/common/tracking_permission_dialog.dart';
 // AppBarの高さはSafeAreaから動的に計算
 
 class ChatScreen extends ConsumerStatefulWidget {
@@ -34,6 +35,11 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     _checkSystemStatus();
     _addWelcomeMessage();
     _loadConversations();
+
+    // 認証状態の変更を監視してトラッキング許可を確認
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _checkTrackingPermissionAfterAuth();
+    });
   }
 
   @override
@@ -41,6 +47,41 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     _scrollController.dispose();
     _manager.dispose();
     super.dispose();
+  }
+
+  // 認証完了後のトラッキング許可確認
+  void _checkTrackingPermissionAfterAuth() {
+    // 認証状態の変更を監視
+    ref.listen(authStatusProvider, (previous, next) {
+      next.when(
+        data: (status) async {
+          if (status.state == AuthState.authenticated && status.user != null) {
+            final currentUser = status.user!;
+
+            // trackingEnabledがnullの場合のみダイアログを表示
+            if (currentUser.trackingEnabled == null) {
+              // 少し遅延を入れて、UIが安定してからダイアログを表示
+              await Future.delayed(const Duration(milliseconds: 500));
+
+              if (!mounted) return;
+
+              final result = await TrackingPermissionDialog.show(context);
+              if (result != null && mounted) {
+                await ref
+                    .read(authNotifierProvider.notifier)
+                    .updateTrackingPermission(result);
+              }
+            }
+          }
+        },
+        loading: () {
+          // 認証状態が読み込み中の場合は何もしない
+        },
+        error: (error, stack) {
+          // エラーの場合は何もしない
+        },
+      );
+    });
   }
 
   // システム状態確認
