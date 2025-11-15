@@ -1,0 +1,1001 @@
+Image Index,Finding Labels,Follow-up #,Patient ID,Patient Age,Patient Gender,View Position,OriginalImage[Width,Height],OriginalImagePixelSpacing[x,y],Unnamed: 11,labels_list,No Finding,Infiltration,Effusion,Atelectasis,Nodule,Mass,Pneumothorax,Consolidation,Pleural_Thickening,Cardiomegaly,Emphysema,Edema,Fibrosis,Pneumonia,Hernia
+00000013_024.png,Mass,24,13,57,M,AP,2500,2048,0.168,0.168,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00000061_012.png,Edema|Effusion|Infiltration|Pleural_Thickening|Pneumonia,12,61,77,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Effusion', 'Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,1,0,0,0,0,0,1,0,0,1,0,1,0
+00000103_008.png,Mass,8,103,60,M,PA,2634,2649,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00000113_001.png,Atelectasis|Cardiomegaly|Effusion,1,113,73,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Cardiomegaly', 'Effusion']",0,0,1,1,0,0,0,0,0,1,0,0,0,0,0
+00000143_004.png,No Finding,4,143,90,M,PA,2558,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000144_001.png,Pneumonia,1,144,83,M,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00000150_002.png,Atelectasis|Infiltration|Pneumonia,2,150,55,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Infiltration', 'Pneumonia']",0,1,0,1,0,0,0,0,0,0,0,0,0,1,0
+00000187_000.png,Pleural_Thickening,0,187,49,M,PA,2968,2456,0.139,0.139,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00000238_001.png,No Finding,1,238,49,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000278_000.png,No Finding,0,278,53,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000284_003.png,Hernia,3,284,83,F,PA,2482,2509,0.143,0.143,,['Hernia'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00000318_005.png,No Finding,5,318,56,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000324_008.png,No Finding,8,324,34,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000371_000.png,No Finding,0,371,57,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000415_001.png,Fibrosis|Infiltration|Nodule|Pneumonia,1,415,68,F,AP,3056,2544,0.139,0.139,,"['Fibrosis', 'Infiltration', 'Nodule', 'Pneumonia']",0,1,0,0,1,0,0,0,0,0,0,0,1,1,0
+00000442_000.png,Cardiomegaly|Edema|Infiltration|Nodule,0,442,49,F,AP,3056,2544,0.139,0.139,,"['Cardiomegaly', 'Edema', 'Infiltration', 'Nodule']",0,1,0,0,1,0,0,0,0,1,0,1,0,0,0
+00000459_016.png,Infiltration,16,459,56,F,PA,2992,2991,0.143,0.143,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000468_040.png,Infiltration|Pneumonia|Pneumothorax,40,468,31,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia', 'Pneumothorax']",0,1,0,0,0,0,1,0,0,0,0,0,0,1,0
+00000481_000.png,No Finding,0,481,56,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000491_007.png,Consolidation|Edema|Effusion|Pneumothorax,7,491,38,M,PA,2021,2021,0.194311,0.194311,,"['Consolidation', 'Edema', 'Effusion', 'Pneumothorax']",0,0,1,0,0,0,1,1,0,0,0,1,0,0,0
+00000491_022.png,Infiltration|Mass,22,491,28,M,PA,2306,2709,0.143,0.143,,"['Infiltration', 'Mass']",0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+00000506_011.png,No Finding,11,506,27,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000506_016.png,Edema|Effusion|Pneumonia,16,506,28,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,1,0,1,0
+00000517_006.png,Pleural_Thickening,6,517,68,F,PA,2490,2889,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00000534_001.png,No Finding,1,534,65,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000655_002.png,Atelectasis|Effusion,2,655,51,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00000710_003.png,Fibrosis|Pneumonia,3,710,57,F,PA,2048,2500,0.168,0.168,,"['Fibrosis', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+00000732_007.png,Effusion|Pneumothorax,7,732,85,F,PA,2992,2991,0.143,0.143,,"['Effusion', 'Pneumothorax']",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+00000766_010.png,Effusion|Pneumonia,10,766,33,M,AP,2500,2048,0.168,0.168,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00000877_015.png,No Finding,15,877,39,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00000877_030.png,Edema|Effusion|Infiltration|Pneumonia,30,877,39,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,1,0,1,0
+00000938_002.png,Edema,2,938,58,F,AP,3048,2544,0.139,0.139,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00000942_002.png,Hernia,2,942,54,F,PA,2992,2991,0.143,0.143,,['Hernia'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00000997_001.png,Fibrosis,1,997,32,M,PA,2500,2048,0.171,0.171,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00001104_020.png,Consolidation,20,1104,57,M,PA,2992,2991,0.143,0.143,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00001106_000.png,Edema|Fibrosis,0,1106,68,F,PA,2590,2991,0.143,0.143,,"['Edema', 'Fibrosis']",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+00001140_001.png,Atelectasis|Pleural_Thickening,1,1140,50,M,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+00001203_006.png,Pleural_Thickening,6,1203,48,M,PA,2992,2991,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00001248_036.png,Pneumothorax,36,1248,33,F,PA,2992,2991,0.143,0.143,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00001256_002.png,No Finding,2,1256,56,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001256_006.png,Emphysema|Infiltration,6,1256,59,M,PA,2992,2991,0.143,0.143,,"['Emphysema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+00001301_009.png,Atelectasis|Consolidation|Effusion|Infiltration,9,1301,57,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Effusion', 'Infiltration']",0,1,1,1,0,0,0,1,0,0,0,0,0,0,0
+00001317_000.png,Infiltration|Pneumonia,0,1317,48,M,PA,2954,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00001317_002.png,Pneumonia,2,1317,48,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00001319_001.png,No Finding,1,1319,19,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001327_000.png,No Finding,0,1327,64,F,PA,2544,3056,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001385_019.png,Edema|Infiltration,19,1385,63,F,PA,2992,2991,0.143,0.143,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00001397_008.png,Atelectasis|Pneumothorax,8,1397,59,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+00001455_000.png,Pleural_Thickening|Pneumonia,0,1455,53,M,PA,2500,2048,0.168,0.168,,"['Pleural_Thickening', 'Pneumonia']",0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+00001460_001.png,Infiltration,1,1460,40,F,AP,2500,2048,0.168,0.168,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001483_000.png,Mass,0,1483,53,F,PA,2992,2991,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00001483_005.png,No Finding,5,1483,53,F,PA,2842,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001483_012.png,Fibrosis|Mass,12,1483,54,F,PA,2992,2991,0.143,0.143,,"['Fibrosis', 'Mass']",0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+00001549_014.png,Consolidation|Edema,14,1549,57,F,AP,3056,2544,0.139,0.139,,"['Consolidation', 'Edema']",0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+00001563_000.png,No Finding,0,1563,56,F,PA,2902,2733,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001582_017.png,Infiltration|Mass|Pneumonia,17,1582,32,F,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Mass', 'Pneumonia']",0,1,0,0,0,1,0,0,0,0,0,0,0,1,0
+00001592_000.png,No Finding,0,1592,56,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001629_005.png,Effusion|Infiltration|Pneumonia,5,1629,31,M,PA,2500,2048,0.168,0.168,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00001751_001.png,Fibrosis,1,1751,37,M,PA,1890,2021,0.194311,0.194311,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00001756_010.png,No Finding,10,1756,50,F,PA,2494,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001796_002.png,Atelectasis,2,1796,61,F,PA,2500,2048,0.171,0.171,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00001814_002.png,Consolidation|Fibrosis|Infiltration,2,1814,30,F,AP,2048,2500,0.171,0.171,,"['Consolidation', 'Fibrosis', 'Infiltration']",0,1,0,0,0,0,0,1,0,0,0,0,1,0,0
+00001836_052.png,Edema|Infiltration|Pneumonia,52,1836,49,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00001836_080.png,No Finding,80,1836,50,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001836_110.png,Mass|Pneumonia,110,1836,50,F,AP,2500,2048,0.168,0.168,,"['Mass', 'Pneumonia']",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+00001837_002.png,Pneumonia,2,1837,44,M,PA,2658,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00001847_008.png,Effusion|Nodule,8,1847,71,F,AP,2048,2500,0.168,0.168,,"['Effusion', 'Nodule']",0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+00001872_004.png,Infiltration|Pneumonia,4,1872,39,M,PA,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00001931_007.png,No Finding,7,1931,22,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00001933_000.png,Consolidation|Pneumonia,0,1933,40,F,PA,2570,2991,0.143,0.143,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00001946_015.png,Infiltration|Pleural_Thickening|Pneumonia,15,1946,19,M,PA,2544,2856,0.139,0.139,,"['Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,0,0,0,0,0,0,1,0,0,0,0,1,0
+00001946_018.png,Infiltration|Pneumonia,18,1946,19,M,PA,2634,2501,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00001968_000.png,Pneumothorax,0,1968,43,F,PA,2742,2991,0.143,0.143,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00001992_013.png,Atelectasis|Pneumonia,13,1992,17,F,PA,2048,2500,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00002048_001.png,No Finding,1,2048,47,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002100_003.png,No Finding,3,2100,38,M,PA,2898,2800,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002118_009.png,Pneumonia,9,2118,71,M,PA,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00002227_005.png,Edema|Effusion|Infiltration|Mass,5,2227,51,M,PA,2048,2500,0.171,0.171,,"['Edema', 'Effusion', 'Infiltration', 'Mass']",0,1,1,0,0,1,0,0,0,0,0,1,0,0,0
+00002248_001.png,Consolidation,1,2248,61,F,PA,2048,2500,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00002275_019.png,Emphysema|Infiltration|Pleural_Thickening|Pneumonia,19,2275,65,M,PA,2992,2991,0.143,0.143,,"['Emphysema', 'Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,0,0,0,0,0,0,1,0,1,0,0,1,0
+00002290_000.png,No Finding,0,2290,37,F,PA,2870,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002300_052.png,Consolidation|Infiltration|Pneumonia,52,2300,81,F,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,1,0,0,0,0,0,1,0
+00002360_002.png,Pneumonia,2,2360,33,F,PA,2048,2500,0.171,0.171,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00002412_002.png,Emphysema|Pneumothorax,2,2412,62,M,PA,2992,2991,0.143,0.143,,"['Emphysema', 'Pneumothorax']",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+00002435_000.png,Cardiomegaly,0,2435,50,F,PA,2544,3056,0.139,0.139,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00002439_010.png,Infiltration|Pneumonia,10,2439,65,M,PA,2500,2048,0.171,0.171,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00002457_000.png,No Finding,0,2457,10,M,PA,2048,2500,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002469_003.png,Atelectasis|Pneumonia,3,2469,63,M,PA,2500,2048,0.171,0.171,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00002484_003.png,Cardiomegaly|Pneumonia,3,2484,45,F,AP,2500,2048,0.171,0.171,,"['Cardiomegaly', 'Pneumonia']",0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+00002506_000.png,Cardiomegaly,0,2506,20,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00002512_002.png,No Finding,2,2512,59,M,PA,2021,2015,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002541_000.png,Cardiomegaly,0,2541,69,F,PA,2048,2500,0.171,0.171,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00002633_016.png,Atelectasis|Effusion|Pneumonia,16,2633,44,F,PA,2870,2693,0.143,0.143,,"['Atelectasis', 'Effusion', 'Pneumonia']",0,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+00002643_000.png,Fibrosis,0,2643,46,F,PA,2048,2500,0.168,0.168,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00002793_002.png,No Finding,2,2793,53,F,PA,2486,2429,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00002806_000.png,Cardiomegaly,0,2806,65,M,PA,2842,2991,0.143,0.143,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00002806_005.png,Cardiomegaly,5,2806,65,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00002863_003.png,No Finding,3,2863,56,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003028_055.png,No Finding,55,3028,58,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003028_067.png,Consolidation|Effusion|Infiltration,67,3028,58,F,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Effusion', 'Infiltration']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+00003029_007.png,Hernia,7,3029,53,F,AP,2500,2048,0.168,0.168,,['Hernia'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00003044_001.png,Cardiomegaly,1,3044,63,M,PA,2500,2048,0.171,0.171,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00003064_035.png,Effusion|Infiltration|Pleural_Thickening|Pneumonia,35,3064,36,M,PA,2500,2048,0.168,0.168,,"['Effusion', 'Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,1,0,0,0,0,0,1,0,0,0,0,1,0
+00003092_000.png,Pneumonia,0,3092,53,M,PA,2758,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00003140_018.png,No Finding,18,3140,30,F,PA,2862,2657,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003279_000.png,No Finding,0,3279,64,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003300_007.png,Emphysema|Infiltration|Mass,7,3300,47,M,AP,2500,2048,0.171,0.171,,"['Emphysema', 'Infiltration', 'Mass']",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0
+00003316_000.png,No Finding,0,3316,30,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003329_002.png,No Finding,2,3329,39,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003368_001.png,Atelectasis|Pneumonia,1,3368,58,F,PA,2048,2500,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00003377_008.png,Atelectasis|Effusion,8,3377,60,F,PA,2048,2500,0.168,0.168,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00003382_002.png,Infiltration,2,3382,71,F,PA,2021,2021,0.194311,0.194311,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003392_006.png,Edema|Pneumonia,6,3392,62,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00003426_029.png,Consolidation|Infiltration,29,3426,60,M,PA,2500,2048,0.168,0.168,,"['Consolidation', 'Infiltration']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+00003510_010.png,Pneumonia,10,3510,38,F,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00003523_011.png,Pneumonia,11,3523,23,F,AP,2048,2500,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00003528_025.png,Consolidation|Infiltration,25,3528,46,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Infiltration']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+00003535_005.png,No Finding,5,3535,19,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003577_001.png,Atelectasis|Pneumonia,1,3577,67,M,PA,2982,2853,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00003585_000.png,Atelectasis|Nodule|Pneumonia,0,3585,54,M,PA,2500,2048,0.171,0.171,,"['Atelectasis', 'Nodule', 'Pneumonia']",0,0,0,1,1,0,0,0,0,0,0,0,0,1,0
+00003593_006.png,Effusion|Pneumonia,6,3593,64,M,PA,2992,2991,0.143,0.143,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00003673_000.png,No Finding,0,3673,58,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003875_005.png,Infiltration,5,3875,21,M,AP,2500,2048,0.171,0.171,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003899_001.png,Nodule,1,3899,8,M,PA,2048,2500,0.168,0.168,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00003925_000.png,No Finding,0,3925,40,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00003981_016.png,Infiltration|Pneumonia,16,3981,66,M,PA,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00003989_015.png,Cardiomegaly,15,3989,57,F,PA,2830,2935,0.143,0.143,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00004034_005.png,Atelectasis|Edema|Effusion|Pneumonia|Pneumothorax,5,4034,48,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Edema', 'Effusion', 'Pneumonia', 'Pneumothorax']",0,0,1,1,0,0,1,0,0,0,0,1,0,1,0
+00004048_015.png,Atelectasis|Effusion|Infiltration|Pneumonia,15,4048,21,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+00004069_001.png,No Finding,1,4069,43,F,PA,2786,2592,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004106_001.png,Fibrosis|Infiltration,1,4106,36,F,PA,2500,2048,0.171,0.171,,"['Fibrosis', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+00004118_002.png,Edema|Effusion|Infiltration|Pleural_Thickening|Pneumonia,2,4118,23,M,PA,2500,2048,0.171,0.171,,"['Edema', 'Effusion', 'Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,1,0,0,0,0,0,1,0,0,1,0,1,0
+00004196_009.png,No Finding,9,4196,60,M,AP,3048,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004283_002.png,No Finding,2,4283,58,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004317_002.png,No Finding,2,4317,40,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004342_016.png,No Finding,16,4342,44,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004344_048.png,Cardiomegaly|Infiltration,48,4344,49,F,AP,2500,2048,0.168,0.168,,"['Cardiomegaly', 'Infiltration']",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+00004404_002.png,No Finding,2,4404,32,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004422_000.png,No Finding,0,4422,24,F,PA,2048,2500,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004435_017.png,No Finding,17,4435,28,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004501_002.png,Effusion,2,4501,27,F,PA,2048,2500,0.168,0.168,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00004508_014.png,Edema|Infiltration,14,4508,37,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00004525_005.png,No Finding,5,4525,62,F,PA,2698,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004534_008.png,Cardiomegaly|Pneumonia,8,4534,30,F,PA,2992,2991,0.143,0.143,,"['Cardiomegaly', 'Pneumonia']",0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+00004629_000.png,No Finding,0,4629,61,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004645_000.png,No Finding,0,4645,31,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004682_003.png,No Finding,3,4682,41,F,PA,2048,2500,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004715_000.png,No Finding,0,4715,57,F,PA,2048,2500,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004737_007.png,Cardiomegaly|Effusion,7,4737,49,M,AP,3056,2544,0.139,0.139,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00004800_001.png,Pneumothorax,1,4800,45,F,PA,2048,2500,0.171,0.171,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00004832_007.png,No Finding,7,4832,37,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004832_030.png,Consolidation|Infiltration|Pleural_Thickening|Pneumonia,30,4832,33,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,0,0,0,0,0,1,1,0,0,0,0,1,0
+00004843_003.png,Cardiomegaly,3,4843,24,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00004857_016.png,Infiltration|Pneumonia,16,4857,33,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00004857_017.png,Pleural_Thickening,17,4857,33,M,PA,2992,2991,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00004883_000.png,Infiltration,0,4883,55,M,PA,2992,2991,0.143,0.143,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004911_018.png,Atelectasis|Effusion|Infiltration|Nodule,18,4911,48,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Effusion', 'Infiltration', 'Nodule']",0,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+00004911_029.png,Edema|Infiltration|Mass,29,4911,48,F,PA,2578,2829,0.143,0.143,,"['Edema', 'Infiltration', 'Mass']",0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+00004925_013.png,No Finding,13,4925,56,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00004959_003.png,Emphysema|Pneumonia,3,4959,85,F,PA,2544,3056,0.139,0.139,,"['Emphysema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+00004961_007.png,Consolidation,7,4961,58,M,AP,2500,2048,0.171,0.171,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00005000_007.png,No Finding,7,5000,38,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005015_005.png,No Finding,5,5015,57,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005032_000.png,Pneumonia,0,5032,53,M,PA,2500,2048,0.171,0.171,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00005066_049.png,Atelectasis|Cardiomegaly|Effusion|Infiltration,49,5066,54,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Cardiomegaly', 'Effusion', 'Infiltration']",0,1,1,1,0,0,0,0,0,1,0,0,0,0,0
+00005066_058.png,No Finding,58,5066,54,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005094_009.png,Consolidation,9,5094,56,F,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00005145_001.png,No Finding,1,5145,51,F,PA,2048,2500,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005176_003.png,No Finding,3,5176,66,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005179_002.png,Effusion,2,5179,62,F,AP,2500,2048,0.171,0.171,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00005195_000.png,Hernia,0,5195,57,M,AP,2500,2048,0.171,0.171,,['Hernia'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00005228_002.png,Atelectasis|Pneumonia,2,5228,49,M,PA,2500,2048,0.171,0.171,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00005254_012.png,No Finding,12,5254,11,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005274_011.png,Pneumonia,11,5274,40,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00005288_014.png,Edema|Mass|Pneumonia,14,5288,48,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Mass', 'Pneumonia']",0,0,0,0,0,1,0,0,0,0,0,1,0,1,0
+00005298_006.png,Infiltration|Pleural_Thickening,6,5298,64,F,PA,2390,2521,0.143,0.143,,"['Infiltration', 'Pleural_Thickening']",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+00005318_002.png,Mass,2,5318,15,M,AP,2500,2048,0.171,0.171,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00005403_017.png,Atelectasis,17,5403,35,F,AP,2500,2048,0.171,0.171,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00005425_000.png,Cardiomegaly,0,5425,48,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00005456_010.png,Infiltration|Nodule,10,5456,65,F,PA,2518,2991,0.143,0.143,,"['Infiltration', 'Nodule']",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+00005467_008.png,Mass,8,5467,68,F,PA,2678,2597,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00005536_006.png,No Finding,6,5536,33,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005566_010.png,Nodule|Pleural_Thickening,10,5566,89,M,PA,2992,2991,0.143,0.143,,"['Nodule', 'Pleural_Thickening']",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+00005567_016.png,Emphysema|Pneumonia,16,5567,49,M,PA,2770,2557,0.143,0.143,,"['Emphysema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+00005567_021.png,No Finding,21,5567,51,M,PA,2946,2953,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005600_002.png,Atelectasis|Pleural_Thickening,2,5600,57,M,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+00005653_003.png,Atelectasis|Effusion|Infiltration|Pneumonia,3,5653,50,M,PA,2992,2881,0.143,0.143,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+00005681_026.png,Emphysema|Infiltration,26,5681,46,M,AP,3056,2544,0.139,0.139,,"['Emphysema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+00005681_048.png,Nodule,48,5681,38,M,PA,2670,2991,0.143,0.143,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00005682_010.png,Nodule,10,5682,74,M,AP,2500,2048,0.171,0.171,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00005750_017.png,No Finding,17,5750,24,M,AP,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005774_000.png,Cardiomegaly|Nodule,0,5774,71,F,PA,2898,2217,0.143,0.143,,"['Cardiomegaly', 'Nodule']",0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+00005792_000.png,No Finding,0,5792,48,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005797_001.png,No Finding,1,5797,60,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005814_001.png,No Finding,1,5814,60,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005815_000.png,No Finding,0,5815,33,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00005868_001.png,No Finding,1,5868,43,F,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006024_012.png,Infiltration|Pneumonia,12,6024,66,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00006039_002.png,Consolidation|Effusion,2,6039,58,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Effusion']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+00006044_005.png,Infiltration|Pleural_Thickening,5,6044,39,F,PA,2048,2500,0.171,0.171,,"['Infiltration', 'Pleural_Thickening']",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+00006051_001.png,Edema|Mass,1,6051,49,M,AP,2500,2048,0.171,0.171,,"['Edema', 'Mass']",0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+00006096_005.png,No Finding,5,6096,48,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006206_000.png,No Finding,0,6206,19,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006296_032.png,Pneumonia,32,6296,15,F,AP,2500,2048,0.171,0.171,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00006304_026.png,Edema|Infiltration|Pneumonia,26,6304,67,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00006304_042.png,No Finding,42,6304,67,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006329_000.png,No Finding,0,6329,71,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006338_008.png,Nodule,8,6338,54,F,PA,2500,2048,0.168,0.168,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00006408_000.png,Atelectasis|Pneumonia,0,6408,70,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00006447_005.png,Effusion|Emphysema|Pneumothorax,5,6447,71,M,PA,2500,2048,0.171,0.171,,"['Effusion', 'Emphysema', 'Pneumothorax']",0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+00006463_001.png,Fibrosis|Infiltration,1,6463,54,F,PA,2500,2048,0.168,0.168,,"['Fibrosis', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+00006484_001.png,No Finding,1,6484,51,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006491_001.png,No Finding,1,6491,26,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006549_007.png,Cardiomegaly|Effusion,7,6549,78,F,PA,2754,2521,0.143,0.143,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00006553_001.png,Fibrosis,1,6553,49,M,PA,2992,2773,0.143,0.143,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00006575_000.png,No Finding,0,6575,21,F,PA,2706,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006580_000.png,Cardiomegaly|Pneumonia,0,6580,47,F,PA,2048,2500,0.171,0.171,,"['Cardiomegaly', 'Pneumonia']",0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+00006586_003.png,No Finding,3,6586,61,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006631_000.png,No Finding,0,6631,48,F,PA,2048,2500,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006634_005.png,No Finding,5,6634,43,F,PA,2658,2593,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006642_022.png,No Finding,22,6642,59,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006674_000.png,No Finding,0,6674,30,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006749_000.png,No Finding,0,6749,47,F,PA,1859,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00006769_021.png,Effusion|Infiltration,21,6769,59,F,PA,2048,2500,0.168,0.168,,"['Effusion', 'Infiltration']",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+00006843_000.png,Atelectasis|Pneumonia,0,6843,5,F,PA,2048,2500,0.171,0.171,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00006960_001.png,Emphysema|Infiltration|Nodule,1,6960,17,M,PA,2500,2048,0.171,0.171,,"['Emphysema', 'Infiltration', 'Nodule']",0,1,0,0,1,0,0,0,0,0,1,0,0,0,0
+00006960_012.png,Mass|Pneumothorax,12,6960,18,M,AP,2500,2048,0.168,0.168,,"['Mass', 'Pneumothorax']",0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+00006991_012.png,Edema|Pneumonia,12,6991,53,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00007001_001.png,No Finding,1,7001,15,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007007_002.png,Atelectasis|Consolidation|Pneumonia,2,7007,45,F,AP,2500,2048,0.171,0.171,,"['Atelectasis', 'Consolidation', 'Pneumonia']",0,0,0,1,0,0,0,1,0,0,0,0,0,1,0
+00007007_006.png,No Finding,6,7007,45,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007018_047.png,Edema|Infiltration|Pneumonia,47,7018,28,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00007034_001.png,No Finding,1,7034,28,F,PA,2574,2469,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007056_004.png,Atelectasis|Pneumothorax,4,7056,57,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+00007056_012.png,Effusion|Pneumothorax,12,7056,57,M,PA,2500,2048,0.168,0.168,,"['Effusion', 'Pneumothorax']",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+00007088_000.png,No Finding,0,7088,46,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007108_007.png,Nodule,7,7108,54,F,AP,3056,2544,0.139,0.139,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00007109_020.png,Fibrosis|Pneumonia,20,7109,38,F,PA,2992,2991,0.143,0.143,,"['Fibrosis', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+00007114_000.png,No Finding,0,7114,47,M,PA,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007129_000.png,Pleural_Thickening,0,7129,71,F,PA,2486,2991,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00007154_000.png,No Finding,0,7154,64,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007185_008.png,No Finding,8,7185,28,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007233_000.png,No Finding,0,7233,30,M,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007240_005.png,No Finding,5,7240,77,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007274_003.png,Edema,3,7274,32,F,AP,2500,2048,0.168,0.168,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00007322_002.png,Effusion|Mass,2,7322,68,F,AP,2500,2048,0.171,0.171,,"['Effusion', 'Mass']",0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+00007332_002.png,Edema|Infiltration|Pleural_Thickening|Pneumonia,2,7332,69,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,0,0,0,0,0,0,1,0,0,1,0,1,0
+00007405_005.png,Consolidation|Mass,5,7405,54,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Mass']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+00007418_010.png,Pleural_Thickening,10,7418,31,F,PA,2418,2991,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00007441_006.png,No Finding,6,7441,48,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007442_010.png,Edema|Infiltration|Pneumonia,10,7442,35,F,AP,2500,2048,0.171,0.171,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00007558_017.png,Atelectasis,17,7558,43,F,PA,2048,2500,0.168,0.168,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00007576_025.png,No Finding,25,7576,33,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007581_000.png,No Finding,0,7581,54,F,AP,2500,2048,0.171,0.171,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007624_024.png,Pneumonia,24,7624,25,M,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00007629_001.png,Atelectasis|Pneumonia,1,7629,52,M,PA,2500,2048,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00007631_001.png,Fibrosis,1,7631,61,M,PA,2500,2048,0.168,0.168,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00007670_018.png,Atelectasis|Consolidation|Effusion|Infiltration|Pleural_Thickening|Pneumothorax,18,7670,46,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Effusion', 'Infiltration', 'Pleural_Thickening', 'Pneumothorax']",0,1,1,1,0,0,1,1,1,0,0,0,0,0,0
+00007718_007.png,Effusion|Nodule,7,7718,59,F,PA,2048,2500,0.168,0.168,,"['Effusion', 'Nodule']",0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+00007728_005.png,No Finding,5,7728,33,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007752_003.png,No Finding,3,7752,48,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007787_001.png,Pneumonia,1,7787,21,M,PA,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00007833_000.png,Cardiomegaly|Edema|Effusion|Infiltration,0,7833,38,M,PA,2500,2048,0.168,0.168,,"['Cardiomegaly', 'Edema', 'Effusion', 'Infiltration']",0,1,1,0,0,0,0,0,0,1,0,1,0,0,0
+00007857_012.png,Consolidation|Edema|Infiltration,12,7857,53,F,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Edema', 'Infiltration']",0,1,0,0,0,0,0,1,0,0,0,1,0,0,0
+00007863_000.png,No Finding,0,7863,52,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007865_005.png,Atelectasis|Emphysema|Pneumothorax,5,7865,68,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,1,0,0,0,0
+00007879_005.png,No Finding,5,7879,74,M,PA,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007886_017.png,No Finding,17,7886,45,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007963_002.png,No Finding,2,7963,46,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00007992_006.png,Pneumonia,6,7992,25,M,PA,2544,3040,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00008008_019.png,Atelectasis|Infiltration,19,8008,21,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Infiltration']",0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+00008008_046.png,Effusion|Pneumonia,46,8008,23,F,PA,2992,2991,0.143,0.143,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00008008_054.png,No Finding,54,8008,23,F,PA,2886,2717,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008009_019.png,Fibrosis,19,8009,18,M,PA,2702,2991,0.143,0.143,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00008026_002.png,Infiltration|Pneumonia,2,8026,14,F,PA,2048,2500,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00008045_002.png,Atelectasis|Pneumonia,2,8045,59,M,PA,2500,2048,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00008051_044.png,Atelectasis,44,8051,49,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00008064_000.png,Atelectasis|Emphysema,0,8064,68,M,PA,2500,2048,0.168,0.168,,"['Atelectasis', 'Emphysema']",0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+00008067_018.png,No Finding,18,8067,44,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008084_001.png,No Finding,1,8084,29,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008230_016.png,No Finding,16,8230,60,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008397_012.png,Atelectasis|Consolidation|Edema|Pneumonia|Pneumothorax,12,8397,53,M,PA,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Edema', 'Pneumonia', 'Pneumothorax']",0,0,0,1,0,0,1,1,0,0,0,1,0,1,0
+00008399_000.png,No Finding,0,8399,41,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008402_004.png,Emphysema|Pneumothorax,4,8402,62,M,AP,2500,2048,0.168,0.168,,"['Emphysema', 'Pneumothorax']",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+00008405_000.png,No Finding,0,8405,27,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008429_006.png,Emphysema|Infiltration|Mass,6,8429,75,M,PA,2500,2048,0.168,0.168,,"['Emphysema', 'Infiltration', 'Mass']",0,1,0,0,0,1,0,0,0,0,1,0,0,0,0
+00008463_000.png,Atelectasis|Cardiomegaly|Effusion|Infiltration|Mass,0,8463,14,M,PA,2048,2500,0.168,0.168,,"['Atelectasis', 'Cardiomegaly', 'Effusion', 'Infiltration', 'Mass']",0,1,1,1,0,1,0,0,0,1,0,0,0,0,0
+00008468_015.png,Emphysema,15,8468,10,F,AP,2048,2500,0.168,0.168,,['Emphysema'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00008514_000.png,Nodule,0,8514,32,M,PA,2048,2500,0.168,0.168,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00008722_002.png,Atelectasis|Pneumothorax,2,8722,49,M,PA,2500,2048,0.168,0.168,,"['Atelectasis', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+00008745_034.png,Pneumonia,34,8745,46,M,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00008806_007.png,No Finding,7,8806,39,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008841_062.png,Emphysema|Mass,62,8841,51,F,PA,2458,2808,0.143,0.143,,"['Emphysema', 'Mass']",0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+00008841_064.png,Fibrosis|Mass|Nodule|Pleural_Thickening,64,8841,52,F,PA,2234,2608,0.143,0.143,,"['Fibrosis', 'Mass', 'Nodule', 'Pleural_Thickening']",0,0,0,0,1,1,0,0,1,0,0,0,1,0,0
+00008917_000.png,No Finding,0,8917,43,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00008958_001.png,Infiltration|Pneumonia,1,8958,17,M,PA,2048,2500,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00008998_003.png,No Finding,3,8998,57,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009018_002.png,No Finding,2,9018,25,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009286_002.png,Atelectasis|Consolidation|Effusion|Emphysema|Infiltration,2,9286,58,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Effusion', 'Emphysema', 'Infiltration']",0,1,1,1,0,0,0,1,0,0,1,0,0,0,0
+00009408_000.png,No Finding,0,9408,56,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009437_003.png,Pneumothorax,3,9437,44,F,PA,2412,2607,0.143,0.143,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00009451_005.png,Atelectasis|Infiltration|Pleural_Thickening,5,9451,74,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Infiltration', 'Pleural_Thickening']",0,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+00009486_002.png,Nodule|Pneumonia,2,9486,58,M,AP,2500,2048,0.168,0.168,,"['Nodule', 'Pneumonia']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+00009507_001.png,Consolidation|Hernia|Infiltration|Pneumonia,1,9507,59,M,PA,2826,2905,0.143,0.143,,"['Consolidation', 'Hernia', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,1,0,0,0,0,0,1,1
+00009507_002.png,Effusion|Hernia|Pneumonia,2,9507,59,M,PA,2992,2991,0.143,0.143,,"['Effusion', 'Hernia', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,1
+00009524_000.png,Atelectasis|Pneumonia,0,9524,72,F,PA,2048,2500,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00009644_018.png,No Finding,18,9644,73,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009644_031.png,No Finding,31,9644,74,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009727_039.png,Consolidation,39,9727,14,F,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00009727_041.png,Consolidation,41,9727,14,F,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00009762_001.png,No Finding,1,9762,26,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009804_001.png,Infiltration|Nodule|Pneumonia,1,9804,5,M,PA,2048,2500,0.168,0.168,,"['Infiltration', 'Nodule', 'Pneumonia']",0,1,0,0,1,0,0,0,0,0,0,0,0,1,0
+00009813_006.png,No Finding,6,9813,69,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00009845_010.png,Pneumothorax,10,9845,57,M,PA,2992,2991,0.143,0.143,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00009858_001.png,Effusion|Pneumonia,1,9858,48,F,PA,2500,2048,0.168,0.168,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00009863_035.png,Edema|Pneumonia,35,9863,40,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00009873_002.png,Atelectasis|Pneumonia,2,9873,37,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00009889_034.png,Pneumothorax,34,9889,25,M,PA,2992,2991,0.143,0.143,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00009918_003.png,Effusion|Infiltration|Pneumonia,3,9918,61,M,PA,2500,2048,0.168,0.168,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00009953_003.png,Edema|Mass|Nodule,3,9953,57,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Mass', 'Nodule']",0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+00010012_016.png,Edema|Infiltration|Pneumonia,16,10012,53,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00010082_000.png,No Finding,0,10082,10,M,PA,2146,2169,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010092_003.png,Atelectasis|Nodule|Pneumonia,3,10092,47,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Nodule', 'Pneumonia']",0,0,0,1,1,0,0,0,0,0,0,0,0,1,0
+00010103_009.png,Fibrosis,9,10103,70,M,PA,2990,2991,0.143,0.143,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00010128_002.png,Atelectasis|Emphysema|Pleural_Thickening,2,10128,67,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+00010262_000.png,Atelectasis|Cardiomegaly|Fibrosis|Pleural_Thickening,0,10262,40,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Cardiomegaly', 'Fibrosis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,1,0,0,1,0,0
+00010263_000.png,No Finding,0,10263,42,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010264_006.png,No Finding,6,10264,46,M,PA,2438,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010294_021.png,Edema|Pneumonia,21,10294,50,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00010308_011.png,Effusion|Infiltration|Pneumonia,11,10308,38,F,PA,2806,2737,0.143,0.143,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00010334_010.png,Pneumonia,10,10334,66,M,PA,2990,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00010406_001.png,No Finding,1,10406,17,M,PA,2366,2753,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010406_004.png,Fibrosis,4,10406,17,M,PA,2646,2817,0.143,0.143,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00010465_003.png,Pleural_Thickening,3,10465,34,M,AP,2500,2048,0.168,0.168,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00010479_007.png,No Finding,7,10479,28,F,PA,2814,2441,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010524_002.png,Edema,2,10524,63,F,AP,2500,2048,0.168,0.168,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00010531_012.png,Pneumonia,12,10531,28,F,AP,3056,2544,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00010531_074.png,Consolidation|Pneumonia,74,10531,26,F,PA,2992,2991,0.143,0.143,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00010544_023.png,Edema|Pneumonia,23,10544,33,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00010544_024.png,Edema|Infiltration,24,10544,33,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00010544_029.png,Pneumonia,29,10544,33,F,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00010544_031.png,Infiltration|Pneumonia,31,10544,33,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00010582_004.png,No Finding,4,10582,63,F,PA,2544,3056,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010604_005.png,Edema|Pneumonia,5,10604,60,F,PA,2992,2625,0.143,0.143,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00010647_005.png,Atelectasis|Consolidation|Mass,5,10647,48,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Mass']",0,0,0,1,0,1,0,1,0,0,0,0,0,0,0
+00010652_000.png,Atelectasis|Pneumonia,0,10652,43,F,PA,3056,2544,0.139,0.139,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00010652_005.png,Fibrosis,5,10652,36,F,PA,2334,2565,0.143,0.143,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00010670_001.png,No Finding,1,10670,37,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00010693_012.png,Pneumonia,12,10693,20,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00010767_012.png,Emphysema|Pneumothorax,12,10767,58,M,AP,2500,2048,0.168,0.168,,"['Emphysema', 'Pneumothorax']",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+00010773_007.png,Edema|Infiltration,7,10773,54,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00010773_019.png,Edema|Infiltration|Pneumonia,19,10773,54,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00010805_042.png,Pneumonia,42,10805,9,F,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00010924_003.png,Atelectasis|Infiltration|Mass|Pneumonia,3,10924,62,F,PA,2762,2881,0.143,0.143,,"['Atelectasis', 'Infiltration', 'Mass', 'Pneumonia']",0,1,0,1,0,1,0,0,0,0,0,0,0,1,0
+00011020_000.png,Pleural_Thickening|Pneumonia,0,11020,63,F,PA,2346,2991,0.143,0.143,,"['Pleural_Thickening', 'Pneumonia']",0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+00011034_000.png,No Finding,0,11034,61,F,PA,1766,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011104_004.png,Infiltration|Nodule|Pneumonia,4,11104,60,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Nodule', 'Pneumonia']",0,1,0,0,1,0,0,0,0,0,0,0,0,1,0
+00011124_002.png,Edema|Emphysema,2,11124,66,M,PA,2630,2991,0.143,0.143,,"['Edema', 'Emphysema']",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+00011188_002.png,Pneumonia,2,11188,53,F,PA,2562,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00011237_036.png,Consolidation|Effusion|Infiltration|Pleural_Thickening,36,11237,56,F,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Effusion', 'Infiltration', 'Pleural_Thickening']",0,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+00011237_066.png,Infiltration|Pneumonia,66,11237,56,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00011237_083.png,No Finding,83,11237,56,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011237_090.png,No Finding,90,11237,56,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011263_000.png,Cardiomegaly,0,11263,44,M,PA,2882,2785,0.143,0.143,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00011328_007.png,Atelectasis|Infiltration|Pneumonia,7,11328,39,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Infiltration', 'Pneumonia']",0,1,0,1,0,0,0,0,0,0,0,0,0,1,0
+00011386_000.png,Pneumonia,0,11386,4,M,PA,2946,2839,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00011391_050.png,Edema|Infiltration|Pneumonia,50,11391,39,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00011402_007.png,Atelectasis|Cardiomegaly|Consolidation|Effusion|Infiltration|Pneumonia,7,11402,60,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,1,0,0,0,1,0,1,0,0,0,1,0
+00011423_006.png,Pleural_Thickening|Pneumothorax,6,11423,51,F,PA,2740,2823,0.143,0.143,,"['Pleural_Thickening', 'Pneumothorax']",0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+00011460_043.png,Pneumonia|Pneumothorax,43,11460,16,M,PA,2658,2797,0.143,0.143,,"['Pneumonia', 'Pneumothorax']",0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+00011460_064.png,Pleural_Thickening|Pneumothorax,64,11460,17,M,AP,2500,2048,0.168,0.168,,"['Pleural_Thickening', 'Pneumothorax']",0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+00011493_001.png,Pleural_Thickening,1,11493,27,M,PA,2802,2708,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00011526_001.png,No Finding,1,11526,68,M,PA,2814,2749,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011553_024.png,Edema|Infiltration|Pneumonia,24,11553,9,M,AP,2048,2500,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00011583_007.png,Edema|Infiltration|Pneumonia,7,11583,67,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00011598_005.png,No Finding,5,11598,75,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011638_000.png,Atelectasis|Pneumonia,0,11638,66,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00011661_000.png,Cardiomegaly,0,11661,56,F,PA,2518,2473,0.143,0.143,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00011683_003.png,Atelectasis|Consolidation,3,11683,55,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation']",0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+00011702_058.png,Edema|Effusion|Infiltration|Pneumonia,58,11702,26,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,1,0,1,0
+00011702_059.png,Edema|Effusion|Pneumonia,59,11702,26,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,1,0,1,0
+00011741_009.png,Mass,9,11741,17,M,PA,2048,2500,0.168,0.168,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00011768_001.png,No Finding,1,11768,56,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011792_001.png,No Finding,1,11792,48,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011907_000.png,No Finding,0,11907,37,M,PA,2728,2670,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00011915_003.png,Consolidation|Edema|Effusion|Infiltration,3,11915,56,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Edema', 'Effusion', 'Infiltration']",0,1,1,0,0,0,0,1,0,0,0,1,0,0,0
+00011925_028.png,Consolidation|Effusion|Infiltration,28,11925,54,M,AP,2048,2500,0.168,0.168,,"['Consolidation', 'Effusion', 'Infiltration']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+00011925_032.png,Edema|Effusion|Infiltration|Pneumonia,32,11925,54,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,1,0,1,0
+00011925_037.png,Effusion|Infiltration|Mass,37,11925,54,M,AP,2500,2048,0.168,0.168,,"['Effusion', 'Infiltration', 'Mass']",0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+00011945_011.png,Consolidation|Pneumonia,11,11945,33,F,PA,2500,2048,0.168,0.168,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00011959_009.png,Edema,9,11959,21,F,PA,2816,2631,0.143,0.143,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00011985_004.png,Edema,4,11985,54,F,AP,2500,2048,0.168,0.168,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00012094_009.png,Pneumonia,9,12094,63,F,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00012094_011.png,Pneumonia,11,12094,63,F,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00012094_019.png,Infiltration|Pneumothorax,19,12094,63,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumothorax']",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+00012097_008.png,No Finding,8,12097,41,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012162_003.png,No Finding,3,12162,20,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012210_004.png,No Finding,4,12210,55,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012229_003.png,Atelectasis|Consolidation|Pneumonia,3,12229,48,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Pneumonia']",0,0,0,1,0,0,0,1,0,0,0,0,0,1,0
+00012236_012.png,Atelectasis|Effusion|Pneumonia,12,12236,49,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion', 'Pneumonia']",0,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+00012261_001.png,Atelectasis|Cardiomegaly|Pneumonia,1,12261,60,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Cardiomegaly', 'Pneumonia']",0,0,0,1,0,0,0,0,0,1,0,0,0,1,0
+00012263_000.png,Effusion|Pleural_Thickening,0,12263,35,F,PA,2048,2500,0.168,0.168,,"['Effusion', 'Pleural_Thickening']",0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+00012266_007.png,Atelectasis,7,12266,57,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00012297_004.png,Pneumonia,4,12297,47,F,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00012357_002.png,No Finding,2,12357,27,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012364_070.png,Edema|Pneumonia,70,12364,53,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00012364_075.png,Edema|Infiltration|Pneumonia,75,12364,53,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00012373_002.png,Infiltration|Pleural_Thickening,2,12373,63,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pleural_Thickening']",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+00012392_000.png,No Finding,0,12392,49,M,PA,2858,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012408_000.png,No Finding,0,12408,51,F,PA,2434,2373,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012413_009.png,Infiltration|Mass|Pneumonia,9,12413,43,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Mass', 'Pneumonia']",0,1,0,0,0,1,0,0,0,0,0,0,0,1,0
+00012431_001.png,No Finding,1,12431,51,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012439_000.png,Mass|Pleural_Thickening,0,12439,55,M,PA,2500,2048,0.168,0.168,,"['Mass', 'Pleural_Thickening']",0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+00012471_003.png,Atelectasis,3,12471,64,M,AP,2500,2048,0.168,0.168,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00012528_000.png,No Finding,0,12528,43,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012576_004.png,Effusion|Pneumothorax|Pneumonia,4,12576,59,M,PA,2974,2741,0.143,0.143,,"['Effusion', 'Pneumothorax', 'Pneumonia']",0,0,1,0,0,0,1,0,0,0,0,0,0,1,0
+00012589_001.png,No Finding,1,12589,68,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012622_021.png,Effusion|Mass|Nodule,21,12622,32,F,PA,2048,2500,0.168,0.168,,"['Effusion', 'Mass', 'Nodule']",0,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+00012663_002.png,No Finding,2,12663,20,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012717_000.png,No Finding,0,12717,52,F,PA,2364,2546,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012722_003.png,Mass|Pleural_Thickening,3,12722,63,M,PA,2992,2991,0.143,0.143,,"['Mass', 'Pleural_Thickening']",0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+00012741_003.png,No Finding,3,12741,42,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012747_005.png,Edema,5,12747,57,M,AP,2500,2048,0.168,0.168,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00012829_013.png,No Finding,13,12829,55,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012834_041.png,Infiltration,41,12834,33,M,AP,2500,2048,0.168,0.168,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012834_050.png,Edema|Pneumonia,50,12834,33,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00012834_085.png,Pneumonia,85,12834,33,M,AP,2048,2500,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00012837_000.png,No Finding,0,12837,44,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012848_010.png,Atelectasis|Effusion|Pneumonia,10,12848,44,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion', 'Pneumonia']",0,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+00012866_000.png,No Finding,0,12866,32,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012880_020.png,Pleural_Thickening,20,12880,65,M,PA,2992,2991,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00012927_013.png,No Finding,13,12927,27,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012946_000.png,No Finding,0,12946,56,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00012992_000.png,Cardiomegaly|Edema|Infiltration,0,12992,38,F,PA,2950,2991,0.143,0.143,,"['Cardiomegaly', 'Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,1,0,1,0,0,0
+00013045_003.png,Infiltration|Pneumonia,3,13045,48,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00013055_001.png,No Finding,1,13055,69,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013077_001.png,Cardiomegaly,1,13077,65,M,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00013077_016.png,Consolidation,16,13077,65,M,PA,2992,2991,0.143,0.143,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00013085_004.png,Atelectasis|Effusion|Pneumothorax,4,13085,25,F,PA,2718,2991,0.143,0.143,,"['Atelectasis', 'Effusion', 'Pneumothorax']",0,0,1,1,0,0,1,0,0,0,0,0,0,0,0
+00013111_022.png,Atelectasis|Consolidation|Nodule|Pneumonia,22,13111,24,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Consolidation', 'Nodule', 'Pneumonia']",0,0,0,1,1,0,0,1,0,0,0,0,0,1,0
+00013111_052.png,Emphysema|Nodule,52,13111,21,M,AP,2500,2048,0.168,0.168,,"['Emphysema', 'Nodule']",0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+00013111_072.png,Atelectasis|Emphysema|Infiltration,72,13111,21,M,PA,2742,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Infiltration']",0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+00013111_077.png,Atelectasis|Emphysema|Pneumonia,77,13111,21,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,1,0,0,1,0
+00013111_111.png,Atelectasis,111,13111,23,M,AP,3056,2544,0.139,0.139,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00013128_021.png,Pleural_Thickening,21,13128,65,M,AP,2500,2048,0.168,0.168,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00013165_001.png,Atelectasis|Effusion|Infiltration,1,13165,12,F,PA,2910,2689,0.143,0.143,,"['Atelectasis', 'Effusion', 'Infiltration']",0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+00013194_005.png,No Finding,5,13194,50,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013229_013.png,No Finding,13,13229,35,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013249_035.png,Cardiomegaly|Edema|Effusion|Infiltration|Pneumonia,35,13249,15,M,AP,2048,2500,0.168,0.168,,"['Cardiomegaly', 'Edema', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,1,0,1,0,1,0
+00013249_056.png,Infiltration|Pneumonia,56,13249,15,M,PA,2414,1940,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00013285_002.png,Atelectasis|Effusion,2,13285,17,M,PA,2992,2701,0.143,0.143,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00013304_002.png,Pneumonia,2,13304,44,F,PA,2590,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00013307_006.png,Consolidation,6,13307,59,M,PA,2794,2991,0.143,0.143,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00013310_051.png,Emphysema|Pneumothorax,51,13310,58,M,AP,2500,2048,0.168,0.168,,"['Emphysema', 'Pneumothorax']",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+00013340_000.png,No Finding,0,13340,38,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013376_001.png,Nodule|Pneumonia,1,13376,36,M,PA,2992,2991,0.143,0.143,,"['Nodule', 'Pneumonia']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+00013447_000.png,No Finding,0,13447,49,F,PA,2586,2553,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013447_012.png,Pneumonia,12,13447,45,F,PA,2906,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00013471_005.png,Consolidation|Effusion|Infiltration,5,13471,63,M,PA,2992,2991,0.143,0.143,,"['Consolidation', 'Effusion', 'Infiltration']",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+00013499_002.png,Infiltration|Mass|Pneumonia,2,13499,33,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Mass', 'Pneumonia']",0,1,0,0,0,1,0,0,0,0,0,0,0,1,0
+00013520_009.png,No Finding,9,13520,18,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013567_002.png,Consolidation,2,13567,59,M,PA,2992,2991,0.143,0.143,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00013615_021.png,Atelectasis|Cardiomegaly|Infiltration,21,13615,10,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Cardiomegaly', 'Infiltration']",0,1,0,1,0,0,0,0,0,1,0,0,0,0,0
+00013625_078.png,Edema|Infiltration|Pneumonia,78,13625,66,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00013648_018.png,No Finding,18,13648,33,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013648_029.png,Atelectasis|Consolidation|Effusion|Mass,29,13648,34,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Effusion', 'Mass']",0,0,1,1,0,1,0,1,0,0,0,0,0,0,0
+00013653_005.png,Emphysema,5,13653,27,M,PA,2578,2991,0.143,0.143,,['Emphysema'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00013659_019.png,Consolidation|Mass|Pneumonia|Pneumothorax,19,13659,62,F,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Mass', 'Pneumonia', 'Pneumothorax']",0,0,0,0,0,1,1,1,0,0,0,0,0,1,0
+00013670_126.png,Consolidation,126,13670,56,M,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00013685_004.png,Effusion|Infiltration|Pneumonia,4,13685,49,F,PA,2402,2280,0.143,0.143,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00013685_006.png,Cardiomegaly,6,13685,49,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00013704_000.png,Atelectasis|Fibrosis,0,13704,47,F,PA,2048,2500,0.168,0.168,,"['Atelectasis', 'Fibrosis']",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
+00013721_005.png,Atelectasis|Pneumonia,5,13721,15,F,PA,2794,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00013773_000.png,No Finding,0,13773,29,F,PA,2674,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013779_000.png,Pneumonia,0,13779,66,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00013782_000.png,Infiltration,0,13782,27,M,AP,2500,2048,0.168,0.168,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013829_007.png,No Finding,7,13829,33,M,PA,2992,2989,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013974_003.png,No Finding,3,13974,50,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00013977_005.png,Effusion|Infiltration|Nodule,5,13977,55,M,PA,2770,2529,0.143,0.143,,"['Effusion', 'Infiltration', 'Nodule']",0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+00013992_005.png,Pneumonia,5,13992,60,M,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00013992_016.png,Atelectasis|Effusion|Infiltration|Pneumonia,16,13992,60,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+00013992_029.png,Atelectasis|Consolidation|Infiltration|Pneumonia,29,13992,60,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumonia']",0,1,0,1,0,0,0,1,0,0,0,0,0,1,0
+00014004_012.png,Edema|Pneumonia,12,14004,58,F,AP,2916,2544,0.139,0.139,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00014022_085.png,Edema|Pneumonia,85,14022,66,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00014027_001.png,No Finding,1,14027,9,M,PA,1808,2291,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014058_006.png,Atelectasis|Pneumonia,6,14058,47,M,PA,2990,2948,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00014071_002.png,No Finding,2,14071,8,M,PA,2266,2605,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014083_010.png,No Finding,10,14083,26,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014125_033.png,No Finding,33,14125,28,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014128_015.png,Effusion|Nodule,15,14128,15,F,AP,2500,2048,0.168,0.168,,"['Effusion', 'Nodule']",0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+00014149_020.png,Edema|Infiltration|Pneumonia,20,14149,59,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00014177_007.png,Effusion|Pneumonia,7,14177,38,M,PA,2726,2991,0.143,0.143,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00014183_002.png,Infiltration|Pneumonia,2,14183,29,M,PA,2048,2500,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00014197_000.png,Infiltration|Pneumonia,0,14197,57,M,PA,3052,2528,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00014203_013.png,No Finding,13,14203,30,M,PA,2946,2953,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014203_048.png,No Finding,48,14203,31,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014251_022.png,Effusion|Mass|Pneumothorax,22,14251,70,M,PA,2990,2991,0.143,0.143,,"['Effusion', 'Mass', 'Pneumothorax']",0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+00014265_016.png,Infiltration|Mass,16,14265,24,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Mass']",0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+00014290_008.png,Atelectasis|Infiltration,8,14290,41,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Infiltration']",0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+00014299_003.png,Atelectasis|Emphysema|Pneumothorax,3,14299,44,F,PA,2678,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,1,0,0,0,0
+00014308_000.png,Mass,0,14308,31,F,PA,2590,2991,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00014320_008.png,No Finding,8,14320,25,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014340_003.png,No Finding,3,14340,40,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014353_000.png,No Finding,0,14353,23,M,PA,2360,2526,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014361_000.png,Infiltration|Pneumonia,0,14361,36,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00014362_016.png,No Finding,16,14362,45,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014393_007.png,Pneumonia,7,14393,24,F,PA,2670,1982,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00014420_000.png,No Finding,0,14420,40,F,PA,2750,2753,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014447_002.png,No Finding,2,14447,30,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014466_000.png,No Finding,0,14466,65,F,PA,2990,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014537_000.png,No Finding,0,14537,45,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014567_011.png,No Finding,11,14567,58,M,PA,2814,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014617_009.png,Atelectasis|Consolidation|Effusion|Mass|Pleural_Thickening,9,14617,59,F,PA,2810,2991,0.143,0.143,,"['Atelectasis', 'Consolidation', 'Effusion', 'Mass', 'Pleural_Thickening']",0,0,1,1,0,1,0,1,1,0,0,0,0,0,0
+00014647_009.png,Pneumonia,9,14647,41,M,PA,2674,2812,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00014675_036.png,Infiltration|Pleural_Thickening|Pneumonia,36,14675,68,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,0,0,0,0,0,0,1,0,0,0,0,1,0
+00014710_005.png,Atelectasis|Nodule|Pneumonia,5,14710,59,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Nodule', 'Pneumonia']",0,0,0,1,1,0,0,0,0,0,0,0,0,1,0
+00014716_005.png,No Finding,5,14716,51,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014731_005.png,Mass|Pneumothorax,5,14731,54,M,PA,2992,2991,0.143,0.143,,"['Mass', 'Pneumothorax']",0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+00014744_004.png,No Finding,4,14744,22,M,AP,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014798_005.png,Mass|Pneumonia,5,14798,23,M,AP,2500,2048,0.168,0.168,,"['Mass', 'Pneumonia']",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+00014827_007.png,No Finding,7,14827,48,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014844_001.png,No Finding,1,14844,67,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00014896_000.png,Emphysema|Nodule,0,14896,54,M,PA,2992,2991,0.143,0.143,,"['Emphysema', 'Nodule']",0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+00014919_001.png,Atelectasis|Consolidation|Mass,1,14919,67,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Consolidation', 'Mass']",0,0,0,1,0,1,0,1,0,0,0,0,0,0,0
+00014934_006.png,No Finding,6,14934,55,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015013_011.png,Atelectasis|Effusion,11,15013,45,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00015034_001.png,No Finding,1,15034,64,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015044_003.png,Atelectasis|Effusion,3,15044,42,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00015044_005.png,Atelectasis|Effusion|Emphysema,5,15044,42,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion', 'Emphysema']",0,0,1,1,0,0,0,0,0,0,1,0,0,0,0
+00015047_001.png,No Finding,1,15047,50,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015081_002.png,Nodule|Pleural_Thickening,2,15081,52,M,PA,2992,2991,0.143,0.143,,"['Nodule', 'Pleural_Thickening']",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+00015084_000.png,No Finding,0,15084,68,F,PA,2742,2489,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015135_000.png,No Finding,0,15135,8,M,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015143_000.png,No Finding,0,15143,47,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015168_000.png,No Finding,0,15168,50,F,PA,2686,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015196_005.png,Atelectasis|Mass|Pneumothorax,5,15196,52,M,PA,2508,2723,0.143,0.143,,"['Atelectasis', 'Mass', 'Pneumothorax']",0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
+00015231_001.png,No Finding,1,15231,24,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015275_007.png,Infiltration|Pneumonia,7,15275,44,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00015291_000.png,No Finding,0,15291,23,F,PA,2746,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015347_000.png,No Finding,0,15347,59,F,PA,2454,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015376_021.png,Effusion|Pneumonia,21,15376,60,F,AP,2500,2048,0.168,0.168,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00015386_001.png,Consolidation|Effusion|Mass,1,15386,59,F,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Effusion', 'Mass']",0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+00015405_000.png,No Finding,0,15405,43,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015406_010.png,Consolidation|Infiltration|Pneumonia,10,15406,38,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,1,0,0,0,0,0,1,0
+00015462_000.png,Consolidation|Infiltration|Pneumonia,0,15462,3,F,AP,2048,2500,0.168,0.168,,"['Consolidation', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,1,0,0,0,0,0,1,0
+00015486_003.png,No Finding,3,15486,64,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015507_002.png,Atelectasis|Hernia|Nodule,2,15507,69,F,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Hernia', 'Nodule']",0,0,0,1,1,0,0,0,0,0,0,0,0,0,1
+00015537_015.png,Effusion,15,15537,47,F,PA,2742,2609,0.143,0.143,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00015549_000.png,Mass|Nodule,0,15549,38,F,AP,2048,2500,0.168,0.168,,"['Mass', 'Nodule']",0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+00015557_002.png,Infiltration,2,15557,58,F,AP,2500,2048,0.168,0.168,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015564_012.png,Infiltration|Pneumonia,12,15564,29,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00015595_003.png,No Finding,3,15595,63,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015622_002.png,Pleural_Thickening,2,15622,33,F,PA,2274,2821,0.143,0.143,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00015646_000.png,Emphysema,0,15646,65,M,PA,2992,2991,0.143,0.143,,['Emphysema'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00015695_000.png,No Finding,0,15695,45,F,PA,2674,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00015701_000.png,Atelectasis|Effusion|Infiltration|Pneumonia,0,15701,31,M,PA,2990,2991,0.143,0.143,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+00015732_031.png,Edema|Infiltration,31,15732,48,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00015732_047.png,Edema|Infiltration|Pneumonia,47,15732,48,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00015799_006.png,Edema|Infiltration|Pneumonia,6,15799,68,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00015826_029.png,Infiltration|Pneumonia,29,15826,49,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00015826_031.png,Consolidation|Infiltration,31,15826,50,M,PA,2992,2991,0.143,0.143,,"['Consolidation', 'Infiltration']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+00015826_036.png,Pneumonia,36,15826,52,M,PA,3036,2533,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00015837_000.png,Emphysema,0,15837,68,M,PA,2346,2991,0.143,0.143,,['Emphysema'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00015987_005.png,Atelectasis|Pneumonia,5,15987,61,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00016011_009.png,Effusion|Pneumonia,9,16011,27,F,PA,2992,2991,0.143,0.143,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00016036_002.png,Consolidation|Edema|Infiltration|Pneumonia,2,16036,71,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,1,0,0,0,1,0,1,0
+00016052_012.png,Atelectasis|Consolidation|Effusion|Emphysema,12,16052,57,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Consolidation', 'Effusion', 'Emphysema']",0,0,1,1,0,0,0,1,0,0,1,0,0,0,0
+00016103_004.png,No Finding,4,16103,65,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016109_012.png,Atelectasis|Pneumothorax,12,16109,49,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+00016167_002.png,Edema|Infiltration,2,16167,60,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00016179_000.png,Atelectasis|Pneumonia,0,16179,54,F,PA,2048,2500,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00016184_028.png,No Finding,28,16184,43,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016211_000.png,Mass,0,16211,81,F,PA,2710,2797,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00016270_008.png,No Finding,8,16270,55,M,PA,2538,2975,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016291_049.png,Infiltration|Pneumonia,49,16291,54,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00016291_054.png,Cardiomegaly|Consolidation|Pneumonia,54,16291,54,M,AP,2500,2048,0.168,0.168,,"['Cardiomegaly', 'Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+00016350_001.png,Atelectasis|Pneumonia,1,16350,53,M,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00016376_005.png,No Finding,5,16376,55,M,PA,2944,2700,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016391_000.png,Cardiomegaly|Effusion,0,16391,42,M,PA,2506,2991,0.143,0.143,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00016399_005.png,No Finding,5,16399,55,F,PA,2906,2829,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016406_004.png,Edema|Effusion|Infiltration|Pneumonia,4,16406,43,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,1,0,1,0
+00016450_000.png,Atelectasis,0,16450,55,F,PA,2992,2991,0.143,0.143,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00016455_000.png,No Finding,0,16455,39,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016475_002.png,Mass,2,16475,68,M,PA,2990,2991,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00016484_005.png,Edema|Pneumonia,5,16484,5,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00016508_057.png,Consolidation|Emphysema|Pneumonia,57,16508,52,F,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Emphysema', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
+00016568_004.png,Effusion|Infiltration|Mass|Pleural_Thickening|Pneumonia,4,16568,38,F,AP,2048,2500,0.168,0.168,,"['Effusion', 'Infiltration', 'Mass', 'Pleural_Thickening', 'Pneumonia']",0,1,1,0,0,1,0,0,1,0,0,0,0,1,0
+00016568_053.png,Edema|Nodule,53,16568,40,F,PA,3056,2544,0.139,0.139,,"['Edema', 'Nodule']",0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+00016587_020.png,Effusion|Infiltration|Pneumothorax,20,16587,48,F,AP,3056,2544,0.139,0.139,,"['Effusion', 'Infiltration', 'Pneumothorax']",0,1,1,0,0,0,1,0,0,0,0,0,0,0,0
+00016587_060.png,Nodule,60,16587,46,F,PA,2992,2991,0.143,0.143,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00016607_026.png,Mass|Pleural_Thickening|Pneumothorax,26,16607,64,M,AP,2500,2048,0.168,0.168,,"['Mass', 'Pleural_Thickening', 'Pneumothorax']",0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+00016607_041.png,Infiltration|Pneumonia,41,16607,64,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00016672_000.png,Edema|Mass|Pneumonia,0,16672,76,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Mass', 'Pneumonia']",0,0,0,0,0,1,0,0,0,0,0,1,0,1,0
+00016705_005.png,Infiltration|Pneumonia,5,16705,25,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00016705_006.png,Consolidation|Infiltration|Pneumonia,6,16705,25,M,AP,2500,2048,0.168,0.168,,"['Consolidation', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,1,0,0,0,0,0,1,0
+00016757_001.png,Atelectasis|Pneumonia,1,16757,49,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00016778_018.png,Consolidation|Effusion|Mass|Nodule|Pleural_Thickening,18,16778,26,M,AP,3056,2544,0.139,0.139,,"['Consolidation', 'Effusion', 'Mass', 'Nodule', 'Pleural_Thickening']",0,0,1,0,1,1,0,1,1,0,0,0,0,0,0
+00016780_001.png,No Finding,1,16780,36,F,PA,2506,2585,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00016785_003.png,Consolidation,3,16785,44,F,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00016786_014.png,Consolidation,14,16786,23,F,AP,3056,2544,0.139,0.139,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00016798_001.png,Atelectasis|Cardiomegaly|Effusion|Pneumothorax,1,16798,69,M,PA,2870,2716,0.143,0.143,,"['Atelectasis', 'Cardiomegaly', 'Effusion', 'Pneumothorax']",0,0,1,1,0,0,1,0,0,1,0,0,0,0,0
+00016802_001.png,Cardiomegaly|Effusion,1,16802,49,F,AP,2500,2048,0.168,0.168,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00016936_000.png,Pneumonia,0,16936,43,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00016937_016.png,Atelectasis|Emphysema|Infiltration|Mass|Pneumothorax,16,16937,51,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Infiltration', 'Mass', 'Pneumothorax']",0,1,0,1,0,1,1,0,0,0,1,0,0,0,0
+00016972_014.png,Effusion|Pneumonia,14,16972,43,F,AP,2500,2048,0.168,0.168,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00016986_004.png,Mass,4,16986,45,M,AP,2500,2048,0.168,0.168,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00016986_014.png,Infiltration|Mass|Pleural_Thickening,14,16986,45,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Mass', 'Pleural_Thickening']",0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+00017044_008.png,Consolidation,8,17044,20,F,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00017110_014.png,Fibrosis|Mass,14,17110,59,F,PA,2992,2991,0.143,0.143,,"['Fibrosis', 'Mass']",0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+00017123_000.png,No Finding,0,17123,41,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017137_005.png,Atelectasis|Infiltration|Pneumothorax,5,17137,48,F,PA,2946,2948,0.143,0.143,,"['Atelectasis', 'Infiltration', 'Pneumothorax']",0,1,0,1,0,0,1,0,0,0,0,0,0,0,0
+00017138_054.png,Nodule,54,17138,24,M,AP,2500,2048,0.168,0.168,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00017138_058.png,Infiltration|Pneumonia,58,17138,24,M,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00017181_000.png,No Finding,0,17181,20,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017231_001.png,Pneumonia,1,17231,63,F,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00017236_004.png,Consolidation,4,17236,46,M,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00017236_016.png,No Finding,16,17236,46,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017236_104.png,Edema|Pneumonia,104,17236,46,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00017243_011.png,Mass|Nodule|Pneumothorax,11,17243,14,F,AP,2500,2048,0.168,0.168,,"['Mass', 'Nodule', 'Pneumothorax']",0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+00017258_015.png,Effusion|Emphysema|Infiltration,15,17258,22,F,AP,2500,2048,0.168,0.168,,"['Effusion', 'Emphysema', 'Infiltration']",0,1,1,0,0,0,0,0,0,0,1,0,0,0,0
+00017376_002.png,Atelectasis|Effusion|Pneumonia,2,17376,56,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion', 'Pneumonia']",0,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+00017403_003.png,Infiltration|Mass|Pneumonia,3,17403,52,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Mass', 'Pneumonia']",0,1,0,0,0,1,0,0,0,0,0,0,0,1,0
+00017421_000.png,Atelectasis|Mass,0,17421,29,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Mass']",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+00017443_013.png,Pleural_Thickening|Pneumothorax,13,17443,29,F,PA,2502,2525,0.143,0.143,,"['Pleural_Thickening', 'Pneumothorax']",0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+00017504_060.png,Edema|Pneumonia,60,17504,12,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00017528_014.png,Atelectasis|Infiltration|Pneumonia,14,17528,61,M,PA,2546,2991,0.143,0.143,,"['Atelectasis', 'Infiltration', 'Pneumonia']",0,1,0,1,0,0,0,0,0,0,0,0,0,1,0
+00017531_002.png,No Finding,2,17531,42,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017603_009.png,No Finding,9,17603,22,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017603_019.png,Edema,19,17603,22,M,AP,3056,2544,0.139,0.139,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00017606_015.png,Consolidation,15,17606,56,M,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00017618_019.png,Cardiomegaly|Consolidation|Effusion|Mass|Pneumothorax,19,17618,35,M,PA,2992,2991,0.143,0.143,,"['Cardiomegaly', 'Consolidation', 'Effusion', 'Mass', 'Pneumothorax']",0,0,1,0,0,1,1,1,0,1,0,0,0,0,0
+00017621_000.png,Infiltration|Mass,0,17621,79,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Mass']",0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+00017698_015.png,Infiltration|Pneumonia,15,17698,74,M,PA,2892,2948,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00017714_019.png,Pneumonia,19,17714,20,M,AP,3056,2544,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00017736_002.png,Atelectasis|Effusion,2,17736,35,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00017746_000.png,Infiltration|Nodule,0,17746,43,F,PA,2762,2991,0.143,0.143,,"['Infiltration', 'Nodule']",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+00017753_002.png,Infiltration|Pneumonia,2,17753,63,M,AP,2048,2500,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00017786_003.png,No Finding,3,17786,50,M,PA,2530,2361,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00017807_003.png,Nodule,3,17807,17,F,PA,2544,3056,0.139,0.139,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00017835_032.png,Effusion|Pneumonia,32,17835,49,M,PA,2992,2991,0.143,0.143,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00017972_019.png,Emphysema|Infiltration|Pneumothorax,19,17972,15,M,AP,3056,2544,0.139,0.139,,"['Emphysema', 'Infiltration', 'Pneumothorax']",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+00017972_032.png,Infiltration|Pleural_Thickening|Pneumonia,32,17972,15,M,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,0,0,0,0,0,0,1,0,0,0,0,1,0
+00017972_046.png,Pneumothorax,46,17972,15,M,AP,3056,2544,0.139,0.139,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00017981_026.png,Effusion|Infiltration,26,17981,44,F,AP,2500,2048,0.168,0.168,,"['Effusion', 'Infiltration']",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+00018044_039.png,Cardiomegaly|Effusion|Fibrosis,39,18044,34,F,AP,2048,2500,0.168,0.168,,"['Cardiomegaly', 'Effusion', 'Fibrosis']",0,0,1,0,0,0,0,0,0,1,0,0,1,0,0
+00018055_018.png,Atelectasis|Pneumothorax,18,18055,64,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+00018062_001.png,No Finding,1,18062,25,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018127_001.png,No Finding,1,18127,67,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018187_038.png,Edema|Infiltration|Pneumonia,38,18187,32,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00018191_003.png,Pneumonia,3,18191,4,M,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00018213_003.png,Mass,3,18213,41,M,PA,2992,2991,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00018224_007.png,Cardiomegaly|Edema|Nodule,7,18224,59,M,AP,2500,2048,0.168,0.168,,"['Cardiomegaly', 'Edema', 'Nodule']",0,0,0,0,1,0,0,0,0,1,0,1,0,0,0
+00018224_009.png,Consolidation,9,18224,59,M,AP,2500,2048,0.168,0.168,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00018249_009.png,Effusion|Pleural_Thickening,9,18249,36,M,PA,2986,2991,0.143,0.143,,"['Effusion', 'Pleural_Thickening']",0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+00018253_040.png,Atelectasis|Effusion,40,18253,71,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00018277_001.png,No Finding,1,18277,49,F,PA,2462,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018294_000.png,No Finding,0,18294,49,M,PA,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018294_002.png,Fibrosis|Infiltration|Nodule,2,18294,48,M,PA,2774,2991,0.143,0.143,,"['Fibrosis', 'Infiltration', 'Nodule']",0,1,0,0,1,0,0,0,0,0,0,0,1,0,0
+00018295_003.png,Infiltration|Pneumonia,3,18295,62,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00018326_002.png,Consolidation|Effusion,2,18326,43,M,PA,2992,2991,0.143,0.143,,"['Consolidation', 'Effusion']",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+00018464_002.png,No Finding,2,18464,56,F,PA,2754,2377,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018464_017.png,Edema|Infiltration|Pneumonia,17,18464,58,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00018494_004.png,Infiltration|Pneumonia,4,18494,33,M,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00018521_001.png,No Finding,1,18521,62,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018525_000.png,Pneumonia,0,18525,33,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00018527_011.png,Edema|Infiltration|Mass|Pneumonia,11,18527,56,F,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Mass', 'Pneumonia']",0,1,0,0,0,1,0,0,0,0,0,1,0,1,0
+00018610_053.png,Effusion|Infiltration|Pneumothorax,53,18610,64,M,AP,2048,2500,0.168,0.168,,"['Effusion', 'Infiltration', 'Pneumothorax']",0,1,1,0,0,0,1,0,0,0,0,0,0,0,0
+00018618_000.png,No Finding,0,18618,43,F,PA,2674,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018656_000.png,Cardiomegaly,0,18656,71,M,PA,2992,2991,0.143,0.143,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00018657_008.png,Atelectasis,8,18657,76,F,AP,3056,2544,0.139,0.139,,['Atelectasis'],0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+00018708_001.png,No Finding,1,18708,30,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018724_015.png,Atelectasis|Cardiomegaly|Edema|Effusion,15,18724,44,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Cardiomegaly', 'Edema', 'Effusion']",0,0,1,1,0,0,0,0,0,1,0,1,0,0,0
+00018809_003.png,Atelectasis|Effusion|Pleural_Thickening,3,18809,56,M,AP,3044,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Pleural_Thickening']",0,0,1,1,0,0,0,0,1,0,0,0,0,0,0
+00018840_005.png,No Finding,5,18840,21,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018921_062.png,Edema|Infiltration|Pneumonia,62,18921,42,F,PA,2482,2991,0.143,0.143,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00018942_000.png,Atelectasis|Consolidation|Nodule,0,18942,58,F,PA,2686,2991,0.143,0.143,,"['Atelectasis', 'Consolidation', 'Nodule']",0,0,0,1,1,0,0,1,0,0,0,0,0,0,0
+00018960_023.png,Pneumonia,23,18960,24,M,PA,2730,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00018964_013.png,Infiltration|Nodule|Pneumonia,13,18964,51,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Nodule', 'Pneumonia']",0,1,0,0,1,0,0,0,0,0,0,0,0,1,0
+00018972_041.png,No Finding,41,18972,52,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018996_002.png,Pneumonia,2,18996,22,M,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00018996_005.png,Infiltration,5,18996,22,M,AP,2500,2048,0.168,0.168,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00018996_012.png,No Finding,12,18996,22,M,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019018_003.png,Edema|Infiltration|Pneumonia,3,19018,28,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00019059_001.png,Hernia,1,19059,48,F,PA,2992,2991,0.143,0.143,,['Hernia'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00019133_000.png,No Finding,0,19133,44,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019143_011.png,No Finding,11,19143,55,F,PA,2522,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019154_003.png,Infiltration|Pneumonia,3,19154,58,F,PA,2506,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00019176_030.png,Atelectasis|Pneumonia,30,19176,68,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00019176_046.png,Consolidation|Infiltration,46,19176,66,F,PA,2630,2991,0.143,0.143,,"['Consolidation', 'Infiltration']",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+00019176_050.png,Edema|Pneumonia,50,19176,66,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00019208_006.png,Edema,6,19208,44,M,AP,2500,2048,0.168,0.168,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00019219_003.png,No Finding,3,19219,71,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019225_000.png,No Finding,0,19225,45,F,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019271_035.png,No Finding,35,19271,54,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019373_011.png,Mass|Nodule,11,19373,39,M,PA,2992,2991,0.143,0.143,,"['Mass', 'Nodule']",0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+00019373_035.png,Atelectasis|Emphysema|Mass|Pleural_Thickening|Pneumothorax,35,19373,40,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Mass', 'Pleural_Thickening', 'Pneumothorax']",0,0,0,1,0,1,1,0,1,0,1,0,0,0,0
+00019386_002.png,No Finding,2,19386,7,M,PA,2150,1873,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019437_000.png,Atelectasis|Effusion|Emphysema,0,19437,59,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Effusion', 'Emphysema']",0,0,1,1,0,0,0,0,0,0,1,0,0,0,0
+00019441_008.png,No Finding,8,19441,39,M,PA,2740,2187,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019441_019.png,Nodule|Pleural_Thickening,19,19441,40,M,AP,3056,2544,0.139,0.139,,"['Nodule', 'Pleural_Thickening']",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+00019476_000.png,Infiltration,0,19476,53,F,PA,2992,2991,0.143,0.143,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019492_003.png,Atelectasis|Effusion,3,19492,66,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00019545_000.png,Mass,0,19545,32,F,PA,2500,2048,0.168,0.168,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00019547_006.png,No Finding,6,19547,65,F,AP,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019576_038.png,Edema|Infiltration|Pneumonia,38,19576,49,M,AP,2500,2048,0.168,0.168,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00019610_000.png,No Finding,0,19610,40,M,PA,2814,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019643_001.png,Infiltration|Pneumonia,1,19643,31,F,AP,2500,2048,0.168,0.168,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00019647_008.png,Nodule|Pleural_Thickening,8,19647,48,F,PA,2542,2991,0.143,0.143,,"['Nodule', 'Pleural_Thickening']",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+00019656_000.png,No Finding,0,19656,30,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019726_001.png,No Finding,1,19726,65,M,PA,2770,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019733_002.png,Atelectasis|Hernia,2,19733,69,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Hernia']",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+00019750_025.png,No Finding,25,19750,57,M,PA,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019756_003.png,Atelectasis|Pneumonia,3,19756,26,F,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00019766_021.png,Atelectasis|Cardiomegaly|Effusion|Infiltration,21,19766,41,M,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Cardiomegaly', 'Effusion', 'Infiltration']",0,1,1,1,0,0,0,0,0,1,0,0,0,0,0
+00019863_008.png,Infiltration|Pneumonia|Pneumothorax,8,19863,35,F,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia', 'Pneumothorax']",0,1,0,0,0,0,1,0,0,0,0,0,0,1,0
+00019865_014.png,Infiltration|Pneumonia,14,19865,23,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00019871_009.png,No Finding,9,19871,76,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00019899_012.png,Effusion,12,19899,64,M,PA,2992,2991,0.143,0.143,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00019919_021.png,Atelectasis|Pneumothorax,21,19919,52,M,PA,2546,2991,0.143,0.143,,"['Atelectasis', 'Pneumothorax']",0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+00019927_001.png,Infiltration|Mass|Pneumonia,1,19927,62,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Mass', 'Pneumonia']",0,1,0,0,0,1,0,0,0,0,0,0,0,1,0
+00019978_001.png,Atelectasis|Pneumonia,1,19978,51,F,PA,2854,2991,0.143,0.143,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00020077_001.png,Cardiomegaly|Effusion,1,20077,43,F,PA,2754,2853,0.143,0.143,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00020146_006.png,Pneumothorax,6,20146,22,M,PA,2992,2991,0.143,0.143,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00020148_000.png,Nodule,0,20148,38,M,PA,3056,2544,0.139,0.139,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00020156_004.png,Edema|Nodule|Pneumonia,4,20156,61,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Nodule', 'Pneumonia']",0,0,0,0,1,0,0,0,0,0,0,1,0,1,0
+00020163_000.png,Nodule,0,20163,67,M,PA,2654,2991,0.143,0.143,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00020185_000.png,No Finding,0,20185,76,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020187_000.png,Fibrosis|Nodule,0,20187,50,F,PA,2374,2991,0.143,0.143,,"['Fibrosis', 'Nodule']",0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+00020187_002.png,No Finding,2,20187,49,F,PA,2504,2924,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020209_007.png,Nodule|Pneumonia,7,20209,68,M,AP,2500,2048,0.168,0.168,,"['Nodule', 'Pneumonia']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+00020213_019.png,Atelectasis|Pneumonia,19,20213,72,F,AP,2500,2048,0.168,0.168,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00020213_056.png,Atelectasis|Consolidation|Effusion|Infiltration,56,20213,72,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Consolidation', 'Effusion', 'Infiltration']",0,1,1,1,0,0,0,1,0,0,0,0,0,0,0
+00020281_000.png,No Finding,0,20281,55,F,PA,2536,2904,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020326_056.png,No Finding,56,20326,27,F,AP,2952,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020326_091.png,No Finding,91,20326,27,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020333_003.png,Infiltration|Mass|Nodule|Pneumonia,3,20333,65,F,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Mass', 'Nodule', 'Pneumonia']",0,1,0,0,1,1,0,0,0,0,0,0,0,1,0
+00020340_006.png,Effusion|Infiltration|Mass,6,20340,72,M,AP,3056,2544,0.139,0.139,,"['Effusion', 'Infiltration', 'Mass']",0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+00020347_000.png,Consolidation|Mass,0,20347,79,M,PA,2778,2605,0.143,0.143,,"['Consolidation', 'Mass']",0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+00020396_002.png,Nodule,2,20396,41,M,PA,2992,2991,0.143,0.143,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00020408_059.png,Atelectasis|Infiltration|Pneumothorax,59,20408,46,M,AP,2752,2544,0.139,0.139,,"['Atelectasis', 'Infiltration', 'Pneumothorax']",0,1,0,1,0,0,1,0,0,0,0,0,0,0,0
+00020429_009.png,Atelectasis|Cardiomegaly|Consolidation|Effusion|Infiltration|Mass|Pleural_Thickening,9,20429,59,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Effusion', 'Infiltration', 'Mass', 'Pleural_Thickening']",0,1,1,1,0,1,0,1,1,1,0,0,0,0,0
+00020437_011.png,Infiltration|Nodule|Pneumothorax,11,20437,56,F,PA,2524,3056,0.139,0.139,,"['Infiltration', 'Nodule', 'Pneumothorax']",0,1,0,0,1,0,1,0,0,0,0,0,0,0,0
+00020450_000.png,Mass,0,20450,59,M,PA,2992,2991,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00020537_000.png,Cardiomegaly|Effusion,0,20537,52,M,AP,3056,2544,0.139,0.139,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00020548_001.png,Infiltration|Pneumonia,1,20548,53,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00020595_004.png,No Finding,4,20595,62,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020654_003.png,No Finding,3,20654,22,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020677_000.png,No Finding,0,20677,25,M,PA,2786,2725,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020732_005.png,No Finding,5,20732,43,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020779_001.png,Infiltration|Mass|Pleural_Thickening|Pneumothorax,1,20779,24,F,PA,2544,3056,0.139,0.139,,"['Infiltration', 'Mass', 'Pleural_Thickening', 'Pneumothorax']",0,1,0,0,0,1,1,0,1,0,0,0,0,0,0
+00020817_000.png,No Finding,0,20817,66,M,PA,3056,2508,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020826_008.png,Edema|Pneumonia,8,20826,22,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00020845_002.png,Pneumonia,2,20845,51,F,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00020928_000.png,Pneumonia,0,20928,68,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00020928_008.png,No Finding,8,20928,68,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00020982_002.png,Infiltration|Pneumonia,2,20982,64,F,PA,2528,3032,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00021006_014.png,Emphysema|Infiltration,14,21006,71,M,AP,3056,2544,0.139,0.139,,"['Emphysema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+00021035_006.png,Edema|Infiltration|Pneumonia,6,21035,34,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00021040_001.png,No Finding,1,21040,73,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021073_008.png,Atelectasis|Emphysema|Fibrosis|Nodule|Pleural_Thickening|Pneumothorax,8,21073,50,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Emphysema', 'Fibrosis', 'Nodule', 'Pleural_Thickening', 'Pneumothorax']",0,0,0,1,1,0,1,0,1,0,1,0,1,0,0
+00021091_006.png,No Finding,6,21091,47,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021092_005.png,Infiltration|Pneumothorax,5,21092,47,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumothorax']",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+00021124_001.png,No Finding,1,21124,32,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021147_000.png,No Finding,0,21147,63,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021201_044.png,Pneumothorax,44,21201,65,M,AP,3056,2544,0.139,0.139,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00021201_053.png,Atelectasis|Edema|Effusion|Pneumonia,53,21201,66,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Edema', 'Effusion', 'Pneumonia']",0,0,1,1,0,0,0,0,0,0,0,1,0,1,0
+00021201_093.png,Effusion|Infiltration,93,21201,66,M,AP,3056,2544,0.139,0.139,,"['Effusion', 'Infiltration']",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+00021252_003.png,No Finding,3,21252,35,M,AP,3048,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021277_020.png,Edema|Infiltration|Pleural_Thickening|Pneumonia,20,21277,19,M,AP,2048,2500,0.168,0.168,,"['Edema', 'Infiltration', 'Pleural_Thickening', 'Pneumonia']",0,1,0,0,0,0,0,0,1,0,0,1,0,1,0
+00021369_002.png,Pneumonia,2,21369,38,F,AP,2500,2048,0.168,0.168,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00021381_025.png,Effusion|Pneumothorax,25,21381,65,F,PA,2658,2991,0.143,0.143,,"['Effusion', 'Pneumothorax']",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+00021389_004.png,No Finding,4,21389,51,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021407_000.png,Atelectasis|Consolidation|Effusion|Mass|Nodule,0,21407,58,F,PA,2418,2991,0.143,0.143,,"['Atelectasis', 'Consolidation', 'Effusion', 'Mass', 'Nodule']",0,0,1,1,1,1,0,1,0,0,0,0,0,0,0
+00021424_001.png,No Finding,1,21424,60,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021457_025.png,Atelectasis|Effusion|Infiltration,25,21457,34,M,AP,2980,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Infiltration']",0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+00021481_001.png,No Finding,1,21481,63,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021481_010.png,Cardiomegaly|Effusion|Infiltration,10,21481,63,M,AP,3056,2544,0.139,0.139,,"['Cardiomegaly', 'Effusion', 'Infiltration']",0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+00021494_006.png,Nodule|Pneumonia,6,21494,37,F,PA,2454,2991,0.143,0.143,,"['Nodule', 'Pneumonia']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+00021495_005.png,Atelectasis|Consolidation|Effusion|Emphysema|Nodule|Pneumothorax,5,21495,22,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Consolidation', 'Effusion', 'Emphysema', 'Nodule', 'Pneumothorax']",0,0,1,1,1,0,1,1,0,0,1,0,0,0,0
+00021552_022.png,No Finding,22,21552,50,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021572_017.png,Pneumonia,17,21572,26,F,AP,3056,2544,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00021618_014.png,No Finding,14,21618,39,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021653_000.png,Mass|Pleural_Thickening,0,21653,68,M,PA,2992,2991,0.143,0.143,,"['Mass', 'Pleural_Thickening']",0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+00021670_027.png,Atelectasis|Cardiomegaly|Effusion,27,21670,45,M,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Cardiomegaly', 'Effusion']",0,0,1,1,0,0,0,0,0,1,0,0,0,0,0
+00021680_000.png,Atelectasis|Cardiomegaly,0,21680,65,M,PA,3056,2544,0.139,0.139,,"['Atelectasis', 'Cardiomegaly']",0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+00021750_012.png,Atelectasis|Pleural_Thickening,12,21750,68,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+00021766_001.png,Consolidation|Pneumonia,1,21766,19,M,AP,3056,2544,0.139,0.139,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00021782_020.png,No Finding,20,21782,34,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021785_000.png,No Finding,0,21785,31,F,PA,2850,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021786_005.png,Edema|Pneumonia,5,21786,50,M,PA,2992,2991,0.143,0.143,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00021806_007.png,Atelectasis|Infiltration|Pneumonia,7,21806,47,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Infiltration', 'Pneumonia']",0,1,0,1,0,0,0,0,0,0,0,0,0,1,0
+00021818_025.png,Consolidation|Pneumonia,25,21818,37,M,PA,3056,2532,0.139,0.139,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00021835_033.png,No Finding,33,21835,37,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021857_001.png,No Finding,1,21857,42,F,PA,2202,2457,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00021879_000.png,Fibrosis|Hernia|Infiltration,0,21879,67,M,PA,2992,2991,0.143,0.143,,"['Fibrosis', 'Hernia', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,0,1,0,1
+00022090_000.png,No Finding,0,22090,30,F,PA,2722,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022133_003.png,No Finding,3,22133,70,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022155_018.png,No Finding,18,22155,43,F,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022156_006.png,Atelectasis|Pneumonia,6,22156,64,M,PA,3056,2528,0.139,0.139,,"['Atelectasis', 'Pneumonia']",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+00022263_000.png,Edema|Effusion|Nodule,0,22263,65,M,PA,3056,2544,0.139,0.139,,"['Edema', 'Effusion', 'Nodule']",0,0,1,0,1,0,0,0,0,0,0,1,0,0,0
+00022290_015.png,Effusion|Pneumonia,15,22290,58,M,AP,3056,2544,0.139,0.139,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00022310_006.png,Pleural_Thickening|Pneumonia,6,22310,75,F,AP,3056,2544,0.139,0.139,,"['Pleural_Thickening', 'Pneumonia']",0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+00022402_000.png,Edema|Pneumonia,0,22402,43,M,PA,2992,2991,0.143,0.143,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00022429_004.png,No Finding,4,22429,9,F,AP,2544,3056,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022431_009.png,Effusion,9,22431,61,F,PA,2992,2991,0.143,0.143,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00022436_000.png,Pneumonia,0,22436,53,F,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00022526_004.png,Effusion,4,22526,49,F,PA,2992,2991,0.143,0.143,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00022602_000.png,No Finding,0,22602,62,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022631_000.png,Edema|Effusion|Infiltration|Pneumonia,0,22631,65,M,PA,2992,2991,0.143,0.143,,"['Edema', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,1,0,1,0
+00022635_000.png,Infiltration,0,22635,18,M,PA,2992,2991,0.143,0.143,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022672_006.png,Edema|Infiltration|Pneumonia,6,22672,66,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00022699_002.png,Consolidation,2,22699,66,M,AP,3056,2544,0.139,0.139,,['Consolidation'],0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+00022772_001.png,Mass,1,22772,43,M,AP,3056,2544,0.139,0.139,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00022782_001.png,No Finding,1,22782,33,M,PA,2986,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022815_044.png,Infiltration,44,22815,9,M,AP,3056,2544,0.139,0.139,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022815_056.png,Edema|Infiltration|Pneumonia,56,22815,9,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00022815_068.png,Cardiomegaly|Effusion,68,22815,9,M,AP,3056,2544,0.139,0.139,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00022823_000.png,Cardiomegaly|Effusion,0,22823,8,F,PA,2510,1921,0.143,0.143,,"['Cardiomegaly', 'Effusion']",0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+00022826_001.png,Emphysema|Pneumothorax,1,22826,61,M,AP,3056,2544,0.139,0.139,,"['Emphysema', 'Pneumothorax']",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+00022826_020.png,Mass,20,22826,62,M,PA,2992,2991,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00022835_005.png,No Finding,5,22835,66,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022844_000.png,Infiltration,0,22844,30,F,PA,2122,2991,0.143,0.143,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022877_007.png,No Finding,7,22877,56,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022897_001.png,No Finding,1,22897,65,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022933_000.png,No Finding,0,22933,57,M,PA,2916,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00022993_016.png,Edema|Pneumonia,16,22993,55,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00022993_018.png,Edema|Pneumonia,18,22993,56,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00023012_002.png,No Finding,2,23012,49,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023082_000.png,Effusion|Fibrosis,0,23082,54,F,PA,2992,2991,0.143,0.143,,"['Effusion', 'Fibrosis']",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+00023089_004.png,Infiltration|Pneumonia,4,23089,59,M,PA,2992,2991,0.143,0.143,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00023091_015.png,Atelectasis|Pleural_Thickening,15,23091,66,F,PA,2730,2513,0.143,0.143,,"['Atelectasis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+00023128_008.png,No Finding,8,23128,27,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023138_008.png,Infiltration|Pneumonia,8,23138,40,M,AP,2544,3056,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00023168_014.png,No Finding,14,23168,22,M,PA,2992,2989,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023176_006.png,No Finding,6,23176,77,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023178_002.png,Consolidation|Pneumonia,2,23178,58,F,PA,2992,2991,0.143,0.143,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00023190_015.png,Effusion,15,23190,65,F,AP,3056,2544,0.139,0.139,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00023283_003.png,Effusion|Pneumothorax,3,23283,50,F,PA,2992,2991,0.143,0.143,,"['Effusion', 'Pneumothorax']",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+00023316_003.png,Effusion|Emphysema|Pneumothorax,3,23316,50,M,PA,2992,2991,0.143,0.143,,"['Effusion', 'Emphysema', 'Pneumothorax']",0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+00023325_032.png,Cardiomegaly,32,23325,83,F,AP,2500,2048,0.168,0.168,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00023384_000.png,No Finding,0,23384,30,F,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023410_000.png,No Finding,0,23410,34,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023479_000.png,No Finding,0,23479,44,F,PA,2048,2500,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023601_003.png,No Finding,3,23601,51,M,PA,2786,2623,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00023696_007.png,Fibrosis,7,23696,53,M,PA,2992,2991,0.143,0.143,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00023823_000.png,No Finding,0,23823,28,M,PA,2500,2048,0.168,0.168,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024009_000.png,No Finding,0,24009,36,F,PA,2558,2505,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024151_000.png,No Finding,0,24151,49,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024530_000.png,No Finding,0,24530,43,F,PA,3056,2512,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024748_000.png,No Finding,0,24748,35,M,PA,2874,2809,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024751_000.png,No Finding,0,24751,41,M,PA,2826,2821,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00024806_000.png,No Finding,0,24806,39,M,PA,2342,2725,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025075_006.png,Pneumonia,6,25075,11,F,PA,2021,2021,0.194311,0.194311,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00025161_000.png,No Finding,0,25161,75,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025161_003.png,Cardiomegaly,3,25161,75,M,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00025181_012.png,Infiltration,12,25181,54,M,AP,3056,2544,0.139,0.139,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025227_012.png,Atelectasis|Effusion|Pneumonia,12,25227,58,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Pneumonia']",0,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+00025227_013.png,Atelectasis|Effusion|Infiltration|Pneumonia,13,25227,58,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+00025228_004.png,Edema|Infiltration,4,25228,56,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00025238_008.png,No Finding,8,25238,29,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025252_051.png,Effusion|Infiltration|Pneumothorax,51,25252,30,M,AP,3056,2544,0.139,0.139,,"['Effusion', 'Infiltration', 'Pneumothorax']",0,1,1,0,0,0,1,0,0,0,0,0,0,0,0
+00025252_052.png,Atelectasis|Effusion|Infiltration|Pneumothorax,52,25252,30,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pneumothorax']",0,1,1,1,0,0,1,0,0,0,0,0,0,0,0
+00025262_000.png,Atelectasis|Consolidation|Edema|Effusion|Infiltration|Mass|Nodule|Pleural_Thickening|Pneumonia,0,25262,45,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Consolidation', 'Edema', 'Effusion', 'Infiltration', 'Mass', 'Nodule', 'Pleural_Thickening', 'Pneumonia']",0,1,1,1,1,1,0,1,1,0,0,1,0,1,0
+00025290_028.png,Cardiomegaly,28,25290,45,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00025368_023.png,Nodule,23,25368,42,M,PA,2992,2991,0.143,0.143,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00025382_004.png,Cardiomegaly,4,25382,58,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00025383_002.png,Pneumonia,2,25383,45,M,PA,3056,2516,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00025419_000.png,No Finding,0,25419,55,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025444_019.png,Consolidation|Pneumonia,19,25444,21,M,PA,2021,2021,0.194311,0.194311,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00025489_000.png,Effusion|Mass|Pneumonia,0,25489,34,F,PA,2936,2808,0.143,0.143,,"['Effusion', 'Mass', 'Pneumonia']",0,0,1,0,0,1,0,0,0,0,0,0,0,1,0
+00025583_005.png,Pneumonia,5,25583,48,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00025607_001.png,Pneumonia,1,25607,56,F,AP,2544,3056,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00025787_007.png,Edema|Infiltration|Pneumonia,7,25787,27,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00025788_002.png,No Finding,2,25788,66,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025811_004.png,No Finding,4,25811,67,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00025954_038.png,Consolidation|Pneumothorax,38,25954,58,F,PA,2021,2021,0.194311,0.194311,,"['Consolidation', 'Pneumothorax']",0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+00025958_004.png,Atelectasis|Consolidation|Effusion,4,25958,5,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Consolidation', 'Effusion']",0,0,1,1,0,0,0,1,0,0,0,0,0,0,0
+00026017_000.png,No Finding,0,26017,39,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026041_002.png,No Finding,2,26041,41,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026072_003.png,Emphysema|Pneumonia,3,26072,35,M,AP,3056,2544,0.139,0.139,,"['Emphysema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+00026084_001.png,No Finding,1,26084,48,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026085_000.png,Pneumonia,0,26085,48,M,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00026098_008.png,Atelectasis|Effusion|Infiltration|Pleural_Thickening,8,26098,42,M,PA,2544,3056,0.139,0.139,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pleural_Thickening']",0,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+00026185_001.png,No Finding,1,26185,43,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026293_004.png,Fibrosis,4,26293,49,F,PA,2021,2021,0.194311,0.194311,,['Fibrosis'],0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+00026346_001.png,Edema|Pneumonia,1,26346,58,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00026389_002.png,Pneumonia,2,26389,76,M,PA,2021,2021,0.194311,0.194311,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00026412_030.png,Emphysema|Pneumothorax,30,26412,26,M,PA,2021,2021,0.194311,0.194311,,"['Emphysema', 'Pneumothorax']",0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+00026432_003.png,No Finding,3,26432,71,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026451_055.png,Edema|Effusion|Pleural_Thickening|Pneumonia|Pneumothorax,55,26451,52,M,PA,2021,2021,0.194311,0.194311,,"['Edema', 'Effusion', 'Pleural_Thickening', 'Pneumonia', 'Pneumothorax']",0,0,1,0,0,0,1,0,1,0,0,1,0,1,0
+00026480_008.png,Edema|Infiltration|Mass|Pneumonia,8,26480,58,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Mass', 'Pneumonia']",0,1,0,0,0,1,0,0,0,0,0,1,0,1,0
+00026525_001.png,Effusion|Infiltration|Nodule|Pneumonia,1,26525,23,F,PA,2370,2593,0.143,0.143,,"['Effusion', 'Infiltration', 'Nodule', 'Pneumonia']",0,1,1,0,1,0,0,0,0,0,0,0,0,1,0
+00026597_004.png,No Finding,4,26597,45,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026715_001.png,Atelectasis|Emphysema|Infiltration|Pneumonia,1,26715,51,M,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Emphysema', 'Infiltration', 'Pneumonia']",0,1,0,1,0,0,0,0,0,0,1,0,0,1,0
+00026753_004.png,Pneumonia,4,26753,49,M,AP,3056,2544,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00026791_002.png,Hernia,2,26791,28,M,AP,3056,2544,0.139,0.139,,['Hernia'],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+00026806_000.png,Pneumonia,0,26806,14,M,PA,2544,3056,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00026848_007.png,Atelectasis|Emphysema|Infiltration|Pneumothorax|Pneumonia,7,26848,22,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Emphysema', 'Infiltration', 'Pneumothorax', 'Pneumonia']",0,1,0,1,0,0,1,0,0,0,1,0,0,1,0
+00026848_009.png,Atelectasis|Emphysema|Infiltration|Pneumothorax,9,26848,22,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Emphysema', 'Infiltration', 'Pneumothorax']",0,1,0,1,0,0,1,0,0,0,1,0,0,0,0
+00026848_028.png,Edema|Infiltration|Pneumonia,28,26848,22,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00026937_000.png,No Finding,0,26937,45,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00026963_005.png,Effusion|Infiltration|Pneumonia,5,26963,41,F,AP,3056,2544,0.139,0.139,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00026993_005.png,Mass,5,26993,59,F,PA,2426,2991,0.143,0.143,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00027104_001.png,Nodule,1,27104,56,M,PA,2992,2991,0.143,0.143,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00027185_000.png,No Finding,0,27185,64,M,PA,2824,2828,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027197_000.png,Atelectasis|Infiltration,0,27197,66,M,PA,2992,2991,0.143,0.143,,"['Atelectasis', 'Infiltration']",0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+00027225_002.png,Effusion|Infiltration|Pneumonia,2,27225,29,M,PA,1751,2021,0.194311,0.194311,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00027240_005.png,Atelectasis|Pleural_Thickening,5,27240,46,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+00027355_012.png,No Finding,12,27355,15,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027455_005.png,No Finding,5,27455,53,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027477_000.png,Hernia|Infiltration,0,27477,81,M,PA,2992,2991,0.143,0.143,,"['Hernia', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+00027479_019.png,Pleural_Thickening|Pneumonia,19,27479,51,M,PA,2992,2861,0.143,0.143,,"['Pleural_Thickening', 'Pneumonia']",0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+00027527_001.png,No Finding,1,27527,31,F,PA,2021,2011,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027539_001.png,Pneumonia,1,27539,34,F,PA,2992,2991,0.143,0.143,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00027725_031.png,Edema|Infiltration|Pneumonia,31,27725,21,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00027726_053.png,Infiltration|Pneumonia,53,27726,58,M,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00027772_000.png,Nodule,0,27772,46,M,PA,3056,2544,0.139,0.139,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00027776_000.png,No Finding,0,27776,28,M,PA,2990,2845,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027784_005.png,Infiltration|Pneumonia,5,27784,39,M,PA,2021,2021,0.194311,0.194311,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00027784_006.png,Infiltration|Pneumonia,6,27784,39,M,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00027784_008.png,No Finding,8,27784,40,M,PA,2020,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027821_001.png,No Finding,1,27821,34,M,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027894_004.png,Effusion|Pneumonia,4,27894,71,M,AP,3056,2544,0.139,0.139,,"['Effusion', 'Pneumonia']",0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+00027912_006.png,No Finding,6,27912,28,F,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027927_004.png,Effusion|Pneumothorax,4,27927,57,F,PA,2802,2991,0.143,0.143,,"['Effusion', 'Pneumothorax']",0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+00027975_001.png,No Finding,1,27975,31,M,PA,2021,2016,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00027981_000.png,Infiltration|Pleural_Thickening,0,27981,57,M,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Pleural_Thickening']",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+00028060_001.png,No Finding,1,28060,56,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028117_000.png,Nodule|Pleural_Thickening,0,28117,24,M,PA,2992,2991,0.143,0.143,,"['Nodule', 'Pleural_Thickening']",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+00028208_028.png,Pneumothorax,28,28208,64,M,AP,3056,2544,0.139,0.139,,['Pneumothorax'],0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+00028208_036.png,Emphysema|Infiltration,36,28208,64,M,PA,2021,2021,0.194311,0.194311,,"['Emphysema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+00028253_003.png,No Finding,3,28253,21,F,PA,2992,2991,0.143,0.143,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028354_000.png,Nodule,0,28354,41,M,PA,2992,2991,0.143,0.143,,['Nodule'],0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+00028433_012.png,Cardiomegaly|Effusion|Mass,12,28433,54,M,AP,3056,2544,0.139,0.139,,"['Cardiomegaly', 'Effusion', 'Mass']",0,0,1,0,0,1,0,0,0,1,0,0,0,0,0
+00028451_000.png,No Finding,0,28451,61,M,PA,2544,3056,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028454_000.png,Pleural_Thickening,0,28454,56,F,AP,3056,2544,0.139,0.139,,['Pleural_Thickening'],0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+00028499_000.png,No Finding,0,28499,19,F,PA,2544,3056,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028499_007.png,Atelectasis|Consolidation|Infiltration,7,28499,20,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Consolidation', 'Infiltration']",0,1,0,1,0,0,0,1,0,0,0,0,0,0,0
+00028518_017.png,Infiltration|Pneumonia,17,28518,48,F,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00028552_004.png,Consolidation|Pneumonia,4,28552,67,M,PA,3056,2544,0.139,0.139,,"['Consolidation', 'Pneumonia']",0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+00028572_017.png,Atelectasis|Pleural_Thickening|Pneumothorax,17,28572,54,M,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Pleural_Thickening', 'Pneumothorax']",0,0,0,1,0,0,1,0,1,0,0,0,0,0,0
+00028725_007.png,No Finding,7,28725,32,F,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028764_004.png,Effusion|Infiltration|Pneumonia,4,28764,25,F,PA,2021,2021,0.194311,0.194311,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00028773_000.png,No Finding,0,28773,24,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028795_010.png,Effusion|Mass,10,28795,44,F,PA,2020,2021,0.194311,0.194311,,"['Effusion', 'Mass']",0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+00028819_002.png,Edema|Pneumonia,2,28819,47,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Pneumonia']",0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+00028844_020.png,Cardiomegaly,20,28844,65,M,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00028873_018.png,Edema|Effusion|Infiltration|Pneumonia,18,28873,15,M,AP,2544,3056,0.139,0.139,,"['Edema', 'Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,1,0,1,0
+00028874_003.png,Pneumonia,3,28874,68,F,AP,3056,2544,0.139,0.139,,['Pneumonia'],0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+00028890_007.png,Cardiomegaly|Effusion|Infiltration|Mass,7,28890,50,M,AP,3056,2544,0.139,0.139,,"['Cardiomegaly', 'Effusion', 'Infiltration', 'Mass']",0,1,1,0,0,1,0,0,0,1,0,0,0,0,0
+00028897_012.png,Atelectasis|Effusion|Emphysema,12,28897,53,F,PA,2544,3056,0.139,0.139,,"['Atelectasis', 'Effusion', 'Emphysema']",0,0,1,1,0,0,0,0,0,0,1,0,0,0,0
+00028897_019.png,Atelectasis|Effusion|Mass|Pleural_Thickening,19,28897,53,F,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Effusion', 'Mass', 'Pleural_Thickening']",0,0,1,1,0,1,0,0,1,0,0,0,0,0,0
+00028901_000.png,Infiltration,0,28901,68,M,PA,3056,2544,0.139,0.139,,['Infiltration'],0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028924_003.png,Atelectasis|Pleural_Thickening,3,28924,72,F,PA,2021,2021,0.194314,0.194314,,"['Atelectasis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+00028927_000.png,No Finding,0,28927,63,M,PA,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028931_000.png,No Finding,0,28931,36,M,PA,2021,2020,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028962_000.png,No Finding,0,28962,56,F,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00028987_003.png,Edema|Infiltration|Pneumonia,3,28987,25,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00029052_002.png,Atelectasis|Effusion|Pneumonia|Pneumothorax,2,29052,77,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Pneumonia', 'Pneumothorax']",0,0,1,1,0,0,1,0,0,0,0,0,0,1,0
+00029154_000.png,Nodule|Pneumonia,0,29154,20,M,PA,2544,3056,0.139,0.139,,"['Nodule', 'Pneumonia']",0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+00029159_025.png,Effusion,25,29159,52,F,AP,3056,2544,0.139,0.139,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00029201_001.png,No Finding,1,29201,52,F,PA,2544,3056,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029207_008.png,Mass,8,29207,23,M,PA,2021,2021,0.194311,0.194311,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00029235_002.png,Atelectasis|Effusion|Infiltration|Pneumothorax,2,29235,69,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion', 'Infiltration', 'Pneumothorax']",0,1,1,1,0,0,1,0,0,0,0,0,0,0,0
+00029422_005.png,Edema,5,29422,50,F,AP,3056,2544,0.139,0.139,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00029431_000.png,Edema|Infiltration|Pneumonia,0,29431,65,M,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00029474_003.png,Infiltration|Pneumonia,3,29474,67,M,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+00029481_006.png,Mass,6,29481,51,F,AP,3056,2544,0.139,0.139,,['Mass'],0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+00029514_007.png,Effusion|Pleural_Thickening|Pneumothorax,7,29514,29,M,PA,2021,2020,0.194311,0.194311,,"['Effusion', 'Pleural_Thickening', 'Pneumothorax']",0,0,1,0,0,0,1,0,1,0,0,0,0,0,0
+00029532_019.png,Effusion,19,29532,58,M,PA,1717,2021,0.194311,0.194311,,['Effusion'],0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+00029572_002.png,Cardiomegaly,2,29572,35,F,AP,3056,2544,0.139,0.139,,['Cardiomegaly'],0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+00029670_006.png,Edema|Infiltration,6,29670,76,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+00029685_001.png,No Finding,1,29685,34,F,PA,1837,1891,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029747_002.png,Effusion|Infiltration|Pneumonia,2,29747,47,F,PA,2021,2021,0.194311,0.194311,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00029795_004.png,Effusion|Infiltration|Pneumonia,4,29795,48,F,AP,3056,2544,0.139,0.139,,"['Effusion', 'Infiltration', 'Pneumonia']",0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+00029813_008.png,Emphysema|Infiltration,8,29813,66,M,AP,3056,2544,0.139,0.139,,"['Emphysema', 'Infiltration']",0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+00029821_006.png,Atelectasis|Consolidation|Emphysema|Infiltration,6,29821,58,F,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Consolidation', 'Emphysema', 'Infiltration']",0,1,0,1,0,0,0,1,0,0,1,0,0,0,0
+00029821_013.png,Effusion|Emphysema|Infiltration|Pleural_Thickening,13,29821,59,F,PA,2021,2021,0.194311,0.194311,,"['Effusion', 'Emphysema', 'Infiltration', 'Pleural_Thickening']",0,1,1,0,0,0,0,0,1,0,1,0,0,0,0
+00029859_000.png,No Finding,0,29859,44,F,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029861_013.png,Edema|Infiltration|Pneumonia,13,29861,63,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00029877_002.png,Emphysema,2,29877,65,M,AP,3056,2544,0.139,0.139,,['Emphysema'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00029916_001.png,No Finding,1,29916,53,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00029933_000.png,Emphysema,0,29933,66,M,PA,2021,2021,0.194311,0.194311,,['Emphysema'],0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+00029943_026.png,Effusion|Infiltration|Mass,26,29943,65,F,AP,3056,2544,0.139,0.139,,"['Effusion', 'Infiltration', 'Mass']",0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+00029981_005.png,Atelectasis|Pleural_Thickening,5,29981,60,F,PA,2021,2021,0.194311,0.194311,,"['Atelectasis', 'Pleural_Thickening']",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+00030016_000.png,No Finding,0,30016,42,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030038_013.png,Edema,13,30038,28,F,AP,3056,2544,0.139,0.139,,['Edema'],0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+00030079_037.png,No Finding,37,30079,16,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030079_056.png,Infiltration|Nodule,56,30079,16,M,AP,3056,2544,0.139,0.139,,"['Infiltration', 'Nodule']",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+00030114_000.png,No Finding,0,30114,28,F,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030152_000.png,Edema|Infiltration|Pneumonia,0,30152,16,F,AP,3056,2544,0.139,0.139,,"['Edema', 'Infiltration', 'Pneumonia']",0,1,0,0,0,0,0,0,0,0,0,1,0,1,0
+00030195_000.png,No Finding,0,30195,22,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030201_000.png,No Finding,0,30201,22,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030410_009.png,Atelectasis|Effusion,9,30410,65,M,AP,3056,2544,0.139,0.139,,"['Atelectasis', 'Effusion']",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+00030485_000.png,No Finding,0,30485,25,M,PA,2021,2021,0.194311,0.194311,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030573_019.png,Effusion|Nodule,19,30573,27,M,PA,2021,2021,0.194311,0.194311,,"['Effusion', 'Nodule']",0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+00030640_004.png,Emphysema|Infiltration|Pneumothorax,4,30640,42,F,PA,2544,3056,0.139,0.139,,"['Emphysema', 'Infiltration', 'Pneumothorax']",0,1,0,0,0,0,1,0,0,0,1,0,0,0,0
+00030678_001.png,No Finding,1,30678,42,M,AP,3056,2544,0.139,0.139,,['No Finding'],1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+00030715_000.png,Consolidation|Nodule,0,30715,49,F,PA,2021,2021,0.194311,0.194311,,"['Consolidation', 'Nodule']",0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+00030801_001.png,Mass|Pneumonia,1,30801,39,M,PA,2048,2500,0.168,0.168,,"['Mass', 'Pneumonia']",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
