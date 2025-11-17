@@ -1,0 +1,2 @@
+﻿Total Images Processed,Failed Images,Mean AUC,Valid Pathology Count,Total Pathology Count,Best Threshold (F1),Best F1 Score,Best Threshold (Accuracy),Best Accuracy
+321,0,0.7286784047797763,14,14,0.6,0.2729805013927577,0.8,0.8967512238540276

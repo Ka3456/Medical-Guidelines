@@ -113,6 +113,8 @@ yarn-error.log*
 # Temporary files
 *.tmp
 *.temp
+*.png
+*.zip
 
 # X-ray
-x_ray/x-ray-venv/
+x-ray/x-ray-env/
