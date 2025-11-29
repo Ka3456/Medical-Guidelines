@@ -28,18 +28,14 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
   List<Conversation> _conversations = [];
   String? _currentConversationId;
   String? _initialText;
+  bool _hasLoadedConversations = false;
+  bool _hasShownTrackingDialog = false;
 
   @override
   void initState() {
     super.initState();
     _checkSystemStatus();
     _addWelcomeMessage();
-    _loadConversations();
-
-    // 認証状態の変更を監視してトラッキング許可を確認
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      _checkTrackingPermissionAfterAuth();
-    });
   }
 
   @override
@@ -47,41 +43,6 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
     _scrollController.dispose();
     _manager.dispose();
     super.dispose();
-  }
-
-  // 認証完了後のトラッキング許可確認
-  void _checkTrackingPermissionAfterAuth() {
-    // 認証状態の変更を監視
-    ref.listen(authStatusProvider, (previous, next) {
-      next.when(
-        data: (status) async {
-          if (status.state == AuthState.authenticated && status.user != null) {
-            final currentUser = status.user!;
-
-            // trackingEnabledがnullの場合のみダイアログを表示
-            if (currentUser.trackingEnabled == null) {
-              // 少し遅延を入れて、UIが安定してからダイアログを表示
-              await Future.delayed(const Duration(milliseconds: 500));
-
-              if (!mounted) return;
-
-              final result = await TrackingPermissionDialog.show(context);
-              if (result != null && mounted) {
-                await ref
-                    .read(authNotifierProvider.notifier)
-                    .updateTrackingPermission(result);
-              }
-            }
-          }
-        },
-        loading: () {
-          // 認証状態が読み込み中の場合は何もしない
-        },
-        error: (error, stack) {
-          // エラーの場合は何もしない
-        },
-      );
-    });
   }
 
   // システム状態確認
@@ -104,16 +65,25 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
   }
 
   Future<void> _loadConversations() async {
-    final conversations = await _manager.loadConversations();
-    setState(() {
-      _conversations = conversations;
-      if (_conversations.isEmpty) {
-        _createNewConversation();
-      } else {
-        _currentConversationId = _conversations.first.id;
-        _loadConversationMessages(_currentConversationId!);
-      }
-    });
+    debugPrint('🔍 [ChatScreen] _loadConversations: 開始');
+    try {
+      final conversations = await _manager.loadConversations();
+      debugPrint('🔍 [ChatScreen] _loadConversations: 取得成功 - ${conversations.length}件');
+      setState(() {
+        _conversations = conversations;
+        if (_conversations.isEmpty) {
+          debugPrint('🔍 [ChatScreen] _loadConversations: 会話がないため新規作成');
+          _createNewConversation();
+        } else {
+          _currentConversationId = _conversations.first.id;
+          debugPrint('🔍 [ChatScreen] _loadConversations: 最初の会話を読み込み - $_currentConversationId');
+          _loadConversationMessages(_currentConversationId!);
+        }
+      });
+    } catch (e, stackTrace) {
+      debugPrint('❌ [ChatScreen] _loadConversations: エラー - $e');
+      debugPrint('❌ [ChatScreen] スタックトレース: $stackTrace');
+    }
   }
 
   void _createNewConversation() {
@@ -125,11 +95,18 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
   }
 
   void _loadConversationMessages(String conversationId) async {
-    final messages = await _manager.loadConversationMessages(conversationId);
-    setState(() {
-      _messages.clear();
-      _messages.addAll(messages);
-    });
+    debugPrint('🔍 [ChatScreen] _loadConversationMessages: 開始 - $conversationId');
+    try {
+      final messages = await _manager.loadConversationMessages(conversationId);
+      debugPrint('🔍 [ChatScreen] _loadConversationMessages: 取得成功 - ${messages.length}件');
+      setState(() {
+        _messages.clear();
+        _messages.addAll(messages);
+      });
+    } catch (e, stackTrace) {
+      debugPrint('❌ [ChatScreen] _loadConversationMessages: エラー - $e');
+      debugPrint('❌ [ChatScreen] スタックトレース: $stackTrace');
+    }
   }
 
   void _selectConversation(String conversationId) {
@@ -266,6 +243,55 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
   Widget build(BuildContext context) {
     // 認証状態を監視
     final authStatus = ref.watch(authStatusProvider);
+
+  // 認証状態の変更を監視して、認証完了後に会話履歴を読み込む
+  ref.listen(authStatusProvider, (previous, next) {
+    debugPrint('🔍 [ChatScreen] authStatusProvider: 状態変更検知');
+    next.when(
+      data: (status) async {
+        debugPrint('🔍 [ChatScreen] authStatusProvider: state=${status.state}, user=${status.user?.uid}');
+        if (status.state == AuthState.authenticated && status.user != null) {
+          final currentUser = status.user!;
+          debugPrint('🔍 [ChatScreen] 認証完了: uid=${currentUser.uid}');
+
+          // 初回のみ会話履歴を読み込む
+          if (!_hasLoadedConversations) {
+            debugPrint('🔍 [ChatScreen] 初回会話履歴読み込み開始');
+            _hasLoadedConversations = true;
+            await _loadConversations();
+            debugPrint('🔍 [ChatScreen] 初回会話履歴読み込み完了');
+          } else {
+            debugPrint('🔍 [ChatScreen] 会話履歴は既に読み込み済み');
+          }
+
+          // trackingEnabledがnullの場合のみダイアログを表示（1回だけ）
+          if (!_hasShownTrackingDialog && currentUser.trackingEnabled == null) {
+            debugPrint('🔍 [ChatScreen] トラッキング許可ダイアログ表示準備');
+            _hasShownTrackingDialog = true;
+            // 少し遅延を入れて、UIが安定してからダイアログを表示
+            await Future.delayed(const Duration(milliseconds: 500));
+
+            if (!mounted) return;
+
+            final result = await TrackingPermissionDialog.show(context);
+            if (result != null && mounted) {
+              await ref
+                  .read(authNotifierProvider.notifier)
+                  .updateTrackingPermission(result);
+            }
+          }
+        } else {
+          debugPrint('🔍 [ChatScreen] 未認証状態: state=${status.state}');
+        }
+      },
+      loading: () {
+        debugPrint('🔍 [ChatScreen] authStatusProvider: loading');
+      },
+      error: (e, st) {
+        debugPrint('❌ [ChatScreen] authStatusProvider: error - $e');
+      },
+    );
+  });
 
     // 認証されていない場合はログイン画面にリダイレクト
     return authStatus.when(

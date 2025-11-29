@@ -39,31 +39,42 @@ class AuthService {
 
   /// Handle authentication state changes from Firebase
   void _onAuthStateChanged(firebase_auth.User? firebaseUser) async {
+    debugPrint('🔍 [AuthService] _onAuthStateChanged: firebaseUser=${firebaseUser?.uid}');
     if (firebaseUser != null) {
+      debugPrint('🔍 [AuthService] ユーザー認証済み - uid=${firebaseUser.uid}, email=${firebaseUser.email}');
+      
       // Firestoreから最新のユーザー情報を取得（trackingEnabledを含む）
       try {
+        debugPrint('🔍 [AuthService] Firestoreからユーザー情報取得開始');
         final userFromFirestore = await _firestore.getUser(firebaseUser.uid);
+        
         if (userFromFirestore != null) {
+          debugPrint('🔍 [AuthService] Firestoreからユーザー情報取得成功');
           _updateAuthStatus(AuthStatus.authenticated(userFromFirestore));
         } else {
+          debugPrint('⚠️ [AuthService] Firestoreにユーザー情報なし - Firebase Authの情報のみで作成');
           // Firestoreにユーザー情報がない場合は、Firebase Authの情報のみで作成
           final user = UserModel.fromFirebaseUser(firebaseUser);
           _updateAuthStatus(AuthStatus.authenticated(user));
         }
       } catch (e) {
+        debugPrint('⚠️ [AuthService] Firestore取得失敗 - Firebase Authの情報のみで作成: $e');
         // Firestore取得に失敗した場合は、Firebase Authの情報のみで作成
         final user = UserModel.fromFirebaseUser(firebaseUser);
         _updateAuthStatus(AuthStatus.authenticated(user));
       }
     } else {
+      debugPrint('🔍 [AuthService] ユーザー未認証');
       _updateAuthStatus(AuthStatus.unauthenticated());
     }
   }
 
   /// Update authentication status and notify listeners
   void _updateAuthStatus(AuthStatus status) {
+    debugPrint('🔍 [AuthService] _updateAuthStatus: state=${status.state}, user=${status.user?.uid}');
     _currentStatus = status;
     _authStatusController.add(status);
+    debugPrint('🔍 [AuthService] _updateAuthStatus: 通知完了');
   }
 
   /// Sign in with email and password

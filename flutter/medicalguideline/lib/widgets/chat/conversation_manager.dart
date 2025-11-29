@@ -10,12 +10,21 @@ class ConversationManager {
 
   // 会話履歴を読み込み
   Future<List<Conversation>> loadConversations() async {
+    debugPrint('🔍 [ConversationManager] loadConversations: 開始');
     final user = AuthService().currentUser;
-    if (user == null) return [];
+    debugPrint('🔍 [ConversationManager] loadConversations: user=${user?.uid}');
+    
+    if (user == null) {
+      debugPrint('❌ [ConversationManager] loadConversations: ユーザーが未認証のため終了');
+      return [];
+    }
 
     try {
+      debugPrint('🔍 [ConversationManager] loadConversations: Firestoreから取得開始 - uid=${user.uid}');
       final chatRooms = await _firestoreService.getUserChatRoomsOnce(user.uid);
-      return chatRooms
+      debugPrint('🔍 [ConversationManager] loadConversations: Firestoreから取得成功 - ${chatRooms.length}件');
+      
+      final conversations = chatRooms
           .map(
             (chatRoom) => Conversation(
               id: chatRoom.id,
@@ -26,8 +35,13 @@ class ConversationManager {
             ),
           )
           .toList();
+      
+      debugPrint('🔍 [ConversationManager] loadConversations: 変換完了 - ${conversations.length}件');
+      return conversations;
     } catch (e) {
-      debugPrint('会話履歴の読み込みに失敗: $e');
+      debugPrint('❌ [ConversationManager] loadConversations: エラー発生');
+      debugPrint('❌ [ConversationManager] エラータイプ: ${e.runtimeType}');
+      debugPrint('❌ [ConversationManager] エラー内容: $e');
       return [];
     }
   }
@@ -36,17 +50,28 @@ class ConversationManager {
   Future<List<ChatMessage>> loadConversationMessages(
     String conversationId,
   ) async {
+    debugPrint('🔍 [ConversationManager] loadConversationMessages: 開始 - conversationId=$conversationId');
     final user = AuthService().currentUser;
-    if (user == null) return [];
+    debugPrint('🔍 [ConversationManager] loadConversationMessages: user=${user?.uid}');
+    
+    if (user == null) {
+      debugPrint('❌ [ConversationManager] loadConversationMessages: ユーザーが未認証のため終了');
+      return [];
+    }
 
     try {
-      return await _firestoreService.getChatMessagesOnce(
+      debugPrint('🔍 [ConversationManager] loadConversationMessages: Firestoreから取得開始');
+      final messages = await _firestoreService.getChatMessagesOnce(
         user.uid,
         conversationId,
         ascending: true,
       );
+      debugPrint('🔍 [ConversationManager] loadConversationMessages: 取得成功 - ${messages.length}件');
+      return messages;
     } catch (e) {
-      debugPrint('メッセージの読み込みに失敗: $e');
+      debugPrint('❌ [ConversationManager] loadConversationMessages: エラー発生');
+      debugPrint('❌ [ConversationManager] エラータイプ: ${e.runtimeType}');
+      debugPrint('❌ [ConversationManager] エラー内容: $e');
       return [];
     }
   }

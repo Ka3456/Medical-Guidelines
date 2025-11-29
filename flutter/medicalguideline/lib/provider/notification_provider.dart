@@ -1,20 +1,25 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../services/firestore_service.dart';
 import 'auth_provider.dart';
 
 /// 未読通知数を取得するProvider
 final unreadNotificationCountProvider = StreamProvider<int>((ref) {
+  debugPrint('🔍 [Provider] unreadNotificationCountProvider: 開始');
   final authState = ref.watch(authStatusProvider);
 
   return authState.when(
     data: (authResult) {
+      debugPrint('🔍 [Provider] unreadNotificationCountProvider: 認証状態確認 - user=${authResult.user?.uid}');
       if (authResult.user != null) {
         final firestoreService = FirestoreService();
 
+        debugPrint('🔍 [Provider] unreadNotificationCountProvider: Stream作成開始 - uid=${authResult.user!.uid}');
         // 通知一覧のStreamから未読数を計算
         return firestoreService
             .getUserNotificationsStream(authResult.user!.uid)
             .asyncMap((notifications) async {
+              debugPrint('🔍 [Provider] unreadNotificationCountProvider: 通知受信 - ${notifications.length}件');
               int unreadCount = 0;
 
               for (final notification in notifications) {
@@ -36,13 +41,21 @@ final unreadNotificationCountProvider = StreamProvider<int>((ref) {
                 }
               }
 
+              debugPrint('🔍 [Provider] unreadNotificationCountProvider: 未読数計算完了 - $unreadCount件');
               return unreadCount;
             });
       }
+      debugPrint('🔍 [Provider] unreadNotificationCountProvider: ユーザー未認証のため0を返す');
       return Stream.value(0);
     },
-    loading: () => Stream.value(0),
-    error: (_, __) => Stream.value(0),
+    loading: () {
+      debugPrint('🔍 [Provider] unreadNotificationCountProvider: 認証状態loading');
+      return Stream.value(0);
+    },
+    error: (e, st) {
+      debugPrint('❌ [Provider] unreadNotificationCountProvider: 認証状態エラー - $e');
+      return Stream.value(0);
+    },
   );
 });
 

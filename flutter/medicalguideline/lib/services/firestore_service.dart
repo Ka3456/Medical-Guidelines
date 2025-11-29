@@ -143,29 +143,43 @@ class FirestoreService {
 
   /// ルーム一覧を一度だけ取得（新しい順、削除されていないもののみ）
   Future<List<ChatRoom>> getUserChatRoomsOnce(String uid, {int? limit}) async {
+    debugPrint('🔍 [FirestoreService] getUserChatRoomsOnce: 開始 - uid=$uid, limit=$limit');
     try {
+      debugPrint('🔍 [FirestoreService] getUserChatRoomsOnce: クエリ作成開始');
       Query<Map<String, dynamic>> q = _firestore
           .collection('chat_rooms')
           .doc(uid)
           .collection('rooms')
           .orderBy('createdAt', descending: true);
+      
+      debugPrint('🔍 [FirestoreService] getUserChatRoomsOnce: パス=/chat_rooms/$uid/rooms');
 
       if (limit != null) {
         q = q.limit(limit);
       }
 
+      debugPrint('🔍 [FirestoreService] getUserChatRoomsOnce: Firestoreからデータ取得開始');
       final snap = await q.get();
+      debugPrint('🔍 [FirestoreService] getUserChatRoomsOnce: データ取得完了 - ${snap.docs.length}件');
 
       // クライアント側でフィルタリング
       final filteredDocs = snap.docs.where((doc) {
         final data = doc.data();
         return data['isDelete'] != true; // isDeleteがtrueでないもの（falseまたはnull）
       }).toList();
+      
+      debugPrint('🔍 [FirestoreService] getUserChatRoomsOnce: フィルタリング後 - ${filteredDocs.length}件');
 
-      return filteredDocs.map((d) {
+      final chatRooms = filteredDocs.map((d) {
         return ChatRoom.fromFirestore(d, null);
       }).toList();
+      
+      debugPrint('🔍 [FirestoreService] getUserChatRoomsOnce: 変換完了');
+      return chatRooms;
     } catch (e) {
+      debugPrint('❌ [FirestoreService] getUserChatRoomsOnce: エラー発生');
+      debugPrint('❌ [FirestoreService] エラータイプ: ${e.runtimeType}');
+      debugPrint('❌ [FirestoreService] エラー内容: $e');
       throw Exception('チャットルーム一覧取得失敗: $e');
     }
   }
@@ -314,7 +328,9 @@ class FirestoreService {
     int? limit,
     bool ascending = true,
   }) async {
+    debugPrint('🔍 [FirestoreService] getChatMessagesOnce: 開始 - uid=$uid, roomId=$roomId');
     try {
+      debugPrint('🔍 [FirestoreService] getChatMessagesOnce: クエリ作成');
       Query<Map<String, dynamic>> q = _firestore
           .collection('chat_rooms')
           .doc(uid)
@@ -322,11 +338,22 @@ class FirestoreService {
           .doc(roomId)
           .collection('messages')
           .orderBy('timestamp', descending: !ascending);
+      
+      debugPrint('🔍 [FirestoreService] getChatMessagesOnce: パス=/chat_rooms/$uid/rooms/$roomId/messages');
+      
       if (limit != null) q = q.limit(limit);
 
+      debugPrint('🔍 [FirestoreService] getChatMessagesOnce: Firestoreからデータ取得開始');
       final snap = await q.get();
-      return snap.docs.map((d) => ChatMessage.fromJson(d.data())).toList();
+      debugPrint('🔍 [FirestoreService] getChatMessagesOnce: データ取得完了 - ${snap.docs.length}件');
+      
+      final messages = snap.docs.map((d) => ChatMessage.fromJson(d.data())).toList();
+      debugPrint('🔍 [FirestoreService] getChatMessagesOnce: 変換完了');
+      return messages;
     } catch (e) {
+      debugPrint('❌ [FirestoreService] getChatMessagesOnce: エラー発生');
+      debugPrint('❌ [FirestoreService] エラータイプ: ${e.runtimeType}');
+      debugPrint('❌ [FirestoreService] エラー内容: $e');
       throw Exception('メッセージ取得失敗: $e');
     }
   }
@@ -599,11 +626,15 @@ class FirestoreService {
     int? limit,
     bool ascending = false,
   }) {
+    debugPrint('🔍 [FirestoreService] getUserNotificationsStream: 開始 - uid=$uid');
+    
+    debugPrint('🔍 [FirestoreService] getUserNotificationsStream: notification_all Stream作成');
     final globalStream = _firestore
         .collection('notification_all')
         .orderBy('timestamp', descending: !ascending)
         .snapshots();
 
+    debugPrint('🔍 [FirestoreService] getUserNotificationsStream: notification/$uid/notifications Stream作成');
     final userStream = _firestore
         .collection('notification')
         .doc(uid)
@@ -652,18 +683,35 @@ class FirestoreService {
     }
 
     // 各Streamの変更を監視
-    final globalSubscription = globalStream.listen((snapshot) {
-      globalSnapshot = snapshot;
-      _emitCombinedNotifications();
-    });
+    debugPrint('🔍 [FirestoreService] getUserNotificationsStream: globalStreamをリスン開始');
+    final globalSubscription = globalStream.listen(
+      (snapshot) {
+        debugPrint('🔍 [FirestoreService] getUserNotificationsStream: globalStream更新 - ${snapshot.docs.length}件');
+        globalSnapshot = snapshot;
+        _emitCombinedNotifications();
+      },
+      onError: (error) {
+        debugPrint('❌ [FirestoreService] getUserNotificationsStream: globalStreamエラー - $error');
+        controller.addError(error);
+      },
+    );
 
-    final userSubscription = userStream.listen((snapshot) {
-      userSnapshot = snapshot;
-      _emitCombinedNotifications();
-    });
+    debugPrint('🔍 [FirestoreService] getUserNotificationsStream: userStreamをリスン開始');
+    final userSubscription = userStream.listen(
+      (snapshot) {
+        debugPrint('🔍 [FirestoreService] getUserNotificationsStream: userStream更新 - ${snapshot.docs.length}件');
+        userSnapshot = snapshot;
+        _emitCombinedNotifications();
+      },
+      onError: (error) {
+        debugPrint('❌ [FirestoreService] getUserNotificationsStream: userStreamエラー - $error');
+        controller.addError(error);
+      },
+    );
 
     // StreamControllerのクリーンアップ
     controller.onCancel = () {
+      debugPrint('🔍 [FirestoreService] getUserNotificationsStream: Stream キャンセル');
       globalSubscription.cancel();
       userSubscription.cancel();
     };
