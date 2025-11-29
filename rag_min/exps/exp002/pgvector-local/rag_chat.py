@@ -127,6 +127,40 @@ def handle_question(client: OpenAI, conn, args, question: str):
     print(answer)
 
 
+def rag_answer(
+    question: str,
+    doc_id: str,
+    version: str = "v1",
+    top_k: int = 8,
+    dsn: str = DEFAULT_DSN,
+) -> str:
+    """
+    Python から簡単に呼び出せる RAG アンサー関数。
+    CLI を経由せず、answer だけ文字列で返す。
+    """
+    if not os.getenv("OPENAI_API_KEY"):
+        raise RuntimeError("環境変数 OPENAI_API_KEY を設定してください。")
+
+    client = OpenAI()
+    conn = psycopg2.connect(dsn)
+
+    try:
+        # 1) 埋め込み計算
+        qvec = embed_query(client, question)
+
+        # 2) ベクトル検索
+        hits = retrieve_chunks(conn, doc_id, version, qvec, k=top_k)
+        if not hits:
+            return "関連チャンクが見つかりませんでした。"
+
+        # 3) モデルで回答生成
+        answer = ask_with_rag(client, question, hits, doc_id)
+        return answer
+    finally:
+        conn.close()
+
+
+
 # ===== メイン（CLI対話） =====
 def main():
     parser = argparse.ArgumentParser(description="Simple RAG chat for JCS guideline")
