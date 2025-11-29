@@ -1,5 +1,8 @@
+import 'dart:async';
+import 'dart:convert';
 import 'package:cloud_functions/cloud_functions.dart';
 import 'package:flutter/foundation.dart';
+import 'package:http/http.dart' as http;
 import '../models/chat_message.dart';
 
 // カスタム例外クラス
@@ -53,6 +56,105 @@ class ChatService {
     }
   }
 
+  /// GCP VM (FastAPI) にストリーミングリクエストを送る
+  /// SSE形式で回答をリアルタイムに受け取る
+  Stream<String> callFastApiStream(String question) async* {
+    debugPrint('=== callFastApiStream START ===');
+    debugPrint('Question length: ${question.length}');
+
+    try {
+      // Firebase Functions の callFastApi エンドポイント URL
+      // region: asia-northeast1, projectId: medical-guideline-bot
+      final functionUrl =
+          'https://asia-northeast1-medical-guideline-bot.cloudfunctions.net/callFastApi';
+
+      debugPrint('Function URL: $functionUrl');
+
+      final request = http.Request('POST', Uri.parse(functionUrl));
+      request.headers['Content-Type'] = 'application/json';
+      request.body = jsonEncode({'question': question});
+
+      debugPrint('Sending HTTP request...');
+      final response = await request.send();
+      debugPrint('Response status: ${response.statusCode}');
+
+      if (response.statusCode != 200) {
+        throw Exception('FastAPI request failed: ${response.statusCode}');
+      }
+
+      debugPrint('Starting SSE stream processing...');
+      int chunkCount = 0;
+      int eventCount = 0;
+
+      // SSE ストリームを処理
+      await for (final chunk in response.stream.transform(utf8.decoder)) {
+        chunkCount++;
+        debugPrint('Received chunk #$chunkCount (${chunk.length} chars)');
+
+        // SSE形式をパース: "data: {...}\n\n"
+        final lines = chunk.split('\n');
+        for (final line in lines) {
+          if (line.startsWith('data: ')) {
+            final jsonStr = line.substring(6);
+            debugPrint('Parsing SSE line: ${jsonStr.length} chars');
+            try {
+              final event = jsonDecode(jsonStr) as Map<String, dynamic>;
+              debugPrint('Event parsed - status: ${event['status']}');
+
+              if (event['status'] == 'answer_chunk' &&
+                  event['content'] != null) {
+                eventCount++;
+                final content = event['content'] as String;
+                debugPrint(
+                  'Yielding content #$eventCount (${content.length} chars)',
+                );
+                yield content;
+              } else if (event['status'] == 'error') {
+                debugPrint('Error event received: ${event['message']}');
+                throw Exception(event['message'] ?? 'Unknown error');
+              }
+            } catch (e) {
+              debugPrint('❌ Failed to parse SSE event');
+              debugPrint('Line: $line');
+              debugPrint('Error: $e');
+            }
+          }
+        }
+      }
+
+      debugPrint('=== Stream completed ===');
+      debugPrint('Total chunks: $chunkCount');
+      debugPrint('Total events: $eventCount');
+    } catch (e) {
+      debugPrint('=== FastAPI Stream エラー ===');
+      debugPrint('エラータイプ: ${e.runtimeType}');
+      debugPrint('エラー: $e');
+      if (e is Exception) {
+        debugPrint('Exception details: ${e.toString()}');
+      }
+      debugPrint('============================');
+      throw ChatServiceException('FastAPIとの通信に失敗しました', e);
+    }
+  }
+
+  /// メッセージ送信（ストリーミング対応）
+  /// FastAPI にリクエストを送り、回答をリアルタイムで受け取る
+  Stream<String> sendMessageStream(String message) async* {
+    try {
+      await for (final chunk in callFastApiStream(message)) {
+        yield chunk;
+      }
+    } catch (e) {
+      debugPrint('=== ChatService エラー詳細 ===');
+      debugPrint('エラータイプ: ${e.runtimeType}');
+      debugPrint('エラーメッセージ: $e');
+      debugPrint('============================');
+      throw ChatServiceException('通信に失敗しました。ネットワーク接続を確認してください。', e);
+    }
+  }
+
+  /// 従来のメッセージ送信（互換性のため残す）
+  /// RAG を使用
   Future<ChatMessage> sendMessage(String message) async {
     try {
       // まずは askRagCallable を使う（/chat が未実装でも動く）

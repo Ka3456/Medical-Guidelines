@@ -1,0 +1,194 @@
+{
+  "created_at": "2025-11-15T21:48:36.741958",
+  "pdf_dir": "/home/kaitech/KaiTech/Medical-Guidelines/rag_min/pdf",
+  "pdfs": [
+    {
+      "name": "JCS2013_ogawah_h.pdf",
+      "title": "冠攣縮性狭心症の診断と治療に関するガイドライン（2013年改訂版）"
+    },
+    {
+      "name": "JCS2014_shimokawa_h.pdf",
+      "title": "災害時循環器疾患の予防・管理に関するガイドライン"
+    },
+    {
+      "name": "JCS2015_aonuma_h.pdf",
+      "title": "循環器薬の薬物血中濃度モニタリングに関するガイドライン"
+    },
+    {
+      "name": "JCS2016_sumitomo_h.pdf",
+      "title": "2016 年版学校心臓検診のガイドライン"
+    },
+    {
+      "name": "JCS2016_terasaki_h.pdf",
+      "title": "心臓サルコイドーシスの診療ガイドライン"
+    },
+    {
+      "name": "JCS2017_aonuma_h.pdf",
+      "title": "遺伝性不整脈の診療に関するガイドライン"
+    },
+    {
+      "name": "JCS2017_isobe_h.pdf",
+      "title": "血管炎症候群の診療ガイドライン"
+    },
+    {
+      "name": "JCS2017_nakatani_h.pdf",
+      "title": "感染性心内膜炎の予防と治療に関するガイドライン（2017 年改訂版）"
+    },
+    {
+      "name": "JCS2018_Yasukochi.pdf",
+      "title": "先天性心疾患並びに小児期心疾患の診断検査と"
+    },
+    {
+      "name": "JCS2018_akagi_ikeda.pdf",
+      "title": "心疾患患者の妊娠・出産の適応，管理に関するガイドライン（2018 年改訂版）"
+    },
+    {
+      "name": "JCS2018_kimura.pdf",
+      "title": "急性冠症候群ガイドライン（2018 年改訂版）"
+    },
+    {
+      "name": "JCS2018_kurita_nogami.pdf",
+      "title": "不整脈非薬物治療ガイドライン（2018 年改訂版）"
+    },
+    {
+      "name": "JCS2018_nakamura_yaku.pdf",
+      "title": "安定冠動脈疾患の血行再建ガイドライン（2018 年改訂版）"
+    },
+    {
+      "name": "JCS2018_tsutsui_kitaoka.pdf",
+      "title": "心筋症診療ガイドライン"
+    },
+    {
+      "name": "JCS2018_yamagishi_tamaki.pdf",
+      "title": "慢性冠動脈疾患診断ガイドライン（2018年改訂版）"
+    },
+    {
+      "name": "JCS2020_Fukazawa_Kobayashi.pdf",
+      "title": "川崎病心臓血管後遺症の診断と治療に関する"
+    },
+    {
+      "name": "JCS2020_Izumi_Eishi.pdf",
+      "title": "弁膜症治療のガイドライン"
+    },
+    {
+      "name": "JCS2020_Kimura_Nakamura.pdf",
+      "title": "冠動脈疾患患者における抗血栓療法"
+    },
+    {
+      "name": "JCS2020_Kitaoka.pdf",
+      "title": "心アミロイドーシス診療ガイドライン"
+    },
+    {
+      "name": "JCS2020_Ogino.pdf",
+      "title": "2020 年改訂版 大動脈瘤・大動脈解離診療ガイドライン"
+    },
+    {
+      "name": "JCS2020_Ono.pdf",
+      "title": "2020 年改訂版不整脈薬物治療ガイドライン"
+    },
+    {
+      "name": "JCS2021_Anzai.pdf",
+      "title": "2021年改訂版 循環器疾患における緩和ケアについての提言"
+    },
+    {
+      "name": "JCS2021_Kozuma.pdf",
+      "title": "2021年改訂版 循環器診療における放射線被ばくに関するガイドライン"
+    },
+    {
+      "name": "JCS2021_Kurita_Nogami.pdf",
+      "title": "2021年JCS/ JHRS ガイドライン フォーカスアップデート版不整脈非薬物治療"
+    },
+    {
+      "name": "JCS2021_Makita.pdf",
+      "title": "2021 年改訂版 心血管疾患におけるリハビリテーションに関するガイドライン"
+    },
+    {
+      "name": "JCS2021_Ohte.pdf",
+      "title": "2021年改訂版循環器超音波検査の適応と判読ガイドライン"
+    },
+    {
+      "name": "JCS2021_Ono_Yamaguchi.pdf",
+      "title": "2021年改訂版 重症心不全に対する植込型補助人工心臓治療ガイライン"
+    },
+    {
+      "name": "JCS2021_Sakamoto_Kawamura.pdf",
+      "title": "2021年改訂版先天性心疾患，心臓大血管の構造的疾患（structural heart disease）に対するカテーテル治療のガイドライン"
+    },
+    {
+      "name": "JCS2022_Azuma.pdf",
+      "title": "2022年改訂版末梢動脈疾患ガイドライン"
+    },
+    {
+      "name": "JCS2022_Nakano.pdf",
+      "title": "2022 年JCS ガイドライン フォーカスアップデート版"
+    },
+    {
+      "name": "JCS2022_Ohuchi_Kawada.pdf",
+      "title": "2022年改訂版　先天性心疾患術後遠隔期の管理・侵襲的治療に関するガイドライン"
+    },
+    {
+      "name": "JCS2022_Takase.pdf",
+      "title": "2022年改訂版不整脈の診断とリスク評価に関するガイドライン"
+    },
+    {
+      "name": "JCS2022_hiraoka.pdf",
+      "title": "非心臓手術における合併心疾患の"
+    },
+    {
+      "name": "JCS2023_fujiyoshi.pdf",
+      "title": "冠動脈疾患の一次予防に関する診療ガイドライン"
+    },
+    {
+      "name": "JCS2023_hokimoto.pdf",
+      "title": "2023 年JCS/CVIT/JCC ガイドラインフォーカスアップデート版　冠攣縮性狭心症と冠微小循環障害の診断と治療"
+    },
+    {
+      "name": "JCS2023_kasai.pdf",
+      "title": "2023年改訂版 循環器領域における睡眠呼吸障害の診断・治療に関するガイドライン"
+    },
+    {
+      "name": "JCS2023_nagai.pdf",
+      "title": "心筋炎の診断・治療に関するガイドライン"
+    },
+    {
+      "name": "JCS2023_nishimura.pdf",
+      "title": "2023年JCS/JSCVS/JCC/CVIT ガイドラインフォーカスアップデート版 PCPS/ECMO/循環補助用心内留置型ポンプカテーテルの適応・操作"
+    },
+    {
+      "name": "JCS2024_Imai.pdf",
+      "title": "2024 年改訂版　心臓血管疾患における遺伝学的検査と遺伝カウンセリングに関するガイドライン"
+    },
+    {
+      "name": "JCS2024_Iwasaki.pdf",
+      "title": "2024 年JCS/JHRS ガイドラインフォーカスアップデート版不整脈治療"
+    },
+    {
+      "name": "JCS2024_Tsukada_Tetsuo.pdf",
+      "title": "2024年改訂版多様性に配慮した循環器診療ガイドライン"
+    },
+    {
+      "name": "JCS2025_Iwamoto.pdf",
+      "title": "2025 年JCS/JSPCCS ガイドラインフォーカスアップデート版学校心臓検診"
+    },
+    {
+      "name": "JCS2025_Kato.pdf",
+      "title": "2025 年改訂版 心不全診療ガイドライン"
+    },
+    {
+      "name": "JCS2025_Saiki.pdf",
+      "title": "2025年改訂版心臓移植に関するガイドライン"
+    },
+    {
+      "name": "JCS2025_Shigematsu.pdf",
+      "title": "2025年JCS/JSVS ガイドラインフォーカスアップデート版末梢動脈疾患"
+    },
+    {
+      "name": "JCS2025_Tamura.pdf",
+      "title": "2025年改訂版肺血栓塞栓症・深部静脈血栓症および肺高血圧症に関するガイドライン"
+    },
+    {
+      "name": "JCS2025_Yamagishi.pdf",
+      "title": "2025年改訂版 成人先天性心疾患診療ガイドライン"
+    }
+  ]
+}

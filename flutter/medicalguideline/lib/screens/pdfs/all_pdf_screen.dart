@@ -1,38 +1,73 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'dart:convert';
 import '../../utils/colors.dart';
 import '../../widgets/common/liquid_background.dart';
 import '../../widgets/common/glass_container.dart';
 import '../../widgets/common/back_button.dart';
 import 'pdf_screen.dart';
 
-class AllPdfScreen extends StatelessWidget {
+class AllPdfScreen extends StatefulWidget {
   const AllPdfScreen({super.key});
 
-  // スケーラビリティを考慮してPDFデータをモデル化
-  static const List<PdfGuideline> _guidelines = [
-    PdfGuideline(
-      id: 'heart_failure_2025',
-      title: '心不全・心筋疾患',
-      subtitle: '2025年改訂版 心不全診療ガイドライン',
-      organization: '日本循環器学会 / 日本心不全学会合同ガイドライン',
-      pdfPath: 'assets/pdfs/heart_failure_2025.pdf', // 実際のPDFパス
-      year: 2025,
-      category: '循環器',
-    ),
-    // 今後ここに新しいガイドラインを追加
-    // PdfGuideline(
-    //   id: 'diabetes_2025',
-    //   title: '糖尿病',
-    //   subtitle: '2025年改訂版 糖尿病診療ガイドライン',
-    //   organization: '日本糖尿病学会',
-    //   pdfPath: 'assets/pdfs/diabetes_2025.pdf',
-    //   year: 2025,
-    //   category: '内分泌',
-    // ),
-  ];
+  @override
+  State<AllPdfScreen> createState() => _AllPdfScreenState();
+}
+
+class _AllPdfScreenState extends State<AllPdfScreen> {
+  List<PdfGuideline> _guidelines = [];
+  bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadPdfList();
+  }
+
+  Future<void> _loadPdfList() async {
+    try {
+      print('Loading PDF list...');
+      final String jsonString = await rootBundle.loadString(
+        'assets/pdf/junkanki_title.json',
+      );
+      print('JSON loaded: ${jsonString.length} characters');
+
+      final Map<String, dynamic> jsonData = json.decode(jsonString);
+      final List<dynamic> pdfs = jsonData['pdfs'];
+      print('Found ${pdfs.length} PDFs');
+
+      setState(() {
+        _guidelines = pdfs
+            .map(
+              (pdf) => PdfGuideline(
+                title: pdf['title'],
+                pdfPath: 'assets/pdf/${pdf['name']}',
+              ),
+            )
+            .toList();
+        _isLoading = false;
+        print('Loaded ${_guidelines.length} guidelines');
+      });
+    } catch (e, stackTrace) {
+      print('Error loading PDF list: $e');
+      print('Stack trace: $stackTrace');
+      setState(() {
+        _isLoading = false;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return Scaffold(
+        body: LiquidBackground(
+          child: Center(
+            child: CircularProgressIndicator(color: AppColors.primaryRed),
+          ),
+        ),
+      );
+    }
     return Scaffold(
       body: LiquidBackground(
         child: Column(
@@ -92,7 +127,8 @@ class AllPdfScreen extends StatelessWidget {
       MaterialPageRoute(
         builder: (context) => PdfScreen(
           pdfPath: guideline.pdfPath,
-          highRightText: '${guideline.year}年改訂版',
+          pdfTitle: guideline.title,
+          highRightText: '',
         ),
       ),
     );
@@ -101,23 +137,10 @@ class AllPdfScreen extends StatelessWidget {
 
 // PDFガイドラインのデータモデル
 class PdfGuideline {
-  final String id;
   final String title;
-  final String subtitle;
-  final String organization;
   final String pdfPath;
-  final int year;
-  final String category;
 
-  const PdfGuideline({
-    required this.id,
-    required this.title,
-    required this.subtitle,
-    required this.organization,
-    required this.pdfPath,
-    required this.year,
-    required this.category,
-  });
+  const PdfGuideline({required this.title, required this.pdfPath});
 }
 
 // PDFガイドラインカードウィジェット
@@ -137,143 +160,13 @@ class _PdfGuidelineCard extends StatelessWidget {
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // カテゴリータグ
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    AppColors.primaryRed.withOpacity(0.2),
-                    AppColors.primaryRedLight.withOpacity(0.15),
-                  ],
-                ),
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(
-                  color: AppColors.primaryRed.withOpacity(0.4),
-                  width: 1,
-                ),
-              ),
-              child: Text(
-                guideline.category,
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w600,
-                  color: AppColors.primaryRed,
-                ),
-              ),
-            ),
-
-            const SizedBox(height: 16),
-
-            // タイトル
-            Text(
-              guideline.title,
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Colors.black87,
-              ),
-            ),
-
-            const SizedBox(height: 8),
-
-            // サブタイトル
-            Text(
-              guideline.subtitle,
-              style: TextStyle(
-                fontSize: 14,
-                color: Colors.black54,
-                height: 1.4,
-              ),
-            ),
-
-            const SizedBox(height: 12),
-
-            // 学会名
-            Row(
-              children: [
-                Icon(Icons.business, size: 16, color: Colors.black54),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: Text(
-                    guideline.organization,
-                    style: TextStyle(fontSize: 12, color: Colors.black54),
-                  ),
-                ),
-              ],
-            ),
-
-            const SizedBox(height: 16),
-
-            // フッター（年とアクション）
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 10,
-                    vertical: 6,
-                  ),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withOpacity(0.2),
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(
-                      color: Colors.white.withOpacity(0.3),
-                      width: 1,
-                    ),
-                  ),
-                  child: Text(
-                    '${guideline.year}年改訂版',
-                    style: TextStyle(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.black87,
-                    ),
-                  ),
-                ),
-
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                    vertical: 8,
-                  ),
-                  decoration: BoxDecoration(
-                    gradient: AppColors.primaryGradient,
-                    borderRadius: BorderRadius.circular(10),
-                    boxShadow: [
-                      BoxShadow(
-                        color: AppColors.primaryRed.withOpacity(0.3),
-                        offset: const Offset(0, 2),
-                        blurRadius: 4,
-                      ),
-                    ],
-                  ),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Icon(
-                        Icons.picture_as_pdf,
-                        size: 16,
-                        color: AppColors.textWhite,
-                      ),
-                      const SizedBox(width: 6),
-                      Text(
-                        '閲覧',
-                        style: TextStyle(
-                          fontSize: 12,
-                          fontWeight: FontWeight.w600,
-                          color: AppColors.textWhite,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ],
+        child: Text(
+          guideline.title,
+          style: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.w600,
+            color: Colors.black87,
+          ),
         ),
       ),
     );

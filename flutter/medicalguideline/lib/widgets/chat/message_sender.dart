@@ -50,39 +50,86 @@ class MessageSender {
     }
 
     try {
-      // AIレスポンスを取得
-      final response = await _chatService.sendMessage(text);
+      debugPrint('=== MessageSender: Starting stream ===');
+      debugPrint('User message: ${text.substring(0, text.length > 50 ? 50 : text.length)}...');
 
-      // 停止された場合は処理を中断
-      if (_isStopped) {
-        _handleStop(
-          updateMessages,
-          updateLoading,
-          messages,
+      // FastAPI のストリーミングレスポンスを取得
+      String accumulatedAnswer = '';
+      ChatMessage? streamingMessage;
+      int chunkCount = 0;
+
+      await for (final chunk in _chatService.sendMessageStream(text)) {
+        chunkCount++;
+        debugPrint('MessageSender: Received chunk #$chunkCount (${chunk.length} chars)');
+
+        // 停止された場合は処理を中断
+        if (_isStopped) {
+          debugPrint('MessageSender: Stream stopped by user');
+          _handleStop(
+            updateMessages,
+            updateLoading,
+            messages,
+            userMessage,
+            currentConversationId,
+          );
+          return;
+        }
+
+        // チャンクを蓄積
+        accumulatedAnswer += chunk;
+        debugPrint('MessageSender: Accumulated answer length: ${accumulatedAnswer.length}');
+
+        // タイピングインジケーターを削除して、ストリーミング中のメッセージを表示
+        final messagesWithoutTyping = messages
+            .where((msg) => !msg.isTyping)
+            .toList();
+
+        // ストリーミング中のメッセージを作成または更新
+        streamingMessage = ChatMessage.assistant(accumulatedAnswer, '');
+
+        updateMessages([
+          ...messagesWithoutTyping,
           userMessage,
-          currentConversationId,
-        );
-        return;
+          streamingMessage,
+        ]);
       }
 
-      // タイピングインジケーターを削除
+      debugPrint('=== MessageSender: Stream completed ===');
+      debugPrint('Total chunks received: $chunkCount');
+      debugPrint('Final answer length: ${accumulatedAnswer.length}');
+
+      // ストリーミング完了
       final messagesWithoutTyping = messages
           .where((msg) => !msg.isTyping)
           .toList();
-      updateMessages([...messagesWithoutTyping, userMessage, response]);
+
+      final finalMessage = ChatMessage.assistant(accumulatedAnswer, '');
+      updateMessages([...messagesWithoutTyping, userMessage, finalMessage]);
       updateLoading(false);
       _progressManager.stopProgressTimer();
 
+      debugPrint('MessageSender: UI updated with final message');
+
       // 会話を更新
       if (currentConversationId != null) {
+        debugPrint('MessageSender: Saving to Firestore...');
         await _conversationManager.updateCurrentConversation(
           currentConversationId,
-          [...messagesWithoutTyping, userMessage, response],
+          [...messagesWithoutTyping, userMessage, finalMessage],
         );
+        debugPrint('MessageSender: Saved to Firestore successfully');
       }
     } catch (e) {
+      debugPrint('=== MessageSender: Error occurred ===');
+      debugPrint('Error type: ${e.runtimeType}');
+      debugPrint('Error message: $e');
+      if (e is Error) {
+        debugPrint('Stack trace: ${e.stackTrace}');
+      }
+
       // 停止された場合は処理を中断
       if (_isStopped) {
+        debugPrint('MessageSender: Error during stopped state, handling stop');
         _handleStop(
           updateMessages,
           updateLoading,
@@ -94,6 +141,7 @@ class MessageSender {
       }
 
       // エラーハンドリング
+      debugPrint('MessageSender: Processing error for user display');
       final messagesWithoutTyping = messages
           .where((msg) => !msg.isTyping)
           .toList();
@@ -101,9 +149,11 @@ class MessageSender {
 
       String errorText;
       if (e.toString().contains('ChatServiceException')) {
+        debugPrint('MessageSender: ChatServiceException detected');
         errorText =
             '⚠️ 通信に失敗しました\n\nネットワーク接続を確認して、もう一度お試しください。\n\n多くの場合、再送すると通信に成功します。';
       } else {
+        debugPrint('MessageSender: Generic error detected');
         errorText = '⚠️ 一時的にサービスを利用できません\n\nしばらく待ってからもう一度お試しください。';
       }
 
@@ -111,12 +161,16 @@ class MessageSender {
       updateMessages([...messagesWithoutTyping, userMessage, errorMessage]);
       updateLoading(false);
 
+      debugPrint('MessageSender: Error message displayed to user');
+
       // 会話を更新
       if (currentConversationId != null) {
+        debugPrint('MessageSender: Saving error state to Firestore...');
         await _conversationManager.updateCurrentConversation(
           currentConversationId,
           [...messagesWithoutTyping, userMessage, errorMessage],
         );
+        debugPrint('MessageSender: Error state saved to Firestore');
       }
     }
   }

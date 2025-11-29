@@ -1,0 +1,5 @@
+関数のデプロイ
+
+```
+firebase deploy --only "functions:callFastApi"
+```

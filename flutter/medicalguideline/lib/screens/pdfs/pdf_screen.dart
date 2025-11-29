@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:medicalguideline/provider/pdf_provider.dart';
 import 'package:pdfx/pdfx.dart';
 import '../../utils/colors.dart';
 import '../../widgets/common/liquid_background.dart';
@@ -13,14 +13,16 @@ class PdfScreen extends ConsumerStatefulWidget {
   const PdfScreen({
     super.key,
     required this.pdfPath,
+    this.pdfTitle,
     this.initialPage,
-    this.initialChunk, // 受け取るが今は使わない
+    this.initialChunk,
     this.highRightText,
   });
 
-  final String pdfPath; // いまは表示用ラベル程度に利用（Doc自体はProviderから取得）
+  final String pdfPath;
+  final String? pdfTitle;
   final int? initialPage;
-  final int? initialChunk; // 無視
+  final int? initialChunk;
   final String? highRightText;
 
   @override
@@ -31,6 +33,34 @@ class _PdfScreenState extends ConsumerState<PdfScreen> {
   PdfControllerPinch? _controller;
   int _pageCount = 0;
   int _currentPage = 1;
+  Future<PdfDocument>? _pdfDocumentFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadPdf();
+  }
+
+  Future<void> _loadPdf() async {
+    try {
+      print('Loading PDF: ${widget.pdfPath}');
+      final data = await rootBundle.load(widget.pdfPath);
+      final bytes = data.buffer.asUint8List();
+      final doc = await PdfDocument.openData(bytes);
+      if (mounted) {
+        setState(() {
+          _pdfDocumentFuture = Future.value(doc);
+        });
+      }
+    } catch (e) {
+      print('Error loading PDF: $e');
+      if (mounted) {
+        setState(() {
+          _pdfDocumentFuture = Future.error(e);
+        });
+      }
+    }
+  }
 
   @override
   void dispose() {
@@ -54,8 +84,17 @@ class _PdfScreenState extends ConsumerState<PdfScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // 事前に温めてある PdfDocument を購読
-    final asyncDoc = ref.watch(preopenedPdfProvider);
+    if (_pdfDocumentFuture == null) {
+      return Scaffold(
+        body: LiquidBackground(
+          child: const Center(
+            child: CircularProgressIndicator(
+              valueColor: AlwaysStoppedAnimation<Color>(AppColors.primaryRed),
+            ),
+          ),
+        ),
+      );
+    }
 
     return Scaffold(
       body: LiquidBackground(
@@ -79,7 +118,8 @@ class _PdfScreenState extends ConsumerState<PdfScreen> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            if (widget.highRightText != null)
+                            if (widget.highRightText != null &&
+                                widget.highRightText!.isNotEmpty)
                               Text(
                                 widget.highRightText!,
                                 style: const TextStyle(
@@ -90,12 +130,13 @@ class _PdfScreenState extends ConsumerState<PdfScreen> {
                               ),
                             const SizedBox(height: 2),
                             Text(
-                              '心不全診療ガイドライン',
+                              widget.pdfTitle ?? 'PDF',
                               style: const TextStyle(
                                 fontSize: 18,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black87,
                               ),
+                              textAlign: TextAlign.center,
                             ),
                           ],
                         ),
@@ -148,64 +189,73 @@ class _PdfScreenState extends ConsumerState<PdfScreen> {
                         topLeft: Radius.circular(20),
                         topRight: Radius.circular(20),
                       ),
-                      child: asyncDoc.when(
-                        loading: () => Container(
-                          width: double.infinity,
-                          decoration: const BoxDecoration(color: Colors.white),
-                          child: const Center(
-                            child: CircularProgressIndicator(
-                              valueColor: AlwaysStoppedAnimation<Color>(
-                                AppColors.primaryRed,
+                      child: FutureBuilder<PdfDocument>(
+                        future: _pdfDocumentFuture,
+                        builder: (context, snapshot) {
+                          if (snapshot.connectionState ==
+                              ConnectionState.waiting) {
+                            return Container(
+                              width: double.infinity,
+                              decoration:
+                                  const BoxDecoration(color: Colors.white),
+                              child: const Center(
+                                child: CircularProgressIndicator(
+                                  valueColor: AlwaysStoppedAnimation<Color>(
+                                    AppColors.primaryRed,
+                                  ),
+                                ),
                               ),
-                            ),
-                          ),
-                        ),
-                        error: (e, _) => Container(
-                          width: double.infinity,
-                          decoration: const BoxDecoration(color: Colors.white),
-                          child: ErrorView(error: e),
-                        ),
-                        data: (doc) {
-                          // PdfControllerPinch を一度だけ生成（docが変わるケースは今は想定しない）
-                          _controller ??= PdfControllerPinch(
-                            document: Future.value(doc),
-                            initialPage: _normalizeInitialPage(
-                              widget.initialPage,
-                            ),
-                          );
+                            );
+                          } else if (snapshot.hasError) {
+                            return Container(
+                              width: double.infinity,
+                              decoration:
+                                  const BoxDecoration(color: Colors.white),
+                              child: ErrorView(error: snapshot.error!),
+                            );
+                          } else if (snapshot.hasData) {
+                            final doc = snapshot.data!;
+                            // PdfControllerPinch を一度だけ生成
+                            _controller ??= PdfControllerPinch(
+                              document: Future.value(doc),
+                              initialPage: _normalizeInitialPage(
+                                widget.initialPage,
+                              ),
+                            );
 
-                          return Container(
-                            width: double.infinity,
-                            decoration: const BoxDecoration(
-                              color: Colors.white,
-                            ),
-                            child: PdfViewPinch(
-                              controller: _controller!,
-                              onDocumentLoaded: (loadedDoc) async {
-                                // 総ページ数は初期表示のブロックを避けるため後追いで取得
-                                final count = await loadedDoc.pagesCount;
-                                if (mounted) {
-                                  setState(() {
-                                    _pageCount = count;
-                                    // initialPage が総ページ超過だった場合、ここで一度だけ補正ジャンプしてもOK
-                                    final init = _normalizeInitialPage(
-                                      widget.initialPage,
-                                    );
-                                    if (init > count) {
-                                      _currentPage = count;
-                                      _controller!.jumpToPage(count);
-                                    } else {
-                                      _currentPage = init;
-                                    }
-                                  });
-                                }
-                              },
-                              onPageChanged: (page) {
-                                if (mounted)
-                                  setState(() => _currentPage = page);
-                              },
-                            ),
-                          );
+                            return Container(
+                              width: double.infinity,
+                              decoration: const BoxDecoration(
+                                color: Colors.white,
+                              ),
+                              child: PdfViewPinch(
+                                controller: _controller!,
+                                onDocumentLoaded: (loadedDoc) async {
+                                  final count = await loadedDoc.pagesCount;
+                                  if (mounted) {
+                                    setState(() {
+                                      _pageCount = count;
+                                      final init = _normalizeInitialPage(
+                                        widget.initialPage,
+                                      );
+                                      if (init > count) {
+                                        _currentPage = count;
+                                        _controller!.jumpToPage(count);
+                                      } else {
+                                        _currentPage = init;
+                                      }
+                                    });
+                                  }
+                                },
+                                onPageChanged: (page) {
+                                  if (mounted) {
+                                    setState(() => _currentPage = page);
+                                  }
+                                },
+                              ),
+                            );
+                          }
+                          return Container();
                         },
                       ),
                     ),
